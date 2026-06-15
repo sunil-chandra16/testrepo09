@@ -17,7 +17,7 @@
 	},
 	"id":"test12312313221",
 	"lastModifiedBy":195449,
-	"modifiedTime":1781533793250,
+	"modifiedTime":1781533806789,
 	"ownerUserId":195449,
 	"properties":{
 		"standard":false,
@@ -204,6 +204,9 @@
 			},
 			"primary":[]
 		},
+		"security":{
+			"type":"PUBLIC"
+		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a300c5f564d824a7564d046":"homepage",
 			"e_global_test12312313221":"global-page-of-test12312313221"
@@ -239,5 +242,5 @@
 	"tags":[
 		
 	],
-	"version":2
+	"version":4
 }
