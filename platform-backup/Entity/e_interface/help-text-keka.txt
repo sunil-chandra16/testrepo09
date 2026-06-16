@@ -23,7 +23,7 @@
 	},
 	"id":"help-text-keka",
 	"lastModifiedBy":191580,
-	"modifiedTime":1781606981906,
+	"modifiedTime":1781607029379,
 	"ownerUserId":191580,
 	"properties":{
 		"standard":false,
@@ -211,7 +211,7 @@
 			"e_6a304f9146b6207dec25fa40":""
 		},
 		"name":"help text | keka",
-		"previewImage":"/api/file/asset/download/6a31240d1b8be90e9ced87c0",
+		"previewImage":"/api/file/asset/download/6a312a741b8be90e9ced8824",
 		"entityDetailsMap":{
 			"e_6a304f9146b6207dec25fa40":{
 				"slug":"",
@@ -224,5 +224,5 @@
 	"tags":[
 		
 	],
-	"version":10
+	"version":15
 }
