@@ -20,7 +20,7 @@
 	},
 	"id":"ua-agentic-ai",
 	"lastModifiedBy":43499,
-	"modifiedTime":1781597039428,
+	"modifiedTime":1781597065422,
 	"ownerUserId":325,
 	"properties":{
 		"standard":true,
@@ -445,8 +445,10 @@
 					"slug":"spaces"
 				},
 				{
+					"path":"/apps",
 					"name":"Apps",
 					"icon":"AgenticAiApps",
+					"pageParams":[],
 					"pageInputs":{},
 					"id":"nav_dXlbf",
 					"type":"PAGE",
@@ -733,5 +735,5 @@
 		}
 	},
 	"standard":true,
-	"version":686
+	"version":687
 }
