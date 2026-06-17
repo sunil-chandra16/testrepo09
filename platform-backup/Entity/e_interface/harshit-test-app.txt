@@ -2,10 +2,10 @@
 	"createdTime":1771321084316,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781710475530,
+		"deployedAt":1781721880761,
 		"deployedBy":196385,
-		"entityVersion":224,
-		"version":24
+		"entityVersion":241,
+		"version":27
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -23,7 +23,7 @@
 	},
 	"id":"harshit-test-app",
 	"lastModifiedBy":196385,
-	"modifiedTime":1781718580178,
+	"modifiedTime":1781721880762,
 	"ownerUserId":196385,
 	"properties":{
 		"standard":false,
@@ -258,5 +258,5 @@
 	"tags":[
 		
 	],
-	"version":228
+	"version":241
 }
