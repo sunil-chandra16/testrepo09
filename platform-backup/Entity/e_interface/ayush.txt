@@ -1,6 +1,12 @@
 {
 	"createdTime":1781767875429,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1781778092451,
+		"deployedBy":199634,
+		"entityVersion":10,
+		"version":1
+	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
@@ -17,7 +23,7 @@
 	},
 	"id":"ayush",
 	"lastModifiedBy":199634,
-	"modifiedTime":1781767914640,
+	"modifiedTime":1781778092460,
 	"ownerUserId":199634,
 	"properties":{
 		"standard":false,
@@ -260,5 +266,5 @@
 	"tags":[
 		
 	],
-	"version":9
+	"version":10
 }
