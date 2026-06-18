@@ -14,13 +14,31 @@
 				"permissions":[
 					"A"
 				],
+				"principalIds":[
+					"76704"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"A"
+				],
+				"principalIds":[
+					"6757db349b09ba5b01b6c44c"
+				],
+				"principalType":"USER_GROUPS"
+			},
+			{
+				"permissions":[
+					"A"
+				],
 				"principalType":"GLOBAL"
 			}
 		]
 	},
 	"id":"ua-agentic-ai",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781788785759,
+	"modifiedTime":1781789711510,
 	"ownerUserId":325,
 	"properties":{
 		"standard":true,
