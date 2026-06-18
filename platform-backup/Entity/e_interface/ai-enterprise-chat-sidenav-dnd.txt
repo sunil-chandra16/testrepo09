@@ -29,7 +29,7 @@
 	},
 	"id":"ai-enterprise-chat-sidenav-dnd",
 	"lastModifiedBy":193338,
-	"modifiedTime":1781816730032,
+	"modifiedTime":1781816908352,
 	"ownerUserId":195388,
 	"properties":{
 		"standard":false,
@@ -242,5 +242,5 @@
 		"DO NOT TOUCH",
 		"do not delete"
 	],
-	"version":101
+	"version":104
 }
