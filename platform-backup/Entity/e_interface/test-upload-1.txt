@@ -2,9 +2,22 @@
 	"createdTime":1781770967146,
 	"deleted":false,
 	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A"
+				],
+				"principalIds":[
+					"196740"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"test-upload-1",
 	"lastModifiedBy":196740,
-	"modifiedTime":1781770967146,
+	"modifiedTime":1781771137564,
 	"ownerUserId":196740,
 	"properties":{
 		"standard":false,
@@ -19,14 +32,24 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":0,
+				"_pageCount":1,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
 		},
+		"publicPageIds":[
+			"e_6a33ab81680d8b2ed7490afd"
+		],
+		"manifest":{
+			"type":"WEB"
+		},
+		"type":"application",
+		"locale":{
+			"defaultLocale":"en-US"
+		},
 		"navigation":{
 			"secondary":[],
-			"defaultPageId":"",
+			"defaultPageId":"e_6a33ab81680d8b2ed7490afd",
 			"appearance":{
 				"SM":{
 					"primary":[],
@@ -58,7 +81,8 @@
 						"padding":{
 							"all":"p-0"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"LG":{
 					"primary":[],
@@ -96,7 +120,8 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"XL":{
 					"primary":[],
@@ -134,7 +159,8 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"MD":{
 					"primary":[],
@@ -172,26 +198,40 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				}
 			},
 			"primary":[]
 		},
-		"manifest":{
-			"type":"WEB"
+		"interfacePageIdVsSlugMap":{
+			"e_6a33ab81680d8b2ed7490afd":"homepage"
+		},
+		"paths":{
+			"f_root":{
+				"id":"f_root",
+				"segment":"",
+				"children":[
+					"e_6a33ab81680d8b2ed7490afd"
+				],
+				"path":"/"
+			}
 		},
 		"name":"test_upload",
 		"theme":{
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
 		},
-		"type":"application",
-		"locale":{
-			"defaultLocale":"en-US"
+		"entityDetailsMap":{
+			"e_6a33ab81680d8b2ed7490afd":{
+				"slug":"homepage",
+				"isPublic":true,
+				"type":"PAGE"
+			}
 		}
 	},
 	"standard":false,
 	"tags":[
 		
 	],
-	"version":0
+	"version":1
 }
