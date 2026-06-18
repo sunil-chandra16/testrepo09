@@ -1,6 +1,12 @@
 {
 	"createdTime":1781760322121,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1781778762020,
+		"deployedBy":45512,
+		"entityVersion":173,
+		"version":1
+	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
@@ -17,7 +23,7 @@
 	},
 	"id":"texttestapp",
 	"lastModifiedBy":197188,
-	"modifiedTime":1781778352814,
+	"modifiedTime":1781779437619,
 	"ownerUserId":197188,
 	"properties":{
 		"standard":false,
@@ -259,6 +265,9 @@
 				}
 			]
 		},
+		"security":{
+			"type":"PRIVATE"
+		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a338147d0e22c2aea7b38a7":"homepage",
 			"e_6a33a4ffd6765f5c545ac57b":"page-2",
@@ -315,5 +324,5 @@
 	"tags":[
 		
 	],
-	"version":160
+	"version":179
 }
