@@ -17,12 +17,12 @@
 	},
 	"id":"base-variant-test",
 	"lastModifiedBy":195381,
-	"modifiedTime":1781766700923,
+	"modifiedTime":1781772306587,
 	"ownerUserId":195381,
 	"properties":{
 		"standard":false,
 		"deviceDetails":{
-			"base":"tablet"
+			"base":"desktop"
 		},
 		"metadata":{
 			"logo":{
@@ -237,5 +237,5 @@
 	"tags":[
 		
 	],
-	"version":40
+	"version":54
 }
