@@ -17,7 +17,7 @@
 	},
 	"id":"test-upload-1",
 	"lastModifiedBy":196740,
-	"modifiedTime":1781771137564,
+	"modifiedTime":1781771157361,
 	"ownerUserId":196740,
 	"properties":{
 		"standard":false,
@@ -205,6 +205,7 @@
 			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
+			"e_global_test-upload-1":"global-page-of-test-upload-1",
 			"e_6a33ab81680d8b2ed7490afd":"homepage"
 		},
 		"paths":{
@@ -222,6 +223,11 @@
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
 		},
 		"entityDetailsMap":{
+			"e_global_test-upload-1":{
+				"slug":"global-page-of-test-upload-1",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a33ab81680d8b2ed7490afd":{
 				"slug":"homepage",
 				"isPublic":true,
@@ -233,5 +239,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":2
 }
