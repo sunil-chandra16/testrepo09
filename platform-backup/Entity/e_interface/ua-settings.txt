@@ -2,10 +2,10 @@
 	"createdTime":1735214346099,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781603667832,
+		"deployedAt":1781788554891,
 		"deployedBy":-1,
-		"entityVersion":1719,
-		"version":958
+		"entityVersion":1722,
+		"version":959
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -28,8 +28,8 @@
 		]
 	},
 	"id":"ua-settings",
-	"lastModifiedBy":45512,
-	"modifiedTime":1781776636032,
+	"lastModifiedBy":-1,
+	"modifiedTime":1781788827623,
 	"ownerUserId":0,
 	"properties":{
 		"standard":true,
@@ -95,5 +95,5 @@
 		"customCode":{}
 	},
 	"standard":true,
-	"version":1721
+	"version":1722
 }
