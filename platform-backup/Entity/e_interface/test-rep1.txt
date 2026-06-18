@@ -16,8 +16,8 @@
 		]
 	},
 	"id":"test-rep1",
-	"lastModifiedBy":24420,
-	"modifiedTime":1781817835178,
+	"lastModifiedBy":195437,
+	"modifiedTime":1781819213260,
 	"ownerUserId":24420,
 	"properties":{
 		"standard":false,
@@ -35,6 +35,7 @@
 				"_dataSourceCounter":1,
 				"_pageCount":1,
 				"_moduleCount":0,
+				"_variableCounter":1,
 				"_templateComponentCount":0
 			}
 		},
@@ -237,5 +238,5 @@
 	"tags":[
 		
 	],
-	"version":31
+	"version":58
 }
