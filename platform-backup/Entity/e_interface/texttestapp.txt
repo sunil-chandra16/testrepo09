@@ -17,7 +17,7 @@
 	},
 	"id":"texttestapp",
 	"lastModifiedBy":197188,
-	"modifiedTime":1781776826222,
+	"modifiedTime":1781778352814,
 	"ownerUserId":197188,
 	"properties":{
 		"standard":false,
@@ -32,7 +32,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":3,
+				"_pageCount":4,
 				"_moduleCount":3,
 				"_templateComponentCount":0
 			}
@@ -55,6 +55,10 @@
 					"primary":[
 						{
 							"id":"nav_nIgEo",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_HU2T3",
 							"hiddenInOverflow":false
 						}
 					],
@@ -93,6 +97,10 @@
 					"primary":[
 						{
 							"id":"nav_nIgEo",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_HU2T3",
 							"hiddenInOverflow":false
 						}
 					],
@@ -138,6 +146,10 @@
 						{
 							"id":"nav_nIgEo",
 							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_HU2T3",
+							"hiddenInOverflow":false
 						}
 					],
 					"navigationItem":{
@@ -181,6 +193,10 @@
 					"primary":[
 						{
 							"id":"nav_nIgEo",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_HU2T3",
 							"hiddenInOverflow":false
 						}
 					],
@@ -231,12 +247,22 @@
 					"type":"PAGE",
 					"pageId":"e_6a338147d0e22c2aea7b38a7",
 					"slug":"homepage"
+				},
+				{
+					"activeIcon":"AiAgentSolid",
+					"name":"chart(heatmap)",
+					"icon":"SvgAiAgent",
+					"id":"nav_HU2T3",
+					"type":"PAGE",
+					"pageId":"e_6a33c55fd69cf74a1757cc04",
+					"slug":"chart-heatmap"
 				}
 			]
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a338147d0e22c2aea7b38a7":"homepage",
 			"e_6a33a4ffd6765f5c545ac57b":"page-2",
+			"e_6a33c55fd69cf74a1757cc04":"chart-heatmap",
 			"e_global_texttestapp":"global-page-of-texttestapp",
 			"e_6a33a592d6765f5c545ac68a":"page-3"
 		},
@@ -247,7 +273,8 @@
 				"children":[
 					"e_6a338147d0e22c2aea7b38a7",
 					"e_6a33a4ffd6765f5c545ac57b",
-					"e_6a33a592d6765f5c545ac68a"
+					"e_6a33a592d6765f5c545ac68a",
+					"e_6a33c55fd69cf74a1757cc04"
 				],
 				"path":"/"
 			}
@@ -267,6 +294,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_6a33c55fd69cf74a1757cc04":{
+				"slug":"chart-heatmap",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_global_texttestapp":{
 				"slug":"global-page-of-texttestapp",
 				"isPublic":false,
@@ -283,5 +315,5 @@
 	"tags":[
 		
 	],
-	"version":141
+	"version":160
 }
