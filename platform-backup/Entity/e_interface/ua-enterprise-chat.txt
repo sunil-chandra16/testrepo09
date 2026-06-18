@@ -28,8 +28,8 @@
 		]
 	},
 	"id":"ua-enterprise-chat",
-	"lastModifiedBy":43499,
-	"modifiedTime":1781777618014,
+	"lastModifiedBy":193338,
+	"modifiedTime":1781806800821,
 	"ownerUserId":43523,
 	"properties":{
 		"standard":false,
@@ -50,7 +50,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_dataSourceCounter":53,
+				"_dataSourceCounter":54,
 				"_pageCount":10,
 				"_moduleCount":4,
 				"_variableCounter":103,
@@ -302,6 +302,7 @@
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a230dcb7529013ce0711d07":"ai-agents",
+			"e_6a340cd459872d765a9269cf":"portfolio_health",
 			"e_6a230dcb7529013ce0711d05":"create-agent",
 			"e_6a230dcb7529013ce0711d0e":"history",
 			"e_6a230dcb7529013ce0711d0f":"explore-agents",
@@ -322,14 +323,15 @@
 					"e_6a230dcb7529013ce0711d0b",
 					"e_6a230dcb7529013ce0711d07",
 					"e_6a230dcb7529013ce0711d06",
-					"e_6a230dcb7529013ce0711d05"
+					"e_6a230dcb7529013ce0711d05",
+					"e_6a340cd459872d765a9269cf"
 				],
 				"path":"/"
 			}
 		},
 		"name":"UA | Enterprise Chat (DND)",
 		"theme":{
-			"output":"\n      .interface-theme,\n      .interface-theme [data-color-scheme='light'] {\n        \n      }\n    \n        .interface-theme[data-color-scheme='dark'],\n        .interface-theme [data-color-scheme='dark'] {\n          \n        }\n\n.ua-toast[data-color='success'] {\n  --t-bg: #087443FF;\n  --t-border-w: 0px;\n  padding: 8px;\n  align-items: center;\n  --t-radius: 8px;\n}\n\n.ua-toast[data-color='error'] {\n  --t-bg: #B42318;\n  --t-border-w: 0px;\n  padding: 8px;\n  align-items: center;\n  --t-radius: 8px;\n}\n\n\n.ua-toast[data-color='success'] .ua-toast-info, .ua-toast[data-color='error'] .ua-toast-info  {\n  color: #FAF9F5FF;\n}\n\n\n\n.ua-toast[data-color='success'] .ua-toast-icon, .ua-toast[data-color='error'] .ua-toast-icon {\n  --t-icon: #FAF9F5FF;\n  height: 20px;\n  width: 20px;\n}\n\n.ua-toast[data-color='success'] .ua-toast-header, .ua-toast[data-color='error'] .ua-toast-header {\n  --t-header-gap: 8px;\n}\n\n.ua-toast .ua-toast-title {\n  font-family: var(--fontFamily-text);\n  font-size: var(--fontSize-text-sm);\n  line-height: var(--lineHeight-text-sm);\n  letter-spacing: var(--letterSpacing-text-sm);\n  font-weight: 600;\n}\n\n.ua-toast[data-color='success'] .ua-toast-close-btn, .ua-toast[data-color='error'] .ua-toast-close-btn {\n  --t-close-fg: #FAF9F5FF;\n  --t-close-bg: transparent;\n  --t-close-opacity: 95;\n  --t-close-border: transparent;\n  position: relative;\n  top: 0;\n  left: 0;\n  width: 24px;\n  height: 24px;\n  min-width: 24px;\n}\n\n.ua-toast[data-color='success']:hover .ua-toast-close-btn, .ua-toast[data-color='error']:hover .ua-toast-close-btn {\n  --t-close-bg-hover: transparent;\n}\n\n.ua-toast[data-color='success'] .ua-toast-close-btn svg, .ua-toast[data-color='error'] .ua-toast-close-btn svg {\n  width: 20px;\n  height: 20px;\n}\n\n.ua-toast:hover .ua-toast-close-btn svg {\n  color: #FAF9F5FF;\n}\n\n.ua-toast {\n  /* Add your light mode styles here */\n}\n\n[data-color-scheme=\"dark\"] .ua-toast {\n  /* Add your dark mode styles here */\n}\n\n.ua-form-validation-error {\n  display: none;\n}\n\n\n[role=\"listbox\"],\n[role=\"listbox\"] * {\n  --input-menu-selected-bg: rgba(6, 58, 48, 0.05);\n  --input-menu-selected-bg-hover: rgba(6, 58, 48, 0.05);\n  --input-menu-default-bg-hover: rgba(6, 58, 48, 0.03);\n}",
+			"output":"\n      .interface-theme,\n      .interface-theme [data-color-scheme='light'] {\n        \n      }\n    \n        .interface-theme[data-color-scheme='dark'],\n        .interface-theme [data-color-scheme='dark'] {\n          \n        }\n      .ua-toast[data-color='success'] { t-bg: #087443FF; t-border-w: 0px; padding: 8px; align-items: center; t-radius: 8px; }\n.ua-toast[data-color='error'] { t-bg: #B42318; t-border-w: 0px; padding: 8px; align-items: center; t-radius: 8px; }\n.ua-toast[data-color='success'] .ua-toast-info, .ua-toast[data-color='error'] .ua-toast-info { color: #FAF9F5FF; }\n.ua-toast[data-color='success'] .ua-toast-icon, .ua-toast[data-color='error'] .ua-toast-icon { t-icon: #FAF9F5FF; height: 20px; width: 20px; }\n.ua-toast[data-color='success'] .ua-toast-header, .ua-toast[data-color='error'] .ua-toast-header { t-header-gap: 8px; }\n.ua-toast .ua-toast-title { font-family: var(--fontFamily-text); font-size: var(--fontSize-text-sm); line-height: var(--lineHeight-text-sm); letter-spacing: var(--letterSpacing-text-sm); font-weight: 600; }\n.ua-toast[data-color='success'] .ua-toast-close-btn, .ua-toast[data-color='error'] .ua-toast-close-btn { t-close-fg: #FAF9F5FF; t-close-bg: transparent; t-close-opacity: 95; t-close-border: transparent; position: relative; top: 0; left: 0; width: 24px; height: 24px; min-width: 24px; }\n.ua-toast[data-color='success']:hover .ua-toast-close-btn, .ua-toast[data-color='error']:hover .ua-toast-close-btn { t-close-bg-hover: transparent; }\n.ua-toast[data-color='success'] .ua-toast-close-btn svg, .ua-toast[data-color='error'] .ua-toast-close-btn svg { width: 20px; height: 20px; }\n.ua-toast:hover .ua-toast-close-btn svg { color: #FAF9F5FF; }\n.ua-toast {  }\n[data-color-scheme=\"dark\"] .ua-toast {  }\n.ua-form-validation-error { display: none; }\n[role=\"listbox\"],\n[role=\"listbox\"] * { input-menu-selected-bg: rgba(6, 58, 48, 0.05); input-menu-selected-bg-hover: rgba(6, 58, 48, 0.05); input-menu-default-bg-hover: rgba(6, 58, 48, 0.03); }",
 			"defaultThemeId":"e_69b6ab4cb587bf49dbad7250",
 			"cssVars":{},
 			"customColors":[
@@ -350,6 +352,11 @@
 		"entityDetailsMap":{
 			"e_6a230dcb7529013ce0711d07":{
 				"slug":"ai-agents",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a340cd459872d765a9269cf":{
+				"slug":"portfolio_health",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -394,5 +401,5 @@
 	"tags":[
 		"text-to-agent"
 	],
-	"version":13
+	"version":88
 }
