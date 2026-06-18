@@ -23,7 +23,7 @@
 	},
 	"id":"e_6a2550633b7a313303cde4c9",
 	"lastModifiedBy":43497,
-	"modifiedTime":1781767584620,
+	"modifiedTime":1781768014647,
 	"ownerUserId":27,
 	"properties":{
 		"standard":false,
@@ -36,6 +36,13 @@
 				"large":"https://assets.unifyapps.com/interface/brand-logo/brand-logo-lg.svg",
 				"favicon":"/favicon.png"
 			},
+			"advanced":{
+				"location":{
+					"enable":false,
+					"liveTrackingMode":"manual",
+					"liveTracking":false
+				}
+			},
 			"_counter":{
 				"_mqttTopicCounter":0,
 				"_pageCount":2,
@@ -43,6 +50,16 @@
 				"_functionCounter":6,
 				"_templateComponentCount":0
 			}
+		},
+		"manifest":{
+			"type":"WEB"
+		},
+		"type":"library",
+		"locale":{
+			"defaultLocale":"en-US"
+		},
+		"customCode":{
+			"header":"<div>heelo</div>"
 		},
 		"navigation":{
 			"secondary":[],
@@ -54,9 +71,6 @@
 			"e_6a338aa5f76ace6fd36b4a43":"page-2"
 		},
 		"basePath":"",
-		"manifest":{
-			"type":"WEB"
-		},
 		"paths":{
 			"f_root":{
 				"id":"f_root",
@@ -69,9 +83,19 @@
 			}
 		},
 		"name":"hello",
-		"type":"library",
-		"locale":{
-			"defaultLocale":"en-US"
+		"theme":{
+			"defaultThemeId":"e_6a339e80f76ace6fd36b73be"
+		},
+		"integrations":{
+			"appAnalytics":{
+				"enabled":true
+			},
+			"copilotChat":{
+				"visibility":{
+					"value":true
+				},
+				"enabled":false
+			}
 		},
 		"entityDetailsMap":{
 			"e_6a255dd02bd5c958d00e95dd":{
@@ -90,5 +114,5 @@
 	"tags":[
 		"you"
 	],
-	"version":97
+	"version":113
 }
