@@ -22,8 +22,8 @@
 		]
 	},
 	"id":"harshit-test-app-1",
-	"lastModifiedBy":196385,
-	"modifiedTime":1781778845533,
+	"lastModifiedBy":-1,
+	"modifiedTime":1781798306612,
 	"ownerUserId":196385,
 	"properties":{
 		"standard":false,
@@ -68,7 +68,10 @@
 		"bundleIdentifier":"com.example.myapp503",
 		"type":"application",
 		"locale":{
-			"defaultLocale":"en-US"
+			"defaultLocale":"en-US",
+			"supportedLocales":[
+				"mr"
+			]
 		},
 		"customCode":{},
 		"navigation":{
@@ -316,5 +319,5 @@
 	"tags":[
 		
 	],
-	"version":77
+	"version":78
 }
