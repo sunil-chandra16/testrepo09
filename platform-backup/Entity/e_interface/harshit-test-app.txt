@@ -23,7 +23,7 @@
 	},
 	"id":"harshit-test-app",
 	"lastModifiedBy":196385,
-	"modifiedTime":1781767596628,
+	"modifiedTime":1781767690667,
 	"ownerUserId":196385,
 	"properties":{
 		"standard":false,
@@ -45,7 +45,7 @@
 			"_counter":{
 				"_moduleCount":0,
 				"_mqttTopicCounter":0,
-				"_pageCount":2
+				"_pageCount":3
 			}
 		},
 		"manifest":{
@@ -231,6 +231,7 @@
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_699436fc8e772969642d9bce":"homepage",
+			"e_6a339e09f76ace6fd36b720f":"register",
 			"e_6a339955f76ace6fd36b5f9e":"login"
 		},
 		"paths":{
@@ -239,7 +240,8 @@
 				"segment":"",
 				"children":[
 					"e_699436fc8e772969642d9bce",
-					"e_6a339955f76ace6fd36b5f9e"
+					"e_6a339955f76ace6fd36b5f9e",
+					"e_6a339e09f76ace6fd36b720f"
 				],
 				"path":"/"
 			}
@@ -263,6 +265,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_6a339e09f76ace6fd36b720f":{
+				"slug":"register",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a339955f76ace6fd36b5f9e":{
 				"slug":"login",
 				"isPublic":false,
@@ -274,5 +281,5 @@
 	"tags":[
 		
 	],
-	"version":269
+	"version":271
 }
