@@ -17,7 +17,7 @@
 	},
 	"id":"base-variant-test",
 	"lastModifiedBy":195381,
-	"modifiedTime":1781763250321,
+	"modifiedTime":1781766700923,
 	"ownerUserId":195381,
 	"properties":{
 		"standard":false,
@@ -34,6 +34,7 @@
 				"_mqttTopicCounter":0,
 				"_pageCount":1,
 				"_moduleCount":0,
+				"_variableCounter":2,
 				"_templateComponentCount":0
 			}
 		},
@@ -236,5 +237,5 @@
 	"tags":[
 		
 	],
-	"version":34
+	"version":40
 }
