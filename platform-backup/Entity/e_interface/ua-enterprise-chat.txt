@@ -29,7 +29,7 @@
 	},
 	"id":"ua-enterprise-chat",
 	"lastModifiedBy":193338,
-	"modifiedTime":1781814272276,
+	"modifiedTime":1781815598381,
 	"ownerUserId":43523,
 	"properties":{
 		"standard":false,
@@ -401,5 +401,5 @@
 	"tags":[
 		"text-to-agent"
 	],
-	"version":426
+	"version":445
 }
