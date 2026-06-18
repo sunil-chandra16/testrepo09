@@ -2,10 +2,10 @@
 	"createdTime":1747820935001,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781078163247,
+		"deployedAt":1781788785756,
 		"deployedBy":-1,
-		"entityVersion":685,
-		"version":300
+		"entityVersion":689,
+		"version":302
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -19,8 +19,8 @@
 		]
 	},
 	"id":"ua-agentic-ai",
-	"lastModifiedBy":43499,
-	"modifiedTime":1781597065422,
+	"lastModifiedBy":-1,
+	"modifiedTime":1781788785759,
 	"ownerUserId":325,
 	"properties":{
 		"standard":true,
@@ -112,8 +112,7 @@
 							"hiddenInOverflow":false,
 							"id":"nav_653uj"
 						}
-					],
-					"userMenu":[]
+					]
 				},
 				"LG":{
 					"navigationBar":{
@@ -214,8 +213,7 @@
 							"hiddenInOverflow":false,
 							"id":"nav_653uj"
 						}
-					],
-					"userMenu":[]
+					]
 				},
 				"XL":{
 					"navigationBar":{
@@ -299,8 +297,7 @@
 							"hiddenInOverflow":false,
 							"id":"nav_653uj"
 						}
-					],
-					"userMenu":[]
+					]
 				},
 				"MD":{
 					"navigationBar":{
@@ -401,8 +398,7 @@
 							"hiddenInOverflow":false,
 							"id":"nav_653uj"
 						}
-					],
-					"userMenu":[]
+					]
 				}
 			},
 			"primary":[
@@ -425,10 +421,8 @@
 					"slug":"copilot"
 				},
 				{
-					"path":"/agents",
 					"name":" Agents",
 					"icon":"SvgAiAgent",
-					"pageParams":[],
 					"id":"nav_gfokR",
 					"type":"PAGE",
 					"pageId":"e_6828724eaa903216dba7b330",
@@ -445,10 +439,8 @@
 					"slug":"spaces"
 				},
 				{
-					"path":"/apps",
 					"name":"Apps",
 					"icon":"AgenticAiApps",
-					"pageParams":[],
 					"pageInputs":{},
 					"id":"nav_dXlbf",
 					"type":"PAGE",
@@ -482,27 +474,13 @@
 			}
 		},
 		"interfacePageIdVsSlugMap":{
+			"e_6828724eaa903216dba7b330":"agents",
+			"e_6828724eaa903216dba7b332":"",
+			"e_6828724eaa903216dba7b331":"history",
 			"e_6828724eaa903216dba7b32e":"home",
 			"e_68a748c34281a7784987b56d":"spaces",
 			"e_6828724eaa903216dba7b32d":"apps",
-			"e_6828724eaa903216dba7b330":"agents",
-			"e_6828724eaa903216dba7b32f":"copilot",
-			"e_6828724eaa903216dba7b331":"history"
-		},
-		"paths":{
-			"f_root":{
-				"id":"f_root",
-				"segment":"",
-				"children":[
-					"e_6828724eaa903216dba7b331",
-					"e_6828724eaa903216dba7b32d",
-					"e_6828724eaa903216dba7b32f",
-					"e_6828724eaa903216dba7b330",
-					"e_6828724eaa903216dba7b32e",
-					"e_68a748c34281a7784987b56d"
-				],
-				"path":"/"
-			}
+			"e_6828724eaa903216dba7b32f":"copilot"
 		},
 		"name":"Agentic AI",
 		"theme":{
@@ -700,40 +678,8 @@
 				}
 			}
 		},
-		"provisionApp":true,
-		"entityDetailsMap":{
-			"e_6828724eaa903216dba7b32e":{
-				"slug":"home",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_68a748c34281a7784987b56d":{
-				"slug":"spaces",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_6828724eaa903216dba7b32d":{
-				"slug":"apps",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_6828724eaa903216dba7b330":{
-				"slug":"agents",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_6828724eaa903216dba7b32f":{
-				"slug":"copilot",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_6828724eaa903216dba7b331":{
-				"slug":"history",
-				"isPublic":false,
-				"type":"PAGE"
-			}
-		}
+		"provisionApp":true
 	},
 	"standard":true,
-	"version":687
+	"version":689
 }
