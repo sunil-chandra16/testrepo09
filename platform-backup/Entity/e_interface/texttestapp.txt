@@ -22,8 +22,8 @@
 		]
 	},
 	"id":"texttestapp",
-	"lastModifiedBy":197188,
-	"modifiedTime":1781789062855,
+	"lastModifiedBy":11492,
+	"modifiedTime":1781789554193,
 	"ownerUserId":197188,
 	"properties":{
 		"standard":false,
@@ -368,7 +368,12 @@
 		"security":{
 			"type":"PRIVATE",
 			"cspData":{
-				"resourceControl":[]
+				"resourceControl":[
+					{
+						"key":"http://localhost:5001",
+						"value":""
+					}
+				]
 			},
 			"cspDetails":{
 				"enforceCSP":true
@@ -458,5 +463,5 @@
 	"tags":[
 		
 	],
-	"version":690
+	"version":711
 }
