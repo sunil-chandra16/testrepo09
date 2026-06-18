@@ -1,6 +1,12 @@
 {
 	"createdTime":1781680374243,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1781765057996,
+		"deployedBy":195854,
+		"entityVersion":349,
+		"version":5
+	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
@@ -17,7 +23,7 @@
 	},
 	"id":"testwebsite-3",
 	"lastModifiedBy":199929,
-	"modifiedTime":1781763968040,
+	"modifiedTime":1781765178244,
 	"ownerUserId":199929,
 	"properties":{
 		"standard":false,
@@ -33,10 +39,25 @@
 			"_counter":{
 				"_mqttTopicCounter":0,
 				"_dataSourceCounter":1,
-				"_pageCount":2,
+				"_pageCount":3,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
+		},
+		"publicPageIds":[],
+		"manifest":{
+			"type":"WEB"
+		},
+		"pagePermissions":{
+			"e_6a3390d3f76ace6fd36b4cd6":{}
+		},
+		"type":"application",
+		"locale":{
+			"defaultLocale":"en-US",
+			"supportedLocales":[
+				"ar-AE",
+				"ar-SA"
+			]
 		},
 		"navigation":{
 			"secondary":[],
@@ -195,13 +216,14 @@
 			},
 			"primary":[]
 		},
-		"interfacePageIdVsSlugMap":{
-			"e_6a32712d8c46d708e8cbf02a":"page-2",
-			"e_global_testwebsite-3":"global-page-of-testwebsite-3",
-			"e_6a324947c72af829ed4ce85b":"homepage"
+		"security":{
+			"type":"PUBLIC"
 		},
-		"manifest":{
-			"type":"WEB"
+		"interfacePageIdVsSlugMap":{
+			"e_global_testwebsite-3":"global-page-of-testwebsite-3",
+			"e_6a3390d3f76ace6fd36b4cd6":"page-3",
+			"e_6a32712d8c46d708e8cbf02a":"page-2",
+			"e_6a324947c72af829ed4ce85b":"homepage"
 		},
 		"paths":{
 			"f_root":{
@@ -209,7 +231,8 @@
 				"segment":"",
 				"children":[
 					"e_6a324947c72af829ed4ce85b",
-					"e_6a32712d8c46d708e8cbf02a"
+					"e_6a32712d8c46d708e8cbf02a",
+					"e_6a3390d3f76ace6fd36b4cd6"
 				],
 				"path":"/"
 			}
@@ -218,22 +241,19 @@
 		"theme":{
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
 		},
-		"type":"application",
-		"locale":{
-			"defaultLocale":"en-US",
-			"supportedLocales":[
-				"ar-AE",
-				"ar-SA"
-			]
-		},
 		"entityDetailsMap":{
-			"e_6a32712d8c46d708e8cbf02a":{
-				"slug":"page-2",
+			"e_global_testwebsite-3":{
+				"slug":"global-page-of-testwebsite-3",
 				"isPublic":false,
 				"type":"PAGE"
 			},
-			"e_global_testwebsite-3":{
-				"slug":"global-page-of-testwebsite-3",
+			"e_6a3390d3f76ace6fd36b4cd6":{
+				"slug":"page-3",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a32712d8c46d708e8cbf02a":{
+				"slug":"page-2",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -248,5 +268,5 @@
 	"tags":[
 		
 	],
-	"version":299
+	"version":354
 }
