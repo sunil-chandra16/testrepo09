@@ -2,27 +2,47 @@
 	"createdTime":1777275945890,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781267381888,
-		"deployedBy":195833,
-		"entityVersion":2359,
-		"version":4
+		"deployedAt":1781591829547,
+		"deployedBy":197352,
+		"entityVersion":3427,
+		"version":5
 	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
 			{
 				"permissions":[
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"E",
-					"V",
-					"M_L"
+					"A"
 				],
 				"principalIds":[
 					"190519"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"A"
+				],
+				"principalIds":[
+					"21056"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"A"
+				],
+				"principalIds":[
+					"69d502177e475d2b4f4b2914"
+				],
+				"principalType":"USER_GROUPS"
+			},
+			{
+				"permissions":[
+					"A"
+				],
+				"principalIds":[
+					"197352"
 				],
 				"principalType":"USER"
 			}
@@ -30,7 +50,7 @@
 	},
 	"id":"icp-passport-services",
 	"lastModifiedBy":197352,
-	"modifiedTime":1781534176141,
+	"modifiedTime":1781813542542,
 	"ownerUserId":190519,
 	"properties":{
 		"standard":false,
@@ -48,7 +68,7 @@
 				"_mqttTopicCounter":0,
 				"_dataSourceCounter":9,
 				"_moduleCount":0,
-				"_variableCounter":64,
+				"_variableCounter":65,
 				"_functionCounter":4,
 				"_templateComponentCount":0
 			}
@@ -336,5 +356,5 @@
 	"tags":[
 		
 	],
-	"version":3356
+	"version":3432
 }
