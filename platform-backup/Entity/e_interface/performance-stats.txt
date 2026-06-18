@@ -22,8 +22,8 @@
 		]
 	},
 	"id":"performance-stats",
-	"lastModifiedBy":200277,
-	"modifiedTime":1781770214818,
+	"lastModifiedBy":199902,
+	"modifiedTime":1781780938603,
 	"ownerUserId":199902,
 	"properties":{
 		"standard":false,
@@ -38,7 +38,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":1,
+				"_pageCount":2,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
@@ -202,7 +202,8 @@
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a325d2e23fd1a7c5d4cdf5b":"homepage",
-			"e_global_performance-stats":"global-page-of-performance-stats"
+			"e_global_performance-stats":"global-page-of-performance-stats",
+			"e_6a33d15f622afe48149babee":"page-2"
 		},
 		"manifest":{
 			"type":"WEB"
@@ -212,7 +213,8 @@
 				"id":"f_root",
 				"segment":"",
 				"children":[
-					"e_6a325d2e23fd1a7c5d4cdf5b"
+					"e_6a325d2e23fd1a7c5d4cdf5b",
+					"e_6a33d15f622afe48149babee"
 				],
 				"path":"/"
 			}
@@ -235,6 +237,11 @@
 				"slug":"global-page-of-performance-stats",
 				"isPublic":false,
 				"type":"PAGE"
+			},
+			"e_6a33d15f622afe48149babee":{
+				"slug":"page-2",
+				"isPublic":false,
+				"type":"PAGE"
 			}
 		}
 	},
@@ -242,5 +249,5 @@
 	"tags":[
 		
 	],
-	"version":20
+	"version":29
 }
