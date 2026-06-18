@@ -27,12 +27,21 @@
 					"195439"
 				],
 				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"A"
+				],
+				"principalIds":[
+					"69d502177e475d2b4f4b2914"
+				],
+				"principalType":"USER_GROUPS"
 			}
 		]
 	},
 	"id":"test-appdjfdsjfidsjfsdf",
-	"lastModifiedBy":48862,
-	"modifiedTime":1781787419100,
+	"lastModifiedBy":43497,
+	"modifiedTime":1781817363122,
 	"ownerUserId":48862,
 	"properties":{
 		"standard":false,
@@ -305,7 +314,18 @@
 			"primary":[]
 		},
 		"security":{
-			"type":"PUBLIC"
+			"type":"PUBLIC",
+			"cspData":{
+				"resourceControl":[
+					{
+						"key":"http://localhost:5001",
+						"value":""
+					}
+				]
+			},
+			"cspDetails":{
+				"enforceCSP":true
+			}
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a217a0fb8f8aa323cb1c768":"page-6",
@@ -477,5 +497,5 @@
 	"tags":[
 		
 	],
-	"version":3142
+	"version":3277
 }
