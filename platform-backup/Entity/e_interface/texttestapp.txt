@@ -22,8 +22,8 @@
 		]
 	},
 	"id":"texttestapp",
-	"lastModifiedBy":11492,
-	"modifiedTime":1781789554193,
+	"lastModifiedBy":197188,
+	"modifiedTime":1781789565692,
 	"ownerUserId":197188,
 	"properties":{
 		"standard":false,
@@ -38,7 +38,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":8,
+				"_pageCount":9,
 				"_moduleCount":3,
 				"_templateComponentCount":0
 			}
@@ -81,6 +81,10 @@
 						},
 						{
 							"id":"nav_ZOEXs",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_4s5AX",
 							"hiddenInOverflow":false
 						}
 					],
@@ -139,6 +143,10 @@
 						},
 						{
 							"id":"nav_ZOEXs",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_4s5AX",
 							"hiddenInOverflow":false
 						}
 					],
@@ -204,6 +212,10 @@
 						{
 							"id":"nav_ZOEXs",
 							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_4s5AX",
+							"hiddenInOverflow":false
 						}
 					],
 					"navigationItem":{
@@ -267,6 +279,10 @@
 						},
 						{
 							"id":"nav_ZOEXs",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_4s5AX",
 							"hiddenInOverflow":false
 						}
 					],
@@ -362,18 +378,22 @@
 					"type":"PAGE",
 					"pageId":"e_6a33f0d4db56c87a684afebf",
 					"slug":"radio-button"
+				},
+				{
+					"activeIcon":"ZapSolid",
+					"name":"rating",
+					"icon":"Zap",
+					"id":"nav_4s5AX",
+					"type":"PAGE",
+					"pageId":"e_6a33f37d6e8f2f4d5383fa6c",
+					"slug":"rating"
 				}
 			]
 		},
 		"security":{
 			"type":"PRIVATE",
 			"cspData":{
-				"resourceControl":[
-					{
-						"key":"http://localhost:5001",
-						"value":""
-					}
-				]
+				"resourceControl":[]
 			},
 			"cspDetails":{
 				"enforceCSP":true
@@ -383,6 +403,7 @@
 			"e_6a33c55fd69cf74a1757cc04":"chart-heatmap",
 			"e_global_texttestapp":"global-page-of-texttestapp",
 			"e_6a33a592d6765f5c545ac68a":"page-3",
+			"e_6a33f37d6e8f2f4d5383fa6c":"rating",
 			"e_6a33f0d4db56c87a684afebf":"radio-button",
 			"e_6a338147d0e22c2aea7b38a7":"homepage",
 			"e_6a33a4ffd6765f5c545ac57b":"page-2",
@@ -402,7 +423,8 @@
 					"e_6a33d269d02fd63518919467",
 					"e_6a33d2dc2b71ab31cd1831a5",
 					"e_6a33e06764a65a27477b4c28",
-					"e_6a33f0d4db56c87a684afebf"
+					"e_6a33f0d4db56c87a684afebf",
+					"e_6a33f37d6e8f2f4d5383fa6c"
 				],
 				"path":"/"
 			}
@@ -425,6 +447,11 @@
 			"e_6a33a592d6765f5c545ac68a":{
 				"slug":"page-3",
 				"isPublic":true,
+				"type":"PAGE"
+			},
+			"e_6a33f37d6e8f2f4d5383fa6c":{
+				"slug":"rating",
+				"isPublic":false,
 				"type":"PAGE"
 			},
 			"e_6a33f0d4db56c87a684afebf":{
@@ -463,5 +490,5 @@
 	"tags":[
 		
 	],
-	"version":711
+	"version":712
 }
