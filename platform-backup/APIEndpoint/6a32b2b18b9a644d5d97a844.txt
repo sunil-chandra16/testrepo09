@@ -21,9 +21,9 @@
 	"endpointType":"REST",
 	"endpointUrl":"test-mri/eeee",
 	"id":"6a32b2b18b9a644d5d97a844",
-	"lastModifiedBy":19752,
+	"lastModifiedBy":199993,
 	"lcName":"eeee",
-	"modifiedTime":1781707441168,
+	"modifiedTime":1781768712498,
 	"name":"eeee",
 	"ownerUserId":19752,
 	"path":"eeee",
@@ -35,5 +35,5 @@
 	"supportedHttpMethods":[
 		"GET"
 	],
-	"version":0
+	"version":2
 }
