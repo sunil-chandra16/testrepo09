@@ -14,13 +14,22 @@
 				"permissions":[
 					"A"
 				],
+				"principalIds":[
+					"67744"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"A"
+				],
 				"principalType":"GLOBAL"
 			}
 		]
 	},
 	"id":"builder-node-test-chat",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781788730637,
+	"modifiedTime":1781789507460,
 	"ownerUserId":67744,
 	"properties":{
 		"standard":false,
