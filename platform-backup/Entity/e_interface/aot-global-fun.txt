@@ -16,8 +16,8 @@
 		]
 	},
 	"id":"aot-global-fun",
-	"lastModifiedBy":195435,
-	"modifiedTime":1781781616175,
+	"lastModifiedBy":195465,
+	"modifiedTime":1781784769652,
 	"ownerUserId":195435,
 	"properties":{
 		"standard":false,
@@ -34,7 +34,7 @@
 				"_mqttTopicCounter":0,
 				"_pageCount":26,
 				"_moduleCount":1,
-				"_variableCounter":1,
+				"_variableCounter":2,
 				"_functionCounter":7,
 				"_templateComponentCount":0
 			}
@@ -47,6 +47,10 @@
 			{
 				"interfaceId":"e_6a2fb29dc81042399f8ac752",
 				"componentId":"e_6a2fb29dd041967a0d35d353"
+			},
+			{
+				"interfaceId":"e_6a2fcc5e13b7ac780371961a",
+				"componentId":"e_6a2fcc5ed3eda70b2b871f44"
 			}
 		],
 		"publicPageIds":[],
@@ -360,5 +364,5 @@
 	"tags":[
 		
 	],
-	"version":342
+	"version":363
 }
