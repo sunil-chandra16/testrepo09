@@ -2,10 +2,10 @@
 	"createdTime":1771321084316,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781729205775,
+		"deployedAt":1781767570895,
 		"deployedBy":196385,
-		"entityVersion":245,
-		"version":28
+		"entityVersion":268,
+		"version":30
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -23,7 +23,7 @@
 	},
 	"id":"harshit-test-app",
 	"lastModifiedBy":196385,
-	"modifiedTime":1781729205777,
+	"modifiedTime":1781767596628,
 	"ownerUserId":196385,
 	"properties":{
 		"standard":false,
@@ -45,7 +45,7 @@
 			"_counter":{
 				"_moduleCount":0,
 				"_mqttTopicCounter":0,
-				"_pageCount":1
+				"_pageCount":2
 			}
 		},
 		"manifest":{
@@ -230,14 +230,16 @@
 			"type":"PRIVATE"
 		},
 		"interfacePageIdVsSlugMap":{
-			"e_699436fc8e772969642d9bce":"homepage"
+			"e_699436fc8e772969642d9bce":"homepage",
+			"e_6a339955f76ace6fd36b5f9e":"login"
 		},
 		"paths":{
 			"f_root":{
 				"id":"f_root",
 				"segment":"",
 				"children":[
-					"e_699436fc8e772969642d9bce"
+					"e_699436fc8e772969642d9bce",
+					"e_6a339955f76ace6fd36b5f9e"
 				],
 				"path":"/"
 			}
@@ -246,9 +248,23 @@
 		"theme":{
 			"defaultThemeId":"e_6966190f3d99d61567a86ad3"
 		},
+		"integrations":{
+			"cleverTap":{
+				"accountRegion":"",
+				"userProperties":[],
+				"accountId":"",
+				"accountToken":"",
+				"enabled":false
+			}
+		},
 		"entityDetailsMap":{
 			"e_699436fc8e772969642d9bce":{
 				"slug":"homepage",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a339955f76ace6fd36b5f9e":{
+				"slug":"login",
 				"isPublic":false,
 				"type":"PAGE"
 			}
@@ -258,5 +274,5 @@
 	"tags":[
 		
 	],
-	"version":245
+	"version":269
 }
