@@ -1,6 +1,13 @@
 {
 	"createdTime":1781781481516,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1781782889923,
+		"deployedBy":200385,
+		"deploymentTag":"v1",
+		"entityVersion":24,
+		"version":1
+	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
@@ -17,7 +24,7 @@
 	},
 	"id":"test-1-hrishi",
 	"lastModifiedBy":200385,
-	"modifiedTime":1781781485321,
+	"modifiedTime":1781782889925,
 	"ownerUserId":200385,
 	"projectId":2194,
 	"properties":{
@@ -261,5 +268,5 @@
 	"tags":[
 		
 	],
-	"version":2
+	"version":24
 }
