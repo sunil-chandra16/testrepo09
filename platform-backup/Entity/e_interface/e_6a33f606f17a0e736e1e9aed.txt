@@ -4,7 +4,7 @@
 	"entityType":"e_interface",
 	"id":"e_6a33f606f17a0e736e1e9aed",
 	"lastModifiedBy":195414,
-	"modifiedTime":1781790214271,
+	"modifiedTime":1781790262625,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -21,6 +21,7 @@
 				"_mqttTopicCounter":0,
 				"_pageCount":0,
 				"_moduleCount":0,
+				"_functionCounter":1,
 				"_templateComponentCount":0
 			}
 		},
@@ -43,5 +44,5 @@
 	"tags":[
 		
 	],
-	"version":0
+	"version":2
 }
