@@ -2,10 +2,10 @@
 	"createdTime":1780588283523,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781708842822,
-		"deployedBy":929,
-		"entityVersion":12,
-		"version":7
+		"deployedAt":1781816781272,
+		"deployedBy":193338,
+		"entityVersion":491,
+		"version":8
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -29,7 +29,7 @@
 	},
 	"id":"ua-enterprise-chat",
 	"lastModifiedBy":193338,
-	"modifiedTime":1781815598381,
+	"modifiedTime":1781816781274,
 	"ownerUserId":43523,
 	"properties":{
 		"standard":false,
@@ -346,7 +346,8 @@
 				"#FFFFFF8F",
 				"#FFFFFF1A",
 				"#FFFFFF0D",
-				"#FCFBFAFF"
+				"#FCFBFAFF",
+				"#015918FF"
 			]
 		},
 		"entityDetailsMap":{
@@ -401,5 +402,5 @@
 	"tags":[
 		"text-to-agent"
 	],
-	"version":445
+	"version":491
 }
