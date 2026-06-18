@@ -29,7 +29,7 @@
 	},
 	"id":"ua-enterprise-chat",
 	"lastModifiedBy":193338,
-	"modifiedTime":1781811989623,
+	"modifiedTime":1781813192535,
 	"ownerUserId":43523,
 	"properties":{
 		"standard":false,
@@ -50,7 +50,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_dataSourceCounter":55,
+				"_dataSourceCounter":57,
 				"_pageCount":10,
 				"_moduleCount":4,
 				"_variableCounter":107,
@@ -401,5 +401,5 @@
 	"tags":[
 		"text-to-agent"
 	],
-	"version":242
+	"version":333
 }
