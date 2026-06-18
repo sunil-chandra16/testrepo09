@@ -23,7 +23,7 @@
 	},
 	"id":"e_6a2550633b7a313303cde4c9",
 	"lastModifiedBy":195435,
-	"modifiedTime":1781761341023,
+	"modifiedTime":1781765247048,
 	"ownerUserId":27,
 	"properties":{
 		"standard":false,
@@ -38,9 +38,9 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":1,
+				"_pageCount":2,
 				"_moduleCount":0,
-				"_functionCounter":4,
+				"_functionCounter":6,
 				"_templateComponentCount":0
 			}
 		},
@@ -50,7 +50,8 @@
 			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
-			"e_6a255dd02bd5c958d00e95dd":"homepage"
+			"e_6a255dd02bd5c958d00e95dd":"homepage",
+			"e_6a338aa5f76ace6fd36b4a43":"page-2"
 		},
 		"basePath":"",
 		"manifest":{
@@ -61,7 +62,8 @@
 				"id":"f_root",
 				"segment":"",
 				"children":[
-					"e_6a255dd02bd5c958d00e95dd"
+					"e_6a255dd02bd5c958d00e95dd",
+					"e_6a338aa5f76ace6fd36b4a43"
 				],
 				"path":"/"
 			}
@@ -76,6 +78,11 @@
 				"slug":"homepage",
 				"isPublic":false,
 				"type":"PAGE"
+			},
+			"e_6a338aa5f76ace6fd36b4a43":{
+				"slug":"page-2",
+				"isPublic":false,
+				"type":"PAGE"
 			}
 		}
 	},
@@ -83,5 +90,5 @@
 	"tags":[
 		"you"
 	],
-	"version":68
+	"version":84
 }
