@@ -14,13 +14,22 @@
 				"permissions":[
 					"A"
 				],
+				"principalIds":[
+					"195449"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"A"
+				],
 				"principalType":"GLOBAL"
 			}
 		]
 	},
 	"id":"ua-governance-native",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781788727584,
+	"modifiedTime":1781789462724,
 	"ownerUserId":195449,
 	"properties":{
 		"standard":true,
