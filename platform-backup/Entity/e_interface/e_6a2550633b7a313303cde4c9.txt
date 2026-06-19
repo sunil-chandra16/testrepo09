@@ -23,7 +23,7 @@
 	},
 	"id":"e_6a2550633b7a313303cde4c9",
 	"lastModifiedBy":195435,
-	"modifiedTime":1781848963956,
+	"modifiedTime":1781850949521,
 	"ownerUserId":27,
 	"properties":{
 		"standard":false,
@@ -47,6 +47,7 @@
 				"_mqttTopicCounter":0,
 				"_pageCount":2,
 				"_moduleCount":0,
+				"_variableCounter":1,
 				"_functionCounter":7,
 				"_templateComponentCount":0
 			}
@@ -114,5 +115,5 @@
 	"tags":[
 		"you"
 	],
-	"version":131
+	"version":134
 }
