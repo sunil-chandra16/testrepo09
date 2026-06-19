@@ -16,8 +16,8 @@
 		]
 	},
 	"id":"test-rep1",
-	"lastModifiedBy":195802,
-	"modifiedTime":1781857202356,
+	"lastModifiedBy":43497,
+	"modifiedTime":1781861928176,
 	"ownerUserId":24420,
 	"properties":{
 		"standard":false,
@@ -33,7 +33,7 @@
 			"_counter":{
 				"_mqttTopicCounter":0,
 				"_dataSourceCounter":1,
-				"_pageCount":2,
+				"_pageCount":3,
 				"_moduleCount":0,
 				"_variableCounter":1,
 				"_templateComponentCount":0
@@ -198,8 +198,9 @@
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a344e621e499f048e620f3e":"homepage",
-			"e_6a34ed44022e790fd80d66dd":"page-2",
-			"e_global_test-rep1":"global-page-of-test-rep1"
+			"e_6a350a6f364fa72009336e94":"homepage-_tJGAf",
+			"e_6a350c84364fa72009336fab":"page-3",
+			"e_6a34ed44022e790fd80d66dd":"page-2"
 		},
 		"manifest":{
 			"type":"WEB"
@@ -229,13 +230,18 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
-			"e_6a34ed44022e790fd80d66dd":{
-				"slug":"page-2",
+			"e_6a350a6f364fa72009336e94":{
+				"slug":"homepage-_tJGAf",
 				"isPublic":false,
 				"type":"PAGE"
 			},
-			"e_global_test-rep1":{
-				"slug":"global-page-of-test-rep1",
+			"e_6a350c84364fa72009336fab":{
+				"slug":"page-3",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a34ed44022e790fd80d66dd":{
+				"slug":"page-2",
 				"isPublic":false,
 				"type":"PAGE"
 			}
@@ -245,5 +251,5 @@
 	"tags":[
 		
 	],
-	"version":152
+	"version":162
 }
