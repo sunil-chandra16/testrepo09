@@ -36,12 +36,21 @@
 					"143610"
 				],
 				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"A"
+				],
+				"principalIds":[
+					"69d502177e475d2b4f4b2914"
+				],
+				"principalType":"USER_GROUPS"
 			}
 		]
 	},
 	"id":"dharmesh-kota",
 	"lastModifiedBy":195956,
-	"modifiedTime":1781784209623,
+	"modifiedTime":1781852694433,
 	"ownerUserId":195956,
 	"properties":{
 		"standard":false,
@@ -419,5 +428,5 @@
 		"tag1",
 		"tag2"
 	],
-	"version":1889
+	"version":1892
 }
