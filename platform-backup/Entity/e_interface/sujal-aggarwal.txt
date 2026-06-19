@@ -2,10 +2,10 @@
 	"createdTime":1776666033286,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781851494525,
+		"deployedAt":1781877987077,
 		"deployedBy":195414,
-		"entityVersion":3805,
-		"version":38
+		"entityVersion":4102,
+		"version":47
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -23,7 +23,7 @@
 	},
 	"id":"sujal-aggarwal",
 	"lastModifiedBy":195414,
-	"modifiedTime":1781873129702,
+	"modifiedTime":1781880679772,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -54,6 +54,10 @@
 			{
 				"interfaceId":"asdp-1-l-23-asdsad",
 				"componentId":"e_6a204e2c39ac8573469af734"
+			},
+			{
+				"interfaceId":"e_6a34e957d6bd534c3d996837",
+				"componentId":"e_6a34e957d6bd534c3d996839"
 			}
 		],
 		"publicPageIds":[
@@ -549,5 +553,5 @@
 	"tags":[
 		
 	],
-	"version":4003
+	"version":4130
 }
