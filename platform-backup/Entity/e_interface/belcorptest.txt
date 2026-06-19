@@ -1,0 +1,67 @@
+{
+	"createdTime":1726753509247,
+	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1732276178972,
+		"deployedBy":0,
+		"entityVersion":1,
+		"version":1
+	},
+	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A"
+				],
+				"principalIds":[
+					"6757db349b09ba5b01b6c44c"
+				],
+				"principalType":"USER_GROUPS"
+			}
+		]
+	},
+	"id":"belcorptest",
+	"lastModifiedBy":-1,
+	"modifiedTime":1781874350080,
+	"ownerUserId":520,
+	"properties":{
+		"standard":false,
+		"deviceDetails":{
+			"base":"desktop"
+		},
+		"metadata":{
+			"logo":{
+				"small":"https://assets.unifyapps.com/theme/unifyapps/unify.svg",
+				"large":"https://assets.unifyapps.com/theme/unifyapps/unify-logo.svg",
+				"favicon":"/favicon.png"
+			},
+			"_counter":{
+				"_pageCount":1,
+				"_moduleCount":0
+			}
+		},
+		"navigation":{
+			"defaultPageId":"e_66ec2ae58101033bce37c142",
+			"primary":[
+				{
+					"name":"Page 1",
+					"icon":"Zap",
+					"id":"nav_cOVqt",
+					"type":"PAGE",
+					"pageId":"e_66ec2ae58101033bce37c142",
+					"slug":"page-1"
+				}
+			]
+		},
+		"interfacePageIdVsSlugMap":{
+			"e_66ec2ae58101033bce37c142":"page-1"
+		},
+		"name":"Puru test Belcorp"
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":192
+}
