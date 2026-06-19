@@ -2,10 +2,10 @@
 	"createdTime":1755777831535,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781855932828,
-		"deployedBy":-1,
-		"entityVersion":235,
-		"version":51
+		"deployedAt":1781883620748,
+		"deployedBy":175429,
+		"entityVersion":272,
+		"version":53
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -37,8 +37,8 @@
 		]
 	},
 	"id":"custom-features",
-	"lastModifiedBy":-1,
-	"modifiedTime":1781856144173,
+	"lastModifiedBy":175429,
+	"modifiedTime":1781884650860,
 	"ownerUserId":3952,
 	"properties":{
 		"standard":false,
@@ -53,11 +53,19 @@
 			},
 			"_counter":{
 				"_moduleCount":0,
-				"_pageCount":1
+				"_pageCount":2
 			}
 		},
 		"navigation":{
-			"secondary":[],
+			"secondary":[
+				{
+					"name":"Notifications",
+					"icon":"SvgNotification",
+					"action":"showNotifications",
+					"id":"notifications",
+					"type":"ACTION"
+				}
+			],
 			"defaultPageId":"e_68a70b44d6938355b8d414e0",
 			"appearance":{
 				"SM":{
@@ -70,7 +78,12 @@
 							"label":"More"
 						}
 					},
-					"secondary":[],
+					"secondary":[
+						{
+							"id":"notifications",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"none"
@@ -103,7 +116,12 @@
 							"label":"More"
 						}
 					},
-					"secondary":[],
+					"secondary":[
+						{
+							"id":"notifications",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"none"
@@ -142,7 +160,12 @@
 							"label":"More"
 						}
 					},
-					"secondary":[],
+					"secondary":[
+						{
+							"id":"notifications",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"expandable"
@@ -181,7 +204,12 @@
 							"label":"More"
 						}
 					},
-					"secondary":[],
+					"secondary":[
+						{
+							"id":"notifications",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"none"
@@ -215,6 +243,7 @@
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_global_custom-features":"global-page-of-custom-features",
+			"e_6a35528dfa00886d7078c5c4":"page-3",
 			"e_68a70b44d6938355b8d414e0":"homepage"
 		},
 		"manifest":{
@@ -231,6 +260,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_6a35528dfa00886d7078c5c4":{
+				"slug":"page-3",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_68a70b44d6938355b8d414e0":{
 				"slug":"homepage",
 				"isPublic":false,
@@ -239,5 +273,5 @@
 		}
 	},
 	"standard":true,
-	"version":235
+	"version":274
 }
