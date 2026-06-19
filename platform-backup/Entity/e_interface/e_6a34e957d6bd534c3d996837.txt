@@ -1,6 +1,12 @@
 {
 	"createdTime":1781852503131,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1781856167888,
+		"deployedBy":11492,
+		"entityVersion":41,
+		"version":2
+	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
@@ -17,7 +23,7 @@
 	},
 	"id":"e_6a34e957d6bd534c3d996837",
 	"lastModifiedBy":11492,
-	"modifiedTime":1781855165995,
+	"modifiedTime":1781856328738,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -51,13 +57,9 @@
 			"primary":[]
 		},
 		"security":{
+			"type":"PUBLIC",
 			"cspData":{
-				"resourceControl":[
-					{
-						"key":"http://localhost:5001",
-						"value":""
-					}
-				]
+				"resourceControl":[]
 			},
 			"cspDetails":{
 				"enforceCSP":true
@@ -90,5 +92,5 @@
 	"tags":[
 		
 	],
-	"version":38
+	"version":42
 }
