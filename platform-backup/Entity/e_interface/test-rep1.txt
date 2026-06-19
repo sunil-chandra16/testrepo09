@@ -17,7 +17,7 @@
 	},
 	"id":"test-rep1",
 	"lastModifiedBy":43497,
-	"modifiedTime":1781862696534,
+	"modifiedTime":1781863602334,
 	"ownerUserId":24420,
 	"properties":{
 		"standard":false,
@@ -38,6 +38,16 @@
 				"_variableCounter":1,
 				"_templateComponentCount":0
 			}
+		},
+		"manifest":{
+			"type":"WEB"
+		},
+		"type":"application",
+		"locale":{
+			"defaultLocale":"en-US"
+		},
+		"customCode":{
+			"header":"<>div<>123456"
 		},
 		"navigation":{
 			"secondary":[],
@@ -202,9 +212,6 @@
 			"e_6a350c84364fa72009336fab":"page-3",
 			"e_6a34ed44022e790fd80d66dd":"page-2"
 		},
-		"manifest":{
-			"type":"WEB"
-		},
 		"paths":{
 			"f_root":{
 				"id":"f_root",
@@ -220,9 +227,10 @@
 		"theme":{
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
 		},
-		"type":"application",
-		"locale":{
-			"defaultLocale":"en-US"
+		"integrations":{
+			"appAnalytics":{
+				"enabled":true
+			}
 		},
 		"entityDetailsMap":{
 			"e_6a344e621e499f048e620f3e":{
@@ -245,11 +253,14 @@
 				"isPublic":false,
 				"type":"PAGE"
 			}
+		},
+		"realtimeEvents":{
+			"enabled":false
 		}
 	},
 	"standard":false,
 	"tags":[
 		
 	],
-	"version":167
+	"version":173
 }
