@@ -15,12 +15,21 @@
 					"A"
 				],
 				"principalType":"GLOBAL"
+			},
+			{
+				"permissions":[
+					"A"
+				],
+				"principalIds":[
+					"6757db349b09ba5b01b6c44c"
+				],
+				"principalType":"USER_GROUPS"
 			}
 		]
 	},
 	"id":"__CAMPAIGN_REPORTING_INTERFACE__",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781855925446,
+	"modifiedTime":1781856101207,
 	"ownerUserId":32,
 	"properties":{
 		"standard":true,
