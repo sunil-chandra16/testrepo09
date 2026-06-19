@@ -1,6 +1,12 @@
 {
 	"createdTime":1781780735436,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1781892275473,
+		"deployedBy":200384,
+		"entityVersion":3,
+		"version":1
+	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
@@ -17,7 +23,7 @@
 	},
 	"id":"rituraj12",
 	"lastModifiedBy":200384,
-	"modifiedTime":1781781370106,
+	"modifiedTime":1781892275505,
 	"ownerUserId":200384,
 	"properties":{
 		"standard":false,
