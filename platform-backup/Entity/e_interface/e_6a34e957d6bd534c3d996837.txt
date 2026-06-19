@@ -2,10 +2,10 @@
 	"createdTime":1781852503131,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781856167888,
-		"deployedBy":11492,
-		"entityVersion":41,
-		"version":2
+		"deployedAt":1781889028510,
+		"deployedBy":195414,
+		"entityVersion":85,
+		"version":4
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -22,8 +22,8 @@
 		]
 	},
 	"id":"e_6a34e957d6bd534c3d996837",
-	"lastModifiedBy":45775,
-	"modifiedTime":1781872891715,
+	"lastModifiedBy":195414,
+	"modifiedTime":1781889028512,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -37,11 +37,12 @@
 				"favicon":"/favicon.png"
 			},
 			"_counter":{
-				"_mqttTopicCounter":0,
 				"_pageCount":1,
+				"_mqttTopicCounter":0,
+				"_dataSourceCounter":1,
 				"_moduleCount":0,
-				"_variableCounter":1,
-				"_functionCounter":5,
+				"_variableCounter":2,
+				"_functionCounter":8,
 				"_templateComponentCount":0
 			}
 		},
@@ -93,5 +94,5 @@
 	"tags":[
 		
 	],
-	"version":53
+	"version":85
 }
