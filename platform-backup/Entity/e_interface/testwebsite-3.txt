@@ -2,10 +2,10 @@
 	"createdTime":1781680374243,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781777426471,
+		"deployedAt":1781857334821,
 		"deployedBy":195854,
-		"entityVersion":416,
-		"version":26
+		"entityVersion":587,
+		"version":29
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -22,8 +22,8 @@
 		]
 	},
 	"id":"testwebsite-3",
-	"lastModifiedBy":199929,
-	"modifiedTime":1781790028619,
+	"lastModifiedBy":195854,
+	"modifiedTime":1781857334823,
 	"ownerUserId":199929,
 	"properties":{
 		"standard":false,
@@ -35,6 +35,13 @@
 				"small":"https://assets.unifyapps.com/interface/brand-logo/brand-logo-sm.svg",
 				"large":"https://assets.unifyapps.com/interface/brand-logo/brand-logo-lg.svg",
 				"favicon":"/favicon.png"
+			},
+			"advanced":{
+				"location":{
+					"enable":true,
+					"liveTrackingMode":"manual",
+					"liveTracking":true
+				}
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
@@ -50,7 +57,9 @@
 			"type":"WEB"
 		},
 		"pagePermissions":{
-			"e_6a3390d3f76ace6fd36b4cd6":{}
+			"e_6a3390d3f76ace6fd36b4cd6":{},
+			"e_6a32712d8c46d708e8cbf02a":{},
+			"e_6a324947c72af829ed4ce85b":{}
 		},
 		"type":"application",
 		"locale":{
@@ -242,6 +251,11 @@
 		"theme":{
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
 		},
+		"integrations":{
+			"appAnalytics":{
+				"enabled":true
+			}
+		},
 		"entityDetailsMap":{
 			"e_global_testwebsite-3":{
 				"slug":"global-page-of-testwebsite-3",
@@ -269,5 +283,5 @@
 	"tags":[
 		
 	],
-	"version":441
+	"version":587
 }
