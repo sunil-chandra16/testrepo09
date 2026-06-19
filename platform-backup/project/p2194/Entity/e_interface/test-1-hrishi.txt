@@ -2,11 +2,10 @@
 	"createdTime":1781781481516,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781782889923,
+		"deployedAt":1781870079630,
 		"deployedBy":200385,
-		"deploymentTag":"v1",
-		"entityVersion":24,
-		"version":1
+		"entityVersion":27,
+		"version":2
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -23,8 +22,8 @@
 		]
 	},
 	"id":"test-1-hrishi",
-	"lastModifiedBy":-1,
-	"modifiedTime":1781798305723,
+	"lastModifiedBy":200385,
+	"modifiedTime":1781870079631,
 	"ownerUserId":200385,
 	"projectId":2194,
 	"properties":{
@@ -44,6 +43,37 @@
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
+		},
+		"manifest":{
+			"type":"MOBILE",
+			"splashScreen":{
+				"dark":{
+					"image":"https://assets.unifyapps.com/images/platform/brand-assets/splash-icon-light.png",
+					"backgroundColor":"#182230"
+				},
+				"imageWidth":1024.0,
+				"image":"https://assets.unifyapps.com/images/platform/brand-assets/splash-icon-dark.png",
+				"backgroundColor":"#FFFFFF",
+				"imageFit":"contain",
+				"imageHeight":1024.0
+			},
+			"brandAssets":{
+				"ios":{
+					"darkModeLogo":"https://assets.unifyapps.com/images/platform/brand-assets/ios-dark.png",
+					"lightModeLogo":"https://assets.unifyapps.com/images/platform/brand-assets/ios-light.png",
+					"tintedLogo":"https://assets.unifyapps.com/images/platform/brand-assets/ios-tinted.png"
+				},
+				"android":{
+					"backgroundColor":"#FFFFFF",
+					"foregroundLogo":"https://assets.unifyapps.com/images/platform/brand-assets/android-foreground.png",
+					"monochromeLogo":"https://assets.unifyapps.com/images/platform/brand-assets/android-monochrome.png",
+					"backgroundType":"Color"
+				}
+			}
+		},
+		"type":"application",
+		"locale":{
+			"defaultLocale":"en-US"
 		},
 		"navigation":{
 			"secondary":[],
@@ -202,36 +232,12 @@
 			},
 			"primary":[]
 		},
+		"security":{
+			"type":"PUBLIC"
+		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a33d3e92b71ab31cd183251":"homepage",
 			"e_global_test-1-hrishi":"global-page-of-test-1-hrishi"
-		},
-		"manifest":{
-			"type":"MOBILE",
-			"splashScreen":{
-				"dark":{
-					"image":"https://assets.unifyapps.com/images/platform/brand-assets/splash-icon-light.png",
-					"backgroundColor":"#182230"
-				},
-				"imageWidth":1024.0,
-				"image":"https://assets.unifyapps.com/images/platform/brand-assets/splash-icon-dark.png",
-				"backgroundColor":"#FFFFFF",
-				"imageFit":"contain",
-				"imageHeight":1024.0
-			},
-			"brandAssets":{
-				"ios":{
-					"darkModeLogo":"https://assets.unifyapps.com/images/platform/brand-assets/ios-dark.png",
-					"lightModeLogo":"https://assets.unifyapps.com/images/platform/brand-assets/ios-light.png",
-					"tintedLogo":"https://assets.unifyapps.com/images/platform/brand-assets/ios-tinted.png"
-				},
-				"android":{
-					"backgroundColor":"#FFFFFF",
-					"foregroundLogo":"https://assets.unifyapps.com/images/platform/brand-assets/android-foreground.png",
-					"monochromeLogo":"https://assets.unifyapps.com/images/platform/brand-assets/android-monochrome.png",
-					"backgroundType":"Color"
-				}
-			}
 		},
 		"paths":{
 			"f_root":{
@@ -246,10 +252,6 @@
 		"name":"test1hrishi",
 		"theme":{
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
-		},
-		"type":"application",
-		"locale":{
-			"defaultLocale":"en-US"
 		},
 		"entityDetailsMap":{
 			"e_6a33d3e92b71ab31cd183251":{
@@ -268,5 +270,5 @@
 	"tags":[
 		
 	],
-	"version":24
+	"version":27
 }
