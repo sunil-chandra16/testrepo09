@@ -16,8 +16,8 @@
 		]
 	},
 	"id":"aot-global-fun",
-	"lastModifiedBy":195435,
-	"modifiedTime":1781856785097,
+	"lastModifiedBy":92,
+	"modifiedTime":1781857918611,
 	"ownerUserId":195435,
 	"properties":{
 		"standard":false,
@@ -32,7 +32,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":26,
+				"_pageCount":27,
 				"_moduleCount":1,
 				"_variableCounter":5,
 				"_functionCounter":8,
@@ -227,6 +227,7 @@
 			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
+			"e_6a34fe7c022e790fd80d7cc9":"page-27",
 			"e_6a147d293057ce1a80439e2a":"homepage",
 			"e_6a17e93f3261534f9267c92d":"page-24",
 			"e_6a17206db94e58314b7847b5":"page-2-_IKSVI",
@@ -250,7 +251,8 @@
 					"e_6a17e787a228de58c10f6f0a",
 					"f_q3Jze",
 					"f_d3P9v",
-					"f_aEUYf"
+					"f_aEUYf",
+					"e_6a34fe7c022e790fd80d7cc9"
 				],
 				"path":"/"
 			},
@@ -318,6 +320,11 @@
 			"defaultThemeId":"e_6966190f3d99d61567a86ad3"
 		},
 		"entityDetailsMap":{
+			"e_6a34fe7c022e790fd80d7cc9":{
+				"slug":"page-27",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a147d293057ce1a80439e2a":{
 				"slug":"homepage",
 				"isPublic":false,
@@ -364,5 +371,5 @@
 	"tags":[
 		
 	],
-	"version":419
+	"version":422
 }
