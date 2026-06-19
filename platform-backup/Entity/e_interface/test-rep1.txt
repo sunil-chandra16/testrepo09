@@ -17,7 +17,7 @@
 	},
 	"id":"test-rep1",
 	"lastModifiedBy":43497,
-	"modifiedTime":1781865098303,
+	"modifiedTime":1781872847692,
 	"ownerUserId":24420,
 	"properties":{
 		"standard":false,
@@ -50,7 +50,20 @@
 			"header":"<>div<>123456"
 		},
 		"navigation":{
-			"secondary":[],
+			"secondary":[
+				{
+					"name":"Notifications",
+					"icon":"SvgNotification",
+					"action":"showNotifications",
+					"id":"notifications",
+					"type":"ACTION"
+				},
+				{
+					"type":"USER_MENU",
+					"name":"Profile",
+					"id":"userMenu"
+				}
+			],
 			"defaultPageId":"e_6a344e621e499f048e620f3e",
 			"appearance":{
 				"SM":{
@@ -84,7 +97,17 @@
 							"all":"p-0"
 						}
 					},
-					"secondary":[]
+					"secondary":[
+						{
+							"id":"notifications",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"userMenu",
+							"hiddenInOverflow":false
+						}
+					],
+					"userMenu":[]
 				},
 				"LG":{
 					"primary":[],
@@ -123,7 +146,17 @@
 							"y":"gap-y-lg"
 						}
 					},
-					"secondary":[]
+					"secondary":[
+						{
+							"id":"notifications",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"userMenu",
+							"hiddenInOverflow":false
+						}
+					],
+					"userMenu":[]
 				},
 				"XL":{
 					"primary":[],
@@ -162,7 +195,17 @@
 							"y":"gap-y-lg"
 						}
 					},
-					"secondary":[]
+					"secondary":[
+						{
+							"id":"notifications",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"userMenu",
+							"hiddenInOverflow":false
+						}
+					],
+					"userMenu":[]
 				},
 				"MD":{
 					"primary":[],
@@ -201,7 +244,17 @@
 							"y":"gap-y-lg"
 						}
 					},
-					"secondary":[]
+					"secondary":[
+						{
+							"id":"notifications",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"userMenu",
+							"hiddenInOverflow":false
+						}
+					],
+					"userMenu":[]
 				}
 			},
 			"primary":[]
@@ -262,5 +315,5 @@
 	"tags":[
 		
 	],
-	"version":177
+	"version":186
 }
