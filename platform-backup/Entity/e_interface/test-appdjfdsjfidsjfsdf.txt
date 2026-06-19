@@ -2,10 +2,10 @@
 	"createdTime":1779777698302,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1779868674898,
-		"deployedBy":43497,
-		"entityVersion":234,
-		"version":4
+		"deployedAt":1781856570574,
+		"deployedBy":11492,
+		"entityVersion":3705,
+		"version":6
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -40,8 +40,8 @@
 		]
 	},
 	"id":"test-appdjfdsjfidsjfsdf",
-	"lastModifiedBy":199944,
-	"modifiedTime":1781855318725,
+	"lastModifiedBy":11492,
+	"modifiedTime":1781856570576,
 	"ownerUserId":48862,
 	"properties":{
 		"standard":false,
@@ -316,12 +316,7 @@
 		"security":{
 			"type":"PUBLIC",
 			"cspData":{
-				"resourceControl":[
-					{
-						"key":"http://localhost:5001",
-						"value":""
-					}
-				]
+				"resourceControl":[]
 			},
 			"cspDetails":{
 				"enforceCSP":true
@@ -497,5 +492,5 @@
 	"tags":[
 		
 	],
-	"version":3702
+	"version":3705
 }
