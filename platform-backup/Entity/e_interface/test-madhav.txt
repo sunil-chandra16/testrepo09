@@ -2,10 +2,10 @@
 	"createdTime":1770091534269,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781203729975,
+		"deployedAt":1781787882871,
 		"deployedBy":195850,
-		"entityVersion":8834,
-		"version":34
+		"entityVersion":9453,
+		"version":36
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -22,8 +22,8 @@
 		]
 	},
 	"id":"test-madhav",
-	"lastModifiedBy":195850,
-	"modifiedTime":1781735517782,
+	"lastModifiedBy":-1,
+	"modifiedTime":1781874335586,
 	"ownerUserId":195850,
 	"properties":{
 		"standard":false,
@@ -45,7 +45,7 @@
 			"_counter":{
 				"_mqttTopicCounter":0,
 				"_dataSourceCounter":5,
-				"_pageCount":31,
+				"_pageCount":32,
 				"_moduleCount":2,
 				"_variableCounter":7,
 				"_functionCounter":2
@@ -492,6 +492,7 @@
 			"e_698df3096b859a734aaca594":"page-2",
 			"e_69ca18cd0b5bc95684812e29":"page-13",
 			"e_6a1ea992f214a17f614c2613":"page-27",
+			"e_6a33eb208e75414a40f5609b":"table",
 			"e_69a2e016f8e8a77e0e6fee82":"locale-testing",
 			"e_6a0c8810a4772a336e0906e6":"page-23",
 			"e_69d5013dc288d45ac00c4f70":"page-17",
@@ -562,7 +563,8 @@
 					"e_6a1ee8fbc9fe0468ff3c3c17",
 					"e_6a2160f413db5a429993bb40",
 					"e_6a226f759add0471ca48dae3",
-					"e_6a22e52caf26a06c3bf324ef"
+					"e_6a22e52caf26a06c3bf324ef",
+					"e_6a33eb208e75414a40f5609b"
 				],
 				"path":"/"
 			},
@@ -683,6 +685,11 @@
 			},
 			"e_6a1ea992f214a17f614c2613":{
 				"slug":"page-27",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a33eb208e75414a40f5609b":{
+				"slug":"table",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -847,5 +854,5 @@
 	"tags":[
 		
 	],
-	"version":9434
+	"version":9453
 }
