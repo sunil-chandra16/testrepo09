@@ -2,10 +2,10 @@
 	"createdTime":1745078068792,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781788651967,
+		"deployedAt":1781874094488,
 		"deployedBy":-1,
-		"entityVersion":1785,
-		"version":990
+		"entityVersion":1786,
+		"version":991
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -15,21 +15,12 @@
 					"A"
 				],
 				"principalType":"GLOBAL"
-			},
-			{
-				"permissions":[
-					"A"
-				],
-				"principalIds":[
-					"6757db349b09ba5b01b6c44c"
-				],
-				"principalType":"USER_GROUPS"
 			}
 		]
 	},
 	"id":"ua-copilot",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781789209213,
+	"modifiedTime":1781874094490,
 	"ownerUserId":1238,
 	"properties":{
 		"standard":true,
@@ -73,5 +64,5 @@
 	"tags":[
 		
 	],
-	"version":1785
+	"version":1786
 }
