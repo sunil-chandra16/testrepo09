@@ -14,13 +14,31 @@
 				"permissions":[
 					"A"
 				],
+				"principalIds":[
+					"49915"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"A"
+				],
+				"principalIds":[
+					"687"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"A"
+				],
 				"principalType":"GLOBAL"
 			}
 		]
 	},
 	"id":"custom-features",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781855932830,
+	"modifiedTime":1781856144173,
 	"ownerUserId":3952,
 	"properties":{
 		"standard":false,
