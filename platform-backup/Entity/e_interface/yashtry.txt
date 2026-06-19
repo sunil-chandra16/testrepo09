@@ -23,7 +23,7 @@
 	},
 	"id":"yashtry",
 	"lastModifiedBy":195848,
-	"modifiedTime":1781868689554,
+	"modifiedTime":1781869775509,
 	"ownerUserId":195848,
 	"properties":{
 		"standard":false,
@@ -50,7 +50,20 @@
 			"defaultPageId":"e_6982e8a8fa44426948076dfd",
 			"appearance":{
 				"SM":{
-					"primary":[],
+					"primary":[
+						{
+							"id":"BRAND_NAVIGATION",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_sqPn9",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_ThbSP",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"none"
@@ -83,10 +96,47 @@
 					"secondary":[]
 				},
 				"LG":{
-					"primary":[],
+					"primary":[
+						{
+							"id":"BRAND_NAVIGATION",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_sqPn9",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_ThbSP",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
-						"labelVariant":"none"
+						"labelVariant":"none",
+						"background":{
+							"colors":{
+								"default":"transparent",
+								"hover":"#f7f5f3",
+								"active":"transparent"
+							}
+						},
+						"text":{
+							"colors":{
+								"default":"#4a4745",
+								"hover":"#3e1db1",
+								"active":"#4e26db"
+							},
+							"variant":"text-sm",
+							"weight":"semi-bold"
+						},
+						"icon":{
+							"colors":{
+								"default":"#9f9993",
+								"hover":"#6a6662",
+								"active":"#4e26db"
+							},
+							"size":"md"
+						}
 					},
 					"navigationBar":{
 						"overflowDetails":{
@@ -95,7 +145,7 @@
 						},
 						"position":"start",
 						"type":"fixed",
-						"navigatorType":"None"
+						"navigatorType":"Standard"
 					},
 					"styles":{
 						"width":{
@@ -119,13 +169,56 @@
 							"y":"gap-y-lg"
 						}
 					},
-					"secondary":[]
+					"secondary":[],
+					"theme":"inherit",
+					"userReordered":{
+						"primary":false,
+						"secondary":false,
+						"userMenu":false
+					}
 				},
 				"XL":{
-					"primary":[],
+					"primary":[
+						{
+							"id":"BRAND_NAVIGATION",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_sqPn9",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_ThbSP",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
-						"labelVariant":"expandable"
+						"labelVariant":"expandable",
+						"background":{
+							"colors":{
+								"default":"transparent",
+								"hover":"#f7f5f3",
+								"active":"transparent"
+							}
+						},
+						"text":{
+							"colors":{
+								"default":"#4a4745",
+								"hover":"#3e1db1",
+								"active":"#4e26db"
+							},
+							"variant":"text-sm",
+							"weight":"semi-bold"
+						},
+						"icon":{
+							"colors":{
+								"default":"#9f9993",
+								"hover":"#6a6662",
+								"active":"#4e26db"
+							},
+							"size":"md"
+						}
 					},
 					"navigationBar":{
 						"overflowDetails":{
@@ -134,7 +227,7 @@
 						},
 						"position":"start",
 						"type":"fixed",
-						"navigatorType":"None"
+						"navigatorType":"Standard"
 					},
 					"styles":{
 						"width":{
@@ -158,10 +251,29 @@
 							"y":"gap-y-lg"
 						}
 					},
-					"secondary":[]
+					"secondary":[],
+					"theme":"inherit",
+					"userReordered":{
+						"primary":true,
+						"secondary":false,
+						"userMenu":false
+					}
 				},
 				"MD":{
-					"primary":[],
+					"primary":[
+						{
+							"id":"BRAND_NAVIGATION",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_sqPn9",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_ThbSP",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"none"
@@ -200,7 +312,52 @@
 					"secondary":[]
 				}
 			},
-			"primary":[]
+			"primary":[
+				{
+					"hiddenInOverflow":false,
+					"name":"Brand Navigation",
+					"breakpointVisibility":[
+						"LG",
+						"MD",
+						"SM",
+						"XL"
+					],
+					"id":"BRAND_NAVIGATION",
+					"type":"URL",
+					"url":"",
+					"openInNewTab":true
+				},
+				{
+					"activeIcon":"ZapSolid",
+					"path":"homepage",
+					"hiddenInOverflow":false,
+					"name":"Nav Item 3",
+					"icon":"Zap",
+					"breakpointVisibility":[
+						"LG",
+						"MD",
+						"SM",
+						"XL"
+					],
+					"pageParams":[],
+					"id":"nav_sqPn9",
+					"type":"PAGE",
+					"pageId":"e_6982e8a8fa44426948076dfd",
+					"url":"",
+					"slug":"homepage"
+				},
+				{
+					"activeIcon":"AiAgentSolid",
+					"hiddenInOverflow":false,
+					"name":"Nav Item 2",
+					"icon":"SvgAiAgent",
+					"id":"nav_ThbSP",
+					"type":"PAGE",
+					"pageId":"e_6982e8a8fa44426948076dfd",
+					"url":"",
+					"slug":"homepage"
+				}
+			]
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a0fff13d129457eeababdc7":"page-51",
@@ -226,6 +383,8 @@
 		},
 		"name":"yashtry",
 		"theme":{
+			"cssVars":{},
+			"output":"\n      .interface-theme,\n      .interface-theme [data-color-scheme='light'] {\n        \n      }\n    \n        .interface-theme[data-color-scheme='dark'],\n        .interface-theme [data-color-scheme='dark'] {\n          \n        }\n      ",
 			"defaultThemeId":"e_6966190f3d99d61567a86ad3"
 		},
 		"type":"application",
@@ -330,5 +489,5 @@
 	"tags":[
 		
 	],
-	"version":819
+	"version":829
 }
