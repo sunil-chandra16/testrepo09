@@ -14,13 +14,49 @@
 				"permissions":[
 					"A"
 				],
+				"principalIds":[
+					"325"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"A"
+				],
+				"principalIds":[
+					"195806"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"A"
+				],
+				"principalIds":[
+					"195808"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"A"
+				],
+				"principalIds":[
+					"69652bdef7429214070824f4"
+				],
+				"principalType":"USER_GROUPS"
+			},
+			{
+				"permissions":[
+					"A"
+				],
 				"principalType":"GLOBAL"
 			}
 		]
 	},
 	"id":"ai-enterprise-search",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781855927902,
+	"modifiedTime":1781856101200,
 	"ownerUserId":325,
 	"properties":{
 		"standard":false,
