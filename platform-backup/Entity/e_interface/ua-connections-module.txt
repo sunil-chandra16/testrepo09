@@ -14,13 +14,22 @@
 				"permissions":[
 					"A"
 				],
+				"principalIds":[
+					"1238"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"A"
+				],
 				"principalType":"GLOBAL"
 			}
 		]
 	},
 	"id":"ua-connections-module",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781855959516,
+	"modifiedTime":1781856231701,
 	"ownerUserId":1238,
 	"properties":{
 		"standard":true,
