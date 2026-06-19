@@ -16,8 +16,8 @@
 		]
 	},
 	"id":"test-table-filter",
-	"lastModifiedBy":47210,
-	"modifiedTime":1781884630858,
+	"lastModifiedBy":33862,
+	"modifiedTime":1781884769636,
 	"ownerUserId":33862,
 	"properties":{
 		"standard":false,
@@ -33,7 +33,7 @@
 			"_counter":{
 				"_mqttTopicCounter":0,
 				"_dataSourceCounter":2,
-				"_pageCount":2,
+				"_pageCount":3,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
@@ -43,7 +43,12 @@
 			"defaultPageId":"e_6a355e28fa00886d7078d268",
 			"appearance":{
 				"SM":{
-					"primary":[],
+					"primary":[
+						{
+							"id":"nav_nixGN",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"none"
@@ -76,7 +81,12 @@
 					"secondary":[]
 				},
 				"LG":{
-					"primary":[],
+					"primary":[
+						{
+							"id":"nav_nixGN",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"none"
@@ -115,7 +125,12 @@
 					"secondary":[]
 				},
 				"XL":{
-					"primary":[],
+					"primary":[
+						{
+							"id":"nav_nixGN",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"expandable"
@@ -154,7 +169,12 @@
 					"secondary":[]
 				},
 				"MD":{
-					"primary":[],
+					"primary":[
+						{
+							"id":"nav_nixGN",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"none"
@@ -193,11 +213,22 @@
 					"secondary":[]
 				}
 			},
-			"primary":[]
+			"primary":[
+				{
+					"activeIcon":"MessageSmileSquareSolid",
+					"name":"Page 3",
+					"icon":"MessageSmileSquare",
+					"id":"nav_nixGN",
+					"type":"PAGE",
+					"pageId":"e_6a356761e99f4b363f751137",
+					"slug":"page-3"
+				}
+			]
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a355e28fa00886d7078d268":"homepage",
 			"e_6a3564466d1dd15b1c8412f8":"page-2",
+			"e_6a356761e99f4b363f751137":"page-3",
 			"e_global_test-table-filter":"global-page-of-test-table-filter"
 		},
 		"manifest":{
@@ -222,6 +253,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_6a356761e99f4b363f751137":{
+				"slug":"page-3",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_global_test-table-filter":{
 				"slug":"global-page-of-test-table-filter",
 				"isPublic":false,
@@ -233,5 +269,5 @@
 	"tags":[
 		
 	],
-	"version":121
+	"version":122
 }
