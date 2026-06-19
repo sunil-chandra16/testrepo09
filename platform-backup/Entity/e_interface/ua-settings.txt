@@ -15,12 +15,21 @@
 					"A"
 				],
 				"principalType":"GLOBAL"
+			},
+			{
+				"permissions":[
+					"A"
+				],
+				"principalIds":[
+					"6757db349b09ba5b01b6c44c"
+				],
+				"principalType":"USER_GROUPS"
 			}
 		]
 	},
 	"id":"ua-settings",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781855942915,
+	"modifiedTime":1781856173996,
 	"ownerUserId":0,
 	"properties":{
 		"standard":true,
