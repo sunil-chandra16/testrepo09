@@ -22,8 +22,8 @@
 		]
 	},
 	"id":"yashtry",
-	"lastModifiedBy":195848,
-	"modifiedTime":1781869775509,
+	"lastModifiedBy":195456,
+	"modifiedTime":1781871337633,
 	"ownerUserId":195848,
 	"properties":{
 		"standard":false,
@@ -56,11 +56,11 @@
 							"hiddenInOverflow":false
 						},
 						{
-							"id":"nav_sqPn9",
+							"id":"nav_ThbSP",
 							"hiddenInOverflow":false
 						},
 						{
-							"id":"nav_ThbSP",
+							"id":"nav_sqPn9",
 							"hiddenInOverflow":false
 						}
 					],
@@ -102,11 +102,11 @@
 							"hiddenInOverflow":false
 						},
 						{
-							"id":"nav_sqPn9",
+							"id":"nav_ThbSP",
 							"hiddenInOverflow":false
 						},
 						{
-							"id":"nav_ThbSP",
+							"id":"nav_sqPn9",
 							"hiddenInOverflow":false
 						}
 					],
@@ -266,11 +266,11 @@
 							"hiddenInOverflow":false
 						},
 						{
-							"id":"nav_sqPn9",
+							"id":"nav_ThbSP",
 							"hiddenInOverflow":false
 						},
 						{
-							"id":"nav_ThbSP",
+							"id":"nav_sqPn9",
 							"hiddenInOverflow":false
 						}
 					],
@@ -329,7 +329,6 @@
 				},
 				{
 					"activeIcon":"ZapSolid",
-					"path":"homepage",
 					"hiddenInOverflow":false,
 					"name":"Nav Item 3",
 					"icon":"Zap",
@@ -339,7 +338,6 @@
 						"SM",
 						"XL"
 					],
-					"pageParams":[],
 					"id":"nav_sqPn9",
 					"type":"PAGE",
 					"pageId":"e_6982e8a8fa44426948076dfd",
@@ -489,5 +487,5 @@
 	"tags":[
 		
 	],
-	"version":829
+	"version":833
 }
