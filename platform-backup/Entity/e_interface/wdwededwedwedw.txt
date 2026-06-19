@@ -2,10 +2,10 @@
 	"createdTime":1781855081369,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781857036411,
+		"deployedAt":1781868393422,
 		"deployedBy":195450,
-		"entityVersion":25,
-		"version":12
+		"entityVersion":27,
+		"version":13
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -23,7 +23,7 @@
 	},
 	"id":"wdwededwedwedw",
 	"lastModifiedBy":195450,
-	"modifiedTime":1781857036412,
+	"modifiedTime":1781868393424,
 	"ownerUserId":195833,
 	"properties":{
 		"standard":false,
@@ -246,5 +246,5 @@
 	"tags":[
 		
 	],
-	"version":25
+	"version":27
 }
