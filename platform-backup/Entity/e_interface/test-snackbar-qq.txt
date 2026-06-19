@@ -17,7 +17,7 @@
 	},
 	"id":"test-snackbar-qq",
 	"lastModifiedBy":195456,
-	"modifiedTime":1781863088131,
+	"modifiedTime":1781885000866,
 	"ownerUserId":195465,
 	"properties":{
 		"standard":false,
@@ -34,6 +34,7 @@
 				"_mqttTopicCounter":0,
 				"_pageCount":1,
 				"_moduleCount":0,
+				"_variableCounter":1,
 				"_templateComponentCount":0
 			}
 		},
@@ -226,5 +227,5 @@
 	"tags":[
 		
 	],
-	"version":7
+	"version":9
 }
