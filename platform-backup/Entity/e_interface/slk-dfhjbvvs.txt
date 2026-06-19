@@ -16,8 +16,8 @@
 		]
 	},
 	"id":"slk-dfhjbvvs",
-	"lastModifiedBy":-1,
-	"modifiedTime":1781848408823,
+	"lastModifiedBy":47210,
+	"modifiedTime":1781849333952,
 	"ownerUserId":175325,
 	"properties":{
 		"standard":false,
@@ -32,14 +32,14 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":0,
+				"_pageCount":1,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
 		},
 		"navigation":{
 			"secondary":[],
-			"defaultPageId":"",
+			"defaultPageId":"e_6a34dcb2022e790fd80d59e8",
 			"appearance":{
 				"SM":{
 					"primary":[],
@@ -71,7 +71,8 @@
 						"padding":{
 							"all":"p-0"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"LG":{
 					"primary":[],
@@ -109,7 +110,8 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"XL":{
 					"primary":[],
@@ -147,7 +149,8 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"MD":{
 					"primary":[],
@@ -185,13 +188,28 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				}
 			},
 			"primary":[]
 		},
+		"interfacePageIdVsSlugMap":{
+			"e_6a34dcb2022e790fd80d59e8":"homepage",
+			"e_global_slk-dfhjbvvs":"global-page-of-slk-dfhjbvvs"
+		},
 		"manifest":{
 			"type":"WEB"
+		},
+		"paths":{
+			"f_root":{
+				"id":"f_root",
+				"segment":"",
+				"children":[
+					"e_6a34dcb2022e790fd80d59e8"
+				],
+				"path":"/"
+			}
 		},
 		"name":"slk,dfhjbvvs",
 		"theme":{
@@ -200,11 +218,23 @@
 		"type":"application",
 		"locale":{
 			"defaultLocale":"en-US"
+		},
+		"entityDetailsMap":{
+			"e_6a34dcb2022e790fd80d59e8":{
+				"slug":"homepage",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_global_slk-dfhjbvvs":{
+				"slug":"global-page-of-slk-dfhjbvvs",
+				"isPublic":false,
+				"type":"PAGE"
+			}
 		}
 	},
 	"standard":false,
 	"tags":[
 		
 	],
-	"version":0
+	"version":4
 }
