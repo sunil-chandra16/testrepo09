@@ -16,8 +16,8 @@
 		]
 	},
 	"id":"e_6a34e957d6bd534c3d996837",
-	"lastModifiedBy":195414,
-	"modifiedTime":1781853543221,
+	"lastModifiedBy":11492,
+	"modifiedTime":1781853805374,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -38,18 +38,35 @@
 				"_templateComponentCount":0
 			}
 		},
+		"manifest":{
+			"type":"WEB"
+		},
+		"type":"library",
+		"locale":{
+			"defaultLocale":"en-US"
+		},
 		"navigation":{
 			"secondary":[],
 			"defaultPageId":"e_6a34ed4ed6bd534c3d996c6e",
 			"primary":[]
 		},
+		"security":{
+			"cspData":{
+				"resourceControl":[
+					{
+						"key":"http://localhost:5001",
+						"value":""
+					}
+				]
+			},
+			"cspDetails":{
+				"enforceCSP":true
+			}
+		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a34ed4ed6bd534c3d996c6e":"homepage"
 		},
 		"basePath":"",
-		"manifest":{
-			"type":"WEB"
-		},
 		"paths":{
 			"f_root":{
 				"id":"f_root",
@@ -61,10 +78,6 @@
 			}
 		},
 		"name":"unifyMath",
-		"type":"library",
-		"locale":{
-			"defaultLocale":"en-US"
-		},
 		"entityDetailsMap":{
 			"e_6a34ed4ed6bd534c3d996c6e":{
 				"slug":"homepage",
@@ -77,5 +90,5 @@
 	"tags":[
 		
 	],
-	"version":25
+	"version":33
 }
