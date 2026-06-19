@@ -17,7 +17,7 @@
 	},
 	"id":"slk-dfhjbvvs",
 	"lastModifiedBy":47210,
-	"modifiedTime":1781850594844,
+	"modifiedTime":1781851653449,
 	"ownerUserId":175325,
 	"properties":{
 		"standard":false,
@@ -219,7 +219,8 @@
 		"locale":{
 			"defaultLocale":"en-US",
 			"supportedLocales":[
-				"ar-AE"
+				"ar-AE",
+				"as"
 			]
 		},
 		"entityDetailsMap":{
@@ -239,5 +240,5 @@
 	"tags":[
 		
 	],
-	"version":5
+	"version":6
 }
