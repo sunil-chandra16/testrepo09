@@ -17,7 +17,7 @@
 	},
 	"id":"aot-global-fun",
 	"lastModifiedBy":195435,
-	"modifiedTime":1781847487689,
+	"modifiedTime":1781848515759,
 	"ownerUserId":195435,
 	"properties":{
 		"standard":false,
@@ -34,7 +34,7 @@
 				"_mqttTopicCounter":0,
 				"_pageCount":26,
 				"_moduleCount":1,
-				"_variableCounter":3,
+				"_variableCounter":5,
 				"_functionCounter":7,
 				"_templateComponentCount":0
 			}
@@ -364,5 +364,5 @@
 	"tags":[
 		
 	],
-	"version":373
+	"version":380
 }
