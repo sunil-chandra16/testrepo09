@@ -17,7 +17,7 @@
 	},
 	"id":"test-table-filter",
 	"lastModifiedBy":33862,
-	"modifiedTime":1781940333549,
+	"modifiedTime":1781940715578,
 	"ownerUserId":33862,
 	"properties":{
 		"standard":false,
@@ -32,7 +32,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_dataSourceCounter":3,
+				"_dataSourceCounter":4,
 				"_pageCount":4,
 				"_moduleCount":0,
 				"_templateComponentCount":0
@@ -233,5 +233,5 @@
 	"tags":[
 		
 	],
-	"version":399
+	"version":406
 }
