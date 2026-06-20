@@ -68,7 +68,7 @@
 	},
 	"id":"offline-mobile-forms",
 	"lastModifiedBy":27,
-	"modifiedTime":1781932609431,
+	"modifiedTime":1781933817441,
 	"ownerUserId":34802,
 	"properties":{
 		"standard":false,
@@ -139,6 +139,12 @@
 				"small":"https://qa-uploads.unifyapps.com/user-uploads/1/1748879070185/air-arabia-red.png",
 				"large":"https://qa-uploads.unifyapps.com/user-uploads/1/1748879124502/air-arabia-logo-red.png",
 				"favicon":"https://qa-uploads.unifyapps.com/user-uploads/1/1748879074618/air-arabia-red.png"
+			},
+			"advanced":{
+				"location":{
+					"enable":false,
+					"liveTrackingMode":"manual"
+				}
 			},
 			"_counter":{
 				"_mqttTopicCounter":1,
@@ -753,6 +759,13 @@
 				"#EDEFF4FF"
 			]
 		},
+		"integrations":{
+			"uaePass":{
+				"env":"staging",
+				"enabled":false,
+				"clientId":""
+			}
+		},
 		"entityDetailsMap":{
 			"offline-mobile-forms_login":{
 				"slug":"login",
@@ -827,5 +840,5 @@
 		}
 	},
 	"standard":false,
-	"version":1250
+	"version":1254
 }
