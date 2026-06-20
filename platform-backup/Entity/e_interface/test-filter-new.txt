@@ -17,7 +17,7 @@
 	},
 	"id":"test-filter-new",
 	"lastModifiedBy":33862,
-	"modifiedTime":1781959359576,
+	"modifiedTime":1781960451617,
 	"ownerUserId":33862,
 	"properties":{
 		"standard":false,
@@ -32,7 +32,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":4,
+				"_pageCount":7,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
@@ -250,9 +250,12 @@
 			]
 		},
 		"interfacePageIdVsSlugMap":{
-			"e_6a367c48483c6f1193745506":"page-2",
 			"e_6a367c9ee6ffe05f736367af":"page-3",
+			"e_6a368af50afd9e4758c6a053":"page-5",
+			"e_6a367c48483c6f1193745506":"page-2",
+			"e_6a368be2f6d23a754f7ec57c":"page-6",
 			"e_6a367bdbe6ffe05f73636527":"homepage",
+			"e_6a368dacf6d23a754f7ec5d3":"page-7",
 			"e_6a367d0be6ffe05f73636838":"page-4"
 		},
 		"manifest":{
@@ -264,18 +267,33 @@
 			"defaultLocale":"en-US"
 		},
 		"entityDetailsMap":{
-			"e_6a367c48483c6f1193745506":{
-				"slug":"page-2",
-				"isPublic":false,
-				"type":"PAGE"
-			},
 			"e_6a367c9ee6ffe05f736367af":{
 				"slug":"page-3",
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_6a368af50afd9e4758c6a053":{
+				"slug":"page-5",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a367c48483c6f1193745506":{
+				"slug":"page-2",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a368be2f6d23a754f7ec57c":{
+				"slug":"page-6",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a367bdbe6ffe05f73636527":{
 				"slug":"homepage",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a368dacf6d23a754f7ec5d3":{
+				"slug":"page-7",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -290,5 +308,5 @@
 	"tags":[
 		
 	],
-	"version":153
+	"version":292
 }
