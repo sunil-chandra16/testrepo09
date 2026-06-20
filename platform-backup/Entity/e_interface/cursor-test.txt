@@ -1,6 +1,13 @@
 {
 	"createdTime":1781225125975,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1781956102916,
+		"deployedBy":199888,
+		"deploymentTag":"v1",
+		"entityVersion":709,
+		"version":1
+	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
@@ -17,7 +24,7 @@
 	},
 	"id":"cursor-test",
 	"lastModifiedBy":199888,
-	"modifiedTime":1781953983081,
+	"modifiedTime":1781956901425,
 	"ownerUserId":199888,
 	"properties":{
 		"standard":false,
@@ -253,5 +260,5 @@
 	"tags":[
 		
 	],
-	"version":709
+	"version":719
 }
