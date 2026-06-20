@@ -68,7 +68,7 @@
 	},
 	"id":"offline-mobile-forms",
 	"lastModifiedBy":27,
-	"modifiedTime":1781868444103,
+	"modifiedTime":1781932609431,
 	"ownerUserId":34802,
 	"properties":{
 		"standard":false,
@@ -178,7 +178,7 @@
 			]
 		},
 		"customCode":{
-			"header":"<style>\n  [role=\"treeitem\"] div{\n    border: 0px;\n  }\n  </style>"
+			"header":"<style>\n  [role=\"treeitem\"] div{\n    border: 0px;\n  }\n  </style>\n  cabin"
 		},
 		"navigation":{
 			"defaultPageId":"e_67f117375bb71c2e58616115",
@@ -827,5 +827,5 @@
 		}
 	},
 	"standard":false,
-	"version":1248
+	"version":1250
 }
