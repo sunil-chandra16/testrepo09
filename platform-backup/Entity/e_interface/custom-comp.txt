@@ -22,8 +22,8 @@
 		]
 	},
 	"id":"custom-comp",
-	"lastModifiedBy":196503,
-	"modifiedTime":1781975957357,
+	"lastModifiedBy":504,
+	"modifiedTime":1781979403140,
 	"ownerUserId":196503,
 	"properties":{
 		"standard":false,
@@ -38,7 +38,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":1,
+				"_pageCount":2,
 				"_moduleCount":0,
 				"_variableCounter":2,
 				"_templateComponentCount":0
@@ -203,6 +203,7 @@
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a366d4e483c6f1193744777":"homepage",
+			"e_6a36d8c5e660465ca112c3b9":"page-2",
 			"e_global_custom-comp":"global-page-of-custom-comp"
 		},
 		"manifest":{
@@ -229,6 +230,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_6a36d8c5e660465ca112c3b9":{
+				"slug":"page-2",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_global_custom-comp":{
 				"slug":"global-page-of-custom-comp",
 				"isPublic":false,
@@ -240,5 +246,5 @@
 	"tags":[
 		
 	],
-	"version":1005
+	"version":1018
 }
