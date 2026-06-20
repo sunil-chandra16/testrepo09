@@ -22,8 +22,8 @@
 		]
 	},
 	"id":"custom-comp",
-	"lastModifiedBy":199706,
-	"modifiedTime":1781973281143,
+	"lastModifiedBy":196503,
+	"modifiedTime":1781975624550,
 	"ownerUserId":196503,
 	"properties":{
 		"standard":false,
@@ -240,5 +240,5 @@
 	"tags":[
 		
 	],
-	"version":939
+	"version":987
 }
