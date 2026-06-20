@@ -22,8 +22,8 @@
 		]
 	},
 	"id":"harshit-test",
-	"lastModifiedBy":-1,
-	"modifiedTime":1781874335892,
+	"lastModifiedBy":45775,
+	"modifiedTime":1781948576759,
 	"ownerUserId":196385,
 	"properties":{
 		"standard":false,
@@ -35,6 +35,12 @@
 				"small":"https://assets.unifyapps.com/user-uploads/theme/unify.svg",
 				"large":"https://assets.unifyapps.com/user-uploads/theme/unify-logo.svg",
 				"favicon":"/favicon.png"
+			},
+			"advanced":{
+				"location":{
+					"enable":false,
+					"liveTrackingMode":"manual"
+				}
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
@@ -232,5 +238,5 @@
 	"tags":[
 		
 	],
-	"version":40
+	"version":43
 }
