@@ -2,11 +2,11 @@
 	"createdTime":1742542983146,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781613813741,
+		"deployedAt":1781951582235,
 		"deployedBy":504,
-		"deploymentTag":"republish-new-changes",
-		"entityVersion":1419,
-		"version":462
+		"deploymentTag":"upload-compressed-logo",
+		"entityVersion":1420,
+		"version":463
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -29,8 +29,8 @@
 		]
 	},
 	"id":"ua-governance",
-	"lastModifiedBy":-1,
-	"modifiedTime":1781944642839,
+	"lastModifiedBy":504,
+	"modifiedTime":1781951582237,
 	"ownerUserId":35286,
 	"properties":{
 		"standard":true,
