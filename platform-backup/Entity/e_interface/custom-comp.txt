@@ -23,7 +23,7 @@
 	},
 	"id":"custom-comp",
 	"lastModifiedBy":196503,
-	"modifiedTime":1781959289251,
+	"modifiedTime":1781960561641,
 	"ownerUserId":196503,
 	"properties":{
 		"standard":false,
@@ -237,5 +237,5 @@
 	"tags":[
 		
 	],
-	"version":475
+	"version":553
 }
