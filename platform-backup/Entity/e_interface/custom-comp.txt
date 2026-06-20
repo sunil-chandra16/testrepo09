@@ -2,10 +2,10 @@
 	"createdTime":1781951819054,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781968636896,
-		"deployedBy":196503,
-		"entityVersion":608,
-		"version":5
+		"deployedAt":1781971986357,
+		"deployedBy":199706,
+		"entityVersion":868,
+		"version":7
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -23,7 +23,7 @@
 	},
 	"id":"custom-comp",
 	"lastModifiedBy":199706,
-	"modifiedTime":1781970194154,
+	"modifiedTime":1781971986359,
 	"ownerUserId":196503,
 	"properties":{
 		"standard":false,
@@ -240,5 +240,5 @@
 	"tags":[
 		
 	],
-	"version":676
+	"version":868
 }
