@@ -2,10 +2,10 @@
 	"createdTime":1781784420097,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781942536188,
+		"deployedAt":1781943220635,
 		"deployedBy":200377,
-		"entityVersion":136,
-		"version":4
+		"entityVersion":169,
+		"version":5
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -23,7 +23,7 @@
 	},
 	"id":"formbug",
 	"lastModifiedBy":200377,
-	"modifiedTime":1781942725704,
+	"modifiedTime":1781943938902,
 	"ownerUserId":200377,
 	"properties":{
 		"standard":false,
@@ -43,7 +43,9 @@
 				"_templateComponentCount":0
 			}
 		},
-		"publicPageIds":[],
+		"publicPageIds":[
+			"e_6a33df6e5356e8273a519afb"
+		],
 		"manifest":{
 			"type":"WEB"
 		},
@@ -253,7 +255,7 @@
 		"entityDetailsMap":{
 			"e_6a33df6e5356e8273a519afb":{
 				"slug":"homepage",
-				"isPublic":false,
+				"isPublic":true,
 				"type":"PAGE"
 			},
 			"e_6a3648b44ed3a82eb1dcfbf0":{
@@ -267,5 +269,5 @@
 	"tags":[
 		
 	],
-	"version":149
+	"version":173
 }
