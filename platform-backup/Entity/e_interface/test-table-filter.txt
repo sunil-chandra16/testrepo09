@@ -17,7 +17,7 @@
 	},
 	"id":"test-table-filter",
 	"lastModifiedBy":33862,
-	"modifiedTime":1781940715578,
+	"modifiedTime":1781950790893,
 	"ownerUserId":33862,
 	"properties":{
 		"standard":false,
@@ -33,7 +33,7 @@
 			"_counter":{
 				"_mqttTopicCounter":0,
 				"_dataSourceCounter":4,
-				"_pageCount":4,
+				"_pageCount":5,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
@@ -198,6 +198,7 @@
 		"interfacePageIdVsSlugMap":{
 			"e_6a355e28fa00886d7078d268":"homepage",
 			"e_6a35710084b2ec160ab4ae7e":"page-4",
+			"e_6a3666ebe6ffe05f73635b23":"page-5",
 			"e_global_test-table-filter":"global-page-of-test-table-filter"
 		},
 		"manifest":{
@@ -222,6 +223,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_6a3666ebe6ffe05f73635b23":{
+				"slug":"page-5",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_global_test-table-filter":{
 				"slug":"global-page-of-test-table-filter",
 				"isPublic":false,
@@ -233,5 +239,5 @@
 	"tags":[
 		
 	],
-	"version":406
+	"version":437
 }
