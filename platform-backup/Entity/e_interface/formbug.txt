@@ -1,6 +1,12 @@
 {
 	"createdTime":1781784420097,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1781942536188,
+		"deployedBy":200377,
+		"entityVersion":136,
+		"version":4
+	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
@@ -17,7 +23,7 @@
 	},
 	"id":"formbug",
 	"lastModifiedBy":200377,
-	"modifiedTime":1781882285968,
+	"modifiedTime":1781942725704,
 	"ownerUserId":200377,
 	"properties":{
 		"standard":false,
@@ -32,10 +38,21 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":1,
+				"_pageCount":2,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
+		},
+		"publicPageIds":[],
+		"manifest":{
+			"type":"WEB"
+		},
+		"pagePermissions":{
+			"e_6a33df6e5356e8273a519afb":{}
+		},
+		"type":"application",
+		"locale":{
+			"defaultLocale":"en-US"
 		},
 		"navigation":{
 			"secondary":[],
@@ -114,29 +131,15 @@
 					"secondary":[]
 				},
 				"XL":{
-					"primary":[],
-					"navigationItem":{
-						"selectionVariant":"stroke",
-						"labelVariant":"expandable"
-					},
-					"navigationBar":{
-						"overflowDetails":{
-							"icon":"Menu01",
-							"label":"More"
-						},
-						"position":"start",
-						"type":"fixed",
-						"navigatorType":"Standard"
-					},
 					"styles":{
+						"height":"h-auto",
+						"borderColor":"border-secondary",
 						"width":{
 							"custom":"56px"
 						},
-						"height":"h-auto",
 						"borderWidth":{
 							"r":"border-e"
 						},
-						"borderColor":"border-secondary",
 						"borderRadius":{
 							"all":"rounded-none"
 						},
@@ -150,6 +153,38 @@
 							"y":"gap-y-lg"
 						}
 					},
+					"theme":"inherit",
+					"navigationBar":{
+						"position":"start",
+						"navigatorType":"Standard",
+						"type":"fixed",
+						"overflowDetails":{
+							"icon":"Menu01",
+							"label":"More"
+						}
+					},
+					"navigationItem":{
+						"selectionVariant":"stroke",
+						"text":{
+							"variant":"text-sm",
+							"weight":"semi-bold",
+							"colors":{}
+						},
+						"icon":{
+							"size":"md",
+							"colors":{}
+						},
+						"labelVariant":"expandable",
+						"background":{
+							"colors":{}
+						}
+					},
+					"userReordered":{
+						"primary":false,
+						"secondary":false,
+						"userMenu":false
+					},
+					"primary":[],
 					"secondary":[]
 				},
 				"MD":{
@@ -196,28 +231,24 @@
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a33df6e5356e8273a519afb":"homepage",
-			"e_global_formbug":"global-page-of-formbug"
-		},
-		"manifest":{
-			"type":"WEB"
+			"e_6a3648b44ed3a82eb1dcfbf0":"homepage-_KYdNT"
 		},
 		"paths":{
 			"f_root":{
 				"id":"f_root",
 				"segment":"",
 				"children":[
-					"e_6a33df6e5356e8273a519afb"
+					"e_6a33df6e5356e8273a519afb",
+					"e_6a3648b44ed3a82eb1dcfbf0"
 				],
 				"path":"/"
 			}
 		},
 		"name":"formbug",
 		"theme":{
+			"cssVars":{},
+			"output":"\n      .interface-theme,\n      .interface-theme [data-color-scheme='light'] {\n        \n      }\n    \n        .interface-theme[data-color-scheme='dark'],\n        .interface-theme [data-color-scheme='dark'] {\n          \n        }\n      ",
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
-		},
-		"type":"application",
-		"locale":{
-			"defaultLocale":"en-US"
 		},
 		"entityDetailsMap":{
 			"e_6a33df6e5356e8273a519afb":{
@@ -225,8 +256,8 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
-			"e_global_formbug":{
-				"slug":"global-page-of-formbug",
+			"e_6a3648b44ed3a82eb1dcfbf0":{
+				"slug":"homepage-_KYdNT",
 				"isPublic":false,
 				"type":"PAGE"
 			}
@@ -236,5 +267,5 @@
 	"tags":[
 		
 	],
-	"version":85
+	"version":149
 }
