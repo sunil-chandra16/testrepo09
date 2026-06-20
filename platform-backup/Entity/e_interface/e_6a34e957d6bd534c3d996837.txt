@@ -22,8 +22,8 @@
 		]
 	},
 	"id":"e_6a34e957d6bd534c3d996837",
-	"lastModifiedBy":426,
-	"modifiedTime":1781950607435,
+	"lastModifiedBy":195414,
+	"modifiedTime":1781965626591,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -41,7 +41,7 @@
 				"_mqttTopicCounter":0,
 				"_dataSourceCounter":1,
 				"_moduleCount":0,
-				"_variableCounter":2,
+				"_variableCounter":6,
 				"_functionCounter":8,
 				"_templateComponentCount":0
 			}
@@ -94,5 +94,5 @@
 	"tags":[
 		
 	],
-	"version":100
+	"version":117
 }
