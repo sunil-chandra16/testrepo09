@@ -4,7 +4,7 @@
 	"collectionId":"6a35f312a47de10c9df6b4a8",
 	"createdTime":1781920530910,
 	"customizeTimeout":false,
-	"deleted":false,
+	"deleted":true,
 	"enableCanaryDeployment":false,
 	"enableNodeLevelLogging":true,
 	"enableRunLogging":true,
@@ -15,7 +15,7 @@
 	"id":"6a35f312c427da6ca612fb92",
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2fqbou",
-	"modifiedTime":1781920530965,
+	"modifiedTime":1781921379530,
 	"name":"changeSetQA2Fqbou",
 	"ownerUserId":175325,
 	"path":"automation/endpoint1",
@@ -27,5 +27,5 @@
 	"supportedHttpMethods":[
 		"POST"
 	],
-	"version":1
+	"version":2
 }
