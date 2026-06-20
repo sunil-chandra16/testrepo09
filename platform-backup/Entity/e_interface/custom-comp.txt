@@ -22,8 +22,8 @@
 		]
 	},
 	"id":"custom-comp",
-	"lastModifiedBy":196503,
-	"modifiedTime":1781968800820,
+	"lastModifiedBy":199706,
+	"modifiedTime":1781970194154,
 	"ownerUserId":196503,
 	"properties":{
 		"standard":false,
@@ -214,7 +214,9 @@
 				"#FF0000FF",
 				"#F27E7EFF",
 				"#FEE5E5FF",
-				"#104176FF"
+				"#104176FF",
+				"#424242FF",
+				"#DF5252FF"
 			]
 		},
 		"type":"application",
@@ -238,5 +240,5 @@
 	"tags":[
 		
 	],
-	"version":610
+	"version":676
 }
