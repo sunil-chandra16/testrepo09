@@ -16,8 +16,8 @@
 		]
 	},
 	"id":"test-table-filter",
-	"lastModifiedBy":193867,
-	"modifiedTime":1781891502356,
+	"lastModifiedBy":33862,
+	"modifiedTime":1781934421486,
 	"ownerUserId":33862,
 	"properties":{
 		"standard":false,
@@ -32,7 +32,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_dataSourceCounter":2,
+				"_dataSourceCounter":3,
 				"_pageCount":4,
 				"_moduleCount":0,
 				"_templateComponentCount":0
@@ -43,12 +43,7 @@
 			"defaultPageId":"e_6a355e28fa00886d7078d268",
 			"appearance":{
 				"SM":{
-					"primary":[
-						{
-							"id":"nav_nixGN",
-							"hiddenInOverflow":false
-						}
-					],
+					"primary":[],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"none"
@@ -81,12 +76,7 @@
 					"secondary":[]
 				},
 				"LG":{
-					"primary":[
-						{
-							"id":"nav_nixGN",
-							"hiddenInOverflow":false
-						}
-					],
+					"primary":[],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"none"
@@ -125,12 +115,7 @@
 					"secondary":[]
 				},
 				"XL":{
-					"primary":[
-						{
-							"id":"nav_nixGN",
-							"hiddenInOverflow":false
-						}
-					],
+					"primary":[],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"expandable"
@@ -169,12 +154,7 @@
 					"secondary":[]
 				},
 				"MD":{
-					"primary":[
-						{
-							"id":"nav_nixGN",
-							"hiddenInOverflow":false
-						}
-					],
+					"primary":[],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"none"
@@ -213,23 +193,11 @@
 					"secondary":[]
 				}
 			},
-			"primary":[
-				{
-					"activeIcon":"MessageSmileSquareSolid",
-					"name":"Page 3",
-					"icon":"MessageSmileSquare",
-					"id":"nav_nixGN",
-					"type":"PAGE",
-					"pageId":"e_6a356761e99f4b363f751137",
-					"slug":"page-3"
-				}
-			]
+			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a355e28fa00886d7078d268":"homepage",
-			"e_6a3564466d1dd15b1c8412f8":"page-2",
 			"e_6a35710084b2ec160ab4ae7e":"page-4",
-			"e_6a356761e99f4b363f751137":"page-3",
 			"e_global_test-table-filter":"global-page-of-test-table-filter"
 		},
 		"manifest":{
@@ -249,18 +217,8 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
-			"e_6a3564466d1dd15b1c8412f8":{
-				"slug":"page-2",
-				"isPublic":false,
-				"type":"PAGE"
-			},
 			"e_6a35710084b2ec160ab4ae7e":{
 				"slug":"page-4",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_6a356761e99f4b363f751137":{
-				"slug":"page-3",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -275,5 +233,5 @@
 	"tags":[
 		
 	],
-	"version":350
+	"version":382
 }
