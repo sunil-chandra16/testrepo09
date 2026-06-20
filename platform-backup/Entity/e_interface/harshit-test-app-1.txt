@@ -23,7 +23,7 @@
 	},
 	"id":"harshit-test-app-1",
 	"lastModifiedBy":196385,
-	"modifiedTime":1781949598824,
+	"modifiedTime":1781958629506,
 	"ownerUserId":196385,
 	"properties":{
 		"standard":false,
@@ -59,10 +59,13 @@
 					"backgroundType":"Color"
 				},
 				"enableAutoGenerateLogo":false,
-				"pushNotificationLogos":{}
+				"pushNotificationLogos":{
+					"applicationLogo":"/api/file/asset/download/6a367ee319ef0b2facd87de1",
+					"notificationLogo":"/api/file/asset/download/6a367ee319ef0b2facd87de2"
+				}
 			}
 		},
-		"bundleIdentifier":"com.example.myapp503",
+		"bundleIdentifier":"com.example.myapp192",
 		"type":"application",
 		"locale":{
 			"defaultLocale":"en-US",
@@ -301,8 +304,15 @@
 		},
 		"notifications":{
 			"pushNotifications":{
-				"connection":{},
-				"enabled":false
+				"connection":{
+					"androidServiceFile":"/api/file/download/__UNIFY_ENCR_UNIFYAPPS__V5__gokA6yGRW2DWoklgXniWmfDkP1sssG9zQcgElZrCCbXSgSsE0e2fC8iASsK82TGuNzYoIarmsCFYoN5WDp2w24EQmkbyVhysAN4",
+					"connectionId":"6a367f89a5411152181ae9cc",
+					"iosServiceFile":"/api/file/download/__UNIFY_ENCR_UNIFYAPPS__V5__gokA6yGRW2DWoklgXniWmfDkP1sssG9zQcgElZrCCbXSgSsE0e2_C8iASsLCzyaqKDwuaZCmvD0ZviR9vbvvFeqBN1mL-T7WVwd7TECU",
+					"firebaseServiceFile":"user-uploads/1/1781956486695/firebasetest-498511-dd64eb18aa12.json",
+					"firebaseProjectId":"firebasetest-498511",
+					"projectNumber":"592739870044"
+				},
+				"enabled":true
 			}
 		}
 	},
@@ -310,5 +320,5 @@
 	"tags":[
 		
 	],
-	"version":79
+	"version":85
 }
