@@ -17,7 +17,7 @@
 	},
 	"id":"custom-comp",
 	"lastModifiedBy":196503,
-	"modifiedTime":1781954815588,
+	"modifiedTime":1781956007767,
 	"ownerUserId":196503,
 	"properties":{
 		"standard":false,
@@ -34,7 +34,7 @@
 				"_mqttTopicCounter":0,
 				"_pageCount":1,
 				"_moduleCount":0,
-				"_variableCounter":1,
+				"_variableCounter":2,
 				"_templateComponentCount":0
 			}
 		},
@@ -224,5 +224,5 @@
 	"tags":[
 		
 	],
-	"version":237
+	"version":279
 }
