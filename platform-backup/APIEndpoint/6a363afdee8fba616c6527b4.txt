@@ -13,7 +13,7 @@
 	"id":"6a363afdee8fba616c6527b4",
 	"lastModifiedBy":-1,
 	"lcName":"ms test automation web-hook",
-	"modifiedTime":1781938946634,
+	"modifiedTime":1781948602697,
 	"name":"MS TEST Automation Web-hook",
 	"ownerUserId":-1,
 	"path":"6a36256755f34f18a98043f3",
@@ -25,5 +25,5 @@
 	"supportedHttpMethods":[
 		"ANY"
 	],
-	"version":1
+	"version":3
 }
