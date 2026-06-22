@@ -2,10 +2,10 @@
 	"createdTime":1781701580982,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782113532586,
+		"deployedAt":1782120381189,
 		"deployedBy":200385,
-		"entityVersion":8,
-		"version":5
+		"entityVersion":23,
+		"version":6
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -23,7 +23,7 @@
 	},
 	"id":"safe-test-native-app",
 	"lastModifiedBy":200385,
-	"modifiedTime":1782120085298,
+	"modifiedTime":1782120381191,
 	"ownerUserId":196379,
 	"properties":{
 		"standard":false,
@@ -269,5 +269,5 @@
 	"tags":[
 		"Do Not Touch"
 	],
-	"version":9
+	"version":23
 }
