@@ -2,10 +2,10 @@
 	"createdTime":1782126382410,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782126448060,
+		"deployedAt":1782134635601,
 		"deployedBy":200386,
-		"entityVersion":8,
-		"version":1
+		"entityVersion":10,
+		"version":2
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -23,7 +23,7 @@
 	},
 	"id":"vikas",
 	"lastModifiedBy":200386,
-	"modifiedTime":1782127367464,
+	"modifiedTime":1782134635605,
 	"ownerUserId":200386,
 	"projectId":2193,
 	"properties":{
@@ -202,7 +202,7 @@
 			"primary":[]
 		},
 		"security":{
-			"type":"PUBLIC"
+			"type":"PRIVATE"
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a39172eaa4b16591d1142ee":"homepage",
@@ -258,5 +258,5 @@
 	"tags":[
 		
 	],
-	"version":9
+	"version":10
 }
