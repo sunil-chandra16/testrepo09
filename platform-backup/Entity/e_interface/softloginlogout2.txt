@@ -22,8 +22,8 @@
 		]
 	},
 	"id":"softloginlogout2",
-	"lastModifiedBy":200384,
-	"modifiedTime":1782131423471,
+	"lastModifiedBy":48862,
+	"modifiedTime":1782132320057,
 	"ownerUserId":200384,
 	"properties":{
 		"standard":false,
@@ -201,7 +201,7 @@
 			"primary":[]
 		},
 		"security":{
-			"type":"PUBLIC"
+			"type":"PRIVATE"
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a39297afa26413291199c28":"homepage",
@@ -256,5 +256,5 @@
 	"tags":[
 		
 	],
-	"version":4
+	"version":7
 }
