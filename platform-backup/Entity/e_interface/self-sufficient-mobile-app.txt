@@ -2,9 +2,22 @@
 	"createdTime":1782154992907,
 	"deleted":false,
 	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A"
+				],
+				"principalIds":[
+					"30179"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"self-sufficient-mobile-app",
 	"lastModifiedBy":30179,
-	"modifiedTime":1782154992907,
+	"modifiedTime":1782154998686,
 	"ownerUserId":30179,
 	"properties":{
 		"standard":false,
@@ -19,14 +32,14 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":0,
+				"_pageCount":1,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
 		},
 		"navigation":{
 			"secondary":[],
-			"defaultPageId":"",
+			"defaultPageId":"e_6a3986f148dd2a186b4a4962",
 			"appearance":{
 				"SM":{
 					"primary":[],
@@ -58,7 +71,8 @@
 						"padding":{
 							"all":"p-0"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"LG":{
 					"primary":[],
@@ -96,7 +110,8 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"XL":{
 					"primary":[],
@@ -134,7 +149,8 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"MD":{
 					"primary":[],
@@ -172,10 +188,15 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				}
 			},
 			"primary":[]
+		},
+		"interfacePageIdVsSlugMap":{
+			"e_global_self-sufficient-mobile-app":"global-page-of-self-sufficient-mobile-app",
+			"e_6a3986f148dd2a186b4a4962":"homepage"
 		},
 		"manifest":{
 			"type":"MOBILE",
@@ -208,11 +229,23 @@
 		"type":"application",
 		"locale":{
 			"defaultLocale":"en-US"
+		},
+		"entityDetailsMap":{
+			"e_global_self-sufficient-mobile-app":{
+				"slug":"global-page-of-self-sufficient-mobile-app",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a3986f148dd2a186b4a4962":{
+				"slug":"homepage",
+				"isPublic":false,
+				"type":"PAGE"
+			}
 		}
 	},
 	"standard":false,
 	"tags":[
 		
 	],
-	"version":0
+	"version":2
 }
