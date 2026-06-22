@@ -1,6 +1,12 @@
 {
 	"createdTime":1782127810153,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1782129151009,
+		"deployedBy":175325,
+		"entityVersion":30,
+		"version":3
+	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
@@ -17,7 +23,7 @@
 	},
 	"id":"app-07",
 	"lastModifiedBy":175325,
-	"modifiedTime":1782127820798,
+	"modifiedTime":1782129151012,
 	"ownerUserId":175325,
 	"properties":{
 		"standard":false,
@@ -32,6 +38,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
+				"_dataSourceCounter":1,
 				"_pageCount":1,
 				"_moduleCount":0,
 				"_templateComponentCount":0
@@ -226,5 +233,5 @@
 	"tags":[
 		
 	],
-	"version":2
+	"version":30
 }
