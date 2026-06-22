@@ -2,11 +2,12 @@
 	"createdTime":1744622692142,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781951573922,
+		"deployedAt":1782141604163,
 		"deployedBy":504,
-		"deploymentTag":"upload-compressed-logo",
-		"entityVersion":1340,
-		"version":647
+		"deploymentNotes":"update platform logos for matching new sidenav designs",
+		"deploymentTag":"update-platform-logos",
+		"entityVersion":1341,
+		"version":648
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -42,18 +43,18 @@
 	},
 	"id":"ua-platform",
 	"lastModifiedBy":504,
-	"modifiedTime":1781951573936,
+	"modifiedTime":1782141604165,
 	"ownerUserId":46884,
 	"properties":{
-		"standard":true,
+		"standard":false,
 		"deviceDetails":{
 			"base":"desktop"
 		},
 		"metadata":{
 			"logo":{
-				"small":"https://assets.unifyapps.com/interface/brand-logo/brand-logo-sm-comp.svg",
-				"large":"https://assets.unifyapps.com/interface/brand-logo/brand-logo-lg-comp.svg",
-				"favicon":"https://assets.unifyapps.com/interface/brand-logo/brand-logo-sm-comp.svg"
+				"small":"https://assets.unifyapps.com/interface/brand-logo/unify-logo-sm-2.svg",
+				"large":"https://assets.unifyapps.com/interface/brand-logo/unify-logo-lg-2.svg",
+				"favicon":"https://assets.unifyapps.com/interface/brand-logo/unify-logo-sm-2.svg"
 			},
 			"_counter":{
 				"_moduleCount":0,
@@ -151,5 +152,5 @@
 		}
 	},
 	"standard":false,
-	"version":1340
+	"version":1341
 }
