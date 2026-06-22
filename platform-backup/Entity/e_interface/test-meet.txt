@@ -2,9 +2,22 @@
 	"createdTime":1782147345803,
 	"deleted":false,
 	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A"
+				],
+				"principalIds":[
+					"195870"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"test-meet",
 	"lastModifiedBy":195870,
-	"modifiedTime":1782147345803,
+	"modifiedTime":1782147352102,
 	"ownerUserId":195870,
 	"properties":{
 		"standard":false,
@@ -19,14 +32,14 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":0,
+				"_pageCount":1,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
 		},
 		"navigation":{
 			"secondary":[],
-			"defaultPageId":"",
+			"defaultPageId":"e_6a396918991d8174b3300d27",
 			"appearance":{
 				"SM":{
 					"primary":[],
@@ -58,7 +71,8 @@
 						"padding":{
 							"all":"p-0"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"LG":{
 					"primary":[],
@@ -96,7 +110,8 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"XL":{
 					"primary":[],
@@ -134,7 +149,8 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"MD":{
 					"primary":[],
@@ -172,10 +188,14 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				}
 			},
 			"primary":[]
+		},
+		"interfacePageIdVsSlugMap":{
+			"e_6a396918991d8174b3300d27":"homepage"
 		},
 		"manifest":{
 			"type":"WEB"
@@ -184,11 +204,18 @@
 		"type":"application",
 		"locale":{
 			"defaultLocale":"en-US"
+		},
+		"entityDetailsMap":{
+			"e_6a396918991d8174b3300d27":{
+				"slug":"homepage",
+				"isPublic":false,
+				"type":"PAGE"
+			}
 		}
 	},
 	"standard":false,
 	"tags":[
 		
 	],
-	"version":0
+	"version":1
 }
