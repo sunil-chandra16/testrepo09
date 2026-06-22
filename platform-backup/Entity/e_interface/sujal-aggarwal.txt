@@ -23,7 +23,7 @@
 	},
 	"id":"sujal-aggarwal",
 	"lastModifiedBy":195414,
-	"modifiedTime":1782144407656,
+	"modifiedTime":1782145361688,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -37,7 +37,7 @@
 				"favicon":"/favicon.png"
 			},
 			"_counter":{
-				"_pageCount":13,
+				"_pageCount":14,
 				"_mqttTopicCounter":0,
 				"_dataSourceCounter":8,
 				"_moduleCount":1,
@@ -236,6 +236,7 @@
 			"e_6a0fff47d129457eeababe5c":"page-11",
 			"e_6a0c3e90ce24ec20371b9c82":"drawer",
 			"e_6a0fff2bd129457eeababe29":"page-11",
+			"e_6a39609444fe6147462b5ff2":"editor",
 			"e_6a0fff4728347f63b34e37aa":"page-11",
 			"e_6a156bf2c22be142fbd56657":"page-13",
 			"e_6a0fff38d129457eeababe43":"page-11",
@@ -353,6 +354,11 @@
 			},
 			"e_6a0fff2bd129457eeababe29":{
 				"slug":"page-11",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a39609444fe6147462b5ff2":{
+				"slug":"editor",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -545,5 +551,5 @@
 	"tags":[
 		
 	],
-	"version":4446
+	"version":4467
 }
