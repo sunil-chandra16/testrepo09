@@ -17,7 +17,7 @@
 	},
 	"id":"test-priyanshu",
 	"lastModifiedBy":199944,
-	"modifiedTime":1782125447667,
+	"modifiedTime":1782126487752,
 	"ownerUserId":199944,
 	"properties":{
 		"standard":false,
@@ -32,7 +32,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":1,
+				"_pageCount":2,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
@@ -196,6 +196,7 @@
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_global_test-priyanshu":"global-page-of-test-priyanshu",
+			"e_6a3915a964e7dc5430f4d9ff":"page-2",
 			"e_6a1daf1f53412656816664fe":"homepage"
 		},
 		"manifest":{
@@ -225,6 +226,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_6a3915a964e7dc5430f4d9ff":{
+				"slug":"page-2",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a1daf1f53412656816664fe":{
 				"slug":"homepage",
 				"isPublic":false,
@@ -236,5 +242,5 @@
 	"tags":[
 		
 	],
-	"version":46
+	"version":72
 }
