@@ -2,9 +2,22 @@
 	"createdTime":1782150512055,
 	"deleted":false,
 	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A"
+				],
+				"principalIds":[
+					"44108"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"dadadadasddsa",
-	"lastModifiedBy":44108,
-	"modifiedTime":1782150512306,
+	"lastModifiedBy":30181,
+	"modifiedTime":1782151040136,
 	"ownerUserId":44108,
 	"properties":{
 		"standard":false,
@@ -190,5 +203,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":3
 }
