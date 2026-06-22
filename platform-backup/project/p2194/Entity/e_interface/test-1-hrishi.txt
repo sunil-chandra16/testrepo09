@@ -23,7 +23,7 @@
 	},
 	"id":"test-1-hrishi",
 	"lastModifiedBy":200385,
-	"modifiedTime":1782105492841,
+	"modifiedTime":1782119937838,
 	"ownerUserId":200385,
 	"projectId":2194,
 	"properties":{
@@ -233,7 +233,7 @@
 			"primary":[]
 		},
 		"security":{
-			"type":"PUBLIC"
+			"type":"PRIVATE"
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a33d3e92b71ab31cd183251":"homepage",
@@ -270,5 +270,5 @@
 	"tags":[
 		
 	],
-	"version":51
+	"version":52
 }
