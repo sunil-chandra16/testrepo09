@@ -17,7 +17,7 @@
 	},
 	"id":"mfnkbdjhci",
 	"lastModifiedBy":37040,
-	"modifiedTime":1782122514644,
+	"modifiedTime":1782122529449,
 	"ownerUserId":37040,
 	"properties":{
 		"standard":false,
@@ -225,6 +225,7 @@
 			]
 		},
 		"interfacePageIdVsSlugMap":{
+			"e_global_mfnkbdjhci":"global-page-of-mfnkbdjhci",
 			"e_6a390812d306a665a94c7c05":"homepage"
 		},
 		"manifest":{
@@ -236,6 +237,11 @@
 			"defaultLocale":"en-US"
 		},
 		"entityDetailsMap":{
+			"e_global_mfnkbdjhci":{
+				"slug":"global-page-of-mfnkbdjhci",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a390812d306a665a94c7c05":{
 				"slug":"homepage",
 				"isPublic":false,
@@ -247,5 +253,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":2
 }
