@@ -2,11 +2,11 @@
 	"createdTime":1780915020120,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782123525606,
+		"deployedAt":1782125259150,
 		"deployedBy":199927,
-		"deploymentTag":"v4",
-		"entityVersion":15,
-		"version":4
+		"deploymentTag":"v5",
+		"entityVersion":48,
+		"version":5
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -24,7 +24,7 @@
 	},
 	"id":"test-arnav",
 	"lastModifiedBy":199927,
-	"modifiedTime":1782124272451,
+	"modifiedTime":1782125443668,
 	"ownerUserId":199927,
 	"properties":{
 		"standard":false,
@@ -247,5 +247,5 @@
 	"tags":[
 		
 	],
-	"version":32
+	"version":54
 }
