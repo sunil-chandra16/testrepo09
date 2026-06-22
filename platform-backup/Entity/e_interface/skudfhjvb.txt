@@ -2,9 +2,22 @@
 	"createdTime":1782129426810,
 	"deleted":false,
 	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A"
+				],
+				"principalIds":[
+					"175325"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"skudfhjvb",
 	"lastModifiedBy":175325,
-	"modifiedTime":1782129426903,
+	"modifiedTime":1782129673046,
 	"ownerUserId":175325,
 	"properties":{
 		"standard":false,
@@ -190,5 +203,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":3
 }
