@@ -1,6 +1,12 @@
 {
 	"createdTime":1782108799991,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1782111754585,
+		"deployedBy":44108,
+		"entityVersion":44,
+		"version":1
+	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
@@ -16,8 +22,8 @@
 		]
 	},
 	"id":"yash-test-4",
-	"lastModifiedBy":48862,
-	"modifiedTime":1782110787243,
+	"lastModifiedBy":195854,
+	"modifiedTime":1782112172411,
 	"ownerUserId":195848,
 	"properties":{
 		"standard":false,
@@ -230,5 +236,5 @@
 	"tags":[
 		
 	],
-	"version":29
+	"version":56
 }
