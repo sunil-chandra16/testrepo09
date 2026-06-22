@@ -1,6 +1,12 @@
 {
 	"createdTime":1782154992907,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1782155547168,
+		"deployedBy":30179,
+		"entityVersion":6,
+		"version":2
+	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
@@ -17,7 +23,7 @@
 	},
 	"id":"self-sufficient-mobile-app",
 	"lastModifiedBy":30179,
-	"modifiedTime":1782154998686,
+	"modifiedTime":1782155547171,
 	"ownerUserId":30179,
 	"properties":{
 		"standard":false,
@@ -205,11 +211,11 @@
 					"image":"https://assets.unifyapps.com/images/platform/brand-assets/splash-icon-light.png",
 					"backgroundColor":"#182230"
 				},
-				"imageWidth":1024.0,
+				"imageWidth":300.0,
 				"image":"https://assets.unifyapps.com/images/platform/brand-assets/splash-icon-dark.png",
 				"backgroundColor":"#FFFFFF",
 				"imageFit":"contain",
-				"imageHeight":1024.0
+				"imageHeight":300.0
 			},
 			"brandAssets":{
 				"ios":{
@@ -230,6 +236,9 @@
 		"locale":{
 			"defaultLocale":"en-US"
 		},
+		"nativeDeveloperConfig":{
+			"clientConfig":"{\n  \"version\": \"1.0.0\",\n  \"bundleIdentifier\": \"com.ua.self-sufficient-mobile-app\",\n  \"associatedDomains\": [\n    \"applinks:qa.unifyapps.com\",\n    \"applinks:prod.unifyapps.com\",\n    \"applinks:prod-aps1.unifyapps.com\"\n  ],\n  \"intentFilters\": [\n    {\n      \"action\": \"VIEW\",\n      \"category\": [\n        \"DEFAULT\",\n        \"BROWSABLE\"\n      ],\n      \"data\": {\n        \"scheme\": \"matrix\",\n        \"host\": \"open\"\n      }\n    },\n    {\n      \"action\": \"VIEW\",\n      \"autoVerify\": true,\n      \"category\": [\n        \"DEFAULT\",\n        \"BROWSABLE\"\n      ],\n      \"data\": [\n        {\n          \"scheme\": \"https\",\n          \"host\": \"qa.unifyapps.com\",\n          \"pathPrefix\": \"/\"\n        },\n        {\n          \"scheme\": \"https\",\n          \"host\": \"prod.unifyapps.com\",\n          \"pathPrefix\": \"/\"\n        },\n        {\n          \"scheme\": \"https\",\n          \"host\": \"prod-aps1.unifyapps.com\",\n          \"pathPrefix\": \"/\"\n        }\n      ]\n    }\n  ],\n  \"appVariant\": \"\",\n  \"defaultLocale\": \"en-US\",\n  \"supportsTablet\": false,\n  \"expoProject\": {\n    \"slug\": \"self-sufficient-mobile-app\",\n    \"scheme\": \"self-sufficient-mobile-app\",\n    \"projectId\": \"e_6a3986f148dd2a186b4a4962\"\n  },\n  \"expoPlugins\": [],\n  \"shouldShowDebugMenu\": false,\n  \"orientation\": \"default\",\n  \"userInterfaceStyle\": \"light\",\n  \"notification\": {\n    \"icon\": \"https://assets.unifyapps.com/images/platform/brand-assets/android-foreground.png\",\n    \"color\": \"#FFFFFF\",\n    \"username\": \"self-sufficient-mobile-app\",\n    \"experienceId\": \"@ua/self-sufficient-mobile-app\"\n  },\n  \"androidStatusBar\": {\n    \"barStyle\": \"light-content\"\n  },\n  \"androidNavigationBar\": {\n    \"barStyle\": \"dark-content\"\n  },\n  \"ios\": {\n    \"infoPlist\": {},\n    \"googleServicesFile\": \"./firebase/GoogleService-Info.plist\",\n    \"entitlements\": {}\n  },\n  \"android\": {\n    \"permissions\": [],\n    \"blockedPermissions\": [],\n    \"googleServicesFile\": \"./firebase/google-services.json\"\n  }\n}"
+		},
 		"entityDetailsMap":{
 			"e_global_self-sufficient-mobile-app":{
 				"slug":"global-page-of-self-sufficient-mobile-app",
@@ -247,5 +256,5 @@
 	"tags":[
 		
 	],
-	"version":2
+	"version":6
 }
