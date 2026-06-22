@@ -23,7 +23,7 @@
 	},
 	"id":"mint",
 	"lastModifiedBy":200386,
-	"modifiedTime":1782120642128,
+	"modifiedTime":1782125119909,
 	"ownerUserId":200386,
 	"projectId":2193,
 	"properties":{
@@ -233,6 +233,9 @@
 			},
 			"primary":[]
 		},
+		"security":{
+			"type":"PUBLIC"
+		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a33d16ad02fd63518918926":"homepage",
 			"e_6a33d4d6319df735b3042516":"onboarding"
@@ -269,5 +272,5 @@
 	"tags":[
 		
 	],
-	"version":74
+	"version":75
 }
