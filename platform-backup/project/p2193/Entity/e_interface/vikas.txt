@@ -23,7 +23,7 @@
 	},
 	"id":"vikas",
 	"lastModifiedBy":200386,
-	"modifiedTime":1782126448081,
+	"modifiedTime":1782127367464,
 	"ownerUserId":200386,
 	"projectId":2193,
 	"properties":{
@@ -201,6 +201,9 @@
 			},
 			"primary":[]
 		},
+		"security":{
+			"type":"PUBLIC"
+		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a39172eaa4b16591d1142ee":"homepage",
 			"e_global_vikas":"global-page-of-vikas"
@@ -255,5 +258,5 @@
 	"tags":[
 		
 	],
-	"version":8
+	"version":9
 }
