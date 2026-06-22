@@ -22,8 +22,8 @@
 		]
 	},
 	"id":"test-aman",
-	"lastModifiedBy":48069,
-	"modifiedTime":1782134798844,
+	"lastModifiedBy":195456,
+	"modifiedTime":1782137224732,
 	"ownerUserId":195291,
 	"properties":{
 		"standard":false,
@@ -39,7 +39,7 @@
 			"_counter":{
 				"_mqttTopicCounter":1,
 				"_dataSourceCounter":1,
-				"_pageCount":2,
+				"_pageCount":3,
 				"_moduleCount":0,
 				"_variableCounter":1,
 				"_functionCounter":1
@@ -55,6 +55,9 @@
 		"type":"application",
 		"locale":{
 			"defaultLocale":"en-US"
+		},
+		"customCode":{
+			"header":"[data-block-id='b_0C8Aj'][open='true'] {\n  background-color: red !important;\n}"
 		},
 		"navigation":{
 			"secondary":[],
@@ -217,9 +220,10 @@
 			"type":"PUBLIC"
 		},
 		"interfacePageIdVsSlugMap":{
-			"e_global_test-aman":"global-page-of-test-aman",
 			"e_69f50b05528a3d16a028b6a7":"page-2",
-			"e_699d88bc7da5e32d64bce0f0":"homepage"
+			"e_699d88bc7da5e32d64bce0f0":"homepage",
+			"e_global_test-aman":"global-page-of-test-aman",
+			"e_6a393e5644207428d42a5cc0":"page-3"
 		},
 		"mqttTopics":[
 			{
@@ -249,11 +253,6 @@
 			]
 		},
 		"entityDetailsMap":{
-			"e_global_test-aman":{
-				"slug":"global-page-of-test-aman",
-				"isPublic":false,
-				"type":"PAGE"
-			},
 			"e_69f50b05528a3d16a028b6a7":{
 				"slug":"page-2",
 				"isPublic":false,
@@ -261,6 +260,16 @@
 			},
 			"e_699d88bc7da5e32d64bce0f0":{
 				"slug":"homepage",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_global_test-aman":{
+				"slug":"global-page-of-test-aman",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a393e5644207428d42a5cc0":{
+				"slug":"page-3",
 				"isPublic":false,
 				"type":"PAGE"
 			}
@@ -273,5 +282,5 @@
 	"tags":[
 		
 	],
-	"version":58
+	"version":141
 }
