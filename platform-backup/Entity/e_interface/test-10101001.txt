@@ -17,7 +17,7 @@
 	},
 	"id":"test-10101001",
 	"lastModifiedBy":504,
-	"modifiedTime":1782136248237,
+	"modifiedTime":1782136300146,
 	"ownerUserId":196502,
 	"properties":{
 		"standard":false,
@@ -29,6 +29,12 @@
 				"small":"https://assets.unifyapps.com/user-uploads/theme/unify.svg",
 				"large":"https://assets.unifyapps.com/user-uploads/theme/unify-logo.svg",
 				"favicon":"/favicon.png"
+			},
+			"advanced":{
+				"location":{
+					"enable":false,
+					"liveTrackingMode":"manual"
+				}
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
@@ -237,5 +243,5 @@
 	"tags":[
 		
 	],
-	"version":37
+	"version":38
 }
