@@ -2,10 +2,10 @@
 	"createdTime":1781701580982,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782113460652,
+		"deployedAt":1782113532586,
 		"deployedBy":200385,
-		"entityVersion":7,
-		"version":4
+		"entityVersion":8,
+		"version":5
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -23,7 +23,7 @@
 	},
 	"id":"safe-test-native-app",
 	"lastModifiedBy":200385,
-	"modifiedTime":1782113460654,
+	"modifiedTime":1782113532587,
 	"ownerUserId":196379,
 	"properties":{
 		"standard":false,
@@ -232,7 +232,7 @@
 			"primary":[]
 		},
 		"security":{
-			"type":"PUBLIC"
+			"type":"PRIVATE"
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_global_safe-test-native-app":"global-page-of-safe-test-native-app",
@@ -269,5 +269,5 @@
 	"tags":[
 		"Do Not Touch"
 	],
-	"version":7
+	"version":8
 }
