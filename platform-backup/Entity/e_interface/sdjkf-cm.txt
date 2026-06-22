@@ -17,7 +17,7 @@
 	},
 	"id":"sdjkf-cm",
 	"lastModifiedBy":175325,
-	"modifiedTime":1781969464100,
+	"modifiedTime":1782123522396,
 	"ownerUserId":175325,
 	"properties":{
 		"standard":false,
@@ -32,6 +32,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
+				"_dataSourceCounter":1,
 				"_pageCount":1,
 				"_moduleCount":0,
 				"_templateComponentCount":0
@@ -253,5 +254,5 @@
 	"tags":[
 		
 	],
-	"version":5
+	"version":10
 }
