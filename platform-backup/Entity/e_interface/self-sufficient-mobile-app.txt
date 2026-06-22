@@ -2,10 +2,10 @@
 	"createdTime":1782154992907,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782155547168,
+		"deployedAt":1782160092708,
 		"deployedBy":30179,
-		"entityVersion":6,
-		"version":2
+		"entityVersion":24,
+		"version":5
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -23,7 +23,7 @@
 	},
 	"id":"self-sufficient-mobile-app",
 	"lastModifiedBy":30179,
-	"modifiedTime":1782155547171,
+	"modifiedTime":1782160092709,
 	"ownerUserId":30179,
 	"properties":{
 		"standard":false,
@@ -208,26 +208,26 @@
 			"type":"MOBILE",
 			"splashScreen":{
 				"dark":{
-					"image":"https://assets.unifyapps.com/images/platform/brand-assets/splash-icon-light.png",
-					"backgroundColor":"#182230"
+					"image":"/api/file/asset/download/6a399a9605fce20da89774bd",
+					"backgroundColor":"#000000"
 				},
-				"imageWidth":300.0,
-				"image":"https://assets.unifyapps.com/images/platform/brand-assets/splash-icon-dark.png",
-				"backgroundColor":"#FFFFFF",
+				"imageWidth":200.0,
+				"image":"/api/file/asset/download/6a399a9005fce20da89774bb",
+				"backgroundColor":"#000000",
 				"imageFit":"contain",
-				"imageHeight":300.0
+				"imageHeight":200.0
 			},
 			"brandAssets":{
 				"ios":{
-					"darkModeLogo":"https://assets.unifyapps.com/images/platform/brand-assets/ios-dark.png",
-					"lightModeLogo":"https://assets.unifyapps.com/images/platform/brand-assets/ios-light.png",
-					"tintedLogo":"https://assets.unifyapps.com/images/platform/brand-assets/ios-tinted.png"
+					"darkModeLogo":"/api/file/asset/download/6a399a7505fce20da89774b7",
+					"lightModeLogo":"/api/file/asset/download/6a399a7105fce20da89774b5",
+					"tintedLogo":"/api/file/asset/download/6a399a7e05fce20da89774b9"
 				},
 				"android":{
-					"backgroundColor":"#FFFFFF",
-					"foregroundLogo":"https://assets.unifyapps.com/images/platform/brand-assets/android-foreground.png",
-					"monochromeLogo":"https://assets.unifyapps.com/images/platform/brand-assets/android-monochrome.png",
-					"backgroundType":"Color"
+					"backgroundColor":"#000000",
+					"foregroundLogo":"/api/file/asset/download/6a399a4e05fce20da89774b1",
+					"backgroundType":"Color",
+					"monochromeLogo":"/api/file/asset/download/6a399ad405fce20da89774bf"
 				}
 			}
 		},
@@ -256,5 +256,5 @@
 	"tags":[
 		
 	],
-	"version":6
+	"version":24
 }
