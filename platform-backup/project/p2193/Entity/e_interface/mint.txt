@@ -2,10 +2,10 @@
 	"createdTime":1781780842058,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782120642125,
+		"deployedAt":1782125335295,
 		"deployedBy":200386,
-		"entityVersion":74,
-		"version":2
+		"entityVersion":75,
+		"version":3
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -23,7 +23,7 @@
 	},
 	"id":"mint",
 	"lastModifiedBy":200386,
-	"modifiedTime":1782125119909,
+	"modifiedTime":1782125335298,
 	"ownerUserId":200386,
 	"projectId":2193,
 	"properties":{
