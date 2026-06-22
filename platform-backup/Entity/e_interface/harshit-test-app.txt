@@ -2,10 +2,10 @@
 	"createdTime":1771321084316,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781964082683,
-		"deployedBy":196385,
-		"entityVersion":288,
-		"version":37
+		"deployedAt":1782111989415,
+		"deployedBy":200385,
+		"entityVersion":293,
+		"version":38
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -22,8 +22,8 @@
 		]
 	},
 	"id":"harshit-test-app",
-	"lastModifiedBy":27,
-	"modifiedTime":1781964968549,
+	"lastModifiedBy":200386,
+	"modifiedTime":1782112234410,
 	"ownerUserId":196385,
 	"properties":{
 		"standard":false,
@@ -45,9 +45,12 @@
 			"_counter":{
 				"_moduleCount":0,
 				"_mqttTopicCounter":0,
-				"_pageCount":4
+				"_pageCount":5
 			}
 		},
+		"publicPageIds":[
+			"e_6a38dfe763809f29ff63aaf9"
+		],
 		"manifest":{
 			"type":"MOBILE",
 			"brandAssets":{
@@ -256,6 +259,7 @@
 			"e_699436fc8e772969642d9bce":"homepage",
 			"e_6a339e09f76ace6fd36b720f":"register",
 			"e_6a36a0a6f6d23a754f7ed75d":"page-4",
+			"e_6a38dfe763809f29ff63aaf9":"vikas",
 			"e_6a339955f76ace6fd36b5f9e":"login"
 		},
 		"paths":{
@@ -301,6 +305,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_6a38dfe763809f29ff63aaf9":{
+				"slug":"vikas",
+				"isPublic":true,
+				"type":"PAGE"
+			},
 			"e_6a339955f76ace6fd36b5f9e":{
 				"slug":"login",
 				"isPublic":false,
@@ -324,5 +333,5 @@
 	"tags":[
 		
 	],
-	"version":291
+	"version":295
 }
