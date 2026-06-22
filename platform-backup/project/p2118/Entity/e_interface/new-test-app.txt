@@ -1,6 +1,12 @@
 {
 	"createdTime":1782157654027,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1782157688702,
+		"deployedBy":161875,
+		"entityVersion":7,
+		"version":1
+	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
@@ -17,7 +23,7 @@
 	},
 	"id":"new-test-app",
 	"lastModifiedBy":161875,
-	"modifiedTime":1782157657209,
+	"modifiedTime":1782157688704,
 	"ownerUserId":161875,
 	"projectId":2118,
 	"properties":{
@@ -196,6 +202,7 @@
 			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
+			"e_global_new-test-app":"global-page-of-new-test-app",
 			"e_6a39915948dd2a186b4a4eff":"homepage"
 		},
 		"manifest":{
@@ -207,6 +214,11 @@
 			"defaultLocale":"en-US"
 		},
 		"entityDetailsMap":{
+			"e_global_new-test-app":{
+				"slug":"global-page-of-new-test-app",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a39915948dd2a186b4a4eff":{
 				"slug":"homepage",
 				"isPublic":false,
@@ -218,5 +230,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":7
 }
