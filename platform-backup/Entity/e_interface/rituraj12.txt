@@ -23,7 +23,7 @@
 	},
 	"id":"rituraj12",
 	"lastModifiedBy":200384,
-	"modifiedTime":1782129509041,
+	"modifiedTime":1782131005382,
 	"ownerUserId":200384,
 	"properties":{
 		"standard":false,
@@ -42,6 +42,37 @@
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
+		},
+		"manifest":{
+			"type":"MOBILE",
+			"splashScreen":{
+				"dark":{
+					"image":"https://assets.unifyapps.com/images/platform/brand-assets/splash-icon-light.png",
+					"backgroundColor":"#182230"
+				},
+				"imageWidth":1024.0,
+				"image":"https://assets.unifyapps.com/images/platform/brand-assets/splash-icon-dark.png",
+				"backgroundColor":"#FFFFFF",
+				"imageFit":"contain",
+				"imageHeight":1024.0
+			},
+			"brandAssets":{
+				"ios":{
+					"darkModeLogo":"https://assets.unifyapps.com/images/platform/brand-assets/ios-dark.png",
+					"lightModeLogo":"https://assets.unifyapps.com/images/platform/brand-assets/ios-light.png",
+					"tintedLogo":"https://assets.unifyapps.com/images/platform/brand-assets/ios-tinted.png"
+				},
+				"android":{
+					"backgroundColor":"#FFFFFF",
+					"foregroundLogo":"https://assets.unifyapps.com/images/platform/brand-assets/android-foreground.png",
+					"monochromeLogo":"https://assets.unifyapps.com/images/platform/brand-assets/android-monochrome.png",
+					"backgroundType":"Color"
+				}
+			}
+		},
+		"type":"application",
+		"locale":{
+			"defaultLocale":"en-US"
 		},
 		"navigation":{
 			"secondary":[],
@@ -200,36 +231,12 @@
 			},
 			"primary":[]
 		},
+		"security":{
+			"type":"PUBLIC"
+		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a33d0ffd02fd63518918497":"homepage",
 			"e_global_rituraj12":"global-page-of-rituraj12"
-		},
-		"manifest":{
-			"type":"MOBILE",
-			"splashScreen":{
-				"dark":{
-					"image":"https://assets.unifyapps.com/images/platform/brand-assets/splash-icon-light.png",
-					"backgroundColor":"#182230"
-				},
-				"imageWidth":1024.0,
-				"image":"https://assets.unifyapps.com/images/platform/brand-assets/splash-icon-dark.png",
-				"backgroundColor":"#FFFFFF",
-				"imageFit":"contain",
-				"imageHeight":1024.0
-			},
-			"brandAssets":{
-				"ios":{
-					"darkModeLogo":"https://assets.unifyapps.com/images/platform/brand-assets/ios-dark.png",
-					"lightModeLogo":"https://assets.unifyapps.com/images/platform/brand-assets/ios-light.png",
-					"tintedLogo":"https://assets.unifyapps.com/images/platform/brand-assets/ios-tinted.png"
-				},
-				"android":{
-					"backgroundColor":"#FFFFFF",
-					"foregroundLogo":"https://assets.unifyapps.com/images/platform/brand-assets/android-foreground.png",
-					"monochromeLogo":"https://assets.unifyapps.com/images/platform/brand-assets/android-monochrome.png",
-					"backgroundType":"Color"
-				}
-			}
 		},
 		"paths":{
 			"f_root":{
@@ -244,10 +251,6 @@
 		"name":"Rituraj",
 		"theme":{
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
-		},
-		"type":"application",
-		"locale":{
-			"defaultLocale":"en-US"
 		},
 		"entityDetailsMap":{
 			"e_6a33d0ffd02fd63518918497":{
@@ -266,5 +269,5 @@
 	"tags":[
 		
 	],
-	"version":4
+	"version":5
 }
