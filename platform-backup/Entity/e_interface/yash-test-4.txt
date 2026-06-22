@@ -22,8 +22,8 @@
 		]
 	},
 	"id":"yash-test-4",
-	"lastModifiedBy":106,
-	"modifiedTime":1782127515479,
+	"lastModifiedBy":195848,
+	"modifiedTime":1782130079076,
 	"ownerUserId":195848,
 	"properties":{
 		"standard":false,
@@ -214,6 +214,12 @@
 			"type":"WEB"
 		},
 		"name":"yash-test-4",
+		"theme":{
+			"customColors":[
+				"#00FF45AD",
+				"#B6FFB8FF"
+			]
+		},
 		"type":"application",
 		"locale":{
 			"defaultLocale":"en-US"
@@ -255,5 +261,5 @@
 	"tags":[
 		
 	],
-	"version":211
+	"version":252
 }
