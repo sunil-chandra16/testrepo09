@@ -17,7 +17,7 @@
 	},
 	"id":"dsadsasdsad",
 	"lastModifiedBy":44108,
-	"modifiedTime":1782219450939,
+	"modifiedTime":1782219452103,
 	"ownerUserId":44108,
 	"properties":{
 		"standard":false,
@@ -195,7 +195,8 @@
 			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
-			"e_6a3a82bafd694f6afa6034ac":"homepagefasfd"
+			"e_6a3a82bafd694f6afa6034ac":"homepagefasfd",
+			"e_global_dsadsasdsad":"global-page-of-dsadsasdsad"
 		},
 		"manifest":{
 			"type":"WEB"
@@ -210,6 +211,11 @@
 				"slug":"homepagefasfd",
 				"isPublic":false,
 				"type":"PAGE"
+			},
+			"e_global_dsadsasdsad":{
+				"slug":"global-page-of-dsadsasdsad",
+				"isPublic":false,
+				"type":"PAGE"
 			}
 		}
 	},
@@ -217,5 +223,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":2
 }
