@@ -23,7 +23,7 @@
 	},
 	"id":"test-native-app",
 	"lastModifiedBy":196379,
-	"modifiedTime":1782237981053,
+	"modifiedTime":1782239419178,
 	"ownerUserId":196379,
 	"properties":{
 		"standard":false,
@@ -356,7 +356,8 @@
 				"#1F3A8AFF",
 				"#B4BDD8FF",
 				"#FAFAFAFF",
-				"#7692CAFF"
+				"#7692CAFF",
+				"#5FFF71FF"
 			]
 		},
 		"entityDetailsMap":{
@@ -456,5 +457,5 @@
 	"tags":[
 		"DO NOT TOUCH"
 	],
-	"version":1686
+	"version":1709
 }
