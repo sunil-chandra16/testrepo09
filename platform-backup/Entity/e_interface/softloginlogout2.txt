@@ -2,10 +2,10 @@
 	"createdTime":1782131066195,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782200945132,
+		"deployedAt":1782202023897,
 		"deployedBy":200384,
-		"entityVersion":29,
-		"version":8
+		"entityVersion":33,
+		"version":11
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -23,7 +23,7 @@
 	},
 	"id":"softloginlogout2",
 	"lastModifiedBy":200384,
-	"modifiedTime":1782200945134,
+	"modifiedTime":1782202023904,
 	"ownerUserId":200384,
 	"properties":{
 		"standard":false,
@@ -201,7 +201,7 @@
 			"primary":[]
 		},
 		"security":{
-			"type":"PRIVATE"
+			"type":"PUBLIC"
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a39297afa26413291199c28":"homepage",
@@ -256,5 +256,5 @@
 	"tags":[
 		
 	],
-	"version":29
+	"version":34
 }
