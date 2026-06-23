@@ -2,10 +2,10 @@
 	"createdTime":1755777831535,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782141054753,
-		"deployedBy":426,
-		"entityVersion":281,
-		"version":57
+		"deployedAt":1782214057253,
+		"deployedBy":-1,
+		"entityVersion":282,
+		"version":58
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -37,8 +37,8 @@
 		]
 	},
 	"id":"custom-features",
-	"lastModifiedBy":426,
-	"modifiedTime":1782141054756,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782214068611,
 	"ownerUserId":3952,
 	"properties":{
 		"standard":false,
@@ -47,8 +47,8 @@
 		},
 		"metadata":{
 			"logo":{
-				"small":"https://assets.unifyapps.com/user-uploads/theme/unify.svg",
 				"large":"https://assets.unifyapps.com/user-uploads/theme/unify-logo.svg",
+				"small":"https://assets.unifyapps.com/user-uploads/theme/unify.svg",
 				"favicon":"/favicon.ico"
 			},
 			"_counter":{
@@ -57,41 +57,48 @@
 			}
 		},
 		"navigation":{
+			"defaultPageId":"e_68a70b44d6938355b8d414e0",
 			"secondary":[
 				{
-					"name":"Notifications",
 					"icon":"SvgNotification",
+					"name":"Notifications",
 					"action":"showNotifications",
 					"id":"notifications",
 					"type":"ACTION"
+				},
+				{
+					"name":"Profile",
+					"type":"USER_MENU",
+					"id":"userMenu"
 				}
 			],
-			"defaultPageId":"e_68a70b44d6938355b8d414e0",
 			"appearance":{
 				"SM":{
 					"navigationBar":{
-						"position":"bottom",
-						"type":"fixed",
 						"navigatorType":"BottomTabsNavigator",
 						"overflowDetails":{
 							"icon":"Menu01",
 							"label":"More"
-						}
+						},
+						"position":"bottom",
+						"type":"fixed"
 					},
+					"navigationItem":{
+						"labelVariant":"none",
+						"selectionVariant":"stroke"
+					},
+					"primary":[],
 					"secondary":[
 						{
-							"id":"notifications",
-							"hiddenInOverflow":false
+							"hiddenInOverflow":false,
+							"id":"notifications"
+						},
+						{
+							"hiddenInOverflow":false,
+							"id":"userMenu"
 						}
 					],
-					"navigationItem":{
-						"selectionVariant":"stroke",
-						"labelVariant":"none"
-					},
 					"styles":{
-						"padding":{
-							"all":"p-0"
-						},
 						"borderColor":"border-tertiary",
 						"borderRadius":{
 							"all":"rounded-none"
@@ -99,37 +106,42 @@
 						"borderWidth":{
 							"t":"border-t"
 						},
-						"width":"w-auto",
 						"height":{
 							"custom":"56px"
-						}
+						},
+						"padding":{
+							"all":"p-0"
+						},
+						"width":"w-auto"
 					},
-					"primary":[]
+					"userMenu":[]
 				},
 				"LG":{
 					"navigationBar":{
-						"position":"start",
-						"type":"fixed",
 						"navigatorType":"None",
 						"overflowDetails":{
 							"icon":"Menu01",
 							"label":"More"
-						}
+						},
+						"position":"start",
+						"type":"fixed"
 					},
+					"navigationItem":{
+						"labelVariant":"none",
+						"selectionVariant":"stroke"
+					},
+					"primary":[],
 					"secondary":[
 						{
-							"id":"notifications",
-							"hiddenInOverflow":false
+							"hiddenInOverflow":false,
+							"id":"notifications"
+						},
+						{
+							"hiddenInOverflow":false,
+							"id":"userMenu"
 						}
 					],
-					"navigationItem":{
-						"selectionVariant":"stroke",
-						"labelVariant":"none"
-					},
 					"styles":{
-						"padding":{
-							"t":"pt-lg"
-						},
 						"borderColor":"border-tertiary",
 						"borderRadius":{
 							"all":"rounded-none"
@@ -143,37 +155,54 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						},
+						"height":"h-auto",
+						"padding":{
+							"t":"pt-lg"
+						},
 						"width":{
 							"custom":"56px"
-						},
-						"height":"h-auto"
+						}
 					},
-					"primary":[]
+					"userMenu":[]
 				},
 				"XL":{
 					"navigationBar":{
-						"position":"start",
-						"type":"fixed",
-						"navigatorType":"None",
+						"navigatorType":"Standard",
 						"overflowDetails":{
 							"icon":"Menu01",
 							"label":"More"
+						},
+						"position":"start",
+						"type":"fixed"
+					},
+					"navigationItem":{
+						"background":{
+							"colors":{}
+						},
+						"icon":{
+							"colors":{},
+							"size":"md"
+						},
+						"labelVariant":"expandable",
+						"selectionVariant":"stroke",
+						"text":{
+							"colors":{},
+							"variant":"text-sm",
+							"weight":"semi-bold"
 						}
 					},
+					"primary":[],
 					"secondary":[
 						{
-							"id":"notifications",
-							"hiddenInOverflow":false
+							"hiddenInOverflow":false,
+							"id":"notifications"
+						},
+						{
+							"hiddenInOverflow":false,
+							"id":"userMenu"
 						}
 					],
-					"navigationItem":{
-						"selectionVariant":"stroke",
-						"labelVariant":"expandable"
-					},
 					"styles":{
-						"padding":{
-							"t":"pt-lg"
-						},
 						"borderColor":"border-tertiary",
 						"borderRadius":{
 							"all":"rounded-none"
@@ -187,37 +216,48 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						},
+						"height":"h-auto",
+						"padding":{
+							"t":"pt-lg"
+						},
 						"width":{
 							"custom":"56px"
-						},
-						"height":"h-auto"
+						}
 					},
-					"primary":[]
+					"theme":"inherit",
+					"userMenu":[],
+					"userReordered":{
+						"primary":false,
+						"secondary":false,
+						"userMenu":false
+					}
 				},
 				"MD":{
 					"navigationBar":{
-						"position":"start",
-						"type":"fixed",
 						"navigatorType":"None",
 						"overflowDetails":{
 							"icon":"Menu01",
 							"label":"More"
-						}
+						},
+						"position":"start",
+						"type":"fixed"
 					},
+					"navigationItem":{
+						"labelVariant":"none",
+						"selectionVariant":"stroke"
+					},
+					"primary":[],
 					"secondary":[
 						{
-							"id":"notifications",
-							"hiddenInOverflow":false
+							"hiddenInOverflow":false,
+							"id":"notifications"
+						},
+						{
+							"hiddenInOverflow":false,
+							"id":"userMenu"
 						}
 					],
-					"navigationItem":{
-						"selectionVariant":"stroke",
-						"labelVariant":"none"
-					},
 					"styles":{
-						"padding":{
-							"t":"pt-lg"
-						},
 						"borderColor":"border-tertiary",
 						"borderRadius":{
 							"all":"rounded-none"
@@ -231,47 +271,68 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						},
+						"height":"h-auto",
+						"padding":{
+							"t":"pt-lg"
+						},
 						"width":{
 							"custom":"56px"
-						},
-						"height":"h-auto"
+						}
 					},
-					"primary":[]
+					"userMenu":[]
 				}
 			},
 			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
-			"e_global_custom-features":"global-page-of-custom-features",
-			"e_6a35528dfa00886d7078c5c4":"page-3",
+			"e_6a3146d8b1ba9c55dd436b78":"page-2",
 			"e_68a70b44d6938355b8d414e0":"homepage"
 		},
 		"manifest":{
 			"type":"WEB"
 		},
-		"name":"Custom Features",
-		"type":"application",
-		"locale":{
-			"defaultLocale":"en-US"
+		"paths":{
+			"f_root":{
+				"children":[
+					"e_68a70b44d6938355b8d414e0",
+					"e_6a3146d8b1ba9c55dd436b78"
+				],
+				"id":"f_root",
+				"path":"/",
+				"segment":""
+			}
 		},
+		"name":"Custom Features",
+		"theme":{
+			"cssVars":{},
+			"defaultScheme":"light",
+			"output":"\n      .interface-theme,\n      .interface-theme [data-color-scheme='light'] {\n        \n      }\n    \n        .interface-theme[data-color-scheme='dark'],\n        .interface-theme [data-color-scheme='dark'] {\n          \n        }\n      "
+		},
+		"locale":{
+			"defaultLocale":"en-US",
+			"supportedLocales":[
+				"ar-SA"
+			]
+		},
+		"type":"application",
 		"entityDetailsMap":{
-			"e_global_custom-features":{
-				"slug":"global-page-of-custom-features",
+			"e_6a3146d8b1ba9c55dd436b78":{
 				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_6a35528dfa00886d7078c5c4":{
-				"slug":"page-3",
-				"isPublic":false,
+				"slug":"page-2",
 				"type":"PAGE"
 			},
 			"e_68a70b44d6938355b8d414e0":{
-				"slug":"homepage",
 				"isPublic":false,
+				"slug":"homepage",
 				"type":"PAGE"
 			}
 		}
 	},
 	"standard":true,
-	"version":281
+	"tags":[
+		"text-to-lowcode",
+		"text-to-workflow",
+		"text-to-agent"
+	],
+	"version":282
 }
