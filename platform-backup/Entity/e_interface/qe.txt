@@ -17,7 +17,7 @@
 	},
 	"id":"qe",
 	"lastModifiedBy":196524,
-	"modifiedTime":1782183231266,
+	"modifiedTime":1782183234129,
 	"ownerUserId":196524,
 	"properties":{
 		"standard":false,
@@ -195,6 +195,7 @@
 			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
+			"e_global_qe":"global-page-of-qe",
 			"e_6a39f53f48dd2a186b4a7221":"homepage"
 		},
 		"manifest":{
@@ -206,6 +207,11 @@
 			"defaultLocale":"en-US"
 		},
 		"entityDetailsMap":{
+			"e_global_qe":{
+				"slug":"global-page-of-qe",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a39f53f48dd2a186b4a7221":{
 				"slug":"homepage",
 				"isPublic":false,
@@ -217,5 +223,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":2
 }
