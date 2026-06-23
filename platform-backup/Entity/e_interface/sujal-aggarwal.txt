@@ -22,8 +22,8 @@
 		]
 	},
 	"id":"sujal-aggarwal",
-	"lastModifiedBy":79723,
-	"modifiedTime":1782220067045,
+	"lastModifiedBy":195414,
+	"modifiedTime":1782221495663,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -35,6 +35,12 @@
 				"small":"https://assets.unifyapps.com/user-uploads/theme/unify.svg",
 				"large":"https://assets.unifyapps.com/user-uploads/theme/unify-logo.svg",
 				"favicon":"/favicon.png"
+			},
+			"advanced":{
+				"location":{
+					"enable":false,
+					"liveTrackingMode":"manual"
+				}
 			},
 			"_counter":{
 				"_pageCount":16,
@@ -563,5 +569,5 @@
 	"tags":[
 		
 	],
-	"version":4803
+	"version":4804
 }
