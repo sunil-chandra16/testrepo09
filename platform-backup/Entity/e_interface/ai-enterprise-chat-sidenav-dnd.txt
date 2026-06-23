@@ -2,10 +2,10 @@
 	"createdTime":1774197091399,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781708839081,
-		"deployedBy":929,
-		"entityVersion":95,
-		"version":7
+		"deployedAt":1782214060982,
+		"deployedBy":-1,
+		"entityVersion":105,
+		"version":8
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -28,8 +28,8 @@
 		]
 	},
 	"id":"ai-enterprise-chat-sidenav-dnd",
-	"lastModifiedBy":193338,
-	"modifiedTime":1781816908352,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782214068613,
 	"ownerUserId":195388,
 	"properties":{
 		"standard":false,
@@ -38,23 +38,17 @@
 		},
 		"metadata":{
 			"logo":{
-				"small":"https://assets.unifyapps.com/user-uploads/theme/unify.svg",
 				"large":"https://assets.unifyapps.com/user-uploads/theme/unify-logo.svg",
+				"small":"https://assets.unifyapps.com/user-uploads/theme/unify.svg",
 				"favicon":"/favicon.png"
-			},
-			"advanced":{
-				"location":{
-					"enable":false,
-					"liveTrackingMode":"manual"
-				}
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
 				"_dataSourceCounter":3,
 				"_pageCount":0,
 				"_moduleCount":1,
-				"_variableCounter":11,
-				"_functionCounter":7
+				"_variableCounter":7,
+				"_functionCounter":3
 			}
 		},
 		"publicPageIds":[],
@@ -64,36 +58,33 @@
 		"pagePermissions":{
 			"e_69be591d7b54584731dd4fae":{}
 		},
-		"type":"module",
 		"locale":{
 			"defaultLocale":"en-US"
 		},
+		"type":"module",
 		"customCode":{
 			"header":"<style>\n  :root {\n    /* navbar tokens */\n    --text-navigation-primary: #FFFFFFFA;\n    --text-navigation-secondary: #FFFFFFCC;\n    --text-navigation-tertiary: rgba(255, 255, 255, 0.60);\n    --text-navigation-quaternary: #FFFFFF4D;\n    --bg-navigation-hover: #FFFFFF0D;\n    --bg-navigation-selected: #FFFFFF1A;\n    --bg-navigation-selected-hover: #FFFFFF21;\n    --border-navigation_10: #FFFFFF1A;\n    --border-navigation_5: #FFFFFF0D;\n  }\n  \n  [data-block-type=\"Menu\"] [data-selected=true]:not(:hover) {\n    background-color: transparent;\n  }\n\n  [data-block-type=\"Menu\"] li {\n    font-weight: 500;\n    padding-right: 12px;\n    margin-top: 0px;\n    margin-bottom: 0px;\n  }\n\n</style>"
 		},
 		"navigation":{
-			"secondary":[],
 			"defaultPageId":"e_69be591d7b54584731dd4fae",
+			"secondary":[],
 			"appearance":{
 				"SM":{
 					"navigationBar":{
-						"position":"bottom",
-						"type":"fixed",
 						"navigatorType":"BottomTabsNavigator",
 						"overflowDetails":{
 							"icon":"Menu01",
 							"label":"More"
-						}
+						},
+						"position":"bottom",
+						"type":"fixed"
 					},
 					"navigationItem":{
-						"selectionVariant":"stroke",
-						"labelVariant":"none"
+						"labelVariant":"none",
+						"selectionVariant":"stroke"
 					},
+					"primary":[],
 					"styles":{
-						"width":"w-auto",
-						"padding":{
-							"all":"p-0"
-						},
 						"borderColor":"border-tertiary",
 						"borderRadius":{
 							"all":"rounded-none"
@@ -103,28 +94,29 @@
 						},
 						"height":{
 							"custom":"56px"
-						}
-					},
-					"primary":[]
+						},
+						"padding":{
+							"all":"p-0"
+						},
+						"width":"w-auto"
+					}
 				},
 				"LG":{
 					"navigationBar":{
-						"position":"start",
-						"type":"fixed",
 						"navigatorType":"None",
 						"overflowDetails":{
 							"icon":"Menu01",
 							"label":"More"
-						}
+						},
+						"position":"start",
+						"type":"fixed"
 					},
 					"navigationItem":{
-						"selectionVariant":"stroke",
-						"labelVariant":"none"
+						"labelVariant":"none",
+						"selectionVariant":"stroke"
 					},
+					"primary":[],
 					"styles":{
-						"padding":{
-							"t":"pt-lg"
-						},
 						"borderColor":"border-tertiary",
 						"borderRadius":{
 							"all":"rounded-none"
@@ -138,31 +130,31 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						},
+						"height":"h-auto",
+						"padding":{
+							"t":"pt-lg"
+						},
 						"width":{
 							"custom":"56px"
-						},
-						"height":"h-auto"
-					},
-					"primary":[]
+						}
+					}
 				},
 				"XL":{
 					"navigationBar":{
-						"position":"start",
-						"type":"fixed",
 						"navigatorType":"None",
 						"overflowDetails":{
 							"icon":"Menu01",
 							"label":"More"
-						}
+						},
+						"position":"start",
+						"type":"fixed"
 					},
 					"navigationItem":{
-						"selectionVariant":"stroke",
-						"labelVariant":"expandable"
+						"labelVariant":"expandable",
+						"selectionVariant":"stroke"
 					},
+					"primary":[],
 					"styles":{
-						"padding":{
-							"t":"pt-lg"
-						},
 						"borderColor":"border-tertiary",
 						"borderRadius":{
 							"all":"rounded-none"
@@ -176,31 +168,31 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						},
+						"height":"h-auto",
+						"padding":{
+							"t":"pt-lg"
+						},
 						"width":{
 							"custom":"56px"
-						},
-						"height":"h-auto"
-					},
-					"primary":[]
+						}
+					}
 				},
 				"MD":{
 					"navigationBar":{
-						"position":"start",
-						"type":"fixed",
 						"navigatorType":"None",
 						"overflowDetails":{
 							"icon":"Menu01",
 							"label":"More"
-						}
+						},
+						"position":"start",
+						"type":"fixed"
 					},
 					"navigationItem":{
-						"selectionVariant":"stroke",
-						"labelVariant":"none"
+						"labelVariant":"none",
+						"selectionVariant":"stroke"
 					},
+					"primary":[],
 					"styles":{
-						"padding":{
-							"t":"pt-lg"
-						},
 						"borderColor":"border-tertiary",
 						"borderRadius":{
 							"all":"rounded-none"
@@ -214,12 +206,14 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						},
+						"height":"h-auto",
+						"padding":{
+							"t":"pt-lg"
+						},
 						"width":{
 							"custom":"56px"
-						},
-						"height":"h-auto"
-					},
-					"primary":[]
+						}
+					}
 				}
 			},
 			"primary":[]
@@ -230,8 +224,8 @@
 		"name":"AI | Enterprise Chat | Sidenav (DND)",
 		"entityDetailsMap":{
 			"e_69be591d7b54584731dd4fae":{
-				"slug":"",
 				"isPublic":false,
+				"slug":"",
 				"type":"PAGE"
 			}
 		}
@@ -240,7 +234,8 @@
 	"tags":[
 		"Do Not Touch",
 		"DO NOT TOUCH",
-		"do not delete"
+		"do not delete",
+		"text-to-agent"
 	],
-	"version":104
+	"version":105
 }
