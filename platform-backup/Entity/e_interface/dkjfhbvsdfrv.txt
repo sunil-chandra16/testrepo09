@@ -17,7 +17,7 @@
 	},
 	"id":"dkjfhbvsdfrv",
 	"lastModifiedBy":175325,
-	"modifiedTime":1782211854446,
+	"modifiedTime":1782212328476,
 	"ownerUserId":175325,
 	"properties":{
 		"standard":false,
@@ -35,6 +35,7 @@
 				"_dataSourceCounter":1,
 				"_pageCount":1,
 				"_moduleCount":0,
+				"_variableCounter":1,
 				"_templateComponentCount":0
 			}
 		},
@@ -254,5 +255,5 @@
 	"tags":[
 		
 	],
-	"version":20
+	"version":52
 }
