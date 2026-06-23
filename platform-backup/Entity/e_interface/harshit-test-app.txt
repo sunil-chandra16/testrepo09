@@ -23,7 +23,7 @@
 	},
 	"id":"harshit-test-app",
 	"lastModifiedBy":196385,
-	"modifiedTime":1782189211684,
+	"modifiedTime":1782190487668,
 	"ownerUserId":196385,
 	"properties":{
 		"standard":false,
@@ -66,12 +66,12 @@
 					"backgroundType":"Color"
 				},
 				"pushNotificationLogos":{
-					"applicationLogo":"/api/file/asset/download/6a366070cbed370c3422d99e",
-					"notificationLogo":"/api/file/asset/download/6a366070cbed370c3422d99e"
+					"applicationLogo":"/api/file/asset/download/6a3a1172c2f97b659732f55e",
+					"notificationLogo":"/api/file/asset/download/6a3a1174c2f97b659732f560"
 				}
 			}
 		},
-		"bundleIdentifier":"com.example.myapp456",
+		"bundleIdentifier":"com.example.myapp98888",
 		"type":"application",
 		"locale":{
 			"defaultLocale":"en-US"
@@ -325,12 +325,12 @@
 		"notifications":{
 			"pushNotifications":{
 				"connection":{
-					"connectionId":"6a3660855f7c044494826f34",
 					"androidServiceFile":"/api/file/download/__UNIFY_ENCR_UNIFYAPPS__V5__gokA6yGRW2DWoklgXniWmfDkP1sssG9zQcgElZrCCbXSgSt2h92XA8uCC9T02CK1Ijo4arO7tTwaYPrGYPOvuXbCD_zkkqw7",
+					"connectionId":"6a3a11811ed49b6dd53a362c",
 					"iosServiceFile":"/api/file/download/__UNIFY_ENCR_UNIFYAPPS__V5__gokA6yGRW2DWoklgXniWmfDkP1sssG9zQcgElZrCCbXSgSt2p92XA8uCdcLj3D2_JHICKr-n9CJbpztg29s0T4IOcMSMm0b3yJ3XDw",
-					"firebaseServiceFile":"user-uploads/1/1781948547400/firebasetest-498511-a773bca84868.json",
+					"firebaseServiceFile":"user-uploads/1/1782190463075/firebasetest-498511-a773bca84868.json",
 					"firebaseProjectId":"firebasetest-498511",
-					"projectNumber":""
+					"projectNumber":"592739870044"
 				},
 				"enabled":true
 			}
@@ -340,5 +340,5 @@
 	"tags":[
 		
 	],
-	"version":301
+	"version":304
 }
