@@ -2,10 +2,10 @@
 	"createdTime":1782201722338,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782201866815,
+		"deployedAt":1782217661579,
 		"deployedBy":200386,
-		"entityVersion":8,
-		"version":1
+		"entityVersion":10,
+		"version":2
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -23,7 +23,7 @@
 	},
 	"id":"vik",
 	"lastModifiedBy":200386,
-	"modifiedTime":1782201867026,
+	"modifiedTime":1782217661582,
 	"ownerUserId":200386,
 	"projectId":2193,
 	"properties":{
@@ -201,6 +201,9 @@
 			},
 			"primary":[]
 		},
+		"security":{
+			"type":"PRIVATE"
+		},
 		"interfacePageIdVsSlugMap":{
 			"e_global_vik":"global-page-of-vik",
 			"e_6a3a3d7ab8daac707d8e57a9":"homepage"
@@ -254,5 +257,5 @@
 	"tags":[
 		
 	],
-	"version":8
+	"version":10
 }
