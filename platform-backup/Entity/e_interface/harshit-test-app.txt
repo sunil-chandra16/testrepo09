@@ -23,7 +23,7 @@
 	},
 	"id":"harshit-test-app",
 	"lastModifiedBy":196385,
-	"modifiedTime":1782190487668,
+	"modifiedTime":1782191878244,
 	"ownerUserId":196385,
 	"properties":{
 		"standard":false,
@@ -67,7 +67,7 @@
 				},
 				"pushNotificationLogos":{
 					"applicationLogo":"/api/file/asset/download/6a3a1172c2f97b659732f55e",
-					"notificationLogo":"/api/file/asset/download/6a3a1174c2f97b659732f560"
+					"notificationLogo":"/api/file/asset/download/6a3a1702c2f97b659732f647"
 				}
 			}
 		},
@@ -340,5 +340,5 @@
 	"tags":[
 		
 	],
-	"version":304
+	"version":305
 }
