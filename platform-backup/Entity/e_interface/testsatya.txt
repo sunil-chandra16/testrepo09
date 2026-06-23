@@ -22,8 +22,8 @@
 		]
 	},
 	"id":"testsatya",
-	"lastModifiedBy":189533,
-	"modifiedTime":1782220178385,
+	"lastModifiedBy":195854,
+	"modifiedTime":1782220729848,
 	"ownerUserId":189533,
 	"properties":{
 		"standard":false,
@@ -38,7 +38,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":1,
+				"_pageCount":2,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
@@ -216,7 +216,8 @@
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a3a84f226dc921b5da0ca49":"homepage",
-			"e_global_testsatya":"global-page-of-testsatya"
+			"e_global_testsatya":"global-page-of-testsatya",
+			"e_6a3a874aa2911106537ee294":"page-2"
 		},
 		"name":"Testsatya",
 		"entityDetailsMap":{
@@ -229,6 +230,11 @@
 				"slug":"global-page-of-testsatya",
 				"isPublic":false,
 				"type":"PAGE"
+			},
+			"e_6a3a874aa2911106537ee294":{
+				"slug":"page-2",
+				"isPublic":false,
+				"type":"PAGE"
 			}
 		}
 	},
@@ -236,5 +242,5 @@
 	"tags":[
 		
 	],
-	"version":9
+	"version":17
 }
