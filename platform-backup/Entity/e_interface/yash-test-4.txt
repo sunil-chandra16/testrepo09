@@ -23,7 +23,7 @@
 	},
 	"id":"yash-test-4",
 	"lastModifiedBy":195848,
-	"modifiedTime":1782215375538,
+	"modifiedTime":1782216487645,
 	"ownerUserId":195848,
 	"properties":{
 		"standard":false,
@@ -39,7 +39,7 @@
 			"_counter":{
 				"_mqttTopicCounter":0,
 				"_dataSourceCounter":2,
-				"_pageCount":7,
+				"_pageCount":8,
 				"_moduleCount":0,
 				"_functionCounter":2,
 				"_templateComponentCount":0
@@ -212,6 +212,7 @@
 			"e_global_yash-test-4":"global-page-of-yash-test-4",
 			"e_6a38d945dc651a56aa3f372c":"page-2",
 			"e_6a390f60124c3613d136ab6f":"page-4",
+			"e_6a3a76e96cf7580a3072fcd4":"page-8",
 			"e_6a391b131da69d38e5cd52e7":"page-5",
 			"e_6a3a2d353f6ebb5f8fb36f57":"page-6"
 		},
@@ -263,6 +264,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_6a3a76e96cf7580a3072fcd4":{
+				"slug":"page-8",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a391b131da69d38e5cd52e7":{
 				"slug":"page-5",
 				"isPublic":false,
@@ -279,5 +285,5 @@
 	"tags":[
 		
 	],
-	"version":336
+	"version":343
 }
