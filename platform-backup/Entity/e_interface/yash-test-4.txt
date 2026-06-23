@@ -2,10 +2,10 @@
 	"createdTime":1782108799991,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782111754585,
-		"deployedBy":44108,
-		"entityVersion":44,
-		"version":1
+		"deployedAt":1782206185582,
+		"deployedBy":195848,
+		"entityVersion":331,
+		"version":3
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -22,8 +22,8 @@
 		]
 	},
 	"id":"yash-test-4",
-	"lastModifiedBy":43496,
-	"modifiedTime":1782203763672,
+	"lastModifiedBy":195848,
+	"modifiedTime":1782206406732,
 	"ownerUserId":195848,
 	"properties":{
 		"standard":false,
@@ -202,6 +202,9 @@
 			},
 			"primary":[]
 		},
+		"security":{
+			"type":"PUBLIC"
+		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a38d282dc651a56aa3f3419":"homepage",
 			"e_6a390f54124c3613d136ab6b":"page-3",
@@ -276,5 +279,5 @@
 	"tags":[
 		
 	],
-	"version":330
+	"version":332
 }
