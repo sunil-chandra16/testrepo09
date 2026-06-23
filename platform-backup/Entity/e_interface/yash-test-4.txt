@@ -2,10 +2,10 @@
 	"createdTime":1782108799991,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782211316468,
+		"deployedAt":1782215375535,
 		"deployedBy":195848,
-		"entityVersion":333,
-		"version":4
+		"entityVersion":336,
+		"version":5
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -22,8 +22,8 @@
 		]
 	},
 	"id":"yash-test-4",
-	"lastModifiedBy":195854,
-	"modifiedTime":1782211478431,
+	"lastModifiedBy":195848,
+	"modifiedTime":1782215375538,
 	"ownerUserId":195848,
 	"properties":{
 		"standard":false,
