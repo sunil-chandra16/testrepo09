@@ -23,7 +23,7 @@
 	},
 	"id":"eweewqweqweqwe",
 	"lastModifiedBy":44108,
-	"modifiedTime":1782218053950,
+	"modifiedTime":1782219435989,
 	"ownerUserId":44108,
 	"properties":{
 		"standard":false,
@@ -200,6 +200,9 @@
 			},
 			"primary":[]
 		},
+		"security":{
+			"type":"PRIVATE"
+		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a3a7d269f6b8a1c5980761b":"homepage",
 			"e_global_eweewqweqweqwe":"global-page-of-eweewqweqweqwe"
@@ -229,5 +232,5 @@
 	"tags":[
 		
 	],
-	"version":2
+	"version":3
 }
