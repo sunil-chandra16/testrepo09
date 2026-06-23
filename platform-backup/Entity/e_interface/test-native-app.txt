@@ -23,7 +23,7 @@
 	},
 	"id":"test-native-app",
 	"lastModifiedBy":196379,
-	"modifiedTime":1782131707480,
+	"modifiedTime":1782195996111,
 	"ownerUserId":196379,
 	"properties":{
 		"standard":false,
@@ -102,7 +102,7 @@
 			]
 		},
 		"navigation":{
-			"defaultPageId":"e_69f83ad15183807b868da8ef",
+			"defaultPageId":"e_6a326e618c46d708e8cbeecf",
 			"secondary":[],
 			"appearance":{
 				"SM":{
@@ -451,5 +451,5 @@
 	"tags":[
 		"DO NOT TOUCH"
 	],
-	"version":1456
+	"version":1457
 }
