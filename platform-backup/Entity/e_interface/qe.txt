@@ -17,7 +17,7 @@
 	},
 	"id":"qe",
 	"lastModifiedBy":196524,
-	"modifiedTime":1782183234129,
+	"modifiedTime":1782183265891,
 	"ownerUserId":196524,
 	"properties":{
 		"standard":false,
@@ -32,6 +32,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
+				"_dataSourceCounter":1,
 				"_pageCount":1,
 				"_moduleCount":0,
 				"_templateComponentCount":0
@@ -223,5 +224,5 @@
 	"tags":[
 		
 	],
-	"version":2
+	"version":6
 }
