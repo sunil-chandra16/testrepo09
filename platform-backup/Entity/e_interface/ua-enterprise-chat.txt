@@ -2,10 +2,10 @@
 	"createdTime":1780588283523,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781816918161,
-		"deployedBy":193338,
-		"entityVersion":492,
-		"version":9
+		"deployedAt":1782214060031,
+		"deployedBy":-1,
+		"entityVersion":659,
+		"version":10
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -28,8 +28,8 @@
 		]
 	},
 	"id":"ua-enterprise-chat",
-	"lastModifiedBy":43496,
-	"modifiedTime":1781819995388,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782214068614,
 	"ownerUserId":43523,
 	"properties":{
 		"standard":false,
@@ -38,23 +38,17 @@
 		},
 		"metadata":{
 			"logo":{
-				"small":"https://assets.unifyapps.com/user-uploads/theme/unify.svg",
 				"large":"https://assets.unifyapps.com/user-uploads/theme/unify-logo.svg",
+				"small":"https://assets.unifyapps.com/user-uploads/theme/unify.svg",
 				"favicon":"/favicon.png"
-			},
-			"advanced":{
-				"location":{
-					"enable":false,
-					"liveTrackingMode":"manual"
-				}
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_dataSourceCounter":58,
-				"_pageCount":10,
+				"_dataSourceCounter":53,
+				"_pageCount":7,
 				"_moduleCount":4,
-				"_variableCounter":107,
-				"_functionCounter":31
+				"_variableCounter":81,
+				"_functionCounter":30
 			}
 		},
 		"publicPageIds":[],
@@ -62,277 +56,228 @@
 			"type":"WEB"
 		},
 		"pagePermissions":{
-			"e_6a230dcb7529013ce0711d10":{},
-			"e_6a230dcb7529013ce0711d0b":{},
-			"e_6a230dcb7529013ce0711d0f":{},
-			"e_6a230dcb7529013ce0711d0c":{},
 			"e_69b908ed95e9db748f45ee76":{},
-			"e_6a230dcb7529013ce0711d0a":{},
-			"e_6a230dcb7529013ce0711d0d":{},
 			"e_69b95a4a5739ad5159b7562e":{},
-			"e_6a230dcb7529013ce0711d09":{},
 			"e_69b99a0ce7cc230e385dd430":{},
 			"e_69b99d3195e9db748f4eb76f":{},
-			"e_6a230dcb7529013ce0711d08":{},
-			"e_6a230dcb7529013ce0711d07":{},
-			"e_6a230dcb7529013ce0711d05":{},
-			"e_6a230dcb7529013ce0711d04":{}
+			"e_69d901284ed903399699e2e0":{},
+			"e_69d901284ed903399699e2e1":{},
+			"e_69d901284ed903399699e2e2":{},
+			"e_69d901284ed903399699e2e3":{},
+			"e_69d901284ed903399699e2e4":{},
+			"e_69d901284ed903399699e2e5":{},
+			"e_69d901284ed903399699e2e6":{},
+			"e_69d901284ed903399699e2e8":{},
+			"e_69d901284ed903399699e2e9":{},
+			"e_69dc052f0f24421d80196574":{}
 		},
-		"type":"application",
 		"locale":{
 			"defaultLocale":"en-US"
 		},
+		"type":"application",
 		"customCode":{
-			"header":"<style>\n  @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');\n\n  :root {\n    --main-page-content-bg: #FAF9F5;\n    /* navbar tokens */\n    --text-navigation-primary: #FFFFFFFA;\n    --text-navigation-secondary: #FFFFFFCC;\n    --text-navigation-tertiary: rgba(255, 255, 255, 0.60);\n    --text-navigation-quaternary: #FFFFFF4D;\n    --bg-navigation-hover: #FFFFFF0D;\n    --bg-navigation-selected: #FFFFFF1A;\n    --bg-navigation-selected-hover: #FFFFFF21;\n    --border-navigation_10: #FFFFFF1A;\n    --border-navigation_5: #FFFFFF0D;\n    --brand-bg-layer-border: #E4E2DD;\n    --brand-bg-layer-filled: #ECEAE3;\n  }\n\n  [data-main-page-content=\"true\"] {\n    background-color: var(--main-page-content-bg)\n  }\n\n  .ua-popover>div {\n    border-radius: 8px;\n  }\n  .ua-popover:has([data-block-id='b_V4n15']) > div {\n  border-radius: 24px !important;\n}\n\n  [data-block-type=\"Menu\"] [data-selected=true]:not(:hover) {\n    background-color: transparent;\n  }\n\n  [data-block-type=\"Menu\"] li {\n    font-weight: 500;\n    padding-right: 12px;\n    margin-top: 0px;\n    margin-bottom: 0px;\n  }\n\n  .ua-modal {\n    border-radius: 24px;\n  }\n\n  .interface-theme,\n  .interface-theme.interface-theme [data-color-scheme='light'] {\n    --palette-alpha-brand-05: #063a300d;\n    --palette-alpha-brand-10: #063a301a;\n    --palette-alpha-brand-20: #063a3033;\n    --palette-alpha-brand-30: #063a304d;\n    --palette-alpha-brand-40: #063a3066;\n    --palette-alpha-brand-50: #063a3080;\n    --palette-alpha-brand-60: #063a3099;\n    --palette-alpha-brand-70: #063a30b3;\n    --palette-alpha-brand-80: #063a30cc;\n    --palette-alpha-brand-90: #063a30e6;\n    --palette-alpha-brand-100: #063a30;\n    --palette-brand-600-seed: #063a30;\n    --navbar-nested-selected-bg: #011853;\n    --palette-brand-950: #000000;\n    --navbar-main-nested-solid-expandable-selected-bg: #011853;\n    --navbar-bg: #011853;\n    --palette-brand-25: #f6fefc;\n    --palette-brand-50: #f1fefb;\n    --palette-brand-100: #e8fdf9;\n    --palette-brand-200: #c8f9f0;\n    --palette-brand-300: #99f4e3;\n    --palette-brand-500: #0a5c4d;\n    --palette-brand-400: #0d7d67;\n    --palette-brand-600: #063a30;\n    --palette-brand-700: #010c0a;\n    --palette-brand-800: #000000;\n    --palette-brand-900: #000000;\n  }\n\n  [data-block-type=\"Copilot\"] div.copilot-chat-theme {\n    --alpha-brand-10: rgba(6, 58, 48, 0.10);\n    --copilot-user-message-bg: var(--palette-alpha-brand-05) !important;\n    --copilot-pill-bg: var(--palette-alpha-brand-10);\n    --copilot-pill-text: var(--text-secondary);\n    --copilot-pill-bg-hover: var(--palette-alpha-brand-20);\n    --copilot-inline-citation-bg: var(--palette-alpha-brand-05);\n    --copilot-inline-citation-bg-hover: var(--palette-alpha-brand-10);\n    --copilot-inline-citation-text: var(--text-secondary);\n\n    /*remove after PR merge*/\n    --copilot-pill-hover-bg: var(--palette-alpha-brand-20);\n  }\n\n  .answer-drawer {\n    background-color: var(--main-page-content-bg)\n  }\n\n\n\n\n.ua-page-workspace{\n    border-bottom-left-radius: 0;\n    border-bottom-right-radius: 0;\n}\n\n.custom-navigation-container{\n  display: none;\n}\n\n</style>"
+			"header":"<style>\n  :root {\n    --main-page-content-bg: #FAF9F5;\n    /* navbar tokens */\n    --text-navigation-primary: #FFFFFFFA;\n    --text-navigation-secondary: #FFFFFFCC;\n    --text-navigation-tertiary: rgba(255, 255, 255, 0.60);\n    --text-navigation-quaternary: #FFFFFF4D;\n    --bg-navigation-hover: #FFFFFF0D;\n    --bg-navigation-selected: #FFFFFF1A;\n    --bg-navigation-selected-hover: #FFFFFF21;\n    --border-navigation_10: #FFFFFF1A;\n    --border-navigation_5: #FFFFFF0D;\n    --brand-bg-layer-border: #E4E2DD;\n    --brand-bg-layer-filled: #ECEAE3;\n  }\n\n  [data-main-page-content=\"true\"] {\n    background-color: var(--main-page-content-bg)\n  }\n\n  .ua-popover>div {\n    border-radius: 8px;\n  }\n\n  [data-block-type=\"Menu\"] [data-selected=true]:not(:hover) {\n    background-color: transparent;\n  }\n\n  [data-block-type=\"Menu\"] li {\n    font-weight: 500;\n    padding-right: 12px;\n    margin-top: 0px;\n    margin-bottom: 0px;\n  }\n\n  .ua-modal {\n    border-radius: 24px;\n  }\n\n  .interface-theme,\n  .interface-theme.interface-theme [data-color-scheme='light'] {\n    --palette-alpha-brand-03: #063a3008;\n    --palette-alpha-brand-05: #063a300d;\n    --palette-alpha-brand-10: #063a301a;\n    --palette-alpha-brand-20: #063a3033;\n    --palette-alpha-brand-30: #063a304d;\n    --palette-alpha-brand-40: #063a3066;\n    --palette-alpha-brand-50: #063a3080;\n    --palette-alpha-brand-60: #063a3099;\n    --palette-alpha-brand-70: #063a30b3;\n    --palette-alpha-brand-80: #063a30cc;\n    --palette-alpha-brand-90: #063a30e6;\n    --palette-alpha-brand-100: #063a30;\n    --palette-brand-600-seed: #063a30;\n    --navbar-nested-selected-bg: #011853;\n    --palette-brand-950: #000000;\n    --navbar-main-nested-solid-expandable-selected-bg: #011853;\n    --navbar-bg: #011853;\n    --palette-brand-25: #f6fefc;\n    --palette-brand-50: #f1fefb;\n    --palette-brand-100: #e8fdf9;\n    --palette-brand-200: #c8f9f0;\n    --palette-brand-300: #99f4e3;\n    --palette-brand-500: #0a5c4d;\n    --palette-brand-400: #0d7d67;\n    --palette-brand-600: #063a30;\n    --palette-brand-700: #052f26;\n    --palette-brand-800: #03231c;\n    --palette-brand-900: #021812;\n  }\n\n  div.copilot-chat-theme {\n    --alpha-brand-10: rgba(6, 58, 48, 0.10);\n    --copilot-user-message-bg: var(--palette-alpha-brand-05) !important;\n    --copilot-pill-bg: var(--palette-alpha-brand-05) !important;\n    --copilot-pill-text: var(--text-quaternary);\n    --copilot-pill-bg-hover: var(--palette-alpha-brand-10);\n    --copilot-inline-citation-bg: var(--palette-alpha-brand-05);\n    --copilot-inline-citation-bg-hover: var(--palette-alpha-brand-10);\n    --copilot-inline-citation-text: var(--text-secondary);\n\n    th {\n      background-color: var(--palette-alpha-brand-05) !important;\n    }\n\n    /*remove after PR merge*/\n    --copilot-pill-hover-bg: var(--main-page-content-bg);\n  }\n\n  .ua-drawer:has(div.answer-drawer) .h-topbarHeight {\n    background-color: var(--main-page-content-bg) !important;\n    border-color: var(--border-secondary) !important;\n  }\n\n  .answer-drawer {\n    background-color: var(--main-page-content-bg)\n  }\n\n\n\n\n  .ua-page-workspace {\n    border-bottom-left-radius: 0;\n    border-bottom-right-radius: 0;\n  }\n\n// To control autocomplete listbox style\n[role=\"listbox\"],\n[role=\"listbox\"] * {\n  --input-menu-selected-bg: rgba(6, 58, 48, 0.05);\n  --input-menu-selected-bg-hover: rgba(6, 58, 48, 0.05);\n  --input-menu-default-bg-hover: rgba(6, 58, 48, 0.03);\n}\n\n\n</style>"
 		},
 		"navigation":{
+			"defaultPageId":"e_69d901284ed903399699e2ea",
 			"secondary":[],
-			"defaultPageId":"e_6a230dcb7529013ce0711d11",
 			"appearance":{
 				"SM":{
+					"navigationBar":{
+						"navigatorType":"BottomTabsNavigator",
+						"overflowDetails":{
+							"icon":"Menu01",
+							"label":"More"
+						},
+						"position":"bottom",
+						"type":"fixed"
+					},
+					"navigationItem":{
+						"labelVariant":"none",
+						"selectionVariant":"stroke"
+					},
+					"primary":[],
+					"secondary":[],
 					"styles":{
-						"width":"w-auto",
 						"borderColor":"border-tertiary",
-						"height":{
-							"custom":"56px"
+						"borderRadius":{
+							"all":"rounded-none"
 						},
 						"borderWidth":{
 							"t":"border-t"
 						},
-						"borderRadius":{
-							"all":"rounded-none"
+						"height":{
+							"custom":"56px"
 						},
 						"padding":{
 							"all":"p-0"
-						}
-					},
-					"theme":"inherit",
-					"navigationBar":{
-						"navigatorType":"BottomTabsNavigator",
-						"position":"bottom",
-						"type":"fixed",
-						"overflowDetails":{
-							"icon":"Menu01",
-							"label":"More"
-						}
-					},
-					"navigationItem":{
-						"selectionVariant":"stroke",
-						"labelVariant":"none",
-						"text":{
-							"variant":"text-sm",
-							"weight":"semi-bold",
-							"colors":{}
 						},
-						"icon":{
-							"size":"md",
-							"colors":{}
-						},
-						"background":{
-							"colors":{}
-						}
-					},
-					"userReordered":{
-						"primary":false,
-						"secondary":false,
-						"userMenu":false
-					},
-					"primary":[],
-					"secondary":[]
+						"width":"w-auto"
+					}
 				},
 				"LG":{
-					"primary":[],
-					"navigationItem":{
-						"selectionVariant":"stroke",
-						"labelVariant":"none"
-					},
 					"navigationBar":{
+						"navigatorType":"None",
 						"overflowDetails":{
 							"icon":"Menu01",
 							"label":"More"
 						},
 						"position":"start",
-						"type":"fixed",
-						"navigatorType":"None"
+						"type":"fixed"
 					},
+					"navigationItem":{
+						"labelVariant":"none",
+						"selectionVariant":"stroke"
+					},
+					"primary":[],
+					"secondary":[],
 					"styles":{
+						"borderColor":"border-tertiary",
+						"borderRadius":{
+							"all":"rounded-none"
+						},
+						"borderWidth":{
+							"r":"border-e"
+						},
+						"gap":{
+							"y":"gap-y-3xl"
+						},
+						"gapSecondary":{
+							"y":"gap-y-lg"
+						},
+						"height":"h-auto",
+						"padding":{
+							"t":"pt-lg"
+						},
 						"width":{
 							"custom":"56px"
-						},
-						"height":"h-auto",
-						"borderWidth":{
-							"r":"border-e"
-						},
-						"borderColor":"border-tertiary",
-						"borderRadius":{
-							"all":"rounded-none"
-						},
-						"gap":{
-							"y":"gap-y-3xl"
-						},
-						"padding":{
-							"t":"pt-lg"
-						},
-						"gapSecondary":{
-							"y":"gap-y-lg"
 						}
-					},
-					"secondary":[]
+					}
 				},
 				"XL":{
+					"navigationBar":{
+						"navigatorType":"None",
+						"overflowDetails":{
+							"icon":"Menu01",
+							"label":"More"
+						},
+						"position":"start",
+						"type":"fixed"
+					},
+					"navigationItem":{
+						"background":{
+							"colors":{}
+						},
+						"icon":{
+							"colors":{},
+							"size":"md"
+						},
+						"labelVariant":"expandable",
+						"selectionVariant":"stroke",
+						"text":{
+							"colors":{},
+							"variant":"text-sm",
+							"weight":"semi-bold"
+						}
+					},
+					"primary":[],
+					"secondary":[],
 					"styles":{
-						"height":"h-auto",
 						"borderColor":"border-tertiary",
+						"borderRadius":{
+							"all":"rounded-none"
+						},
 						"borderWidth":{
 							"r":"border-e"
 						},
-						"borderRadius":{
-							"all":"rounded-none"
-						},
 						"gap":{
 							"y":"gap-y-3xl"
-						},
-						"padding":{
-							"t":"pt-lg"
 						},
 						"gapSecondary":{
 							"y":"gap-y-lg"
+						},
+						"height":"h-auto",
+						"padding":{
+							"t":"pt-lg"
+						},
+						"width":{
+							"custom":"56px"
 						}
 					},
 					"theme":"inherit",
-					"navigationBar":{
-						"position":"start",
-						"navigatorType":"Custom",
-						"navigatorModuleId":"e_6a230dcb7529013ce0711d10",
-						"type":"fixed",
-						"overflowDetails":{
-							"icon":"Menu01",
-							"label":"More"
-						}
-					},
-					"navigationItem":{
-						"selectionVariant":"stroke",
-						"text":{
-							"variant":"text-sm",
-							"weight":"semi-bold",
-							"colors":{}
-						},
-						"icon":{
-							"size":"md",
-							"colors":{}
-						},
-						"labelVariant":"expandable",
-						"background":{
-							"colors":{}
-						}
-					},
 					"userReordered":{
 						"primary":false,
 						"secondary":false,
 						"userMenu":false
-					},
-					"primary":[],
-					"secondary":[]
+					}
 				},
 				"MD":{
+					"navigationBar":{
+						"navigatorType":"None",
+						"overflowDetails":{
+							"icon":"Menu01",
+							"label":"More"
+						},
+						"position":"start",
+						"type":"fixed"
+					},
+					"navigationItem":{
+						"labelVariant":"none",
+						"selectionVariant":"stroke"
+					},
+					"primary":[],
+					"secondary":[],
 					"styles":{
 						"borderColor":"border-tertiary",
-						"width":"w-auto",
-						"height":{
-							"custom":"57px"
-						},
-						"borderWidth":{
-							"b":"border-b"
-						},
 						"borderRadius":{
 							"all":"rounded-none"
+						},
+						"borderWidth":{
+							"r":"border-e"
 						},
 						"gap":{
 							"y":"gap-y-3xl"
 						},
-						"padding":{
-							"custom":{
-								"r":"pe-3xl",
-								"b":"pb-lg",
-								"t":"pt-lg",
-								"l":"ps-3xl"
-							}
-						},
 						"gapSecondary":{
-							"x":"gap-x-4xl"
-						}
-					},
-					"theme":"inherit",
-					"navigationBar":{
-						"position":"top",
-						"navigatorType":"Custom",
-						"type":"fixed",
-						"navigatorModuleId":"e_6a230dcb7529013ce0711d10",
-						"overflowDetails":{
-							"icon":"Menu01",
-							"label":"More"
-						}
-					},
-					"navigationItem":{
-						"selectionVariant":"stroke",
-						"text":{
-							"variant":"text-sm",
-							"weight":"semi-bold",
-							"colors":{}
+							"y":"gap-y-lg"
 						},
-						"icon":{
-							"size":"md",
-							"colors":{}
+						"height":"h-auto",
+						"padding":{
+							"t":"pt-lg"
 						},
-						"labelVariant":"upfront",
-						"background":{
-							"colors":{}
+						"width":{
+							"custom":"56px"
 						}
-					},
-					"userReordered":{
-						"primary":false,
-						"secondary":false,
-						"userMenu":false
-					},
-					"primary":[],
-					"secondary":[]
+					}
 				}
 			},
 			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
-			"e_6a230dcb7529013ce0711d07":"ai-agents",
-			"e_6a340cd459872d765a9269cf":"portfolio_health",
-			"e_6a230dcb7529013ce0711d05":"create-agent",
-			"e_6a230dcb7529013ce0711d0e":"history",
-			"e_6a230dcb7529013ce0711d0f":"explore-agents",
-			"e_6a230dcb7529013ce0711d06":"settings",
-			"e_6a230dcb7529013ce0711d0c":"projects",
-			"e_6a230dcb7529013ce0711d0b":"project-copilot",
-			"e_6a230dcb7529013ce0711d11":"homepage"
+			"e_69b908ed95e9db748f45ee76":"",
+			"e_69dc052f0f24421d80196574":"",
+			"e_69d901284ed903399699e2e0":"ai-agents",
+			"e_69d901284ed903399699e2e1":"",
+			"e_69d901284ed903399699e2e2":"",
+			"e_69d901284ed903399699e2de":"create-agent",
+			"e_69d901284ed903399699e2df":"settings",
+			"e_69b99d3195e9db748f4eb76f":"",
+			"e_69b99a0ce7cc230e385dd430":"",
+			"e_69d901284ed903399699e2ea":"homepage",
+			"e_69d901284ed903399699e2e3":"",
+			"e_69d901284ed903399699e2e4":"project-copilot",
+			"e_69b95a4a5739ad5159b7562e":"",
+			"e_69d901284ed903399699e2e5":"projects",
+			"e_69d901284ed903399699e2e6":"",
+			"e_global_ua-enterprise-chat":"global-page-of-ua-enterprise-chat",
+			"e_69d901284ed903399699e2e7":"history",
+			"e_69d901284ed903399699e2e8":"explore-agents",
+			"e_69d901284ed903399699e2e9":""
 		},
-		"paths":{
-			"f_root":{
-				"id":"f_root",
-				"segment":"",
-				"children":[
-					"e_6a230dcb7529013ce0711d11",
-					"e_6a230dcb7529013ce0711d0f",
-					"e_6a230dcb7529013ce0711d0e",
-					"e_6a230dcb7529013ce0711d0c",
-					"e_6a230dcb7529013ce0711d0b",
-					"e_6a230dcb7529013ce0711d07",
-					"e_6a230dcb7529013ce0711d06",
-					"e_6a230dcb7529013ce0711d05",
-					"e_6a340cd459872d765a9269cf"
-				],
-				"path":"/"
-			}
-		},
-		"name":"UA | Enterprise Chat (DND)",
+		"name":"AI | Enterprise Chat (DND) (UA)",
 		"theme":{
-			"output":"\n      .interface-theme,\n      .interface-theme [data-color-scheme='light'] {\n        \n      }\n    \n        .interface-theme[data-color-scheme='dark'],\n        .interface-theme [data-color-scheme='dark'] {\n          \n        }\n      .ua-toast[data-color='success'] { t-bg: #087443FF; t-border-w: 0px; padding: 8px; align-items: center; t-radius: 8px; }\n.ua-toast[data-color='error'] { t-bg: #B42318; t-border-w: 0px; padding: 8px; align-items: center; t-radius: 8px; }\n.ua-toast[data-color='success'] .ua-toast-info, .ua-toast[data-color='error'] .ua-toast-info { color: #FAF9F5FF; }\n.ua-toast[data-color='success'] .ua-toast-icon, .ua-toast[data-color='error'] .ua-toast-icon { t-icon: #FAF9F5FF; height: 20px; width: 20px; }\n.ua-toast[data-color='success'] .ua-toast-header, .ua-toast[data-color='error'] .ua-toast-header { t-header-gap: 8px; }\n.ua-toast .ua-toast-title { font-family: var(--fontFamily-text); font-size: var(--fontSize-text-sm); line-height: var(--lineHeight-text-sm); letter-spacing: var(--letterSpacing-text-sm); font-weight: 600; }\n.ua-toast[data-color='success'] .ua-toast-close-btn, .ua-toast[data-color='error'] .ua-toast-close-btn { t-close-fg: #FAF9F5FF; t-close-bg: transparent; t-close-opacity: 95; t-close-border: transparent; position: relative; top: 0; left: 0; width: 24px; height: 24px; min-width: 24px; }\n.ua-toast[data-color='success']:hover .ua-toast-close-btn, .ua-toast[data-color='error']:hover .ua-toast-close-btn { t-close-bg-hover: transparent; }\n.ua-toast[data-color='success'] .ua-toast-close-btn svg, .ua-toast[data-color='error'] .ua-toast-close-btn svg { width: 20px; height: 20px; }\n.ua-toast:hover .ua-toast-close-btn svg { color: #FAF9F5FF; }\n.ua-toast {  }\n[data-color-scheme=\"dark\"] .ua-toast {  }\n.ua-form-validation-error { display: none; }\n[role=\"listbox\"],\n[role=\"listbox\"] * { input-menu-selected-bg: rgba(6, 58, 48, 0.05); input-menu-selected-bg-hover: rgba(6, 58, 48, 0.05); input-menu-default-bg-hover: rgba(6, 58, 48, 0.03); }",
-			"defaultThemeId":"e_69b6ab4cb587bf49dbad7250",
+			"output":".interface-theme,\n.interface-theme [data-color-scheme='light'] {}\n\n.interface-theme[data-color-scheme='dark'],\n.interface-theme [data-color-scheme='dark'] {}\n\n\n.ua-toast[data-color='success'] {\n  --t-bg: #087443FF;\n  --t-border-w: 0px;\n  padding: 8px;\n  align-items: center;\n  --t-radius: 8px;\n}\n\n.ua-toast[data-color='error'] {\n  --t-bg: #B42318;\n  --t-border-w: 0px;\n  padding: 8px;\n  align-items: center;\n  --t-radius: 8px;\n}\n\n\n.ua-toast[data-color='success'] .ua-toast-info, .ua-toast[data-color='error'] .ua-toast-info  {\n  color: #FAF9F5FF;\n}\n\n\n\n.ua-toast[data-color='success'] .ua-toast-icon, .ua-toast[data-color='error'] .ua-toast-icon {\n  --t-icon: #FAF9F5FF;\n  height: 20px;\n  width: 20px;\n}\n\n.ua-toast[data-color='success'] .ua-toast-header, .ua-toast[data-color='error'] .ua-toast-header {\n  --t-header-gap: 8px;\n}\n\n.ua-toast .ua-toast-title {\n  font-family: var(--fontFamily-text);\n  font-size: var(--fontSize-text-sm);\n  line-height: var(--lineHeight-text-sm);\n  letter-spacing: var(--letterSpacing-text-sm);\n  font-weight: 600;\n}\n\n.ua-toast[data-color='success'] .ua-toast-close-btn, .ua-toast[data-color='error'] .ua-toast-close-btn {\n  --t-close-fg: #FAF9F5FF;\n  --t-close-bg: transparent;\n  --t-close-opacity: 95;\n  --t-close-border: transparent;\n  position: relative;\n  top: 0;\n  left: 0;\n  width: 24px;\n  height: 24px;\n  min-width: 24px;\n}\n\n.ua-toast[data-color='success']:hover .ua-toast-close-btn, .ua-toast[data-color='error']:hover .ua-toast-close-btn {\n  --t-close-bg-hover: transparent;\n}\n\n.ua-toast[data-color='success'] .ua-toast-close-btn svg, .ua-toast[data-color='error'] .ua-toast-close-btn svg {\n  width: 20px;\n  height: 20px;\n}\n\n.ua-toast:hover .ua-toast-close-btn svg {\n  color: #FAF9F5FF;\n}\n\n.ua-toast {\n  /* Add your light mode styles here */\n}\n\n[data-color-scheme=\"dark\"] .ua-toast {\n  /* Add your dark mode styles here */\n}\n\n.ua-form-validation-error {\n  display: none;\n}\n\n\n[role=\"listbox\"],\n[role=\"listbox\"] * {\n  --input-menu-selected-bg: rgba(6, 58, 48, 0.05);\n  --input-menu-selected-bg-hover: rgba(6, 58, 48, 0.05);\n  --input-menu-default-bg-hover: rgba(6, 58, 48, 0.03);\n}",
+			"defaultThemeId":"e_69f8ec941dfa014b39625f4f",
 			"cssVars":{},
 			"customColors":[
 				"#FAF9F5FF",
@@ -346,54 +291,104 @@
 				"#FFFFFF8F",
 				"#FFFFFF1A",
 				"#FFFFFF0D",
-				"#FCFBFAFF",
-				"#015918FF"
+				"#EDF5F3FF",
+				"#FCFBFAFF"
 			]
 		},
 		"entityDetailsMap":{
-			"e_6a230dcb7529013ce0711d07":{
+			"e_69b908ed95e9db748f45ee76":{
+				"isPublic":false,
+				"slug":"",
+				"type":"PAGE"
+			},
+			"e_69dc052f0f24421d80196574":{
+				"isPublic":false,
+				"slug":"",
+				"type":"PAGE"
+			},
+			"e_69d901284ed903399699e2e0":{
+				"isPublic":false,
 				"slug":"ai-agents",
-				"isPublic":false,
 				"type":"PAGE"
 			},
-			"e_6a340cd459872d765a9269cf":{
-				"slug":"portfolio_health",
+			"e_69d901284ed903399699e2e1":{
 				"isPublic":false,
+				"slug":"",
 				"type":"PAGE"
 			},
-			"e_6a230dcb7529013ce0711d05":{
+			"e_69d901284ed903399699e2e2":{
+				"isPublic":false,
+				"slug":"",
+				"type":"PAGE"
+			},
+			"e_69d901284ed903399699e2de":{
+				"isPublic":false,
 				"slug":"create-agent",
-				"isPublic":false,
 				"type":"PAGE"
 			},
-			"e_6a230dcb7529013ce0711d0e":{
-				"slug":"history",
+			"e_69d901284ed903399699e2df":{
 				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_6a230dcb7529013ce0711d0f":{
-				"slug":"explore-agents",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_6a230dcb7529013ce0711d06":{
 				"slug":"settings",
-				"isPublic":false,
 				"type":"PAGE"
 			},
-			"e_6a230dcb7529013ce0711d0c":{
-				"slug":"projects",
+			"e_69b99d3195e9db748f4eb76f":{
 				"isPublic":false,
+				"slug":"",
 				"type":"PAGE"
 			},
-			"e_6a230dcb7529013ce0711d0b":{
-				"slug":"project-copilot",
+			"e_69b99a0ce7cc230e385dd430":{
 				"isPublic":false,
+				"slug":"",
 				"type":"PAGE"
 			},
-			"e_6a230dcb7529013ce0711d11":{
+			"e_69d901284ed903399699e2ea":{
+				"isPublic":false,
 				"slug":"homepage",
+				"type":"PAGE"
+			},
+			"e_69d901284ed903399699e2e3":{
 				"isPublic":false,
+				"slug":"",
+				"type":"PAGE"
+			},
+			"e_69d901284ed903399699e2e4":{
+				"isPublic":false,
+				"slug":"project-copilot",
+				"type":"PAGE"
+			},
+			"e_69b95a4a5739ad5159b7562e":{
+				"isPublic":false,
+				"slug":"",
+				"type":"PAGE"
+			},
+			"e_69d901284ed903399699e2e5":{
+				"isPublic":false,
+				"slug":"projects",
+				"type":"PAGE"
+			},
+			"e_69d901284ed903399699e2e6":{
+				"isPublic":false,
+				"slug":"",
+				"type":"PAGE"
+			},
+			"e_global_ua-enterprise-chat":{
+				"isPublic":false,
+				"slug":"global-page-of-ua-enterprise-chat",
+				"type":"PAGE"
+			},
+			"e_69d901284ed903399699e2e7":{
+				"isPublic":false,
+				"slug":"history",
+				"type":"PAGE"
+			},
+			"e_69d901284ed903399699e2e8":{
+				"isPublic":false,
+				"slug":"explore-agents",
+				"type":"PAGE"
+			},
+			"e_69d901284ed903399699e2e9":{
+				"isPublic":false,
+				"slug":"",
 				"type":"PAGE"
 			}
 		}
@@ -402,5 +397,5 @@
 	"tags":[
 		"text-to-agent"
 	],
-	"version":612
+	"version":659
 }
