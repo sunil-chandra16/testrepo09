@@ -29,7 +29,7 @@
 	},
 	"id":"ua-agent-builder-chat",
 	"lastModifiedBy":21056,
-	"modifiedTime":1782217856597,
+	"modifiedTime":1782217874592,
 	"ownerUserId":-1,
 	"properties":{
 		"standard":false,
@@ -915,5 +915,5 @@
 	"tags":[
 		"text-to-agent"
 	],
-	"version":31
+	"version":32
 }
