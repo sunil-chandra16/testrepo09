@@ -1,6 +1,12 @@
 {
 	"createdTime":1774784199158,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1782196593081,
+		"deployedBy":185583,
+		"entityVersion":54,
+		"version":1
+	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
@@ -17,7 +23,7 @@
 	},
 	"id":"test-pm",
 	"lastModifiedBy":185583,
-	"modifiedTime":1782190793735,
+	"modifiedTime":1782196593355,
 	"ownerUserId":185583,
 	"properties":{
 		"standard":false,
@@ -31,9 +37,10 @@
 				"favicon":"/favicon.png"
 			},
 			"_counter":{
-				"_moduleCount":0,
 				"_mqttTopicCounter":0,
-				"_pageCount":2
+				"_dataSourceCounter":1,
+				"_pageCount":2,
+				"_moduleCount":0
 			}
 		},
 		"navigation":{
@@ -225,5 +232,5 @@
 	"tags":[
 		"you"
 	],
-	"version":50
+	"version":54
 }
