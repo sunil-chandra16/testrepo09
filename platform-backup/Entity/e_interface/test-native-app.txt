@@ -23,7 +23,7 @@
 	},
 	"id":"test-native-app",
 	"lastModifiedBy":196379,
-	"modifiedTime":1782237071740,
+	"modifiedTime":1782237981053,
 	"ownerUserId":196379,
 	"properties":{
 		"standard":false,
@@ -102,7 +102,7 @@
 			]
 		},
 		"navigation":{
-			"defaultPageId":"e_69f83ad15183807b868da8ef",
+			"defaultPageId":"e_6a294b1a152bd65560b66a0c",
 			"secondary":[],
 			"appearance":{
 				"SM":{
@@ -351,7 +351,12 @@
 				"#0000FF1A",
 				"#2B2BBB1A",
 				"#FF00271A",
-				"#4848B31A"
+				"#4848B31A",
+				"#1570EFFF",
+				"#1F3A8AFF",
+				"#B4BDD8FF",
+				"#FAFAFAFF",
+				"#7692CAFF"
 			]
 		},
 		"entityDetailsMap":{
@@ -451,5 +456,5 @@
 	"tags":[
 		"DO NOT TOUCH"
 	],
-	"version":1613
+	"version":1686
 }
