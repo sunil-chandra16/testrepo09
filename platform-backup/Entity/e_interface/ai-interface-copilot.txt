@@ -2,10 +2,10 @@
 	"createdTime":1769355244351,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782213947883,
+		"deployedAt":1782214885335,
 		"deployedBy":-1,
-		"entityVersion":245,
-		"version":48
+		"entityVersion":246,
+		"version":49
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -29,7 +29,7 @@
 	},
 	"id":"ai-interface-copilot",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782213954153,
+	"modifiedTime":1782214892305,
 	"ownerUserId":2,
 	"properties":{
 		"standard":false,
@@ -232,5 +232,5 @@
 	"tags":[
 		"text-to-lowcode"
 	],
-	"version":245
+	"version":246
 }
