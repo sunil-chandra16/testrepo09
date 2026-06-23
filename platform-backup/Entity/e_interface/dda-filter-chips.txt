@@ -2,10 +2,10 @@
 	"createdTime":1776720581150,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782220242114,
+		"deployedAt":1782221269148,
 		"deployedBy":195851,
-		"entityVersion":295,
-		"version":23
+		"entityVersion":323,
+		"version":25
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -23,7 +23,7 @@
 	},
 	"id":"dda-filter-chips",
 	"lastModifiedBy":195851,
-	"modifiedTime":1782220242116,
+	"modifiedTime":1782221269151,
 	"ownerUserId":3952,
 	"properties":{
 		"standard":false,
@@ -222,11 +222,11 @@
 				"type":"PAGE"
 			}
 		},
-		"previewImage":"/api/file/asset/download/6a09da81a2f30d6c5162e4cf"
+		"previewImage":"/api/file/asset/download/6a3a89d44a137d40ce09d6ee"
 	},
 	"standard":false,
 	"tags":[
 		
 	],
-	"version":295
+	"version":323
 }
