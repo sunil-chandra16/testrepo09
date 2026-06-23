@@ -2,10 +2,10 @@
 	"createdTime":1782131066195,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782203542956,
+		"deployedAt":1782208108353,
 		"deployedBy":200384,
-		"entityVersion":37,
-		"version":14
+		"entityVersion":40,
+		"version":15
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -23,7 +23,7 @@
 	},
 	"id":"softloginlogout2",
 	"lastModifiedBy":200384,
-	"modifiedTime":1782204365752,
+	"modifiedTime":1782208108628,
 	"ownerUserId":200384,
 	"properties":{
 		"standard":false,
@@ -256,5 +256,5 @@
 	"tags":[
 		
 	],
-	"version":40
+	"version":41
 }
