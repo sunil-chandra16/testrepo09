@@ -2,10 +2,10 @@
 	"createdTime":1779708865232,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781881760887,
-		"deployedBy":195414,
-		"entityVersion":32,
-		"version":3
+		"deployedAt":1782196469311,
+		"deployedBy":195456,
+		"entityVersion":33,
+		"version":4
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -22,8 +22,8 @@
 		]
 	},
 	"id":"sujal-test-loader",
-	"lastModifiedBy":195414,
-	"modifiedTime":1781881760889,
+	"lastModifiedBy":195456,
+	"modifiedTime":1782196469313,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -211,7 +211,7 @@
 			"e_6a1433c1b5977d3b16b38de9":""
 		},
 		"name":"sujal-test-loader",
-		"previewImage":"/api/file/asset/download/6a355ba08dfee0242a57f15c",
+		"previewImage":"/api/file/asset/download/6a3a28f4c2f97b659732f77e",
 		"entityDetailsMap":{
 			"e_6a1433c1b5977d3b16b38de9":{
 				"slug":"",
@@ -224,5 +224,5 @@
 	"tags":[
 		
 	],
-	"version":32
+	"version":33
 }
