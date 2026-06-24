@@ -2,10 +2,10 @@
 	"createdTime":1726990154810,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781855961350,
+		"deployedAt":1782297621756,
 		"deployedBy":-1,
-		"entityVersion":1764,
-		"version":747
+		"entityVersion":1766,
+		"version":749
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -15,21 +15,12 @@
 					"A"
 				],
 				"principalType":"GLOBAL"
-			},
-			{
-				"permissions":[
-					"A"
-				],
-				"principalIds":[
-					"6757db349b09ba5b01b6c44c"
-				],
-				"principalType":"USER_GROUPS"
 			}
 		]
 	},
 	"id":"ua-projects",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781856223668,
+	"modifiedTime":1782297621758,
 	"ownerUserId":520,
 	"properties":{
 		"standard":true,
@@ -64,5 +55,5 @@
 	"tags":[
 		
 	],
-	"version":1764
+	"version":1766
 }
