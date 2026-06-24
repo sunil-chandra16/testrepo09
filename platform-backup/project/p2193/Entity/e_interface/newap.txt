@@ -2,10 +2,10 @@
 	"createdTime":1782286849000,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782288862694,
+		"deployedAt":1782293500816,
 		"deployedBy":200386,
-		"entityVersion":11,
-		"version":2
+		"entityVersion":27,
+		"version":5
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -23,7 +23,7 @@
 	},
 	"id":"newap",
 	"lastModifiedBy":200386,
-	"modifiedTime":1782293133722,
+	"modifiedTime":1782293982793,
 	"ownerUserId":200386,
 	"projectId":2193,
 	"properties":{
@@ -37,12 +37,28 @@
 				"large":"https://assets.unifyapps.com/interface/brand-logo/unify-logo-lg-2.svg",
 				"favicon":"https://assets.unifyapps.com/interface/brand-logo/unify-logo-sm-2.svg"
 			},
+			"advanced":{
+				"location":{
+					"enable":false,
+					"liveTrackingMode":"manual"
+				}
+			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":2,
+				"_pageCount":3,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
+		},
+		"publicPageIds":[
+			"e_6a3ba393ffd9891deac2ada5"
+		],
+		"manifest":{
+			"type":"WEB"
+		},
+		"type":"application",
+		"locale":{
+			"defaultLocale":"en-US"
 		},
 		"navigation":{
 			"secondary":[],
@@ -121,29 +137,15 @@
 					"secondary":[]
 				},
 				"XL":{
-					"primary":[],
-					"navigationItem":{
-						"selectionVariant":"stroke",
-						"labelVariant":"expandable"
-					},
-					"navigationBar":{
-						"overflowDetails":{
-							"icon":"Menu01",
-							"label":"More"
-						},
-						"position":"start",
-						"type":"fixed",
-						"navigatorType":"Standard"
-					},
 					"styles":{
+						"height":"h-auto",
+						"borderColor":"border-secondary",
 						"width":{
 							"custom":"56px"
 						},
-						"height":"h-auto",
 						"borderWidth":{
 							"r":"border-e"
 						},
-						"borderColor":"border-secondary",
 						"borderRadius":{
 							"all":"rounded-none"
 						},
@@ -157,6 +159,38 @@
 							"y":"gap-y-lg"
 						}
 					},
+					"theme":"inherit",
+					"navigationBar":{
+						"position":"start",
+						"navigatorType":"Standard",
+						"type":"fixed",
+						"overflowDetails":{
+							"icon":"Menu01",
+							"label":"More"
+						}
+					},
+					"navigationItem":{
+						"selectionVariant":"stroke",
+						"text":{
+							"variant":"text-sm",
+							"weight":"semi-bold",
+							"colors":{}
+						},
+						"icon":{
+							"size":"md",
+							"colors":{}
+						},
+						"labelVariant":"expandable",
+						"background":{
+							"colors":{}
+						}
+					},
+					"userReordered":{
+						"primary":false,
+						"secondary":false,
+						"userMenu":false
+					},
+					"primary":[],
 					"secondary":[]
 				},
 				"MD":{
@@ -202,20 +236,18 @@
 			"primary":[]
 		},
 		"security":{
-			"type":"PRIVATE"
+			"type":"PUBLIC"
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a3b8a0e15d96418a70e97c5":"homepage",
-			"e_global_newap":"global-page-of-newap",
-			"e_6a3ba28d31095c711429724c":"logout-page"
-		},
-		"manifest":{
-			"type":"WEB"
+			"e_6a3ba393ffd9891deac2ada5":"logout",
+			"e_global_newap":"global-page-of-newap"
 		},
 		"name":"newap",
-		"type":"application",
-		"locale":{
-			"defaultLocale":"en-US"
+		"theme":{
+			"cssVars":{},
+			"output":"\n      .interface-theme,\n      .interface-theme [data-color-scheme='light'] {\n        \n      }\n    \n        .interface-theme[data-color-scheme='dark'],\n        .interface-theme [data-color-scheme='dark'] {\n          \n        }\n      ",
+			"defaultScheme":"light"
 		},
 		"entityDetailsMap":{
 			"e_6a3b8a0e15d96418a70e97c5":{
@@ -223,13 +255,13 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
-			"e_global_newap":{
-				"slug":"global-page-of-newap",
-				"isPublic":false,
+			"e_6a3ba393ffd9891deac2ada5":{
+				"slug":"logout",
+				"isPublic":true,
 				"type":"PAGE"
 			},
-			"e_6a3ba28d31095c711429724c":{
-				"slug":"logout-page",
+			"e_global_newap":{
+				"slug":"global-page-of-newap",
 				"isPublic":false,
 				"type":"PAGE"
 			}
@@ -239,5 +271,5 @@
 	"tags":[
 		
 	],
-	"version":15
+	"version":28
 }
