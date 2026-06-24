@@ -2,10 +2,10 @@
 	"createdTime":1774197092138,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782214054499,
+		"deployedAt":1782295204189,
 		"deployedBy":-1,
-		"entityVersion":25,
-		"version":8
+		"entityVersion":26,
+		"version":9
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -29,7 +29,7 @@
 	},
 	"id":"ai-enterprise-chat-delete-modal-dnd",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782214068613,
+	"modifiedTime":1782295216361,
 	"ownerUserId":195388,
 	"properties":{
 		"standard":false,
@@ -223,5 +223,5 @@
 	"tags":[
 		"text-to-agent"
 	],
-	"version":25
+	"version":26
 }
