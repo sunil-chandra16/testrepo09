@@ -2,17 +2,17 @@
 	"createdTime":1755777831535,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782295206893,
+		"deployedAt":1782297580228,
 		"deployedBy":-1,
-		"entityVersion":283,
-		"version":59
+		"entityVersion":284,
+		"version":60
 	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"S"
 				],
 				"principalIds":[
 					"49915"
@@ -21,7 +21,7 @@
 			},
 			{
 				"permissions":[
-					"A"
+					"S"
 				],
 				"principalIds":[
 					"687"
@@ -30,7 +30,14 @@
 			},
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalType":"GLOBAL"
 			}
@@ -38,7 +45,7 @@
 	},
 	"id":"custom-features",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782295216453,
+	"modifiedTime":1782297732274,
 	"ownerUserId":3952,
 	"properties":{
 		"standard":false,
@@ -47,58 +54,38 @@
 		},
 		"metadata":{
 			"logo":{
-				"large":"https://assets.unifyapps.com/user-uploads/theme/unify-logo.svg",
 				"small":"https://assets.unifyapps.com/user-uploads/theme/unify.svg",
+				"large":"https://assets.unifyapps.com/user-uploads/theme/unify-logo.svg",
 				"favicon":"/favicon.ico"
 			},
 			"_counter":{
 				"_moduleCount":0,
-				"_pageCount":2
+				"_pageCount":1
 			}
 		},
 		"navigation":{
+			"secondary":[],
 			"defaultPageId":"e_68a70b44d6938355b8d414e0",
-			"secondary":[
-				{
-					"icon":"SvgNotification",
-					"name":"Notifications",
-					"action":"showNotifications",
-					"id":"notifications",
-					"type":"ACTION"
-				},
-				{
-					"name":"Profile",
-					"type":"USER_MENU",
-					"id":"userMenu"
-				}
-			],
 			"appearance":{
 				"SM":{
 					"navigationBar":{
+						"position":"bottom",
+						"type":"fixed",
 						"navigatorType":"BottomTabsNavigator",
 						"overflowDetails":{
 							"icon":"Menu01",
 							"label":"More"
-						},
-						"position":"bottom",
-						"type":"fixed"
-					},
-					"navigationItem":{
-						"labelVariant":"none",
-						"selectionVariant":"stroke"
-					},
-					"primary":[],
-					"secondary":[
-						{
-							"hiddenInOverflow":false,
-							"id":"notifications"
-						},
-						{
-							"hiddenInOverflow":false,
-							"id":"userMenu"
 						}
-					],
+					},
+					"secondary":[],
+					"navigationItem":{
+						"selectionVariant":"stroke",
+						"labelVariant":"none"
+					},
 					"styles":{
+						"padding":{
+							"all":"p-0"
+						},
 						"borderColor":"border-tertiary",
 						"borderRadius":{
 							"all":"rounded-none"
@@ -106,42 +93,32 @@
 						"borderWidth":{
 							"t":"border-t"
 						},
+						"width":"w-auto",
 						"height":{
 							"custom":"56px"
-						},
-						"padding":{
-							"all":"p-0"
-						},
-						"width":"w-auto"
+						}
 					},
-					"userMenu":[]
+					"primary":[]
 				},
 				"LG":{
 					"navigationBar":{
+						"position":"start",
+						"type":"fixed",
 						"navigatorType":"None",
 						"overflowDetails":{
 							"icon":"Menu01",
 							"label":"More"
-						},
-						"position":"start",
-						"type":"fixed"
-					},
-					"navigationItem":{
-						"labelVariant":"none",
-						"selectionVariant":"stroke"
-					},
-					"primary":[],
-					"secondary":[
-						{
-							"hiddenInOverflow":false,
-							"id":"notifications"
-						},
-						{
-							"hiddenInOverflow":false,
-							"id":"userMenu"
 						}
-					],
+					},
+					"secondary":[],
+					"navigationItem":{
+						"selectionVariant":"stroke",
+						"labelVariant":"none"
+					},
 					"styles":{
+						"padding":{
+							"t":"pt-lg"
+						},
 						"borderColor":"border-tertiary",
 						"borderRadius":{
 							"all":"rounded-none"
@@ -155,109 +132,32 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						},
-						"height":"h-auto",
-						"padding":{
-							"t":"pt-lg"
-						},
 						"width":{
 							"custom":"56px"
-						}
+						},
+						"height":"h-auto"
 					},
-					"userMenu":[]
+					"primary":[]
 				},
 				"XL":{
 					"navigationBar":{
-						"navigatorType":"Standard",
-						"overflowDetails":{
-							"icon":"Menu01",
-							"label":"More"
-						},
 						"position":"start",
-						"type":"fixed"
-					},
-					"navigationItem":{
-						"background":{
-							"colors":{}
-						},
-						"icon":{
-							"colors":{},
-							"size":"md"
-						},
-						"labelVariant":"expandable",
-						"selectionVariant":"stroke",
-						"text":{
-							"colors":{},
-							"variant":"text-sm",
-							"weight":"semi-bold"
-						}
-					},
-					"primary":[],
-					"secondary":[
-						{
-							"hiddenInOverflow":false,
-							"id":"notifications"
-						},
-						{
-							"hiddenInOverflow":false,
-							"id":"userMenu"
-						}
-					],
-					"styles":{
-						"borderColor":"border-tertiary",
-						"borderRadius":{
-							"all":"rounded-none"
-						},
-						"borderWidth":{
-							"r":"border-e"
-						},
-						"gap":{
-							"y":"gap-y-3xl"
-						},
-						"gapSecondary":{
-							"y":"gap-y-lg"
-						},
-						"height":"h-auto",
-						"padding":{
-							"t":"pt-lg"
-						},
-						"width":{
-							"custom":"56px"
-						}
-					},
-					"theme":"inherit",
-					"userMenu":[],
-					"userReordered":{
-						"primary":false,
-						"secondary":false,
-						"userMenu":false
-					}
-				},
-				"MD":{
-					"navigationBar":{
+						"type":"fixed",
 						"navigatorType":"None",
 						"overflowDetails":{
 							"icon":"Menu01",
 							"label":"More"
-						},
-						"position":"start",
-						"type":"fixed"
-					},
-					"navigationItem":{
-						"labelVariant":"none",
-						"selectionVariant":"stroke"
-					},
-					"primary":[],
-					"secondary":[
-						{
-							"hiddenInOverflow":false,
-							"id":"notifications"
-						},
-						{
-							"hiddenInOverflow":false,
-							"id":"userMenu"
 						}
-					],
+					},
+					"secondary":[],
+					"navigationItem":{
+						"selectionVariant":"stroke",
+						"labelVariant":"expandable"
+					},
 					"styles":{
+						"padding":{
+							"t":"pt-lg"
+						},
 						"borderColor":"border-tertiary",
 						"borderRadius":{
 							"all":"rounded-none"
@@ -271,68 +171,80 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						},
-						"height":"h-auto",
+						"width":{
+							"custom":"56px"
+						},
+						"height":"h-auto"
+					},
+					"primary":[]
+				},
+				"MD":{
+					"navigationBar":{
+						"position":"start",
+						"type":"fixed",
+						"navigatorType":"None",
+						"overflowDetails":{
+							"icon":"Menu01",
+							"label":"More"
+						}
+					},
+					"secondary":[],
+					"navigationItem":{
+						"selectionVariant":"stroke",
+						"labelVariant":"none"
+					},
+					"styles":{
 						"padding":{
 							"t":"pt-lg"
 						},
+						"borderColor":"border-tertiary",
+						"borderRadius":{
+							"all":"rounded-none"
+						},
+						"borderWidth":{
+							"r":"border-e"
+						},
+						"gap":{
+							"y":"gap-y-3xl"
+						},
+						"gapSecondary":{
+							"y":"gap-y-lg"
+						},
 						"width":{
 							"custom":"56px"
-						}
+						},
+						"height":"h-auto"
 					},
-					"userMenu":[]
+					"primary":[]
 				}
 			},
 			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
-			"e_6a3146d8b1ba9c55dd436b78":"page-2",
+			"e_global_custom-features":"global-page-of-custom-features",
 			"e_68a70b44d6938355b8d414e0":"homepage"
 		},
 		"manifest":{
 			"type":"WEB"
 		},
-		"paths":{
-			"f_root":{
-				"children":[
-					"e_68a70b44d6938355b8d414e0",
-					"e_6a3146d8b1ba9c55dd436b78"
-				],
-				"id":"f_root",
-				"path":"/",
-				"segment":""
-			}
-		},
 		"name":"Custom Features",
-		"theme":{
-			"cssVars":{},
-			"defaultScheme":"light",
-			"output":"\n      .interface-theme,\n      .interface-theme [data-color-scheme='light'] {\n        \n      }\n    \n        .interface-theme[data-color-scheme='dark'],\n        .interface-theme [data-color-scheme='dark'] {\n          \n        }\n      "
-		},
-		"locale":{
-			"defaultLocale":"en-US",
-			"supportedLocales":[
-				"ar-SA"
-			]
-		},
 		"type":"application",
+		"locale":{
+			"defaultLocale":"en-US"
+		},
 		"entityDetailsMap":{
-			"e_6a3146d8b1ba9c55dd436b78":{
+			"e_global_custom-features":{
+				"slug":"global-page-of-custom-features",
 				"isPublic":false,
-				"slug":"page-2",
 				"type":"PAGE"
 			},
 			"e_68a70b44d6938355b8d414e0":{
-				"isPublic":false,
 				"slug":"homepage",
+				"isPublic":false,
 				"type":"PAGE"
 			}
 		}
 	},
 	"standard":true,
-	"tags":[
-		"text-to-lowcode",
-		"text-to-workflow",
-		"text-to-agent"
-	],
-	"version":283
+	"version":284
 }
