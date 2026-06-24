@@ -23,12 +23,12 @@
 	},
 	"id":"sujal-aggarwal",
 	"lastModifiedBy":195414,
-	"modifiedTime":1782298229360,
+	"modifiedTime":1782303185883,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
 		"deviceDetails":{
-			"base":"tablet"
+			"base":"mobile"
 		},
 		"metadata":{
 			"logo":{
@@ -171,7 +171,31 @@
 					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
-						"labelVariant":"expandable"
+						"labelVariant":"expandable",
+						"background":{
+							"colors":{
+								"default":"transparent",
+								"hover":"#f7f7f7",
+								"active":"transparent"
+							}
+						},
+						"text":{
+							"colors":{
+								"default":"#424242",
+								"hover":"#3e1db1",
+								"active":"#4e26db"
+							},
+							"variant":"text-sm",
+							"weight":"semi-bold"
+						},
+						"icon":{
+							"colors":{
+								"default":"#737373",
+								"hover":"#525252",
+								"active":"#4e26db"
+							},
+							"size":"md"
+						}
 					},
 					"navigationBar":{
 						"overflowDetails":{
@@ -204,7 +228,13 @@
 							"y":"gap-y-lg"
 						}
 					},
-					"secondary":[]
+					"secondary":[],
+					"theme":"inherit",
+					"userReordered":{
+						"primary":false,
+						"secondary":false,
+						"userMenu":false
+					}
 				},
 				"MD":{
 					"primary":[
@@ -255,6 +285,7 @@
 				{
 					"activeIcon":"CalendarSolid",
 					"path":"/homepage",
+					"hiddenInOverflow":false,
 					"name":"Nav Item 1",
 					"icon":"Calendar",
 					"pageParams":[],
@@ -367,7 +398,9 @@
 		},
 		"name":"sujal-aggarwal",
 		"theme":{
+			"output":"\n      .interface-theme,\n      .interface-theme [data-color-scheme='light'] {\n        \n      }\n    \n        .interface-theme[data-color-scheme='dark'],\n        .interface-theme [data-color-scheme='dark'] {\n          \n        }\n      ",
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME",
+			"cssVars":{},
 			"customColors":[
 				"#0000FFFF"
 			]
@@ -607,5 +640,5 @@
 	"tags":[
 		
 	],
-	"version":4910
+	"version":4912
 }
