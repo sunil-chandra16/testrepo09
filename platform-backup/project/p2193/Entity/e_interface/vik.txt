@@ -2,10 +2,10 @@
 	"createdTime":1782201722338,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782280652347,
+		"deployedAt":1782285292543,
 		"deployedBy":200386,
-		"entityVersion":20,
-		"version":5
+		"entityVersion":48,
+		"version":6
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -23,7 +23,7 @@
 	},
 	"id":"vik",
 	"lastModifiedBy":200386,
-	"modifiedTime":1782284276973,
+	"modifiedTime":1782285521695,
 	"ownerUserId":200386,
 	"projectId":2193,
 	"properties":{
@@ -39,7 +39,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":1,
+				"_pageCount":2,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
@@ -202,7 +202,7 @@
 			"primary":[]
 		},
 		"security":{
-			"type":"PUBLIC",
+			"type":"PRIVATE",
 			"passwordRestrictions":{
 				"lengthLimits":{
 					"maxLength":10,
@@ -222,7 +222,8 @@
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_global_vik":"global-page-of-vik",
-			"e_6a3a3d7ab8daac707d8e57a9":"homepage"
+			"e_6a3a3d7ab8daac707d8e57a9":"homepage",
+			"e_6a3b82020e6ca655ab1f295a":"page-2"
 		},
 		"manifest":{
 			"type":"MOBILE",
@@ -266,6 +267,11 @@
 				"slug":"homepage",
 				"isPublic":false,
 				"type":"PAGE"
+			},
+			"e_6a3b82020e6ca655ab1f295a":{
+				"slug":"page-2",
+				"isPublic":false,
+				"type":"PAGE"
 			}
 		}
 	},
@@ -273,5 +279,5 @@
 	"tags":[
 		
 	],
-	"version":24
+	"version":49
 }
