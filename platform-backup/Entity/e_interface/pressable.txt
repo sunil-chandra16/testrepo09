@@ -2,10 +2,10 @@
 	"createdTime":1773387202204,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782292721835,
+		"deployedAt":1782293256159,
 		"deployedBy":196385,
-		"entityVersion":127,
-		"version":10
+		"entityVersion":130,
+		"version":11
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -23,7 +23,7 @@
 	},
 	"id":"pressable",
 	"lastModifiedBy":196385,
-	"modifiedTime":1782292841500,
+	"modifiedTime":1782293433335,
 	"ownerUserId":196385,
 	"properties":{
 		"standard":false,
@@ -39,7 +39,7 @@
 			"_counter":{
 				"_moduleCount":0,
 				"_mqttTopicCounter":0,
-				"_pageCount":1
+				"_pageCount":2
 			}
 		},
 		"navigation":{
@@ -201,7 +201,8 @@
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_69b3bdc2073ead5b548cdbe1":"homepage",
-			"e_global_pressable":"global-page-of-pressable"
+			"e_global_pressable":"global-page-of-pressable",
+			"e_6a3ba3b958368a2854abccab":"page-2"
 		},
 		"manifest":{
 			"type":"MOBILE"
@@ -224,6 +225,11 @@
 				"slug":"global-page-of-pressable",
 				"isPublic":false,
 				"type":"PAGE"
+			},
+			"e_6a3ba3b958368a2854abccab":{
+				"slug":"page-2",
+				"isPublic":false,
+				"type":"PAGE"
 			}
 		}
 	},
@@ -231,5 +237,5 @@
 	"tags":[
 		"pressable"
 	],
-	"version":128
+	"version":131
 }
