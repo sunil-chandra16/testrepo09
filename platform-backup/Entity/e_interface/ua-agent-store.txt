@@ -2,25 +2,32 @@
 	"createdTime":1753534188593,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781874158047,
+		"deployedAt":1782328949353,
 		"deployedBy":-1,
-		"entityVersion":981,
-		"version":207
+		"entityVersion":983,
+		"version":208
 	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalType":"GLOBAL"
 			}
 		]
 	},
 	"id":"ua-agent-store",
-	"lastModifiedBy":195456,
-	"modifiedTime":1782136794752,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782328949487,
 	"ownerUserId":1238,
 	"properties":{
 		"standard":true,
@@ -300,5 +307,5 @@
 		}
 	},
 	"standard":true,
-	"version":982
+	"version":983
 }
