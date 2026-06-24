@@ -23,7 +23,7 @@
 	},
 	"id":"sujal-aggarwal",
 	"lastModifiedBy":195414,
-	"modifiedTime":1782286323502,
+	"modifiedTime":1782296164911,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -81,7 +81,12 @@
 			"defaultPublicPageId":"e_69e7169c80d3281ed94a52bc",
 			"appearance":{
 				"SM":{
-					"primary":[],
+					"primary":[
+						{
+							"id":"nav_bHQXd",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"none"
@@ -114,7 +119,12 @@
 					"secondary":[]
 				},
 				"LG":{
-					"primary":[],
+					"primary":[
+						{
+							"id":"nav_bHQXd",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"none"
@@ -153,7 +163,12 @@
 					"secondary":[]
 				},
 				"XL":{
-					"primary":[],
+					"primary":[
+						{
+							"id":"nav_bHQXd",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"expandable"
@@ -192,7 +207,12 @@
 					"secondary":[]
 				},
 				"MD":{
-					"primary":[],
+					"primary":[
+						{
+							"id":"nav_bHQXd",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"none"
@@ -231,7 +251,20 @@
 					"secondary":[]
 				}
 			},
-			"primary":[]
+			"primary":[
+				{
+					"activeIcon":"CalendarSolid",
+					"path":"/homepage",
+					"name":"Nav Item 1",
+					"icon":"Calendar",
+					"pageParams":[],
+					"id":"nav_bHQXd",
+					"type":"PAGE",
+					"pageId":"e_69e5c5b46af2b70cdc85525c",
+					"url":"",
+					"slug":"homepage"
+				}
+			]
 		},
 		"security":{
 			"type":"PUBLIC"
@@ -574,5 +607,5 @@
 	"tags":[
 		
 	],
-	"version":4886
+	"version":4902
 }
