@@ -22,8 +22,8 @@
 		]
 	},
 	"id":"bug-fix-akhil",
-	"lastModifiedBy":199943,
-	"modifiedTime":1782303198921,
+	"lastModifiedBy":195439,
+	"modifiedTime":1782304121984,
 	"ownerUserId":195439,
 	"properties":{
 		"standard":false,
@@ -39,7 +39,7 @@
 			"_counter":{
 				"_mqttTopicCounter":0,
 				"_dataSourceCounter":5,
-				"_pageCount":27,
+				"_pageCount":28,
 				"_moduleCount":4,
 				"_variableCounter":13,
 				"_functionCounter":5
@@ -584,6 +584,7 @@
 			"e_698c159ff94b383ee8e2e618":"key-value",
 			"e_6a2fbc31c81042399f8aca72":"akshatmiskin-test-page-2",
 			"e_6a293dfa152bd65560b6639f":"page-26",
+			"e_6a3bccecf196b725e37819db":"page-28",
 			"e_6a0d5faea9f08a4fea661b6f":"page-18"
 		},
 		"paths":{
@@ -747,6 +748,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_6a3bccecf196b725e37819db":{
+				"slug":"page-28",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a0d5faea9f08a4fea661b6f":{
 				"slug":"page-18",
 				"isPublic":false,
@@ -774,5 +780,5 @@
 	"tags":[
 		"32kkww"
 	],
-	"version":4829
+	"version":4842
 }
