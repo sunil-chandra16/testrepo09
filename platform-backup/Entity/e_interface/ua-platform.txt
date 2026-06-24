@@ -2,12 +2,10 @@
 	"createdTime":1744622692142,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782141604163,
-		"deployedBy":504,
-		"deploymentNotes":"update platform logos for matching new sidenav designs",
-		"deploymentTag":"update-platform-logos",
-		"entityVersion":1341,
-		"version":648
+		"deployedAt":1782310055535,
+		"deployedBy":43496,
+		"entityVersion":1342,
+		"version":649
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -42,8 +40,8 @@
 		]
 	},
 	"id":"ua-platform",
-	"lastModifiedBy":504,
-	"modifiedTime":1782141604165,
+	"lastModifiedBy":43496,
+	"modifiedTime":1782310055546,
 	"ownerUserId":46884,
 	"properties":{
 		"standard":false,
@@ -142,6 +140,9 @@
 			"home_page":"home-page"
 		},
 		"name":"UnifyApps Platform",
+		"theme":{
+			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
+		},
 		"provisionApp":false,
 		"entityDetailsMap":{
 			"home_page":{
@@ -152,5 +153,5 @@
 		}
 	},
 	"standard":false,
-	"version":1341
+	"version":1342
 }
