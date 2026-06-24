@@ -2,10 +2,10 @@
 	"createdTime":1774197091917,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782214054168,
+		"deployedAt":1782295203840,
 		"deployedBy":-1,
-		"entityVersion":30,
-		"version":8
+		"entityVersion":31,
+		"version":9
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -29,7 +29,7 @@
 	},
 	"id":"ai-enterprise-chat-rename-modal",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782214068613,
+	"modifiedTime":1782295216360,
 	"ownerUserId":195388,
 	"properties":{
 		"standard":false,
@@ -224,5 +224,5 @@
 	"tags":[
 		"text-to-agent"
 	],
-	"version":30
+	"version":31
 }
