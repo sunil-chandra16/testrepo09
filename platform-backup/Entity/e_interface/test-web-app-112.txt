@@ -23,7 +23,7 @@
 	},
 	"id":"test-web-app-112",
 	"lastModifiedBy":196379,
-	"modifiedTime":1782290789879,
+	"modifiedTime":1782296575573,
 	"ownerUserId":196379,
 	"properties":{
 		"standard":false,
@@ -39,7 +39,8 @@
 			"advanced":{
 				"location":{
 					"enable":false,
-					"liveTrackingMode":"manual"
+					"liveTrackingMode":"manual",
+					"liveTracking":false
 				}
 			},
 			"_counter":{
@@ -259,5 +260,5 @@
 	"tags":[
 		
 	],
-	"version":342
+	"version":353
 }
