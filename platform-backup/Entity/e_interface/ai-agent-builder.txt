@@ -2,10 +2,10 @@
 	"createdTime":1782214061200,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782214062149,
+		"deployedAt":1782295207986,
 		"deployedBy":-1,
-		"entityVersion":37,
-		"version":1
+		"entityVersion":38,
+		"version":2
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -29,7 +29,7 @@
 	},
 	"id":"ai-agent-builder",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782214068612,
+	"modifiedTime":1782295216454,
 	"ownerUserId":-1,
 	"properties":{
 		"standard":false,
@@ -334,5 +334,5 @@
 	"tags":[
 		"text-to-agent"
 	],
-	"version":37
+	"version":38
 }
