@@ -22,8 +22,8 @@
 		]
 	},
 	"id":"sujal-test-loader",
-	"lastModifiedBy":195456,
-	"modifiedTime":1782196469313,
+	"lastModifiedBy":195414,
+	"modifiedTime":1782284677605,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -211,7 +211,7 @@
 			"e_6a1433c1b5977d3b16b38de9":""
 		},
 		"name":"sujal-test-loader",
-		"previewImage":"/api/file/asset/download/6a3a28f4c2f97b659732f77e",
+		"previewImage":"/api/file/asset/download/6a3b81845d67f51beb671ff7",
 		"entityDetailsMap":{
 			"e_6a1433c1b5977d3b16b38de9":{
 				"slug":"",
@@ -224,5 +224,5 @@
 	"tags":[
 		
 	],
-	"version":33
+	"version":40
 }
