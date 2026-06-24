@@ -23,7 +23,7 @@
 	},
 	"id":"newap",
 	"lastModifiedBy":200386,
-	"modifiedTime":1782293982793,
+	"modifiedTime":1782297884659,
 	"ownerUserId":200386,
 	"projectId":2193,
 	"properties":{
@@ -236,7 +236,7 @@
 			"primary":[]
 		},
 		"security":{
-			"type":"PUBLIC"
+			"type":"PRIVATE"
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a3b8a0e15d96418a70e97c5":"homepage",
@@ -271,5 +271,5 @@
 	"tags":[
 		
 	],
-	"version":28
+	"version":30
 }
