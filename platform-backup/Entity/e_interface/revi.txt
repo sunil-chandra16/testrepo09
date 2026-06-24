@@ -2,9 +2,29 @@
 	"createdTime":1782297776161,
 	"deleted":false,
 	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"199925"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"revi",
-	"lastModifiedBy":199925,
-	"modifiedTime":1782297782798,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782298268878,
 	"ownerUserId":199925,
 	"properties":{
 		"standard":false,
@@ -181,6 +201,9 @@
 			},
 			"primary":[]
 		},
+		"security":{
+			"type":"PUBLIC"
+		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a3bb4b298e0be78d900582a":"homepage",
 			"e_global_revi":"global-page-of-revi"
@@ -234,5 +257,5 @@
 	"tags":[
 		
 	],
-	"version":2
+	"version":3
 }
