@@ -22,13 +22,13 @@
 		]
 	},
 	"id":"sujal-aggarwal",
-	"lastModifiedBy":195414,
-	"modifiedTime":1782296164911,
+	"lastModifiedBy":199928,
+	"modifiedTime":1782297403407,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
 		"deviceDetails":{
-			"base":"desktop"
+			"base":"tablet"
 		},
 		"metadata":{
 			"logo":{
@@ -607,5 +607,5 @@
 	"tags":[
 		
 	],
-	"version":4902
+	"version":4908
 }
