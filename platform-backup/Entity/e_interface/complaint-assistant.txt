@@ -1,10 +1,36 @@
 {
 	"createdTime":1782321393556,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1782321394711,
+		"deployedBy":193868,
+		"entityVersion":419,
+		"version":1
+	},
 	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"193868"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"complaint-assistant",
 	"lastModifiedBy":193868,
-	"modifiedTime":1782321393556,
+	"modifiedTime":1782321394742,
 	"ownerUserId":193868,
 	"properties":{
 		"standard":false,
