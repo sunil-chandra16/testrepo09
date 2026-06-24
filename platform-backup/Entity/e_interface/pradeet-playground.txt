@@ -23,7 +23,7 @@
 	},
 	"id":"pradeet-playground",
 	"lastModifiedBy":30179,
-	"modifiedTime":1782219424904,
+	"modifiedTime":1782311178942,
 	"ownerUserId":30179,
 	"properties":{
 		"standard":false,
@@ -436,7 +436,7 @@
 			"defaultThemeId":{
 				"conditionalValueFilters":[
 					{
-						"propertyValue":"e_6998499d4ac67273a200a5d1"
+						"propertyValue":""
 					},
 					{
 						"propertyValue":"e_6997240e8fd8957bebfa952f"
@@ -454,7 +454,7 @@
 						"propertyValue":"e_6990a0a9665a457a6e0cdc02"
 					}
 				],
-				"defaultValue":""
+				"defaultValue":"e_6a240561762ac50d23226a68"
 			},
 			"cssVars":{},
 			"customColors":[
@@ -490,5 +490,5 @@
 		}
 	},
 	"standard":false,
-	"version":680
+	"version":686
 }
