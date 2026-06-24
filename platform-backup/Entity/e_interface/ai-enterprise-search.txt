@@ -2,17 +2,24 @@
 	"createdTime":1765817242715,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781855927900,
+		"deployedAt":1782297569268,
 		"deployedBy":-1,
-		"entityVersion":3563,
-		"version":1145
+		"entityVersion":3565,
+		"version":1147
 	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"325"
@@ -21,7 +28,14 @@
 			},
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195806"
@@ -30,7 +44,14 @@
 			},
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195808"
@@ -39,7 +60,9 @@
 			},
 			{
 				"permissions":[
-					"A"
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"69652bdef7429214070824f4"
@@ -48,7 +71,14 @@
 			},
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalType":"GLOBAL"
 			}
@@ -56,7 +86,7 @@
 	},
 	"id":"ai-enterprise-search",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781856101200,
+	"modifiedTime":1782297716273,
 	"ownerUserId":325,
 	"properties":{
 		"standard":false,
@@ -663,5 +693,5 @@
 		}
 	},
 	"standard":true,
-	"version":3563
+	"version":3565
 }
