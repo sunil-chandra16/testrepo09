@@ -12,7 +12,30 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"426"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalType":"GLOBAL"
 			}
@@ -20,7 +43,7 @@
 	},
 	"id":"automation-chat",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782297728055,
+	"modifiedTime":1782298163311,
 	"ownerUserId":426,
 	"properties":{
 		"standard":false,
