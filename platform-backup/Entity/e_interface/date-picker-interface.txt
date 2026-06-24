@@ -1,6 +1,12 @@
 {
 	"createdTime":1782312182175,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1782313108225,
+		"deployedBy":162101,
+		"entityVersion":30,
+		"version":1
+	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
@@ -23,8 +29,8 @@
 		]
 	},
 	"id":"date-picker-interface",
-	"lastModifiedBy":-1,
-	"modifiedTime":1782312183451,
+	"lastModifiedBy":162101,
+	"modifiedTime":1782313108250,
 	"ownerUserId":162101,
 	"properties":{
 		"standard":false,
@@ -39,14 +45,25 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":0,
+				"_pageCount":1,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
 		},
+		"publicPageIds":[],
+		"manifest":{
+			"type":"WEB"
+		},
+		"pagePermissions":{
+			"e_6a3bed1abf83d12df3ebd669":{}
+		},
+		"type":"application",
+		"locale":{
+			"defaultLocale":"en-US"
+		},
 		"navigation":{
 			"secondary":[],
-			"defaultPageId":"",
+			"defaultPageId":"e_6a3bed1abf83d12df3ebd669",
 			"appearance":{
 				"SM":{
 					"primary":[],
@@ -78,7 +95,8 @@
 						"padding":{
 							"all":"p-0"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"LG":{
 					"primary":[],
@@ -116,7 +134,8 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"XL":{
 					"primary":[],
@@ -154,7 +173,8 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"MD":{
 					"primary":[],
@@ -192,26 +212,36 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				}
 			},
 			"primary":[]
 		},
-		"manifest":{
-			"type":"WEB"
+		"interfacePageIdVsSlugMap":{
+			"e_6a3bed1abf83d12df3ebd669":"homepage",
+			"e_global_date-picker-interface":"global-page-of-date-picker-interface"
 		},
 		"name":"date picker interface",
 		"theme":{
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
 		},
-		"type":"application",
-		"locale":{
-			"defaultLocale":"en-US"
+		"entityDetailsMap":{
+			"e_6a3bed1abf83d12df3ebd669":{
+				"slug":"homepage",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_global_date-picker-interface":{
+				"slug":"global-page-of-date-picker-interface",
+				"isPublic":false,
+				"type":"PAGE"
+			}
 		}
 	},
 	"standard":false,
 	"tags":[
 		
 	],
-	"version":0
+	"version":30
 }
