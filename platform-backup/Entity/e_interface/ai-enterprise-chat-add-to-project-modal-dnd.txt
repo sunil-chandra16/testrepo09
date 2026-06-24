@@ -2,10 +2,10 @@
 	"createdTime":1774197091647,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782214061150,
+		"deployedAt":1782295210353,
 		"deployedBy":-1,
-		"entityVersion":42,
-		"version":8
+		"entityVersion":43,
+		"version":9
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -29,7 +29,7 @@
 	},
 	"id":"ai-enterprise-chat-add-to-project-modal-dnd",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782214068612,
+	"modifiedTime":1782295216359,
 	"ownerUserId":195388,
 	"properties":{
 		"standard":false,
@@ -224,5 +224,5 @@
 	"tags":[
 		"text-to-agent"
 	],
-	"version":42
+	"version":43
 }
