@@ -2,10 +2,10 @@
 	"createdTime":1755777831535,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782214057253,
+		"deployedAt":1782295206893,
 		"deployedBy":-1,
-		"entityVersion":282,
-		"version":58
+		"entityVersion":283,
+		"version":59
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -38,7 +38,7 @@
 	},
 	"id":"custom-features",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782214068611,
+	"modifiedTime":1782295216453,
 	"ownerUserId":3952,
 	"properties":{
 		"standard":false,
@@ -334,5 +334,5 @@
 		"text-to-workflow",
 		"text-to-agent"
 	],
-	"version":282
+	"version":283
 }
