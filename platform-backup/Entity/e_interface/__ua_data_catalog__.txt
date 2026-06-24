@@ -12,7 +12,30 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"6757db349b09ba5b01b6c44c"
+				],
+				"principalType":"USER_GROUPS"
+			},
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalType":"GLOBAL"
 			}
@@ -20,7 +43,7 @@
 	},
 	"id":"__ua_data_catalog__",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782297733236,
+	"modifiedTime":1782298162445,
 	"ownerUserId":30181,
 	"properties":{
 		"standard":true,
