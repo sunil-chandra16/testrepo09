@@ -23,7 +23,7 @@
 	},
 	"id":"newap",
 	"lastModifiedBy":200386,
-	"modifiedTime":1782289311872,
+	"modifiedTime":1782293133722,
 	"ownerUserId":200386,
 	"projectId":2193,
 	"properties":{
@@ -39,7 +39,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":1,
+				"_pageCount":2,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
@@ -202,11 +202,12 @@
 			"primary":[]
 		},
 		"security":{
-			"type":"PUBLIC"
+			"type":"PRIVATE"
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a3b8a0e15d96418a70e97c5":"homepage",
-			"e_global_newap":"global-page-of-newap"
+			"e_global_newap":"global-page-of-newap",
+			"e_6a3ba28d31095c711429724c":"logout-page"
 		},
 		"manifest":{
 			"type":"WEB"
@@ -226,6 +227,11 @@
 				"slug":"global-page-of-newap",
 				"isPublic":false,
 				"type":"PAGE"
+			},
+			"e_6a3ba28d31095c711429724c":{
+				"slug":"logout-page",
+				"isPublic":false,
+				"type":"PAGE"
 			}
 		}
 	},
@@ -233,5 +239,5 @@
 	"tags":[
 		
 	],
-	"version":13
+	"version":15
 }
