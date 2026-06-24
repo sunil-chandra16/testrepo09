@@ -16,8 +16,8 @@
 		]
 	},
 	"id":"testt-45",
-	"lastModifiedBy":199929,
-	"modifiedTime":1782285049052,
+	"lastModifiedBy":195854,
+	"modifiedTime":1782297720938,
 	"ownerUserId":196401,
 	"properties":{
 		"standard":false,
@@ -32,7 +32,8 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":1,
+				"_dataSourceCounter":1,
+				"_pageCount":2,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
@@ -196,6 +197,7 @@
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a3b79664ea93b36c82e14d2":"homepage",
+			"e_6a3bb2d742f5b46b87d13baf":"page-2",
 			"e_global_testt-45":"global-page-of-testt-45"
 		},
 		"manifest":{
@@ -212,6 +214,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_6a3bb2d742f5b46b87d13baf":{
+				"slug":"page-2",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_global_testt-45":{
 				"slug":"global-page-of-testt-45",
 				"isPublic":false,
@@ -223,5 +230,5 @@
 	"tags":[
 		
 	],
-	"version":61
+	"version":122
 }
