@@ -12,7 +12,30 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"1238"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalType":"GLOBAL"
 			}
@@ -20,7 +43,7 @@
 	},
 	"id":"ua-connections-module",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782297620146,
+	"modifiedTime":1782297827495,
 	"ownerUserId":1238,
 	"properties":{
 		"standard":true,
