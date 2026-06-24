@@ -2,23 +2,14 @@
 	"createdTime":1760457009277,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781855959515,
+		"deployedAt":1782297620144,
 		"deployedBy":-1,
-		"entityVersion":127,
-		"version":59
+		"entityVersion":129,
+		"version":61
 	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
-			{
-				"permissions":[
-					"A"
-				],
-				"principalIds":[
-					"1238"
-				],
-				"principalType":"USER"
-			},
 			{
 				"permissions":[
 					"A"
@@ -29,7 +20,7 @@
 	},
 	"id":"ua-connections-module",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781856231701,
+	"modifiedTime":1782297620146,
 	"ownerUserId":1238,
 	"properties":{
 		"standard":true,
@@ -213,5 +204,5 @@
 	"tags":[
 		"AI"
 	],
-	"version":127
+	"version":129
 }
