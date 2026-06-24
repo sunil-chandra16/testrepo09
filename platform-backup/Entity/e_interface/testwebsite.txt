@@ -17,7 +17,7 @@
 	},
 	"id":"testwebsite",
 	"lastModifiedBy":199929,
-	"modifiedTime":1782304290038,
+	"modifiedTime":1782305595233,
 	"ownerUserId":199929,
 	"properties":{
 		"standard":false,
@@ -126,7 +126,19 @@
 					"primary":[],
 					"navigationItem":{
 						"selectionVariant":"stroke",
-						"labelVariant":"expandable"
+						"labelVariant":"expandable",
+						"text":{
+							"variant":"text-sm",
+							"weight":"semi-bold",
+							"colors":{}
+						},
+						"icon":{
+							"size":"md",
+							"colors":{}
+						},
+						"background":{
+							"colors":{}
+						}
 					},
 					"navigationBar":{
 						"overflowDetails":{
@@ -159,7 +171,13 @@
 							"y":"gap-y-lg"
 						}
 					},
-					"secondary":[]
+					"secondary":[],
+					"theme":"inherit",
+					"userReordered":{
+						"primary":false,
+						"secondary":false,
+						"userMenu":false
+					}
 				},
 				"MD":{
 					"primary":[],
@@ -233,6 +251,8 @@
 		},
 		"name":"testwebsite",
 		"theme":{
+			"cssVars":{},
+			"output":"\n      .interface-theme,\n      .interface-theme [data-color-scheme='light'] {\n        \n      }\n    \n        .interface-theme[data-color-scheme='dark'],\n        .interface-theme [data-color-scheme='dark'] {\n          \n        }\n      ",
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
 		},
 		"entityDetailsMap":{
@@ -257,5 +277,5 @@
 	"tags":[
 		
 	],
-	"version":213
+	"version":245
 }
