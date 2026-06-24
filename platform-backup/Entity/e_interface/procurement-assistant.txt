@@ -2,10 +2,10 @@
 	"createdTime":1782318130261,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782318131685,
+		"deployedAt":1782319315818,
 		"deployedBy":197429,
-		"entityVersion":156,
-		"version":1
+		"entityVersion":157,
+		"version":2
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -30,7 +30,7 @@
 	},
 	"id":"procurement-assistant",
 	"lastModifiedBy":197429,
-	"modifiedTime":1782318131691,
+	"modifiedTime":1782319315821,
 	"ownerUserId":197429,
 	"properties":{
 		"standard":false,
@@ -810,5 +810,5 @@
 	"tags":[
 		
 	],
-	"version":156
+	"version":157
 }
