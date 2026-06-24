@@ -23,7 +23,7 @@
 	},
 	"id":"d-1",
 	"lastModifiedBy":195449,
-	"modifiedTime":1781865534475,
+	"modifiedTime":1782281848718,
 	"ownerUserId":195449,
 	"properties":{
 		"standard":false,
@@ -212,7 +212,7 @@
 			"primary":[]
 		},
 		"security":{
-			"type":"PUBLIC"
+			"type":"PRIVATE"
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a318a1a9394352b0f6c5569":"homepage",
@@ -250,5 +250,5 @@
 	"tags":[
 		
 	],
-	"version":17
+	"version":20
 }
