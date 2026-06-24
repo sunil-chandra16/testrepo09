@@ -23,7 +23,7 @@
 	},
 	"id":"vik",
 	"lastModifiedBy":200386,
-	"modifiedTime":1782218777597,
+	"modifiedTime":1782278937305,
 	"ownerUserId":200386,
 	"projectId":2193,
 	"properties":{
@@ -202,7 +202,7 @@
 			"primary":[]
 		},
 		"security":{
-			"type":"PUBLIC"
+			"type":"PRIVATE"
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_global_vik":"global-page-of-vik",
@@ -257,5 +257,5 @@
 	"tags":[
 		
 	],
-	"version":11
+	"version":13
 }
