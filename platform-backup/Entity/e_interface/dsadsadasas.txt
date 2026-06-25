@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"44108"
@@ -23,7 +30,7 @@
 	},
 	"id":"dsadsadasas",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781874335131,
+	"modifiedTime":1782395884379,
 	"ownerUserId":44108,
 	"properties":{
 		"standard":false,
