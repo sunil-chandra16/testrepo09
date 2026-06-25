@@ -31,8 +31,8 @@
 	"id":"bug-fix-akhil",
 	"lastModifiedBy":199943,
 	"lastPlatformUpdateBy":199943,
-	"lastPlatformUpdateOn":1782416522820,
-	"modifiedTime":1782416522820,
+	"lastPlatformUpdateOn":1782418878949,
+	"modifiedTime":1782418878949,
 	"ownerUserId":195439,
 	"properties":{
 		"standard":false,
@@ -48,7 +48,7 @@
 			"_counter":{
 				"_mqttTopicCounter":0,
 				"_dataSourceCounter":5,
-				"_pageCount":29,
+				"_pageCount":30,
 				"_moduleCount":4,
 				"_variableCounter":13,
 				"_functionCounter":5
@@ -56,7 +56,8 @@
 		},
 		"publicPageIds":[
 			"e_6a269ebf79c8e92dc59852e0",
-			"e_6a2fbc31c81042399f8aca72"
+			"e_6a2fbc31c81042399f8aca72",
+			"e_6a3d8bcb45d1223962d01088"
 		],
 		"manifest":{
 			"type":"WEB"
@@ -583,6 +584,7 @@
 			"e_69ba4eebedbd5d5f273cdebd":"random",
 			"e_6a12095b51dc8d149d714ef8":"page-20",
 			"e_6a1970b524b7147d2afbf891":"page-22",
+			"e_6a3d8bcb45d1223962d01088":"bar-chart",
 			"e_6a0f09b439dcc21fc850407d":"audioplayer",
 			"e_698f9935e4522714014b62bc":"calendar_final_test",
 			"e_6a0c69c74d3abb3bd05c5458":"page-17",
@@ -708,6 +710,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_6a3d8bcb45d1223962d01088":{
+				"slug":"bar-chart",
+				"isPublic":true,
+				"type":"PAGE"
+			},
 			"e_6a0f09b439dcc21fc850407d":{
 				"slug":"audioplayer",
 				"isPublic":false,
@@ -795,5 +802,5 @@
 	"tags":[
 		"32kkww"
 	],
-	"version":5055
+	"version":5162
 }
