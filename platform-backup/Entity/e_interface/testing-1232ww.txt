@@ -5,8 +5,8 @@
 	"id":"testing-1232ww",
 	"lastModifiedBy":19752,
 	"lastPlatformUpdateBy":19752,
-	"lastPlatformUpdateOn":1782414859366,
-	"modifiedTime":1782414859366,
+	"lastPlatformUpdateOn":1782414893084,
+	"modifiedTime":1782414893084,
 	"ownerUserId":19752,
 	"properties":{
 		"standard":false,
@@ -21,14 +21,14 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":0,
+				"_pageCount":1,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
 		},
 		"navigation":{
 			"secondary":[],
-			"defaultPageId":"",
+			"defaultPageId":"e_6a3d7e2c1c130818e76b1f1a",
 			"appearance":{
 				"SM":{
 					"primary":[],
@@ -60,7 +60,8 @@
 						"padding":{
 							"all":"p-0"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"LG":{
 					"primary":[],
@@ -98,7 +99,8 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"XL":{
 					"primary":[],
@@ -136,7 +138,8 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"MD":{
 					"primary":[],
@@ -174,10 +177,15 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				}
 			},
 			"primary":[]
+		},
+		"interfacePageIdVsSlugMap":{
+			"e_6a3d7e2c1c130818e76b1f1a":"homepage",
+			"e_global_testing-1232ww":"global-page-of-testing-1232ww"
 		},
 		"manifest":{
 			"type":"WEB"
@@ -189,11 +197,23 @@
 		"type":"application",
 		"locale":{
 			"defaultLocale":"en-US"
+		},
+		"entityDetailsMap":{
+			"e_6a3d7e2c1c130818e76b1f1a":{
+				"slug":"homepage",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_global_testing-1232ww":{
+				"slug":"global-page-of-testing-1232ww",
+				"isPublic":false,
+				"type":"PAGE"
+			}
 		}
 	},
 	"standard":false,
 	"tags":[
 		
 	],
-	"version":0
+	"version":2
 }
