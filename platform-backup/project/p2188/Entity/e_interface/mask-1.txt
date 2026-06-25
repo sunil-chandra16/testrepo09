@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"199928"
@@ -16,8 +23,8 @@
 		]
 	},
 	"id":"mask-1",
-	"lastModifiedBy":199948,
-	"modifiedTime":1781863050081,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782395887705,
 	"ownerUserId":199928,
 	"projectId":2188,
 	"properties":{
