@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"199628"
@@ -17,7 +24,7 @@
 	},
 	"id":"todo-list",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781874341569,
+	"modifiedTime":1782395887319,
 	"ownerUserId":199628,
 	"properties":{
 		"standard":false,
