@@ -2,10 +2,10 @@
 	"createdTime":1773387202204,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782374656823,
+		"deployedAt":1782382044316,
 		"deployedBy":196385,
-		"entityVersion":340,
-		"version":32
+		"entityVersion":341,
+		"version":33
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -23,7 +23,7 @@
 	},
 	"id":"pressable",
 	"lastModifiedBy":196385,
-	"modifiedTime":1782374656830,
+	"modifiedTime":1782382044318,
 	"ownerUserId":196385,
 	"properties":{
 		"standard":false,
@@ -256,5 +256,5 @@
 	"tags":[
 		"pressable"
 	],
-	"version":340
+	"version":341
 }
