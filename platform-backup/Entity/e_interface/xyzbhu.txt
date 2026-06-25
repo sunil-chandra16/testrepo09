@@ -8,9 +8,29 @@
 		"version":2
 	},
 	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"199634"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"xyzbhu",
-	"lastModifiedBy":199634,
-	"modifiedTime":1782367780445,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782395886470,
 	"ownerUserId":199634,
 	"properties":{
 		"standard":false,
