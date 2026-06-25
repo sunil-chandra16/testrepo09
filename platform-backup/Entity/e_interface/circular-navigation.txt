@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"106"
@@ -23,7 +30,7 @@
 	},
 	"id":"circular-navigation",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781874336167,
+	"modifiedTime":1782395885225,
 	"ownerUserId":106,
 	"properties":{
 		"standard":false,
