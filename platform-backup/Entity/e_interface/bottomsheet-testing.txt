@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"47210"
@@ -17,7 +24,7 @@
 	},
 	"id":"bottomsheet-testing",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781874342176,
+	"modifiedTime":1782395887412,
 	"ownerUserId":47210,
 	"properties":{
 		"standard":false,
