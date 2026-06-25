@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"185583"
@@ -22,8 +29,10 @@
 		]
 	},
 	"id":"pm-test-filters",
-	"lastModifiedBy":-1,
-	"modifiedTime":1781798306785,
+	"lastModifiedBy":185583,
+	"lastPlatformUpdateBy":185583,
+	"lastPlatformUpdateOn":1782403857801,
+	"modifiedTime":1782403857801,
 	"ownerUserId":185583,
 	"properties":{
 		"standard":false,
@@ -39,7 +48,7 @@
 			"_counter":{
 				"_mqttTopicCounter":0,
 				"_dataSourceCounter":3,
-				"_pageCount":11,
+				"_pageCount":12,
 				"_moduleCount":0,
 				"_variableCounter":1
 			}
@@ -253,10 +262,32 @@
 			"e_69d686d4a2f553245d324465":"homepage",
 			"e_69e98f2b2d90572ad70d66b7":"barchart",
 			"e_69da5891091c5416c66de4f6":"page-2",
+			"e_6a3d52d027a7b933262e1f3e":"drawer-resize",
 			"e_69ef256a9a08eb3dc8906e80":"contextualdialog",
 			"e_69f23fe50f490e7740a7c320":"dataticks",
 			"e_69e72a0583aa4426f9903a45":"page-3",
 			"e_6a05cb55311ebd5a4daa48c1":"linechart"
+		},
+		"paths":{
+			"f_root":{
+				"id":"f_root",
+				"segment":"",
+				"children":[
+					"e_69d686d4a2f553245d324465",
+					"e_69da5891091c5416c66de4f6",
+					"e_69e72a0583aa4426f9903a45",
+					"e_69e98f2b2d90572ad70d66b7",
+					"e_69ef256a9a08eb3dc8906e80",
+					"e_69f23fe50f490e7740a7c320",
+					"e_69f9e842be24ff0bd994aa68",
+					"e_69fafb40e610f84753eb03cb",
+					"e_69fdb3a053894f7692e93bbe",
+					"e_6a05cb55311ebd5a4daa48c1",
+					"e_6a12f801e2191b419b8f6aa1",
+					"e_6a3d52d027a7b933262e1f3e"
+				],
+				"path":"/"
+			}
 		},
 		"name":"PM_Test_Filters",
 		"theme":{
@@ -298,6 +329,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_6a3d52d027a7b933262e1f3e":{
+				"slug":"drawer-resize",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_69ef256a9a08eb3dc8906e80":{
 				"slug":"contextualdialog",
 				"isPublic":false,
@@ -324,5 +360,5 @@
 	"tags":[
 		
 	],
-	"version":215
+	"version":227
 }
