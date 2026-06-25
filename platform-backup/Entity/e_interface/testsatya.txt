@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"189533"
@@ -22,8 +29,8 @@
 		]
 	},
 	"id":"testsatya",
-	"lastModifiedBy":195854,
-	"modifiedTime":1782220729848,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782395887329,
 	"ownerUserId":189533,
 	"properties":{
 		"standard":false,
