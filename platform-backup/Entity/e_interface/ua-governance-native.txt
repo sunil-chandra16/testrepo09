@@ -2,10 +2,10 @@
 	"createdTime":1774270857139,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782360212656,
+		"deployedAt":1782400052809,
 		"deployedBy":-1,
-		"entityVersion":294,
-		"version":25
+		"entityVersion":295,
+		"version":26
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -43,7 +43,7 @@
 	},
 	"id":"ua-governance-native",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782360816316,
+	"modifiedTime":1782400775014,
 	"ownerUserId":195449,
 	"properties":{
 		"standard":true,
@@ -292,5 +292,5 @@
 		}
 	},
 	"standard":true,
-	"version":294
+	"version":295
 }
