@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195464"
@@ -16,8 +23,8 @@
 		]
 	},
 	"id":"prem-the-verifier",
-	"lastModifiedBy":195464,
-	"modifiedTime":1781862752757,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782395887117,
 	"ownerUserId":195464,
 	"properties":{
 		"standard":false,
