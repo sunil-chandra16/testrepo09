@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"161963"
@@ -17,7 +24,7 @@
 	},
 	"id":"newtestsaksham",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798305625,
+	"modifiedTime":1782395885097,
 	"ownerUserId":161963,
 	"properties":{
 		"standard":false,
