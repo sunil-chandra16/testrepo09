@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"25809"
@@ -17,7 +24,7 @@
 	},
 	"id":"record-and-schema",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781874336248,
+	"modifiedTime":1782395885311,
 	"ownerUserId":25809,
 	"properties":{
 		"standard":false,
