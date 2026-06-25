@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"196524"
@@ -17,7 +24,7 @@
 	},
 	"id":"fetaured-icon",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781874335392,
+	"modifiedTime":1782395884427,
 	"ownerUserId":196524,
 	"properties":{
 		"standard":false,
