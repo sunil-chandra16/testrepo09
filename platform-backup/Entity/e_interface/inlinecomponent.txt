@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"27"
@@ -17,7 +24,7 @@
 	},
 	"id":"inlinecomponent",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798306417,
+	"modifiedTime":1782395884999,
 	"ownerUserId":27,
 	"properties":{
 		"standard":false,
