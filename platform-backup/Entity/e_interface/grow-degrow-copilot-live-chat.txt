@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195956"
@@ -23,7 +30,7 @@
 	},
 	"id":"grow-degrow-copilot-live-chat",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798307113,
+	"modifiedTime":1782395886603,
 	"ownerUserId":195956,
 	"properties":{
 		"standard":false,
