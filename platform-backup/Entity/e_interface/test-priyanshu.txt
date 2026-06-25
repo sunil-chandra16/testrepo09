@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"199944"
@@ -16,8 +23,10 @@
 		]
 	},
 	"id":"test-priyanshu",
-	"lastModifiedBy":199944,
-	"modifiedTime":1782326351363,
+	"lastModifiedBy":195542,
+	"lastPlatformUpdateBy":195542,
+	"lastPlatformUpdateOn":1782406141988,
+	"modifiedTime":1782406141988,
 	"ownerUserId":199944,
 	"properties":{
 		"standard":false,
@@ -242,5 +251,5 @@
 	"tags":[
 		
 	],
-	"version":197
+	"version":210
 }
