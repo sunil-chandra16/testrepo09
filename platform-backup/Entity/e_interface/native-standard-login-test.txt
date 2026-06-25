@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"30179"
@@ -23,7 +30,7 @@
 	},
 	"id":"native-standard-login-test",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781874335643,
+	"modifiedTime":1782395884246,
 	"ownerUserId":30179,
 	"properties":{
 		"standard":false,
