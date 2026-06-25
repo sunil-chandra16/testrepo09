@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"27"
@@ -17,7 +24,7 @@
 	},
 	"id":"dndkit",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781874335760,
+	"modifiedTime":1782395885144,
 	"ownerUserId":27,
 	"properties":{
 		"standard":false,
