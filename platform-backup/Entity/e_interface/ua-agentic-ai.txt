@@ -2,17 +2,21 @@
 	"createdTime":1747820935001,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781788785756,
+		"deployedAt":1782360269208,
 		"deployedBy":-1,
-		"entityVersion":689,
-		"version":302
+		"entityVersion":691,
+		"version":304
 	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"D",
+					"E",
+					"V"
 				],
 				"principalIds":[
 					"76704"
@@ -21,7 +25,14 @@
 			},
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"6757db349b09ba5b01b6c44c"
@@ -30,7 +41,14 @@
 			},
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalType":"GLOBAL"
 			}
@@ -38,7 +56,7 @@
 	},
 	"id":"ua-agentic-ai",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781789711510,
+	"modifiedTime":1782361042953,
 	"ownerUserId":325,
 	"properties":{
 		"standard":true,
@@ -699,5 +717,5 @@
 		"provisionApp":true
 	},
 	"standard":true,
-	"version":689
+	"version":691
 }
