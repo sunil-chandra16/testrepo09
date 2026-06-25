@@ -31,8 +31,8 @@
 	"id":"sujal-707",
 	"lastModifiedBy":195414,
 	"lastPlatformUpdateBy":195414,
-	"lastPlatformUpdateOn":1782412319141,
-	"modifiedTime":1782412319141,
+	"lastPlatformUpdateOn":1782416215413,
+	"modifiedTime":1782416215413,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -76,7 +76,10 @@
 		},
 		"type":"application",
 		"locale":{
-			"defaultLocale":"en-US"
+			"defaultLocale":"en-US",
+			"supportedLocales":[
+				"ar-AE"
+			]
 		},
 		"navigation":{
 			"secondary":[],
@@ -390,5 +393,5 @@
 	"tags":[
 		
 	],
-	"version":2398
+	"version":2401
 }
