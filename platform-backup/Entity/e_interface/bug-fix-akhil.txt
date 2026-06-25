@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195439"
@@ -22,8 +29,10 @@
 		]
 	},
 	"id":"bug-fix-akhil",
-	"lastModifiedBy":195439,
-	"modifiedTime":1782386666026,
+	"lastModifiedBy":199943,
+	"lastPlatformUpdateBy":199943,
+	"lastPlatformUpdateOn":1782416522820,
+	"modifiedTime":1782416522820,
 	"ownerUserId":195439,
 	"properties":{
 		"standard":false,
@@ -786,5 +795,5 @@
 	"tags":[
 		"32kkww"
 	],
-	"version":5002
+	"version":5055
 }
