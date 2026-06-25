@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"196434"
@@ -17,7 +24,7 @@
 	},
 	"id":"dnt-hdfc-life-test",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781874335767,
+	"modifiedTime":1782395884838,
 	"ownerUserId":196434,
 	"properties":{
 		"standard":false,
