@@ -2,9 +2,29 @@
 	"createdTime":1782374311771,
 	"deleted":false,
 	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"195414"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"sujal-123",
-	"lastModifiedBy":195414,
-	"modifiedTime":1782377546582,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782395888176,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
