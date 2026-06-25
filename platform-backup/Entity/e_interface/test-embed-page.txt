@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"79723"
@@ -23,7 +30,7 @@
 	},
 	"id":"test-embed-page",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781874335343,
+	"modifiedTime":1782395884313,
 	"ownerUserId":79723,
 	"properties":{
 		"standard":false,
