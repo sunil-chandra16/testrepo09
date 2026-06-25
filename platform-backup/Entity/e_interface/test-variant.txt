@@ -2,10 +2,10 @@
 	"createdTime":1765897177700,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781132757337,
+		"deployedAt":1782394636389,
 		"deployedBy":33436,
-		"entityVersion":1544,
-		"version":111
+		"entityVersion":1655,
+		"version":114
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -22,8 +22,10 @@
 		]
 	},
 	"id":"test-variant",
-	"lastModifiedBy":199925,
-	"modifiedTime":1782302178000,
+	"lastModifiedBy":33436,
+	"lastPlatformUpdateBy":33436,
+	"lastPlatformUpdateOn":1782394636391,
+	"modifiedTime":1782394636391,
 	"ownerUserId":33436,
 	"properties":{
 		"standard":false,
@@ -435,6 +437,10 @@
 					{
 						"key":"http://127.0.0.1:7242",
 						"value":"http://127.0.0.1:7242"
+					},
+					{
+						"key":"https://saumyapandey-orbit.matrix-uat.unifyapps.com",
+						"value":""
 					}
 				]
 			},
@@ -652,5 +658,5 @@
 		}
 	},
 	"standard":false,
-	"version":1647
+	"version":1655
 }
