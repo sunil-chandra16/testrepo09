@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"175325"
@@ -17,7 +24,7 @@
 	},
 	"id":"editable-tag-width-xl-2176700378674",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781874336042,
+	"modifiedTime":1782395885410,
 	"ownerUserId":175325,
 	"properties":{
 		"standard":false,
