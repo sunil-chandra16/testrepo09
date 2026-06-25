@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"196379"
@@ -22,10 +29,10 @@
 		]
 	},
 	"id":"test-web-app-112",
-	"lastModifiedBy":195439,
+	"lastModifiedBy":-1,
 	"lastPlatformUpdateBy":195439,
 	"lastPlatformUpdateOn":1782391269798,
-	"modifiedTime":1782391269798,
+	"modifiedTime":1782395885891,
 	"ownerUserId":196379,
 	"properties":{
 		"standard":false,
