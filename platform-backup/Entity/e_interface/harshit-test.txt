@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"196385"
@@ -22,8 +29,8 @@
 		]
 	},
 	"id":"harshit-test",
-	"lastModifiedBy":45775,
-	"modifiedTime":1781948576759,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782395884980,
 	"ownerUserId":196385,
 	"properties":{
 		"standard":false,
