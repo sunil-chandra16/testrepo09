@@ -2,10 +2,10 @@
 	"createdTime":1780572835685,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782360219092,
+		"deployedAt":1782400065427,
 		"deployedBy":-1,
-		"entityVersion":307,
-		"version":9
+		"entityVersion":308,
+		"version":10
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -43,7 +43,7 @@
 	},
 	"id":"text-to-code-plan-interface",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782360838241,
+	"modifiedTime":1782400796884,
 	"ownerUserId":92,
 	"properties":{
 		"standard":false,
@@ -268,5 +268,5 @@
 	"tags":[
 		
 	],
-	"version":307
+	"version":308
 }
