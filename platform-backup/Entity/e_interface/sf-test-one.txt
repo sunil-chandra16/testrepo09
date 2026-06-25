@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"33"
@@ -23,7 +30,7 @@
 	},
 	"id":"sf-test-one",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798306592,
+	"modifiedTime":1782395887871,
 	"ownerUserId":33,
 	"properties":{
 		"standard":false,
