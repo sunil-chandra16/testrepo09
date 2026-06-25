@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"193381"
@@ -17,7 +24,7 @@
 	},
 	"id":"tets-aganet",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781874336122,
+	"modifiedTime":1782395885180,
 	"ownerUserId":193381,
 	"properties":{
 		"standard":false,
