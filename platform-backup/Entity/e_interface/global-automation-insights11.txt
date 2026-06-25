@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195519"
@@ -17,7 +24,7 @@
 	},
 	"id":"global-automation-insights11",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798305715,
+	"modifiedTime":1782395885882,
 	"ownerUserId":195519,
 	"properties":{
 		"standard":false,
