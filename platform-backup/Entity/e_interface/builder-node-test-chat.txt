@@ -2,17 +2,24 @@
 	"createdTime":1775030600574,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781788730636,
+		"deployedAt":1782360215950,
 		"deployedBy":-1,
-		"entityVersion":26,
-		"version":23
+		"entityVersion":28,
+		"version":25
 	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"67744"
@@ -21,7 +28,14 @@
 			},
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalType":"GLOBAL"
 			}
@@ -29,7 +43,7 @@
 	},
 	"id":"builder-node-test-chat",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781789507460,
+	"modifiedTime":1782360821483,
 	"ownerUserId":67744,
 	"properties":{
 		"standard":false,
@@ -235,5 +249,5 @@
 		"customCode":{}
 	},
 	"standard":true,
-	"version":26
+	"version":28
 }
