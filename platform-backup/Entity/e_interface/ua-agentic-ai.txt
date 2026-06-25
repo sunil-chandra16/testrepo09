@@ -12,7 +12,43 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"D",
+					"E",
+					"V"
+				],
+				"principalIds":[
+					"76704"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"6757db349b09ba5b01b6c44c"
+				],
+				"principalType":"USER_GROUPS"
+			},
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalType":"GLOBAL"
 			}
@@ -20,7 +56,7 @@
 	},
 	"id":"ua-agentic-ai",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782400125943,
+	"modifiedTime":1782401008461,
 	"ownerUserId":325,
 	"properties":{
 		"standard":true,
