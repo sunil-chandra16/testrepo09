@@ -2,17 +2,24 @@
 	"createdTime":1780572835685,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781874158518,
+		"deployedAt":1782360219092,
 		"deployedBy":-1,
-		"entityVersion":304,
-		"version":8
+		"entityVersion":307,
+		"version":9
 	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"92"
@@ -21,7 +28,14 @@
 			},
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalType":"GLOBAL"
 			}
@@ -29,7 +43,7 @@
 	},
 	"id":"text-to-code-plan-interface",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782122153337,
+	"modifiedTime":1782360838241,
 	"ownerUserId":92,
 	"properties":{
 		"standard":false,
@@ -44,7 +58,6 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_dataSourceCounter":1,
 				"_pageCount":1,
 				"_moduleCount":0,
 				"_templateComponentCount":0
@@ -255,5 +268,5 @@
 	"tags":[
 		
 	],
-	"version":306
+	"version":307
 }
