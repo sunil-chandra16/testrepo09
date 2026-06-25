@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"3952"
@@ -23,7 +30,7 @@
 	},
 	"id":"dda-pill-tab",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798307116,
+	"modifiedTime":1782395886603,
 	"ownerUserId":3952,
 	"properties":{
 		"standard":false,
