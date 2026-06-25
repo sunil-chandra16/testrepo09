@@ -2,10 +2,10 @@
 	"createdTime":1760457009277,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782297620144,
+		"deployedAt":1782359991379,
 		"deployedBy":-1,
-		"entityVersion":129,
-		"version":61
+		"entityVersion":130,
+		"version":62
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -43,7 +43,7 @@
 	},
 	"id":"ua-connections-module",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782297827495,
+	"modifiedTime":1782360214491,
 	"ownerUserId":1238,
 	"properties":{
 		"standard":true,
@@ -227,5 +227,5 @@
 	"tags":[
 		"AI"
 	],
-	"version":129
+	"version":130
 }
