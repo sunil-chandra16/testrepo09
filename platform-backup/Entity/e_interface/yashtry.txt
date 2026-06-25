@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195848"
@@ -22,8 +29,8 @@
 		]
 	},
 	"id":"yashtry",
-	"lastModifiedBy":195456,
-	"modifiedTime":1781871337633,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782395886985,
 	"ownerUserId":195848,
 	"properties":{
 		"standard":false,
