@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195414"
@@ -23,7 +30,7 @@
 	},
 	"id":"sujal-13434",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781874335405,
+	"modifiedTime":1782395884443,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
