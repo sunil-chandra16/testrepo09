@@ -2,10 +2,10 @@
 	"createdTime":1715428087114,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782359948741,
+		"deployedAt":1782399826905,
 		"deployedBy":-1,
-		"entityVersion":1325,
-		"version":692
+		"entityVersion":1326,
+		"version":693
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -43,7 +43,7 @@
 	},
 	"id":"__CAMPAIGN_REPORTING_INTERFACE__",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782360115667,
+	"modifiedTime":1782400023943,
 	"ownerUserId":32,
 	"properties":{
 		"standard":true,
@@ -83,5 +83,5 @@
 		}
 	},
 	"standard":true,
-	"version":1325
+	"version":1326
 }
