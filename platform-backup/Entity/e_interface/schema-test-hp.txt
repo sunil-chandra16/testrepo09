@@ -13,7 +13,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"193075"
@@ -24,7 +31,7 @@
 	},
 	"id":"schema-test-hp",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798306997,
+	"modifiedTime":1782395886133,
 	"ownerUserId":193075,
 	"properties":{
 		"standard":false,
