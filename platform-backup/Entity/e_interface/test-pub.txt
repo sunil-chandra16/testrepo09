@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195904"
@@ -23,7 +30,7 @@
 	},
 	"id":"test-pub",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781874335508,
+	"modifiedTime":1782395884299,
 	"ownerUserId":195904,
 	"properties":{
 		"standard":false,
