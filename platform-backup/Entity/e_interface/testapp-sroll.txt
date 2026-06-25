@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"161861"
@@ -17,7 +24,7 @@
 	},
 	"id":"testapp-sroll",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798306699,
+	"modifiedTime":1782395887518,
 	"ownerUserId":161861,
 	"properties":{
 		"standard":false,
