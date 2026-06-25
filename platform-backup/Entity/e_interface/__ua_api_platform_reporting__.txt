@@ -2,25 +2,48 @@
 	"createdTime":1747857987191,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781788740593,
+		"deployedAt":1782360224921,
 		"deployedBy":-1,
-		"entityVersion":1872,
-		"version":770
+		"entityVersion":1874,
+		"version":772
 	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalType":"GLOBAL"
+			},
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"6757db349b09ba5b01b6c44c"
+				],
+				"principalType":"USER_GROUPS"
 			}
 		]
 	},
 	"id":"__ua_api_platform_reporting__",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781788740594,
+	"modifiedTime":1782360871865,
 	"ownerUserId":46218,
 	"properties":{
 		"standard":true,
@@ -65,5 +88,5 @@
 		}
 	},
 	"standard":true,
-	"version":1872
+	"version":1874
 }
