@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"199928"
@@ -16,8 +23,8 @@
 		]
 	},
 	"id":"aiwer",
-	"lastModifiedBy":199928,
-	"modifiedTime":1781772883380,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782395885810,
 	"ownerUserId":199928,
 	"properties":{
 		"standard":false,
