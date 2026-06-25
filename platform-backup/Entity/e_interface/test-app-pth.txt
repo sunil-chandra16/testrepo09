@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"92316"
@@ -23,7 +30,7 @@
 	},
 	"id":"test-app-pth",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798306541,
+	"modifiedTime":1782395886474,
 	"ownerUserId":92316,
 	"properties":{
 		"standard":false,
