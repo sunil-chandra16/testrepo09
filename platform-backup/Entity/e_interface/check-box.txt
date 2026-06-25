@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"6757db349b09ba5b01b6c44c"
@@ -23,7 +30,9 @@
 	},
 	"id":"check-box",
 	"lastModifiedBy":199614,
-	"modifiedTime":1782385545052,
+	"lastPlatformUpdateBy":199614,
+	"lastPlatformUpdateOn":1782408196123,
+	"modifiedTime":1782408196123,
 	"ownerUserId":132131,
 	"properties":{
 		"standard":false,
@@ -368,5 +377,5 @@
 		"32kkww",
 		"you"
 	],
-	"version":1812
+	"version":1896
 }
