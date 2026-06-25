@@ -2,10 +2,10 @@
 	"createdTime":1727792501994,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782360228627,
+		"deployedAt":1782400083682,
 		"deployedBy":-1,
-		"entityVersion":1771,
-		"version":667
+		"entityVersion":1772,
+		"version":668
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -43,7 +43,7 @@
 	},
 	"id":"ua-workflows",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782360903276,
+	"modifiedTime":1782400835250,
 	"ownerUserId":0,
 	"properties":{
 		"standard":true,
@@ -82,5 +82,5 @@
 		"syncFromSourceCustomer":true
 	},
 	"standard":true,
-	"version":1771
+	"version":1772
 }
