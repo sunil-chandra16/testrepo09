@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"11492"
@@ -23,7 +30,7 @@
 	},
 	"id":"sts",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798307219,
+	"modifiedTime":1782395887013,
 	"ownerUserId":11492,
 	"properties":{
 		"standard":false,
