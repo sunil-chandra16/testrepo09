@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"30181"
@@ -17,7 +24,7 @@
 	},
 	"id":"test-conversion-2",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781874335933,
+	"modifiedTime":1782395884999,
 	"ownerUserId":30181,
 	"properties":{
 		"standard":false,
