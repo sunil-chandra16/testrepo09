@@ -2,10 +2,10 @@
 	"createdTime":1772877799391,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782360135848,
+		"deployedAt":1782399956500,
 		"deployedBy":-1,
-		"entityVersion":141,
-		"version":95
+		"entityVersion":142,
+		"version":96
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -43,7 +43,7 @@
 	},
 	"id":"automation-chat",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782360576418,
+	"modifiedTime":1782400505375,
 	"ownerUserId":426,
 	"properties":{
 		"standard":false,
@@ -249,5 +249,5 @@
 		}
 	},
 	"standard":true,
-	"version":141
+	"version":142
 }
