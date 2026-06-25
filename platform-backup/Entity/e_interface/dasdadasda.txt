@@ -2,9 +2,29 @@
 	"createdTime":1782374999689,
 	"deleted":false,
 	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"33436"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"dasdadasda",
-	"lastModifiedBy":33436,
-	"modifiedTime":1782375257432,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782395887290,
 	"ownerUserId":33436,
 	"properties":{
 		"standard":false,
