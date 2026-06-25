@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"33430"
@@ -17,7 +24,7 @@
 	},
 	"id":"adad",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798306606,
+	"modifiedTime":1782395885169,
 	"ownerUserId":33430,
 	"properties":{
 		"standard":false,
