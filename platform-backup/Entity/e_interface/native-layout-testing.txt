@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"409"
@@ -22,8 +29,8 @@
 		]
 	},
 	"id":"native-layout-testing",
-	"lastModifiedBy":199860,
-	"modifiedTime":1782374281386,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782395887891,
 	"ownerUserId":409,
 	"properties":{
 		"standard":false,
