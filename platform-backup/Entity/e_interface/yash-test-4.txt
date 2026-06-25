@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195848"
@@ -22,8 +29,10 @@
 		]
 	},
 	"id":"yash-test-4",
-	"lastModifiedBy":195854,
-	"modifiedTime":1782376473188,
+	"lastModifiedBy":195848,
+	"lastPlatformUpdateBy":195848,
+	"lastPlatformUpdateOn":1782400655940,
+	"modifiedTime":1782400655940,
 	"ownerUserId":195848,
 	"properties":{
 		"standard":false,
@@ -44,6 +53,13 @@
 				"_functionCounter":2,
 				"_templateComponentCount":0
 			}
+		},
+		"manifest":{
+			"type":"WEB"
+		},
+		"type":"application",
+		"locale":{
+			"defaultLocale":"en-US"
 		},
 		"navigation":{
 			"secondary":[],
@@ -209,15 +225,28 @@
 			"e_6a38d282dc651a56aa3f3419":"homepage",
 			"e_6a390f54124c3613d136ab6b":"page-3",
 			"e_6a3a337b3f6ebb5f8fb3833d":"page-7",
-			"e_global_yash-test-4":"global-page-of-yash-test-4",
 			"e_6a38d945dc651a56aa3f372c":"page-2",
 			"e_6a390f60124c3613d136ab6f":"page-4",
 			"e_6a3a76e96cf7580a3072fcd4":"page-8",
 			"e_6a391b131da69d38e5cd52e7":"page-5",
 			"e_6a3a2d353f6ebb5f8fb36f57":"page-6"
 		},
-		"manifest":{
-			"type":"WEB"
+		"paths":{
+			"f_root":{
+				"id":"f_root",
+				"segment":"",
+				"children":[
+					"e_6a38d282dc651a56aa3f3419",
+					"e_6a38d945dc651a56aa3f372c",
+					"e_6a390f54124c3613d136ab6b",
+					"e_6a390f60124c3613d136ab6f",
+					"e_6a391b131da69d38e5cd52e7",
+					"e_6a3a2d353f6ebb5f8fb36f57",
+					"e_6a3a337b3f6ebb5f8fb3833d",
+					"e_6a3a76e96cf7580a3072fcd4"
+				],
+				"path":"/"
+			}
 		},
 		"name":"yash-test-4",
 		"theme":{
@@ -228,12 +257,9 @@
 				"#1515D8FF",
 				"#0000FFFF",
 				"#0F5618FF",
-				"#888D3B1A"
+				"#888D3B1A",
+				"#1C1C67FF"
 			]
-		},
-		"type":"application",
-		"locale":{
-			"defaultLocale":"en-US"
 		},
 		"entityDetailsMap":{
 			"e_6a38d282dc651a56aa3f3419":{
@@ -248,11 +274,6 @@
 			},
 			"e_6a3a337b3f6ebb5f8fb3833d":{
 				"slug":"page-7",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_global_yash-test-4":{
-				"slug":"global-page-of-yash-test-4",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -287,5 +308,5 @@
 	"tags":[
 		
 	],
-	"version":401
+	"version":419
 }
