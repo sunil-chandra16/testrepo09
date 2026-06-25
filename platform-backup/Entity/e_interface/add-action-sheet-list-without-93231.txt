@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"340"
@@ -17,7 +24,7 @@
 	},
 	"id":"add-action-sheet-list-without-93231",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798306865,
+	"modifiedTime":1782395887287,
 	"ownerUserId":340,
 	"properties":{
 		"standard":false,
