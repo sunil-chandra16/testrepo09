@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"175325"
@@ -22,8 +29,8 @@
 		]
 	},
 	"id":"app-07",
-	"lastModifiedBy":175325,
-	"modifiedTime":1782129151012,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782395885722,
 	"ownerUserId":175325,
 	"properties":{
 		"standard":false,
