@@ -13,7 +13,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"199888"
@@ -23,10 +30,10 @@
 		]
 	},
 	"id":"cursor-test",
-	"lastModifiedBy":30181,
+	"lastModifiedBy":-1,
 	"lastPlatformUpdateBy":30181,
 	"lastPlatformUpdateOn":1782390673831,
-	"modifiedTime":1782390673831,
+	"modifiedTime":1782395884192,
 	"ownerUserId":199888,
 	"properties":{
 		"standard":false,
