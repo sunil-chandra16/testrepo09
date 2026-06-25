@@ -1,6 +1,12 @@
 {
 	"createdTime":1782392333873,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1782392432628,
+		"deployedBy":200386,
+		"entityVersion":5,
+		"version":1
+	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
@@ -23,10 +29,10 @@
 		]
 	},
 	"id":"bcd",
-	"lastModifiedBy":-1,
+	"lastModifiedBy":200386,
 	"lastPlatformUpdateBy":200386,
-	"lastPlatformUpdateOn":1782392334640,
-	"modifiedTime":1782392334905,
+	"lastPlatformUpdateOn":1782393539804,
+	"modifiedTime":1782393539804,
 	"ownerUserId":200386,
 	"projectId":2193,
 	"properties":{
@@ -46,6 +52,37 @@
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
+		},
+		"manifest":{
+			"type":"MOBILE",
+			"splashScreen":{
+				"dark":{
+					"image":"https://assets.unifyapps.com/images/platform/brand-assets/splash-icon-light.png",
+					"backgroundColor":"#182230"
+				},
+				"imageWidth":1024.0,
+				"image":"https://assets.unifyapps.com/images/platform/brand-assets/splash-icon-dark.png",
+				"backgroundColor":"#FFFFFF",
+				"imageFit":"contain",
+				"imageHeight":1024.0
+			},
+			"brandAssets":{
+				"ios":{
+					"darkModeLogo":"https://assets.unifyapps.com/images/platform/brand-assets/ios-dark.png",
+					"lightModeLogo":"https://assets.unifyapps.com/images/platform/brand-assets/ios-light.png",
+					"tintedLogo":"https://assets.unifyapps.com/images/platform/brand-assets/ios-tinted.png"
+				},
+				"android":{
+					"backgroundColor":"#FFFFFF",
+					"foregroundLogo":"https://assets.unifyapps.com/images/platform/brand-assets/android-foreground.png",
+					"monochromeLogo":"https://assets.unifyapps.com/images/platform/brand-assets/android-monochrome.png",
+					"backgroundType":"Color"
+				}
+			}
+		},
+		"type":"application",
+		"locale":{
+			"defaultLocale":"en-US"
 		},
 		"navigation":{
 			"secondary":[],
@@ -204,36 +241,12 @@
 			},
 			"primary":[]
 		},
+		"security":{
+			"type":"PRIVATE"
+		},
 		"interfacePageIdVsSlugMap":{
 			"e_global_bcd":"global-page-of-bcd",
 			"e_6a3d260d1fbca92632ff3c9d":"homepage"
-		},
-		"manifest":{
-			"type":"MOBILE",
-			"splashScreen":{
-				"dark":{
-					"image":"https://assets.unifyapps.com/images/platform/brand-assets/splash-icon-light.png",
-					"backgroundColor":"#182230"
-				},
-				"imageWidth":1024.0,
-				"image":"https://assets.unifyapps.com/images/platform/brand-assets/splash-icon-dark.png",
-				"backgroundColor":"#FFFFFF",
-				"imageFit":"contain",
-				"imageHeight":1024.0
-			},
-			"brandAssets":{
-				"ios":{
-					"darkModeLogo":"https://assets.unifyapps.com/images/platform/brand-assets/ios-dark.png",
-					"lightModeLogo":"https://assets.unifyapps.com/images/platform/brand-assets/ios-light.png",
-					"tintedLogo":"https://assets.unifyapps.com/images/platform/brand-assets/ios-tinted.png"
-				},
-				"android":{
-					"backgroundColor":"#FFFFFF",
-					"foregroundLogo":"https://assets.unifyapps.com/images/platform/brand-assets/android-foreground.png",
-					"monochromeLogo":"https://assets.unifyapps.com/images/platform/brand-assets/android-monochrome.png",
-					"backgroundType":"Color"
-				}
-			}
 		},
 		"paths":{
 			"f_root":{
@@ -248,10 +261,6 @@
 		"name":"bcd",
 		"theme":{
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
-		},
-		"type":"application",
-		"locale":{
-			"defaultLocale":"en-US"
 		},
 		"entityDetailsMap":{
 			"e_global_bcd":{
@@ -270,5 +279,5 @@
 	"tags":[
 		
 	],
-	"version":2
+	"version":6
 }
