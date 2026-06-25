@@ -2,10 +2,10 @@
 	"createdTime":1745078068792,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782297724103,
+		"deployedAt":1782360129503,
 		"deployedBy":-1,
-		"entityVersion":1787,
-		"version":992
+		"entityVersion":1788,
+		"version":993
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -43,7 +43,7 @@
 	},
 	"id":"ua-copilot",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782298129888,
+	"modifiedTime":1782360543315,
 	"ownerUserId":1238,
 	"properties":{
 		"standard":true,
@@ -87,5 +87,5 @@
 	"tags":[
 		
 	],
-	"version":1787
+	"version":1788
 }
