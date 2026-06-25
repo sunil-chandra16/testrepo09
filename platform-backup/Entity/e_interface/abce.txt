@@ -2,15 +2,17 @@
 	"createdTime":1782372748558,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782374683212,
+		"deployedAt":1782389923801,
 		"deployedBy":200386,
-		"entityVersion":19,
-		"version":6
+		"entityVersion":20,
+		"version":7
 	},
 	"entityType":"e_interface",
 	"id":"abce",
 	"lastModifiedBy":200386,
-	"modifiedTime":1782374683271,
+	"lastPlatformUpdateBy":200386,
+	"lastPlatformUpdateOn":1782389923806,
+	"modifiedTime":1782389923806,
 	"ownerUserId":200386,
 	"properties":{
 		"standard":false,
