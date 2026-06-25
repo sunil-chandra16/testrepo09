@@ -2,10 +2,10 @@
 	"createdTime":1745474837488,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782360239675,
+		"deployedAt":1782400095244,
 		"deployedBy":-1,
-		"entityVersion":1761,
-		"version":734
+		"entityVersion":1762,
+		"version":735
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -43,7 +43,7 @@
 	},
 	"id":"ua-ai-models",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782360913461,
+	"modifiedTime":1782400875790,
 	"ownerUserId":522,
 	"properties":{
 		"standard":true,
@@ -87,5 +87,5 @@
 	"tags":[
 		
 	],
-	"version":1761
+	"version":1762
 }
