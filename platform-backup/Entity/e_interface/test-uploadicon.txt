@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195904"
@@ -17,7 +24,7 @@
 	},
 	"id":"test-uploadicon",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798306335,
+	"modifiedTime":1782395886617,
 	"ownerUserId":195904,
 	"properties":{
 		"standard":false,
