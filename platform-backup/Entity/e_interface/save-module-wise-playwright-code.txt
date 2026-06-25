@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"144407"
@@ -23,7 +30,7 @@
 	},
 	"id":"save-module-wise-playwright-code",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781874334963,
+	"modifiedTime":1782395884285,
 	"ownerUserId":144407,
 	"properties":{
 		"standard":false,
