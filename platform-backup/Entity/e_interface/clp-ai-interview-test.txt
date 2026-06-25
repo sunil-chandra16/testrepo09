@@ -2,9 +2,29 @@
 	"createdTime":1782384880656,
 	"deleted":false,
 	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"191175"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"clp-ai-interview-test",
-	"lastModifiedBy":191175,
-	"modifiedTime":1782386169402,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782395885674,
 	"ownerUserId":191175,
 	"properties":{
 		"standard":false,
