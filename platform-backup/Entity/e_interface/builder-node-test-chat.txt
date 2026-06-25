@@ -2,10 +2,10 @@
 	"createdTime":1775030600574,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782360215950,
+		"deployedAt":1782400062259,
 		"deployedBy":-1,
-		"entityVersion":28,
-		"version":25
+		"entityVersion":29,
+		"version":26
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -43,7 +43,7 @@
 	},
 	"id":"builder-node-test-chat",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782360821483,
+	"modifiedTime":1782400780432,
 	"ownerUserId":67744,
 	"properties":{
 		"standard":false,
@@ -249,5 +249,5 @@
 		"customCode":{}
 	},
 	"standard":true,
-	"version":28
+	"version":29
 }
