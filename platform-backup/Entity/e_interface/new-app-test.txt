@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"33644"
@@ -17,7 +24,7 @@
 	},
 	"id":"new-app-test",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781874335396,
+	"modifiedTime":1782395884438,
 	"ownerUserId":33644,
 	"properties":{
 		"standard":false,
