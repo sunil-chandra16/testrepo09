@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"643"
@@ -23,7 +30,7 @@
 	},
 	"id":"sadassade3",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798305629,
+	"modifiedTime":1782395886694,
 	"ownerUserId":643,
 	"properties":{
 		"standard":false,
