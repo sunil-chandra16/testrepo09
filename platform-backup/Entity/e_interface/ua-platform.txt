@@ -40,8 +40,8 @@
 		]
 	},
 	"id":"ua-platform",
-	"lastModifiedBy":43496,
-	"modifiedTime":1782310055546,
+	"lastModifiedBy":200377,
+	"modifiedTime":1782387539822,
 	"ownerUserId":46884,
 	"properties":{
 		"standard":false,
@@ -56,7 +56,7 @@
 			},
 			"_counter":{
 				"_moduleCount":0,
-				"_functionCounter":1,
+				"_functionCounter":2,
 				"_pageCount":1
 			}
 		},
@@ -139,6 +139,16 @@
 		"interfacePageIdVsSlugMap":{
 			"home_page":"home-page"
 		},
+		"paths":{
+			"f_root":{
+				"id":"f_root",
+				"segment":"",
+				"children":[
+					"home_page"
+				],
+				"path":"/"
+			}
+		},
 		"name":"UnifyApps Platform",
 		"theme":{
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
@@ -153,5 +163,5 @@
 		}
 	},
 	"standard":false,
-	"version":1342
+	"version":1345
 }
