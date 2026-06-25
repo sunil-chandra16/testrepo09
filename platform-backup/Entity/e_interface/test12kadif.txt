@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"177779"
@@ -17,7 +24,7 @@
 	},
 	"id":"test12kadif",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798306422,
+	"modifiedTime":1782395886004,
 	"ownerUserId":177779,
 	"properties":{
 		"standard":false,
