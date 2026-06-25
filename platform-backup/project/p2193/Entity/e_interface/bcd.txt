@@ -2,10 +2,10 @@
 	"createdTime":1782392333873,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782392432628,
+		"deployedAt":1782393581457,
 		"deployedBy":200386,
-		"entityVersion":5,
-		"version":1
+		"entityVersion":6,
+		"version":2
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -31,8 +31,8 @@
 	"id":"bcd",
 	"lastModifiedBy":200386,
 	"lastPlatformUpdateBy":200386,
-	"lastPlatformUpdateOn":1782393539804,
-	"modifiedTime":1782393539804,
+	"lastPlatformUpdateOn":1782393581459,
+	"modifiedTime":1782393581459,
 	"ownerUserId":200386,
 	"projectId":2193,
 	"properties":{
