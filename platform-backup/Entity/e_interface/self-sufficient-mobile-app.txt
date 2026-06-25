@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"30179"
@@ -22,8 +29,8 @@
 		]
 	},
 	"id":"self-sufficient-mobile-app",
-	"lastModifiedBy":30179,
-	"modifiedTime":1782160092709,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782395886598,
 	"ownerUserId":30179,
 	"properties":{
 		"standard":false,
