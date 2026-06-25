@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195388"
@@ -21,7 +28,7 @@
 			},
 			{
 				"permissions":[
-					"A"
+					"V"
 				],
 				"principalType":"GLOBAL"
 			}
@@ -29,7 +36,7 @@
 	},
 	"id":"ai-enterprise-chat-sidenav-dnd",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782295216361,
+	"modifiedTime":1782395885794,
 	"ownerUserId":195388,
 	"properties":{
 		"standard":false,
