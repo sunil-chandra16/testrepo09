@@ -4,7 +4,7 @@
 	"entityType":"e_interface",
 	"id":"clp-ai-interview-test",
 	"lastModifiedBy":191175,
-	"modifiedTime":1782385410986,
+	"modifiedTime":1782386169402,
 	"ownerUserId":191175,
 	"properties":{
 		"standard":false,
@@ -21,6 +21,7 @@
 				"_mqttTopicCounter":0,
 				"_pageCount":1,
 				"_moduleCount":0,
+				"_variableCounter":1,
 				"_templateComponentCount":0
 			}
 		},
@@ -182,11 +183,20 @@
 			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
-			"e_global_clp-ai-interview-test":"global-page-of-clp-ai-interview-test",
 			"e_6a3d08f3edeabf356861a860":"homepage"
 		},
 		"manifest":{
 			"type":"WEB"
+		},
+		"paths":{
+			"f_root":{
+				"id":"f_root",
+				"segment":"",
+				"children":[
+					"e_6a3d08f3edeabf356861a860"
+				],
+				"path":"/"
+			}
 		},
 		"name":"CLP AI Interview Test",
 		"theme":{
@@ -197,11 +207,6 @@
 			"defaultLocale":"en-US"
 		},
 		"entityDetailsMap":{
-			"e_global_clp-ai-interview-test":{
-				"slug":"global-page-of-clp-ai-interview-test",
-				"isPublic":false,
-				"type":"PAGE"
-			},
 			"e_6a3d08f3edeabf356861a860":{
 				"slug":"homepage",
 				"isPublic":false,
@@ -213,5 +218,5 @@
 	"tags":[
 		
 	],
-	"version":8
+	"version":16
 }
