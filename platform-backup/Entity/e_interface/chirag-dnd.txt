@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"178103"
@@ -17,7 +24,7 @@
 	},
 	"id":"chirag-dnd",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781874335183,
+	"modifiedTime":1782395884608,
 	"ownerUserId":178103,
 	"properties":{
 		"standard":false,
