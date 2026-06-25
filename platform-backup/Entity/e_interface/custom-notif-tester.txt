@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"199859"
@@ -16,8 +23,8 @@
 		]
 	},
 	"id":"custom-notif-tester",
-	"lastModifiedBy":199859,
-	"modifiedTime":1782253908720,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782395884192,
 	"ownerUserId":199859,
 	"properties":{
 		"standard":false,
