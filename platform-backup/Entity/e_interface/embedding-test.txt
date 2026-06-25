@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"175120"
@@ -23,7 +30,7 @@
 	},
 	"id":"embedding-test",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798306627,
+	"modifiedTime":1782395885180,
 	"ownerUserId":175120,
 	"properties":{
 		"standard":false,
