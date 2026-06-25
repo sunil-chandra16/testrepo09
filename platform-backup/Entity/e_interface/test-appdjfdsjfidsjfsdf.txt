@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"48862"
@@ -21,27 +28,27 @@
 			},
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195439"
 				],
 				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"A"
-				],
-				"principalIds":[
-					"69d502177e475d2b4f4b2914"
-				],
-				"principalType":"USER_GROUPS"
 			}
 		]
 	},
 	"id":"test-appdjfdsjfidsjfsdf",
-	"lastModifiedBy":44105,
-	"modifiedTime":1782277540090,
+	"lastModifiedBy":48862,
+	"lastPlatformUpdateBy":48862,
+	"lastPlatformUpdateOn":1782410360247,
+	"modifiedTime":1782410360247,
 	"ownerUserId":48862,
 	"properties":{
 		"standard":false,
@@ -497,5 +504,5 @@
 	"tags":[
 		
 	],
-	"version":3901
+	"version":3910
 }
