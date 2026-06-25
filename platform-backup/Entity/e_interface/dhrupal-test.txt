@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"49915"
@@ -16,8 +23,8 @@
 		]
 	},
 	"id":"dhrupal-test",
-	"lastModifiedBy":49915,
-	"modifiedTime":1782151250148,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782395887715,
 	"ownerUserId":49915,
 	"properties":{
 		"standard":false,
