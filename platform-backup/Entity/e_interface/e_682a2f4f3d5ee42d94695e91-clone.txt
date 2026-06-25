@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalType":"GLOBAL"
 			}
@@ -20,7 +27,7 @@
 	},
 	"id":"e_682a2f4f3d5ee42d94695e91-clone",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782400160854,
+	"modifiedTime":1782401082681,
 	"ownerUserId":1238,
 	"properties":{
 		"standard":true,
