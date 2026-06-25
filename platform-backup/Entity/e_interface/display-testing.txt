@@ -5,8 +5,8 @@
 	"id":"display-testing",
 	"lastModifiedBy":19752,
 	"lastPlatformUpdateBy":19752,
-	"lastPlatformUpdateOn":1782415938636,
-	"modifiedTime":1782415938636,
+	"lastPlatformUpdateOn":1782415971351,
+	"modifiedTime":1782415971351,
 	"ownerUserId":19752,
 	"properties":{
 		"standard":false,
@@ -32,6 +32,7 @@
 			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
+			"e_global_display-testing":"global-page-of-display-testing",
 			"e_6a3d824267eb4955cd30e431":"homepage"
 		},
 		"manifest":{
@@ -68,6 +69,11 @@
 			"defaultLocale":"en-US"
 		},
 		"entityDetailsMap":{
+			"e_global_display-testing":{
+				"slug":"global-page-of-display-testing",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a3d824267eb4955cd30e431":{
 				"slug":"homepage",
 				"isPublic":false,
@@ -79,5 +85,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":5
 }
