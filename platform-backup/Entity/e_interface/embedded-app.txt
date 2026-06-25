@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"191671"
@@ -22,8 +29,8 @@
 		]
 	},
 	"id":"embedded-app",
-	"lastModifiedBy":191671,
-	"modifiedTime":1781704465899,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782395884971,
 	"ownerUserId":191671,
 	"properties":{
 		"standard":false,
@@ -265,5 +272,5 @@
 	"tags":[
 		
 	],
-	"version":66
+	"version":68
 }
