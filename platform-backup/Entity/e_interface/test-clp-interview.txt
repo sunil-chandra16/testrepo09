@@ -4,7 +4,7 @@
 	"entityType":"e_interface",
 	"id":"test-clp-interview",
 	"lastModifiedBy":191175,
-	"modifiedTime":1782382200322,
+	"modifiedTime":1782382234901,
 	"ownerUserId":191175,
 	"properties":{
 		"standard":false,
@@ -182,6 +182,7 @@
 			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
+			"e_global_test-clp-interview":"global-page-of-test-clp-interview",
 			"e_6a3cfe787510fa3aa2c6c946":"homepage"
 		},
 		"manifest":{
@@ -196,6 +197,11 @@
 			"defaultLocale":"en-US"
 		},
 		"entityDetailsMap":{
+			"e_global_test-clp-interview":{
+				"slug":"global-page-of-test-clp-interview",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a3cfe787510fa3aa2c6c946":{
 				"slug":"homepage",
 				"isPublic":false,
@@ -207,5 +213,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":4
 }
