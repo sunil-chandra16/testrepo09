@@ -2,10 +2,10 @@
 	"createdTime":1726990154810,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782297621756,
+		"deployedAt":1782359996423,
 		"deployedBy":-1,
-		"entityVersion":1766,
-		"version":749
+		"entityVersion":1767,
+		"version":750
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -43,7 +43,7 @@
 	},
 	"id":"ua-projects",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782297814163,
+	"modifiedTime":1782360201142,
 	"ownerUserId":520,
 	"properties":{
 		"standard":true,
@@ -78,5 +78,5 @@
 	"tags":[
 		
 	],
-	"version":1766
+	"version":1767
 }
