@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"30179"
@@ -17,7 +24,7 @@
 	},
 	"id":"cority-shell",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781874335639,
+	"modifiedTime":1782395884687,
 	"ownerUserId":30179,
 	"properties":{
 		"standard":false,
