@@ -1,0 +1,47 @@
+{
+	"createdTime":1780992427239,
+	"deleted":false,
+	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"33860"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
+	"id":"e-6a27c9aa5f85da1ae7726903",
+	"lastModifiedBy":-1,
+	"modifiedTime":1782395886283,
+	"ownerUserId":33860,
+	"properties":{
+		"standard":false,
+		"navigation":{
+			"defaultPageId":"ai-canvas-forge",
+			"primary":[]
+		},
+		"metadata":{
+			"logo":{
+				"small":"https://assets.unifyapps.com/images/theme/unifyapps/unify.svg",
+				"large":"https://assets.unifyapps.com/images/theme/unifyapps/unify-logo.svg",
+				"favicon":"/favicon.png"
+			}
+		},
+		"name":"Untitled application",
+		"provisionApp":false
+	},
+	"standard":false,
+	"version":3
+}
