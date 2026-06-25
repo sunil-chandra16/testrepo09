@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"11492"
@@ -22,8 +29,8 @@
 		]
 	},
 	"id":"test-locale-ar",
-	"lastModifiedBy":11492,
-	"modifiedTime":1781788479062,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782395885100,
 	"ownerUserId":11492,
 	"properties":{
 		"standard":false,
