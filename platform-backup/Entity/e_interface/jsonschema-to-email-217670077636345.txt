@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"175325"
@@ -17,7 +24,7 @@
 	},
 	"id":"jsonschema-to-email-217670077636345",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798305043,
+	"modifiedTime":1782395884631,
 	"ownerUserId":175325,
 	"properties":{
 		"standard":false,
