@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"197372"
@@ -22,8 +29,8 @@
 		]
 	},
 	"id":"keka-web-components-dnd",
-	"lastModifiedBy":197372,
-	"modifiedTime":1782111550694,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782395885618,
 	"ownerUserId":197372,
 	"properties":{
 		"standard":false,
