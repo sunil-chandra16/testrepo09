@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"37040"
@@ -23,7 +30,7 @@
 	},
 	"id":"bvm-cj",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798306860,
+	"modifiedTime":1782395885675,
 	"ownerUserId":37040,
 	"properties":{
 		"standard":false,
