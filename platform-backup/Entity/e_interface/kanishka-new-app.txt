@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"199978"
@@ -17,7 +24,7 @@
 	},
 	"id":"kanishka-new-app",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798310094,
+	"modifiedTime":1782395884303,
 	"ownerUserId":199978,
 	"properties":{
 		"standard":false,
