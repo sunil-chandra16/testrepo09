@@ -2,23 +2,37 @@
 	"createdTime":1727792501994,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781788743853,
+		"deployedAt":1782360228627,
 		"deployedBy":-1,
-		"entityVersion":1769,
-		"version":665
+		"entityVersion":1771,
+		"version":667
 	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalType":"GLOBAL"
 			},
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"6757db349b09ba5b01b6c44c"
@@ -29,7 +43,7 @@
 	},
 	"id":"ua-workflows",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781789562395,
+	"modifiedTime":1782360903276,
 	"ownerUserId":0,
 	"properties":{
 		"standard":true,
@@ -68,5 +82,5 @@
 		"syncFromSourceCustomer":true
 	},
 	"standard":true,
-	"version":1769
+	"version":1771
 }
