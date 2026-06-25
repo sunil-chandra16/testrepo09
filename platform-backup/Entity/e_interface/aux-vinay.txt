@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195435"
@@ -17,7 +24,7 @@
 	},
 	"id":"aux-vinay",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781874336004,
+	"modifiedTime":1782395885077,
 	"ownerUserId":195435,
 	"properties":{
 		"standard":false,
