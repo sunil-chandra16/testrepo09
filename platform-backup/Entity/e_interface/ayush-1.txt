@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"199634"
@@ -17,7 +24,7 @@
 	},
 	"id":"ayush-1",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781778891741,
+	"modifiedTime":1782395887397,
 	"ownerUserId":199634,
 	"properties":{
 		"standard":false,
