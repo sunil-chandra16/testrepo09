@@ -4,7 +4,7 @@
 	"entityType":"e_interface",
 	"id":"test-clp-interview",
 	"lastModifiedBy":191175,
-	"modifiedTime":1782382179338,
+	"modifiedTime":1782382200322,
 	"ownerUserId":191175,
 	"properties":{
 		"standard":false,
@@ -19,14 +19,14 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":0,
+				"_pageCount":1,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
 		},
 		"navigation":{
 			"secondary":[],
-			"defaultPageId":"",
+			"defaultPageId":"e_6a3cfe787510fa3aa2c6c946",
 			"appearance":{
 				"SM":{
 					"primary":[],
@@ -58,7 +58,8 @@
 						"padding":{
 							"all":"p-0"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"LG":{
 					"primary":[],
@@ -96,7 +97,8 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"XL":{
 					"primary":[],
@@ -134,7 +136,8 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"MD":{
 					"primary":[],
@@ -172,10 +175,14 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				}
 			},
 			"primary":[]
+		},
+		"interfacePageIdVsSlugMap":{
+			"e_6a3cfe787510fa3aa2c6c946":"homepage"
 		},
 		"manifest":{
 			"type":"WEB"
@@ -187,11 +194,18 @@
 		"type":"application",
 		"locale":{
 			"defaultLocale":"en-US"
+		},
+		"entityDetailsMap":{
+			"e_6a3cfe787510fa3aa2c6c946":{
+				"slug":"homepage",
+				"isPublic":false,
+				"type":"PAGE"
+			}
 		}
 	},
 	"standard":false,
 	"tags":[
 		
 	],
-	"version":0
+	"version":1
 }
