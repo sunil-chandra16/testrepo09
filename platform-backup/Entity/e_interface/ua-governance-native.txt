@@ -2,17 +2,24 @@
 	"createdTime":1774270857139,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781788727582,
+		"deployedAt":1782360212656,
 		"deployedBy":-1,
-		"entityVersion":292,
-		"version":23
+		"entityVersion":294,
+		"version":25
 	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195449"
@@ -21,7 +28,14 @@
 			},
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalType":"GLOBAL"
 			}
@@ -29,7 +43,7 @@
 	},
 	"id":"ua-governance-native",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781789462724,
+	"modifiedTime":1782360816316,
 	"ownerUserId":195449,
 	"properties":{
 		"standard":true,
@@ -278,5 +292,5 @@
 		}
 	},
 	"standard":true,
-	"version":292
+	"version":294
 }
