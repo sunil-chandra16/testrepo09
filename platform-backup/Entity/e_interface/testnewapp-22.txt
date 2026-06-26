@@ -11,8 +11,8 @@
 	"id":"testnewapp-22",
 	"lastModifiedBy":155341,
 	"lastPlatformUpdateBy":155341,
-	"lastPlatformUpdateOn":1782471305257,
-	"modifiedTime":1782471305257,
+	"lastPlatformUpdateOn":1782471313256,
+	"modifiedTime":1782471313256,
 	"ownerUserId":155341,
 	"properties":{
 		"standard":false,
@@ -45,7 +45,7 @@
 		},
 		"navigation":{
 			"secondary":[],
-			"defaultPageId":"testnewapp-22_login",
+			"defaultPageId":"e_6a3e5a878450f302a4b7910f",
 			"appearance":{
 				"SM":{
 					"primary":[],
@@ -246,5 +246,5 @@
 	"tags":[
 		
 	],
-	"version":9
+	"version":10
 }
