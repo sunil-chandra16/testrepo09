@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195822"
@@ -23,7 +30,9 @@
 	},
 	"id":"anshul-test",
 	"lastModifiedBy":195822,
-	"modifiedTime":1782229300337,
+	"lastPlatformUpdateBy":195822,
+	"lastPlatformUpdateOn":1782456783675,
+	"modifiedTime":1782456783675,
 	"ownerUserId":195822,
 	"properties":{
 		"standard":false,
@@ -77,10 +86,6 @@
 					"foregroundLogo":"https://assets.unifyapps.com/images/platform/brand-assets/android-foreground.png",
 					"monochromeLogo":"https://assets.unifyapps.com/images/platform/brand-assets/android-monochrome.png",
 					"backgroundType":"Color"
-				},
-				"pushNotificationLogos":{
-					"applicationLogo":"/api/file/asset/download/6a396a8105fce20da89773be",
-					"notificationLogo":"/api/file/asset/download/6a396a8105fce20da89773be"
 				}
 			}
 		},
@@ -353,5 +358,5 @@
 	"tags":[
 		
 	],
-	"version":827
+	"version":828
 }
