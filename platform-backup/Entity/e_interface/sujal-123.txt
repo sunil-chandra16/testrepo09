@@ -23,10 +23,10 @@
 		]
 	},
 	"id":"sujal-123",
-	"lastModifiedBy":106,
-	"lastPlatformUpdateBy":106,
-	"lastPlatformUpdateOn":1782473957444,
-	"modifiedTime":1782473957444,
+	"lastModifiedBy":195414,
+	"lastPlatformUpdateBy":195414,
+	"lastPlatformUpdateOn":1782476345404,
+	"modifiedTime":1782476345404,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -231,7 +231,10 @@
 		},
 		"type":"application",
 		"locale":{
-			"defaultLocale":"en-US"
+			"defaultLocale":"en-US",
+			"supportedLocales":[
+				"ar-AE"
+			]
 		},
 		"entityDetailsMap":{
 			"e_6a3cdfc8f9c87732f63b3705":{
@@ -260,5 +263,5 @@
 	"tags":[
 		
 	],
-	"version":200
+	"version":211
 }
