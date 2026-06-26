@@ -29,10 +29,10 @@
 		]
 	},
 	"id":"yashcheck",
-	"lastModifiedBy":21,
-	"lastPlatformUpdateBy":21,
-	"lastPlatformUpdateOn":1782485125957,
-	"modifiedTime":1782485125957,
+	"lastModifiedBy":43497,
+	"lastPlatformUpdateBy":43497,
+	"lastPlatformUpdateOn":1782486272041,
+	"modifiedTime":1782486272041,
 	"ownerUserId":522,
 	"properties":{
 		"standard":false,
@@ -48,7 +48,7 @@
 			"_counter":{
 				"_moduleCount":0,
 				"_dataSourceCounter":1,
-				"_pageCount":1
+				"_pageCount":2
 			}
 		},
 		"navigation":{
@@ -213,6 +213,7 @@
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_685c14d666ee171e9b5fa9df":"homepage",
+			"e_6a3e91b0d5b5470382997ebe":"page-2",
 			"e_global_yashcheck":"global-page-of-yashcheck"
 		},
 		"manifest":{
@@ -223,7 +224,8 @@
 				"id":"f_root",
 				"segment":"",
 				"children":[
-					"e_685c14d666ee171e9b5fa9df"
+					"e_685c14d666ee171e9b5fa9df",
+					"e_6a3e91b0d5b5470382997ebe"
 				],
 				"path":"/"
 			}
@@ -238,6 +240,11 @@
 				"slug":"homepage",
 				"isPublic":false,
 				"type":"PAGE"
+			},
+			"e_6a3e91b0d5b5470382997ebe":{
+				"slug":"page-2",
+				"isPublic":false,
+				"type":"PAGE"
 			}
 		}
 	},
@@ -245,5 +252,5 @@
 	"tags":[
 		
 	],
-	"version":117
+	"version":154
 }
