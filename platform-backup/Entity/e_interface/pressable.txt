@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"196385"
@@ -23,7 +30,9 @@
 	},
 	"id":"pressable",
 	"lastModifiedBy":196385,
-	"modifiedTime":1782388317877,
+	"lastPlatformUpdateBy":196385,
+	"lastPlatformUpdateOn":1782481328980,
+	"modifiedTime":1782481328980,
 	"ownerUserId":196385,
 	"properties":{
 		"standard":false,
@@ -256,5 +265,5 @@
 	"tags":[
 		"pressable"
 	],
-	"version":343
+	"version":348
 }
