@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195848"
@@ -23,7 +30,9 @@
 	},
 	"id":"yash-12",
 	"lastModifiedBy":30181,
-	"modifiedTime":1782375473449,
+	"lastPlatformUpdateBy":30181,
+	"lastPlatformUpdateOn":1782492673840,
+	"modifiedTime":1782492673840,
 	"ownerUserId":195848,
 	"properties":{
 		"standard":false,
@@ -38,8 +47,8 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_dataSourceCounter":5,
-				"_pageCount":22,
+				"_dataSourceCounter":6,
+				"_pageCount":23,
 				"_moduleCount":1,
 				"_variableCounter":4,
 				"_templateComponentCount":0
@@ -326,6 +335,7 @@
 			"e_6a2abcb3dd51a5216b3051bc":"page-10",
 			"e_6a3240651bf96f665949020e":"page-17",
 			"e_6a34efb2022e790fd80d6a39":"page-20",
+			"e_6a3ead40019dd53194ddce86":"page-23",
 			"e_6a2818ad9e6fdf31fe52d913":"page-3",
 			"e_6a351231f6f30e603c67ae80":"page-21",
 			"e_6a351245d63dc21cc07ff42a":"page-22",
@@ -357,7 +367,8 @@
 					"e_6a3240651bf96f665949020e",
 					"e_6a32941a3da99b039897a8a1",
 					"e_6a329b53d9400a1ad7cb7c7c",
-					"e_6a34efb2022e790fd80d6a39"
+					"e_6a34efb2022e790fd80d6a39",
+					"e_6a3ead40019dd53194ddce86"
 				],
 				"path":"/"
 			}
@@ -449,6 +460,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_6a3ead40019dd53194ddce86":{
+				"slug":"page-23",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a2818ad9e6fdf31fe52d913":{
 				"slug":"page-3",
 				"isPublic":false,
@@ -490,5 +506,5 @@
 	"tags":[
 		
 	],
-	"version":798
+	"version":815
 }
