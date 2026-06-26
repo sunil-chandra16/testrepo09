@@ -5,8 +5,8 @@
 	"id":"textstyletestappp",
 	"lastModifiedBy":197188,
 	"lastPlatformUpdateBy":197188,
-	"lastPlatformUpdateOn":1782476464160,
-	"modifiedTime":1782476464160,
+	"lastPlatformUpdateOn":1782477766246,
+	"modifiedTime":1782477766246,
 	"ownerUserId":197188,
 	"properties":{
 		"standard":false,
@@ -21,7 +21,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":1,
+				"_pageCount":3,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
@@ -34,6 +34,14 @@
 					"primary":[
 						{
 							"id":"nav_86ygZ",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_QYJko",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_qJlYY",
 							"hiddenInOverflow":false
 						}
 					],
@@ -72,6 +80,14 @@
 					"primary":[
 						{
 							"id":"nav_86ygZ",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_QYJko",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_qJlYY",
 							"hiddenInOverflow":false
 						}
 					],
@@ -117,6 +133,14 @@
 						{
 							"id":"nav_86ygZ",
 							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_QYJko",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_qJlYY",
+							"hiddenInOverflow":false
 						}
 					],
 					"navigationItem":{
@@ -160,6 +184,14 @@
 					"primary":[
 						{
 							"id":"nav_86ygZ",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_QYJko",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_qJlYY",
 							"hiddenInOverflow":false
 						}
 					],
@@ -210,12 +242,32 @@
 					"type":"PAGE",
 					"pageId":"e_6a3e6311203cb665d506f79b",
 					"slug":"homepage"
+				},
+				{
+					"activeIcon":"HeartFilled",
+					"name":"Page 2",
+					"icon":"Heart",
+					"id":"nav_QYJko",
+					"type":"PAGE",
+					"pageId":"e_6a3e70544a13b2784f5f0429",
+					"slug":"page-2"
+				},
+				{
+					"activeIcon":"AiAgentSolid",
+					"name":"form",
+					"icon":"SvgAiAgent",
+					"id":"nav_qJlYY",
+					"type":"PAGE",
+					"pageId":"e_6a3e73bc4a13b2784f5f04bc",
+					"slug":"form"
 				}
 			]
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a3e6311203cb665d506f79b":"homepage",
-			"e_global_textstyletestappp":"global-page-of-textstyletestappp"
+			"e_global_textstyletestappp":"global-page-of-textstyletestappp",
+			"e_6a3e70544a13b2784f5f0429":"page-2",
+			"e_6a3e73bc4a13b2784f5f04bc":"form"
 		},
 		"manifest":{
 			"type":"WEB"
@@ -225,7 +277,9 @@
 				"id":"f_root",
 				"segment":"",
 				"children":[
-					"e_6a3e6311203cb665d506f79b"
+					"e_6a3e6311203cb665d506f79b",
+					"e_6a3e70544a13b2784f5f0429",
+					"e_6a3e73bc4a13b2784f5f04bc"
 				],
 				"path":"/"
 			}
@@ -248,6 +302,16 @@
 				"slug":"global-page-of-textstyletestappp",
 				"isPublic":false,
 				"type":"PAGE"
+			},
+			"e_6a3e70544a13b2784f5f0429":{
+				"slug":"page-2",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a3e73bc4a13b2784f5f04bc":{
+				"slug":"form",
+				"isPublic":false,
+				"type":"PAGE"
 			}
 		}
 	},
@@ -255,5 +319,5 @@
 	"tags":[
 		
 	],
-	"version":206
+	"version":339
 }
