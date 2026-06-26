@@ -5,8 +5,8 @@
 	"id":"textstyletestappp",
 	"lastModifiedBy":43497,
 	"lastPlatformUpdateBy":43497,
-	"lastPlatformUpdateOn":1782495335841,
-	"modifiedTime":1782495335841,
+	"lastPlatformUpdateOn":1782496420422,
+	"modifiedTime":1782496420422,
 	"ownerUserId":197188,
 	"properties":{
 		"standard":false,
@@ -910,5 +910,5 @@
 	"tags":[
 		
 	],
-	"version":1476
+	"version":1481
 }
