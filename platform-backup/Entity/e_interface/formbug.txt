@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"200377"
@@ -22,8 +29,10 @@
 		]
 	},
 	"id":"formbug",
-	"lastModifiedBy":504,
-	"modifiedTime":1782387627822,
+	"lastModifiedBy":195414,
+	"lastPlatformUpdateBy":195414,
+	"lastPlatformUpdateOn":1782456973644,
+	"modifiedTime":1782456973644,
 	"ownerUserId":200377,
 	"properties":{
 		"standard":false,
@@ -38,12 +47,18 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":4,
+				"_pageCount":5,
 				"_moduleCount":1,
-				"_functionCounter":1,
+				"_functionCounter":3,
 				"_templateComponentCount":0
 			}
 		},
+		"linkedLibraries":[
+			{
+				"interfaceId":"e_6a34e957d6bd534c3d996837",
+				"componentId":"e_6a34e957d6bd534c3d996839"
+			}
+		],
 		"publicPageIds":[
 			"e_6a33df6e5356e8273a519afb"
 		],
@@ -235,6 +250,7 @@
 		"interfacePageIdVsSlugMap":{
 			"e_6a33df6e5356e8273a519afb":"homepage",
 			"e_6a3d0e2ec5264306861a3584":"page-4",
+			"e_6a3e2054df3f1d2beb64748d":"page-5",
 			"e_6a3648b44ed3a82eb1dcfbf0":"homepage-_KYdNT",
 			"e_6a3d0e11c5264306861a3581":"page-3"
 		},
@@ -244,7 +260,8 @@
 				"segment":"",
 				"children":[
 					"e_6a33df6e5356e8273a519afb",
-					"e_6a3648b44ed3a82eb1dcfbf0"
+					"e_6a3648b44ed3a82eb1dcfbf0",
+					"e_6a3e2054df3f1d2beb64748d"
 				],
 				"path":"/"
 			}
@@ -266,6 +283,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_6a3e2054df3f1d2beb64748d":{
+				"slug":"page-5",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a3648b44ed3a82eb1dcfbf0":{
 				"slug":"homepage-_KYdNT",
 				"isPublic":false,
@@ -282,5 +304,5 @@
 	"tags":[
 		
 	],
-	"version":265
+	"version":280
 }
