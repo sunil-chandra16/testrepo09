@@ -2,48 +2,25 @@
 	"createdTime":1735214346099,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782399846226,
+		"deployedAt":1782460237203,
 		"deployedBy":-1,
-		"entityVersion":1727,
-		"version":964
+		"entityVersion":1728,
+		"version":965
 	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
 			{
 				"permissions":[
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"E",
-					"V",
-					"M_L"
+					"A"
 				],
 				"principalType":"GLOBAL"
-			},
-			{
-				"permissions":[
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"E",
-					"V",
-					"M_L"
-				],
-				"principalIds":[
-					"6757db349b09ba5b01b6c44c"
-				],
-				"principalType":"USER_GROUPS"
 			}
 		]
 	},
 	"id":"ua-settings",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782400071293,
+	"modifiedTime":1782460237204,
 	"ownerUserId":0,
 	"properties":{
 		"standard":true,
@@ -109,5 +86,5 @@
 		"customCode":{}
 	},
 	"standard":true,
-	"version":1727
+	"version":1728
 }
