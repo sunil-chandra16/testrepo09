@@ -5,8 +5,8 @@
 	"id":"textstyletestappp",
 	"lastModifiedBy":197188,
 	"lastPlatformUpdateBy":197188,
-	"lastPlatformUpdateOn":1782486342042,
-	"modifiedTime":1782486342042,
+	"lastPlatformUpdateOn":1782487653109,
+	"modifiedTime":1782487653109,
 	"ownerUserId":197188,
 	"properties":{
 		"standard":false,
@@ -21,7 +21,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":15,
+				"_pageCount":17,
 				"_moduleCount":1,
 				"_templateComponentCount":0
 			}
@@ -94,6 +94,14 @@
 						},
 						{
 							"id":"nav_5cQAD",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_zydAA",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_JrXRq",
 							"hiddenInOverflow":false
 						}
 					],
@@ -192,6 +200,14 @@
 						},
 						{
 							"id":"nav_5cQAD",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_zydAA",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_JrXRq",
 							"hiddenInOverflow":false
 						}
 					],
@@ -297,6 +313,14 @@
 						{
 							"id":"nav_5cQAD",
 							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_zydAA",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_JrXRq",
+							"hiddenInOverflow":false
 						}
 					],
 					"navigationItem":{
@@ -400,6 +424,14 @@
 						},
 						{
 							"id":"nav_5cQAD",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_zydAA",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_JrXRq",
 							"hiddenInOverflow":false
 						}
 					],
@@ -585,11 +617,31 @@
 					"type":"PAGE",
 					"pageId":"e_6a3e94ad2b666e54c4836cef",
 					"slug":"text-input-2"
+				},
+				{
+					"activeIcon":"ZapSolid",
+					"name":"rating",
+					"icon":"Zap",
+					"id":"nav_zydAA",
+					"type":"PAGE",
+					"pageId":"e_6a3e988ed5b5470382998200",
+					"slug":"rating"
+				},
+				{
+					"activeIcon":"AgenticAiChatSolid",
+					"name":"radio button",
+					"icon":"AgenticAiChat",
+					"id":"nav_JrXRq",
+					"type":"PAGE",
+					"pageId":"e_6a3e9a08d5b5470382998302",
+					"slug":"radio-button"
 				}
 			]
 		},
 		"interfacePageIdVsSlugMap":{
+			"e_6a3e9a08d5b5470382998302":"radio-button",
 			"e_6a3e88ec2b666e54c48366ba":"multi-statcard",
+			"e_6a3e988ed5b5470382998200":"rating",
 			"e_6a3e79a2ae981338142fad90":"image-grid",
 			"e_global_textstyletestappp":"global-page-of-textstyletestappp",
 			"e_6a3e70544a13b2784f5f0429":"page-2",
@@ -626,7 +678,9 @@
 					"e_6a3e8dded5b5470382997b6b",
 					"e_6a3e8ef2d5b5470382997b8c",
 					"e_6a3e902ad5b5470382997e5e",
-					"e_6a3e94ad2b666e54c4836cef"
+					"e_6a3e94ad2b666e54c4836cef",
+					"e_6a3e988ed5b5470382998200",
+					"e_6a3e9a08d5b5470382998302"
 				],
 				"path":"/"
 			}
@@ -640,8 +694,18 @@
 			"defaultLocale":"en-US"
 		},
 		"entityDetailsMap":{
+			"e_6a3e9a08d5b5470382998302":{
+				"slug":"radio-button",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a3e88ec2b666e54c48366ba":{
 				"slug":"multi-statcard",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a3e988ed5b5470382998200":{
+				"slug":"rating",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -726,5 +790,5 @@
 	"tags":[
 		
 	],
-	"version":1161
+	"version":1323
 }
