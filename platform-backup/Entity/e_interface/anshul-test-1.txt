@@ -29,10 +29,10 @@
 		]
 	},
 	"id":"anshul-test-1",
-	"lastModifiedBy":195822,
-	"lastPlatformUpdateBy":195822,
-	"lastPlatformUpdateOn":1782457477176,
-	"modifiedTime":1782457477176,
+	"lastModifiedBy":195465,
+	"lastPlatformUpdateBy":195465,
+	"lastPlatformUpdateOn":1782486248007,
+	"modifiedTime":1782486248007,
 	"ownerUserId":195822,
 	"properties":{
 		"standard":false,
@@ -285,6 +285,9 @@
 			},
 			"primary":[]
 		},
+		"security":{
+			"type":"PRIVATE"
+		},
 		"interfacePageIdVsSlugMap":{
 			"e_69954c5cff315e6b6b4b41c6":"homepage",
 			"e_69ca534324e54b51362a2fb5":"page-3",
@@ -345,5 +348,5 @@
 		"32kkww",
 		"you"
 	],
-	"version":737
+	"version":746
 }
