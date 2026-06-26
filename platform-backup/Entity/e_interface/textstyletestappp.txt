@@ -5,8 +5,8 @@
 	"id":"textstyletestappp",
 	"lastModifiedBy":197188,
 	"lastPlatformUpdateBy":197188,
-	"lastPlatformUpdateOn":1782487653109,
-	"modifiedTime":1782487653109,
+	"lastPlatformUpdateOn":1782488823194,
+	"modifiedTime":1782488823194,
 	"ownerUserId":197188,
 	"properties":{
 		"standard":false,
@@ -21,7 +21,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":17,
+				"_pageCount":20,
 				"_moduleCount":1,
 				"_templateComponentCount":0
 			}
@@ -102,6 +102,18 @@
 						},
 						{
 							"id":"nav_JrXRq",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_8IutC",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_8IutC",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_xY2Qa",
 							"hiddenInOverflow":false
 						}
 					],
@@ -208,6 +220,18 @@
 						},
 						{
 							"id":"nav_JrXRq",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_8IutC",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_8IutC",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_xY2Qa",
 							"hiddenInOverflow":false
 						}
 					],
@@ -321,6 +345,18 @@
 						{
 							"id":"nav_JrXRq",
 							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_8IutC",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_8IutC",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_xY2Qa",
+							"hiddenInOverflow":false
 						}
 					],
 					"navigationItem":{
@@ -432,6 +468,18 @@
 						},
 						{
 							"id":"nav_JrXRq",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_8IutC",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_8IutC",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_xY2Qa",
 							"hiddenInOverflow":false
 						}
 					],
@@ -635,28 +683,62 @@
 					"type":"PAGE",
 					"pageId":"e_6a3e9a08d5b5470382998302",
 					"slug":"radio-button"
+				},
+				{
+					"activeIcon":"Stars02Filled",
+					"name":"datepicker",
+					"icon":"Stars02",
+					"id":"nav_8IutC",
+					"type":"PAGE",
+					"pageId":"e_6a3e9ab6d3455100147a1606",
+					"slug":"datepicker"
+				},
+				{
+					"activeIcon":"Stars02Filled",
+					"name":"datepicker",
+					"icon":"Stars02",
+					"id":"nav_8IutC",
+					"type":"PAGE",
+					"pageId":"e_6a3e9ab6d3455100147a1606",
+					"slug":"datepicker"
+				},
+				{
+					"activeIcon":"Stars02Filled",
+					"name":"Page 20",
+					"icon":"Stars02",
+					"id":"nav_xY2Qa",
+					"type":"PAGE",
+					"pageId":"e_6a3e9e1cd5b547038299845d",
+					"slug":"page-20"
 				}
 			]
 		},
 		"interfacePageIdVsSlugMap":{
+			"e_6a3e9ab6d3455100147a1606":"datepicker",
 			"e_6a3e9a08d5b5470382998302":"radio-button",
-			"e_6a3e88ec2b666e54c48366ba":"multi-statcard",
-			"e_6a3e988ed5b5470382998200":"rating",
-			"e_6a3e79a2ae981338142fad90":"image-grid",
-			"e_global_textstyletestappp":"global-page-of-textstyletestappp",
 			"e_6a3e70544a13b2784f5f0429":"page-2",
 			"e_6a3e779bae981338142fa912":"page-4",
 			"e_6a3e7b688f78ae69aa61edd7":"avatar",
-			"e_6a3e8ef2d5b5470382997b8c":"pin-input",
-			"e_6a3e7c64ae981338142fae53":"statcard",
 			"e_6a3e6311203cb665d506f79b":"homepage",
-			"e_6a3e8dded5b5470382997b6b":"keyvaluepair",
 			"e_6a3e902ad5b5470382997e5e":"data-table",
-			"e_6a3e8a862b666e54c48366f8":"tabs",
 			"e_6a3e91812b666e54c483694d":"text-input",
 			"e_6a3e7de38f78ae69aa61ee35":"page-8",
+			"e_6a3e88e32b666e54c48366b6":"multi-statcard",
 			"e_6a3e73bc4a13b2784f5f04bc":"form",
-			"e_6a3e94ad2b666e54c4836cef":"text-input-2"
+			"e_6a3e94ad2b666e54c4836cef":"text-input-2",
+			"e_6a3e88ec2b666e54c48366ba":"multi-statcard",
+			"e_6a3e9e1cd5b547038299845d":"page-20",
+			"e_6a3e988ed5b5470382998200":"rating",
+			"e_6a3e79a2ae981338142fad90":"image-grid",
+			"e_6a3e8a79d5b5470382997af6":"tabs",
+			"e_6a3e91792b666e54c483694b":"text-input",
+			"e_6a3e88e52b666e54c48366b8":"multi-statcard",
+			"e_6a3e8ef2d5b5470382997b8c":"pin-input",
+			"e_6a3e7c64ae981338142fae53":"statcard",
+			"e_6a3e8dded5b5470382997b6b":"keyvaluepair",
+			"e_6a3e9aafd3455100147a1604":"datepicker",
+			"e_6a3e8a862b666e54c48366f8":"tabs",
+			"e_6a3e9c45d5b54703829983d6":"datepicker2"
 		},
 		"manifest":{
 			"type":"WEB"
@@ -680,7 +762,10 @@
 					"e_6a3e902ad5b5470382997e5e",
 					"e_6a3e94ad2b666e54c4836cef",
 					"e_6a3e988ed5b5470382998200",
-					"e_6a3e9a08d5b5470382998302"
+					"e_6a3e9a08d5b5470382998302",
+					"e_6a3e9ab6d3455100147a1606",
+					"e_6a3e9c45d5b54703829983d6",
+					"e_6a3e9e1cd5b547038299845d"
 				],
 				"path":"/"
 			}
@@ -694,28 +779,13 @@
 			"defaultLocale":"en-US"
 		},
 		"entityDetailsMap":{
+			"e_6a3e9ab6d3455100147a1606":{
+				"slug":"datepicker",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a3e9a08d5b5470382998302":{
 				"slug":"radio-button",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_6a3e88ec2b666e54c48366ba":{
-				"slug":"multi-statcard",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_6a3e988ed5b5470382998200":{
-				"slug":"rating",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_6a3e79a2ae981338142fad90":{
-				"slug":"image-grid",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_global_textstyletestappp":{
-				"slug":"global-page-of-textstyletestappp",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -734,33 +804,13 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
-			"e_6a3e8ef2d5b5470382997b8c":{
-				"slug":"pin-input",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_6a3e7c64ae981338142fae53":{
-				"slug":"statcard",
-				"isPublic":false,
-				"type":"PAGE"
-			},
 			"e_6a3e6311203cb665d506f79b":{
 				"slug":"homepage",
 				"isPublic":false,
 				"type":"PAGE"
 			},
-			"e_6a3e8dded5b5470382997b6b":{
-				"slug":"keyvaluepair",
-				"isPublic":false,
-				"type":"PAGE"
-			},
 			"e_6a3e902ad5b5470382997e5e":{
 				"slug":"data-table",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_6a3e8a862b666e54c48366f8":{
-				"slug":"tabs",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -774,6 +824,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_6a3e88e32b666e54c48366b6":{
+				"slug":"multi-statcard",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a3e73bc4a13b2784f5f04bc":{
 				"slug":"form",
 				"isPublic":false,
@@ -783,6 +838,71 @@
 				"slug":"text-input-2",
 				"isPublic":false,
 				"type":"PAGE"
+			},
+			"e_6a3e88ec2b666e54c48366ba":{
+				"slug":"multi-statcard",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a3e9e1cd5b547038299845d":{
+				"slug":"page-20",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a3e988ed5b5470382998200":{
+				"slug":"rating",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a3e79a2ae981338142fad90":{
+				"slug":"image-grid",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a3e8a79d5b5470382997af6":{
+				"slug":"tabs",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a3e91792b666e54c483694b":{
+				"slug":"text-input",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a3e88e52b666e54c48366b8":{
+				"slug":"multi-statcard",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a3e8ef2d5b5470382997b8c":{
+				"slug":"pin-input",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a3e7c64ae981338142fae53":{
+				"slug":"statcard",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a3e8dded5b5470382997b6b":{
+				"slug":"keyvaluepair",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a3e9aafd3455100147a1604":{
+				"slug":"datepicker",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a3e8a862b666e54c48366f8":{
+				"slug":"tabs",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a3e9c45d5b54703829983d6":{
+				"slug":"datepicker2",
+				"isPublic":false,
+				"type":"PAGE"
 			}
 		}
 	},
@@ -790,5 +910,5 @@
 	"tags":[
 		
 	],
-	"version":1323
+	"version":1432
 }
