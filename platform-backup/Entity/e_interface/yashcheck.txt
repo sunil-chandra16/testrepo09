@@ -29,10 +29,10 @@
 		]
 	},
 	"id":"yashcheck",
-	"lastModifiedBy":195848,
-	"lastPlatformUpdateBy":195848,
-	"lastPlatformUpdateOn":1782494055961,
-	"modifiedTime":1782494055961,
+	"lastModifiedBy":43497,
+	"lastPlatformUpdateBy":43497,
+	"lastPlatformUpdateOn":1782496122404,
+	"modifiedTime":1782496122404,
 	"ownerUserId":522,
 	"properties":{
 		"standard":false,
@@ -245,6 +245,11 @@
 				"slug":"page-2",
 				"isPublic":false,
 				"type":"PAGE"
+			},
+			"e_global_yashcheck":{
+				"slug":"global-page-of-yashcheck",
+				"isPublic":false,
+				"type":"PAGE"
 			}
 		}
 	},
@@ -252,5 +257,5 @@
 	"tags":[
 		
 	],
-	"version":195
+	"version":216
 }
