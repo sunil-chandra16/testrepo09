@@ -5,8 +5,8 @@
 	"id":"textstyletestappp",
 	"lastModifiedBy":197188,
 	"lastPlatformUpdateBy":197188,
-	"lastPlatformUpdateOn":1782477766246,
-	"modifiedTime":1782477766246,
+	"lastPlatformUpdateOn":1782478967553,
+	"modifiedTime":1782478967553,
 	"ownerUserId":197188,
 	"properties":{
 		"standard":false,
@@ -21,7 +21,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":3,
+				"_pageCount":4,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
@@ -42,6 +42,10 @@
 						},
 						{
 							"id":"nav_qJlYY",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_MtIeX",
 							"hiddenInOverflow":false
 						}
 					],
@@ -88,6 +92,10 @@
 						},
 						{
 							"id":"nav_qJlYY",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_MtIeX",
 							"hiddenInOverflow":false
 						}
 					],
@@ -141,6 +149,10 @@
 						{
 							"id":"nav_qJlYY",
 							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_MtIeX",
+							"hiddenInOverflow":false
 						}
 					],
 					"navigationItem":{
@@ -192,6 +204,10 @@
 						},
 						{
 							"id":"nav_qJlYY",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_MtIeX",
 							"hiddenInOverflow":false
 						}
 					],
@@ -260,6 +276,15 @@
 					"type":"PAGE",
 					"pageId":"e_6a3e73bc4a13b2784f5f04bc",
 					"slug":"form"
+				},
+				{
+					"activeIcon":"ListSolid",
+					"name":"Page 4",
+					"icon":"List",
+					"id":"nav_MtIeX",
+					"type":"PAGE",
+					"pageId":"e_6a3e779bae981338142fa912",
+					"slug":"page-4"
 				}
 			]
 		},
@@ -267,6 +292,7 @@
 			"e_6a3e6311203cb665d506f79b":"homepage",
 			"e_global_textstyletestappp":"global-page-of-textstyletestappp",
 			"e_6a3e70544a13b2784f5f0429":"page-2",
+			"e_6a3e779bae981338142fa912":"page-4",
 			"e_6a3e73bc4a13b2784f5f04bc":"form"
 		},
 		"manifest":{
@@ -279,7 +305,8 @@
 				"children":[
 					"e_6a3e6311203cb665d506f79b",
 					"e_6a3e70544a13b2784f5f0429",
-					"e_6a3e73bc4a13b2784f5f04bc"
+					"e_6a3e73bc4a13b2784f5f04bc",
+					"e_6a3e779bae981338142fa912"
 				],
 				"path":"/"
 			}
@@ -308,6 +335,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_6a3e779bae981338142fa912":{
+				"slug":"page-4",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a3e73bc4a13b2784f5f04bc":{
 				"slug":"form",
 				"isPublic":false,
@@ -319,5 +351,5 @@
 	"tags":[
 		
 	],
-	"version":339
+	"version":520
 }
