@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"409"
@@ -23,7 +30,9 @@
 	},
 	"id":"pknative6",
 	"lastModifiedBy":409,
-	"modifiedTime":1782370608013,
+	"lastPlatformUpdateBy":409,
+	"lastPlatformUpdateOn":1782463020792,
+	"modifiedTime":1782463020792,
 	"ownerUserId":409,
 	"properties":{
 		"standard":false,
@@ -699,5 +708,5 @@
 		}
 	},
 	"standard":false,
-	"version":589
+	"version":590
 }
