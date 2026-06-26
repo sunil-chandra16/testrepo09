@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195802"
@@ -23,7 +30,9 @@
 	},
 	"id":"e-2-e-shubham",
 	"lastModifiedBy":195802,
-	"modifiedTime":1782382798216,
+	"lastPlatformUpdateBy":195802,
+	"lastPlatformUpdateOn":1782472243318,
+	"modifiedTime":1782472243318,
 	"ownerUserId":195802,
 	"properties":{
 		"standard":false,
@@ -429,5 +438,5 @@
 	"tags":[
 		
 	],
-	"version":1378
+	"version":1404
 }
