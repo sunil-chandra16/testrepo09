@@ -3,10 +3,10 @@
 	"deleted":false,
 	"entityType":"e_interface",
 	"id":"fluhdsukfhsdafk",
-	"lastModifiedBy":197188,
-	"lastPlatformUpdateBy":197188,
-	"lastPlatformUpdateOn":1782489617613,
-	"modifiedTime":1782489617613,
+	"lastModifiedBy":155341,
+	"lastPlatformUpdateBy":155341,
+	"lastPlatformUpdateOn":1782491140939,
+	"modifiedTime":1782491140939,
 	"ownerUserId":197188,
 	"properties":{
 		"standard":false,
@@ -21,10 +21,20 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":1,
+				"_pageCount":2,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
+		},
+		"publicPageIds":[
+			"fluhdsukfhsdafk_ua_governance_forgot_password"
+		],
+		"manifest":{
+			"type":"WEB"
+		},
+		"type":"application",
+		"locale":{
+			"defaultLocale":"en-US"
 		},
 		"navigation":{
 			"secondary":[],
@@ -215,17 +225,16 @@
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_global_fluhdsukfhsdafk":"global-page-of-fluhdsukfhsdafk",
+			"fluhdsukfhsdafk_ua_governance_forgot_password":"forgot-password",
 			"e_6a3e939ed5b5470382997f27":"homepage"
-		},
-		"manifest":{
-			"type":"WEB"
 		},
 		"paths":{
 			"f_root":{
 				"id":"f_root",
 				"segment":"",
 				"children":[
-					"e_6a3e939ed5b5470382997f27"
+					"e_6a3e939ed5b5470382997f27",
+					"fluhdsukfhsdafk_ua_governance_forgot_password"
 				],
 				"path":"/"
 			}
@@ -234,14 +243,15 @@
 		"theme":{
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
 		},
-		"type":"application",
-		"locale":{
-			"defaultLocale":"en-US"
-		},
 		"entityDetailsMap":{
 			"e_global_fluhdsukfhsdafk":{
 				"slug":"global-page-of-fluhdsukfhsdafk",
 				"isPublic":false,
+				"type":"PAGE"
+			},
+			"fluhdsukfhsdafk_ua_governance_forgot_password":{
+				"slug":"forgot-password",
+				"isPublic":true,
 				"type":"PAGE"
 			},
 			"e_6a3e939ed5b5470382997f27":{
@@ -255,5 +265,5 @@
 	"tags":[
 		
 	],
-	"version":12
+	"version":14
 }
