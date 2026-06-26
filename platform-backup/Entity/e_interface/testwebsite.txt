@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"199929"
@@ -17,7 +24,9 @@
 	},
 	"id":"testwebsite",
 	"lastModifiedBy":199929,
-	"modifiedTime":1782381012952,
+	"lastPlatformUpdateBy":199929,
+	"lastPlatformUpdateOn":1782457137664,
+	"modifiedTime":1782457137664,
 	"ownerUserId":199929,
 	"properties":{
 		"standard":false,
@@ -278,5 +287,5 @@
 		"tag1",
 		"you"
 	],
-	"version":376
+	"version":388
 }
