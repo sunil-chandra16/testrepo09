@@ -1,12 +1,18 @@
 {
 	"createdTime":1782470825718,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1782471029207,
+		"deployedBy":155341,
+		"entityVersion":4,
+		"version":1
+	},
 	"entityType":"e_interface",
 	"id":"testnewapp-22",
 	"lastModifiedBy":155341,
 	"lastPlatformUpdateBy":155341,
-	"lastPlatformUpdateOn":1782470961236,
-	"modifiedTime":1782470961236,
+	"lastPlatformUpdateOn":1782471029232,
+	"modifiedTime":1782471029232,
 	"ownerUserId":155341,
 	"properties":{
 		"standard":false,
