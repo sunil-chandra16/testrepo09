@@ -31,8 +31,8 @@
 	"id":"yash-12",
 	"lastModifiedBy":30181,
 	"lastPlatformUpdateBy":30181,
-	"lastPlatformUpdateOn":1782492673840,
-	"modifiedTime":1782492673840,
+	"lastPlatformUpdateOn":1782492973889,
+	"modifiedTime":1782492973889,
 	"ownerUserId":195848,
 	"properties":{
 		"standard":false,
@@ -47,7 +47,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_dataSourceCounter":6,
+				"_dataSourceCounter":7,
 				"_pageCount":23,
 				"_moduleCount":1,
 				"_variableCounter":4,
@@ -506,5 +506,5 @@
 	"tags":[
 		
 	],
-	"version":815
+	"version":821
 }
