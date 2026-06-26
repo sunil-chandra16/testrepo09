@@ -2,40 +2,17 @@
 	"createdTime":1747595087580,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782399842993,
+		"deployedAt":1782460234467,
 		"deployedBy":-1,
-		"entityVersion":467,
-		"version":215
+		"entityVersion":468,
+		"version":216
 	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
 			{
 				"permissions":[
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"E",
-					"V",
-					"M_L"
-				],
-				"principalIds":[
-					"6757db349b09ba5b01b6c44c"
-				],
-				"principalType":"USER_GROUPS"
-			},
-			{
-				"permissions":[
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"E",
-					"V",
-					"M_L"
+					"A"
 				],
 				"principalType":"GLOBAL"
 			}
@@ -43,7 +20,7 @@
 	},
 	"id":"e_682a2f4f3d5ee42d94695e91",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782400072956,
+	"modifiedTime":1782460234469,
 	"ownerUserId":1238,
 	"properties":{
 		"standard":true,
@@ -229,5 +206,5 @@
 		"Do Not Touch",
 		"AI"
 	],
-	"version":467
+	"version":468
 }
