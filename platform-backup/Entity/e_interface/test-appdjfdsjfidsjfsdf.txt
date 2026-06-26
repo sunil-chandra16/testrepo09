@@ -47,8 +47,8 @@
 	"id":"test-appdjfdsjfidsjfsdf",
 	"lastModifiedBy":48862,
 	"lastPlatformUpdateBy":48862,
-	"lastPlatformUpdateOn":1782470739223,
-	"modifiedTime":1782470739223,
+	"lastPlatformUpdateOn":1782470743282,
+	"modifiedTime":1782470743282,
 	"ownerUserId":48862,
 	"properties":{
 		"standard":false,
@@ -400,7 +400,7 @@
 		"name":"test-app",
 		"theme":{
 			"cssVars":{},
-			"output":"\n      .interface-theme,\n      .interface-theme [data-color-scheme='light'] {\n        --chart-azure-600\n      }\n    \n        .interface-theme[data-color-scheme='dark'],\n        .interface-theme [data-color-scheme='dark'] {\n          \n        }\n      ",
+			"output":"\n      .interface-theme,\n      .interface-theme [data-color-scheme='light'] {\n        --chart-azure-600: \n      }\n    \n        .interface-theme[data-color-scheme='dark'],\n        .interface-theme [data-color-scheme='dark'] {\n          \n        }\n      ",
 			"defaultThemeId":{
 				"conditionalValueFilters":[
 					{
@@ -504,5 +504,5 @@
 	"tags":[
 		
 	],
-	"version":3960
+	"version":3961
 }
