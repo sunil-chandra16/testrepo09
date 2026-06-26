@@ -2,48 +2,25 @@
 	"createdTime":1715428087114,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782399826905,
+		"deployedAt":1782470005827,
 		"deployedBy":-1,
-		"entityVersion":1326,
-		"version":693
+		"entityVersion":1328,
+		"version":695
 	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
 			{
 				"permissions":[
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"E",
-					"V",
-					"M_L"
+					"A"
 				],
 				"principalType":"GLOBAL"
-			},
-			{
-				"permissions":[
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"E",
-					"V",
-					"M_L"
-				],
-				"principalIds":[
-					"6757db349b09ba5b01b6c44c"
-				],
-				"principalType":"USER_GROUPS"
 			}
 		]
 	},
 	"id":"__CAMPAIGN_REPORTING_INTERFACE__",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782400023943,
+	"modifiedTime":1782470005828,
 	"ownerUserId":32,
 	"properties":{
 		"standard":true,
@@ -83,5 +60,5 @@
 		}
 	},
 	"standard":true,
-	"version":1326
+	"version":1328
 }
