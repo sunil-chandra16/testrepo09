@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195956"
@@ -21,7 +28,12 @@
 			},
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"D",
+					"E",
+					"V"
 				],
 				"principalIds":[
 					"66bee90935c0f424bc477acb"
@@ -30,27 +42,25 @@
 			},
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"D",
+					"E",
+					"V"
 				],
 				"principalIds":[
 					"143610"
 				],
 				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"A"
-				],
-				"principalIds":[
-					"69d502177e475d2b4f4b2914"
-				],
-				"principalType":"USER_GROUPS"
 			}
 		]
 	},
 	"id":"dharmesh-kota",
 	"lastModifiedBy":195956,
-	"modifiedTime":1782380971971,
+	"lastPlatformUpdateBy":195956,
+	"lastPlatformUpdateOn":1782481097471,
+	"modifiedTime":1782481097471,
 	"ownerUserId":195956,
 	"properties":{
 		"standard":false,
@@ -428,5 +438,5 @@
 		"tag1",
 		"tag2"
 	],
-	"version":2182
+	"version":2183
 }
