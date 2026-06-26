@@ -2,17 +2,17 @@
 	"createdTime":1782470825718,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782471215695,
+		"deployedAt":1782471370386,
 		"deployedBy":155341,
-		"entityVersion":5,
-		"version":2
+		"entityVersion":12,
+		"version":5
 	},
 	"entityType":"e_interface",
 	"id":"testnewapp-22",
 	"lastModifiedBy":155341,
 	"lastPlatformUpdateBy":155341,
-	"lastPlatformUpdateOn":1782471313256,
-	"modifiedTime":1782471313256,
+	"lastPlatformUpdateOn":1782471370387,
+	"modifiedTime":1782471370387,
 	"ownerUserId":155341,
 	"properties":{
 		"standard":false,
@@ -246,5 +246,5 @@
 	"tags":[
 		
 	],
-	"version":10
+	"version":12
 }
