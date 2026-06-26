@@ -2,17 +2,17 @@
 	"createdTime":1782470825718,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782471029207,
+		"deployedAt":1782471215695,
 		"deployedBy":155341,
-		"entityVersion":4,
-		"version":1
+		"entityVersion":5,
+		"version":2
 	},
 	"entityType":"e_interface",
 	"id":"testnewapp-22",
 	"lastModifiedBy":155341,
 	"lastPlatformUpdateBy":155341,
-	"lastPlatformUpdateOn":1782471029232,
-	"modifiedTime":1782471029232,
+	"lastPlatformUpdateOn":1782471303501,
+	"modifiedTime":1782471303501,
 	"ownerUserId":155341,
 	"properties":{
 		"standard":false,
@@ -27,7 +27,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":2,
+				"_pageCount":3,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
@@ -200,7 +200,11 @@
 			},
 			"primary":[]
 		},
+		"security":{
+			"type":"PRIVATE"
+		},
 		"interfacePageIdVsSlugMap":{
+			"e_6a3e5a878450f302a4b7910f":"page-3",
 			"testnewapp-22_login":"login",
 			"testnewapp-22_mfa_verification":"mfa-verification"
 		},
@@ -210,7 +214,8 @@
 				"segment":"",
 				"children":[
 					"testnewapp-22_login",
-					"testnewapp-22_mfa_verification"
+					"testnewapp-22_mfa_verification",
+					"e_6a3e5a878450f302a4b7910f"
 				],
 				"path":"/"
 			}
@@ -220,6 +225,11 @@
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
 		},
 		"entityDetailsMap":{
+			"e_6a3e5a878450f302a4b7910f":{
+				"slug":"page-3",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"testnewapp-22_login":{
 				"slug":"login",
 				"isPublic":true,
@@ -236,5 +246,5 @@
 	"tags":[
 		
 	],
-	"version":4
+	"version":8
 }
