@@ -3,10 +3,10 @@
 	"deleted":false,
 	"entityType":"e_interface",
 	"id":"textstyletestappp",
-	"lastModifiedBy":45512,
-	"lastPlatformUpdateBy":45512,
-	"lastPlatformUpdateOn":1782489805631,
-	"modifiedTime":1782489805631,
+	"lastModifiedBy":43497,
+	"lastPlatformUpdateBy":43497,
+	"lastPlatformUpdateOn":1782495068511,
+	"modifiedTime":1782495068511,
 	"ownerUserId":197188,
 	"properties":{
 		"standard":false,
@@ -910,5 +910,5 @@
 	"tags":[
 		
 	],
-	"version":1466
+	"version":1468
 }
