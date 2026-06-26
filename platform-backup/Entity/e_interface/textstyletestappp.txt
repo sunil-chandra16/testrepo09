@@ -5,8 +5,8 @@
 	"id":"textstyletestappp",
 	"lastModifiedBy":197188,
 	"lastPlatformUpdateBy":197188,
-	"lastPlatformUpdateOn":1782484075894,
-	"modifiedTime":1782484075894,
+	"lastPlatformUpdateOn":1782485231959,
+	"modifiedTime":1782485231959,
 	"ownerUserId":197188,
 	"properties":{
 		"standard":false,
@@ -21,7 +21,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":10,
+				"_pageCount":13,
 				"_moduleCount":1,
 				"_templateComponentCount":0
 			}
@@ -70,6 +70,18 @@
 						},
 						{
 							"id":"nav_W187c",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_Bz7EI",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_5Og5F",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_aZJYx",
 							"hiddenInOverflow":false
 						}
 					],
@@ -144,6 +156,18 @@
 						},
 						{
 							"id":"nav_W187c",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_Bz7EI",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_5Og5F",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_aZJYx",
 							"hiddenInOverflow":false
 						}
 					],
@@ -225,6 +249,18 @@
 						{
 							"id":"nav_W187c",
 							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_Bz7EI",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_5Og5F",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_aZJYx",
+							"hiddenInOverflow":false
 						}
 					],
 					"navigationItem":{
@@ -304,6 +340,18 @@
 						},
 						{
 							"id":"nav_W187c",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_Bz7EI",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_5Og5F",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_aZJYx",
 							"hiddenInOverflow":false
 						}
 					],
@@ -435,18 +483,48 @@
 					"type":"PAGE",
 					"pageId":"e_6a3e8a862b666e54c48366f8",
 					"slug":"tabs"
+				},
+				{
+					"activeIcon":"File05Filled",
+					"name":"keyvaluepair",
+					"icon":"File05",
+					"id":"nav_Bz7EI",
+					"type":"PAGE",
+					"pageId":"e_6a3e8dded5b5470382997b6b",
+					"slug":"keyvaluepair"
+				},
+				{
+					"activeIcon":"HeartFilled",
+					"name":"pin input",
+					"icon":"Heart",
+					"id":"nav_5Og5F",
+					"type":"PAGE",
+					"pageId":"e_6a3e8ef2d5b5470382997b8c",
+					"slug":"pin-input"
+				},
+				{
+					"activeIcon":"MessageSmileSquareSolid",
+					"name":"data table",
+					"icon":"MessageSmileSquare",
+					"id":"nav_aZJYx",
+					"type":"PAGE",
+					"pageId":"e_6a3e902ad5b5470382997e5e",
+					"slug":"data-table"
 				}
 			]
 		},
 		"interfacePageIdVsSlugMap":{
+			"e_6a3e88ec2b666e54c48366ba":"multi-statcard",
 			"e_6a3e79a2ae981338142fad90":"image-grid",
 			"e_global_textstyletestappp":"global-page-of-textstyletestappp",
 			"e_6a3e70544a13b2784f5f0429":"page-2",
 			"e_6a3e779bae981338142fa912":"page-4",
 			"e_6a3e7b688f78ae69aa61edd7":"avatar",
-			"e_6a3e88ec2b666e54c48366ba":"multi-statcard",
+			"e_6a3e8ef2d5b5470382997b8c":"pin-input",
 			"e_6a3e7c64ae981338142fae53":"statcard",
 			"e_6a3e6311203cb665d506f79b":"homepage",
+			"e_6a3e8dded5b5470382997b6b":"keyvaluepair",
+			"e_6a3e902ad5b5470382997e5e":"data-table",
 			"e_6a3e8a862b666e54c48366f8":"tabs",
 			"e_6a3e7de38f78ae69aa61ee35":"page-8",
 			"e_6a3e73bc4a13b2784f5f04bc":"form"
@@ -468,7 +546,9 @@
 					"e_6a3e7c64ae981338142fae53",
 					"e_6a3e7de38f78ae69aa61ee35",
 					"e_6a3e8a862b666e54c48366f8",
-					"e_6a3e8a862b666e54c48366f8"
+					"e_6a3e8dded5b5470382997b6b",
+					"e_6a3e8ef2d5b5470382997b8c",
+					"e_6a3e902ad5b5470382997e5e"
 				],
 				"path":"/"
 			}
@@ -482,6 +562,11 @@
 			"defaultLocale":"en-US"
 		},
 		"entityDetailsMap":{
+			"e_6a3e88ec2b666e54c48366ba":{
+				"slug":"multi-statcard",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a3e79a2ae981338142fad90":{
 				"slug":"image-grid",
 				"isPublic":false,
@@ -507,8 +592,8 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
-			"e_6a3e88ec2b666e54c48366ba":{
-				"slug":"multi-statcard",
+			"e_6a3e8ef2d5b5470382997b8c":{
+				"slug":"pin-input",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -519,6 +604,16 @@
 			},
 			"e_6a3e6311203cb665d506f79b":{
 				"slug":"homepage",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a3e8dded5b5470382997b6b":{
+				"slug":"keyvaluepair",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a3e902ad5b5470382997e5e":{
+				"slug":"data-table",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -543,5 +638,5 @@
 	"tags":[
 		
 	],
-	"version":947
+	"version":1063
 }
