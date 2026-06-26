@@ -23,10 +23,10 @@
 		]
 	},
 	"id":"sujal-123",
-	"lastModifiedBy":195414,
-	"lastPlatformUpdateBy":195414,
-	"lastPlatformUpdateOn":1782459754980,
-	"modifiedTime":1782459754980,
+	"lastModifiedBy":504,
+	"lastPlatformUpdateBy":504,
+	"lastPlatformUpdateOn":1782461989784,
+	"modifiedTime":1782461989784,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -41,7 +41,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":3,
+				"_pageCount":4,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
@@ -205,11 +205,25 @@
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a3cdfc8f9c87732f63b3705":"homepage",
+			"e_6a3e32e7eb24cf6475d047e4":"page-4",
 			"e_6a3ce60aa5ac900e4cc3639a":"page-3",
 			"e_6a3ce5f4d2c3c02aa6dc0016":"page-2"
 		},
 		"manifest":{
 			"type":"WEB"
+		},
+		"paths":{
+			"f_root":{
+				"id":"f_root",
+				"segment":"",
+				"children":[
+					"e_6a3cdfc8f9c87732f63b3705",
+					"e_6a3ce5f4d2c3c02aa6dc0016",
+					"e_6a3ce60aa5ac900e4cc3639a",
+					"e_6a3e32e7eb24cf6475d047e4"
+				],
+				"path":"/"
+			}
 		},
 		"name":"sujal-123",
 		"theme":{
@@ -222,6 +236,11 @@
 		"entityDetailsMap":{
 			"e_6a3cdfc8f9c87732f63b3705":{
 				"slug":"homepage",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a3e32e7eb24cf6475d047e4":{
+				"slug":"page-4",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -241,5 +260,5 @@
 	"tags":[
 		
 	],
-	"version":110
+	"version":164
 }
