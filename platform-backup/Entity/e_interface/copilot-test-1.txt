@@ -2,17 +2,24 @@
 	"createdTime":1781604233806,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781780516661,
+		"deployedAt":1782456450212,
 		"deployedBy":196434,
-		"entityVersion":21,
-		"version":2
+		"entityVersion":31,
+		"version":3
 	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"196434"
@@ -22,8 +29,10 @@
 		]
 	},
 	"id":"copilot-test-1",
-	"lastModifiedBy":325,
-	"modifiedTime":1782295370864,
+	"lastModifiedBy":196434,
+	"lastPlatformUpdateBy":196434,
+	"lastPlatformUpdateOn":1782456450213,
+	"modifiedTime":1782456450213,
 	"ownerUserId":196434,
 	"properties":{
 		"standard":false,
@@ -245,5 +254,5 @@
 	"tags":[
 		
 	],
-	"version":28
+	"version":31
 }
