@@ -5,8 +5,8 @@
 	"id":"textstyletestappp",
 	"lastModifiedBy":197188,
 	"lastPlatformUpdateBy":197188,
-	"lastPlatformUpdateOn":1782480171396,
-	"modifiedTime":1782480171396,
+	"lastPlatformUpdateOn":1782481388951,
+	"modifiedTime":1782481388951,
 	"ownerUserId":197188,
 	"properties":{
 		"standard":false,
@@ -21,7 +21,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":7,
+				"_pageCount":8,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
@@ -371,6 +371,7 @@
 			"e_6a3e7b688f78ae69aa61edd7":"avatar",
 			"e_6a3e7c64ae981338142fae53":"statcard",
 			"e_6a3e6311203cb665d506f79b":"homepage",
+			"e_6a3e7de38f78ae69aa61ee35":"page-8",
 			"e_6a3e73bc4a13b2784f5f04bc":"form"
 		},
 		"manifest":{
@@ -387,7 +388,8 @@
 					"e_6a3e779bae981338142fa912",
 					"e_6a3e79a2ae981338142fad90",
 					"e_6a3e7b688f78ae69aa61edd7",
-					"e_6a3e7c64ae981338142fae53"
+					"e_6a3e7c64ae981338142fae53",
+					"e_6a3e7de38f78ae69aa61ee35"
 				],
 				"path":"/"
 			}
@@ -436,6 +438,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_6a3e7de38f78ae69aa61ee35":{
+				"slug":"page-8",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a3e73bc4a13b2784f5f04bc":{
 				"slug":"form",
 				"isPublic":false,
@@ -447,5 +454,5 @@
 	"tags":[
 		
 	],
-	"version":639
+	"version":711
 }
