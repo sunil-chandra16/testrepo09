@@ -45,10 +45,10 @@
 		]
 	},
 	"id":"test-appdjfdsjfidsjfsdf",
-	"lastModifiedBy":43497,
-	"lastPlatformUpdateBy":43497,
-	"lastPlatformUpdateOn":1782459342121,
-	"modifiedTime":1782459342121,
+	"lastModifiedBy":48862,
+	"lastPlatformUpdateBy":48862,
+	"lastPlatformUpdateOn":1782470739223,
+	"modifiedTime":1782470739223,
 	"ownerUserId":48862,
 	"properties":{
 		"standard":false,
@@ -400,7 +400,7 @@
 		"name":"test-app",
 		"theme":{
 			"cssVars":{},
-			"output":"\n      .interface-theme,\n      .interface-theme [data-color-scheme='light'] {\n        \n      }\n    \n        .interface-theme[data-color-scheme='dark'],\n        .interface-theme [data-color-scheme='dark'] {\n          \n        }\n      ",
+			"output":"\n      .interface-theme,\n      .interface-theme [data-color-scheme='light'] {\n        --chart-azure-600\n      }\n    \n        .interface-theme[data-color-scheme='dark'],\n        .interface-theme [data-color-scheme='dark'] {\n          \n        }\n      ",
 			"defaultThemeId":{
 				"conditionalValueFilters":[
 					{
@@ -504,5 +504,5 @@
 	"tags":[
 		
 	],
-	"version":3956
+	"version":3960
 }
