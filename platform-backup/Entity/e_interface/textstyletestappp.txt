@@ -5,8 +5,8 @@
 	"id":"textstyletestappp",
 	"lastModifiedBy":197188,
 	"lastPlatformUpdateBy":197188,
-	"lastPlatformUpdateOn":1782478967553,
-	"modifiedTime":1782478967553,
+	"lastPlatformUpdateOn":1782480171396,
+	"modifiedTime":1782480171396,
 	"ownerUserId":197188,
 	"properties":{
 		"standard":false,
@@ -21,7 +21,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":4,
+				"_pageCount":7,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
@@ -46,6 +46,18 @@
 						},
 						{
 							"id":"nav_MtIeX",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_KRM1F",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_G1Vj1",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_AUnqt",
 							"hiddenInOverflow":false
 						}
 					],
@@ -96,6 +108,18 @@
 						},
 						{
 							"id":"nav_MtIeX",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_KRM1F",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_G1Vj1",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_AUnqt",
 							"hiddenInOverflow":false
 						}
 					],
@@ -153,6 +177,18 @@
 						{
 							"id":"nav_MtIeX",
 							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_KRM1F",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_G1Vj1",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_AUnqt",
+							"hiddenInOverflow":false
 						}
 					],
 					"navigationItem":{
@@ -208,6 +244,18 @@
 						},
 						{
 							"id":"nav_MtIeX",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_KRM1F",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_G1Vj1",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_AUnqt",
 							"hiddenInOverflow":false
 						}
 					],
@@ -285,14 +333,44 @@
 					"type":"PAGE",
 					"pageId":"e_6a3e779bae981338142fa912",
 					"slug":"page-4"
+				},
+				{
+					"activeIcon":"Stars02Filled",
+					"name":"image grid",
+					"icon":"Stars02",
+					"id":"nav_KRM1F",
+					"type":"PAGE",
+					"pageId":"e_6a3e79a2ae981338142fad90",
+					"slug":"image-grid"
+				},
+				{
+					"activeIcon":"ListSolid",
+					"name":"avatar",
+					"icon":"List",
+					"id":"nav_G1Vj1",
+					"type":"PAGE",
+					"pageId":"e_6a3e7b688f78ae69aa61edd7",
+					"slug":"avatar"
+				},
+				{
+					"activeIcon":"AgenticAiChatSolid",
+					"name":"statcard",
+					"icon":"AgenticAiChat",
+					"id":"nav_AUnqt",
+					"type":"PAGE",
+					"pageId":"e_6a3e7c64ae981338142fae53",
+					"slug":"statcard"
 				}
 			]
 		},
 		"interfacePageIdVsSlugMap":{
-			"e_6a3e6311203cb665d506f79b":"homepage",
+			"e_6a3e79a2ae981338142fad90":"image-grid",
 			"e_global_textstyletestappp":"global-page-of-textstyletestappp",
 			"e_6a3e70544a13b2784f5f0429":"page-2",
 			"e_6a3e779bae981338142fa912":"page-4",
+			"e_6a3e7b688f78ae69aa61edd7":"avatar",
+			"e_6a3e7c64ae981338142fae53":"statcard",
+			"e_6a3e6311203cb665d506f79b":"homepage",
 			"e_6a3e73bc4a13b2784f5f04bc":"form"
 		},
 		"manifest":{
@@ -306,7 +384,10 @@
 					"e_6a3e6311203cb665d506f79b",
 					"e_6a3e70544a13b2784f5f0429",
 					"e_6a3e73bc4a13b2784f5f04bc",
-					"e_6a3e779bae981338142fa912"
+					"e_6a3e779bae981338142fa912",
+					"e_6a3e79a2ae981338142fad90",
+					"e_6a3e7b688f78ae69aa61edd7",
+					"e_6a3e7c64ae981338142fae53"
 				],
 				"path":"/"
 			}
@@ -320,8 +401,8 @@
 			"defaultLocale":"en-US"
 		},
 		"entityDetailsMap":{
-			"e_6a3e6311203cb665d506f79b":{
-				"slug":"homepage",
+			"e_6a3e79a2ae981338142fad90":{
+				"slug":"image-grid",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -340,6 +421,21 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_6a3e7b688f78ae69aa61edd7":{
+				"slug":"avatar",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a3e7c64ae981338142fae53":{
+				"slug":"statcard",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a3e6311203cb665d506f79b":{
+				"slug":"homepage",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a3e73bc4a13b2784f5f04bc":{
 				"slug":"form",
 				"isPublic":false,
@@ -351,5 +447,5 @@
 	"tags":[
 		
 	],
-	"version":520
+	"version":639
 }
