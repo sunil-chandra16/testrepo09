@@ -2,10 +2,10 @@
 	"createdTime":1750864687258,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782476355140,
+		"deployedAt":1782476969877,
 		"deployedBy":199902,
-		"entityVersion":66,
-		"version":1
+		"entityVersion":73,
+		"version":4
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -29,10 +29,10 @@
 		]
 	},
 	"id":"yashcheck",
-	"lastModifiedBy":195848,
-	"lastPlatformUpdateBy":195848,
-	"lastPlatformUpdateOn":1782476362156,
-	"modifiedTime":1782476362156,
+	"lastModifiedBy":43497,
+	"lastPlatformUpdateBy":43497,
+	"lastPlatformUpdateOn":1782477692254,
+	"modifiedTime":1782477692254,
 	"ownerUserId":522,
 	"properties":{
 		"standard":false,
@@ -207,6 +207,9 @@
 			},
 			"primary":[]
 		},
+		"security":{
+			"type":"PUBLIC"
+		},
 		"interfacePageIdVsSlugMap":{
 			"e_685c14d666ee171e9b5fa9df":"homepage",
 			"e_global_yashcheck":"global-page-of-yashcheck"
@@ -241,5 +244,5 @@
 	"tags":[
 		
 	],
-	"version":67
+	"version":80
 }
