@@ -2,10 +2,10 @@
 	"createdTime":1774592582798,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782194342389,
-		"deployedBy":200386,
-		"entityVersion":1542,
-		"version":66
+		"deployedAt":1782489724173,
+		"deployedBy":43487,
+		"entityVersion":1598,
+		"version":67
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -29,8 +29,10 @@
 		]
 	},
 	"id":"ht-app",
-	"lastModifiedBy":-1,
-	"modifiedTime":1782395884630,
+	"lastModifiedBy":43487,
+	"lastPlatformUpdateBy":43487,
+	"lastPlatformUpdateOn":1782489724178,
+	"modifiedTime":1782489724178,
 	"ownerUserId":43487,
 	"properties":{
 		"standard":false,
@@ -419,5 +421,5 @@
 	"tags":[
 		
 	],
-	"version":1596
+	"version":1598
 }
