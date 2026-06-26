@@ -5,8 +5,8 @@
 	"id":"testnewapp-22",
 	"lastModifiedBy":155341,
 	"lastPlatformUpdateBy":155341,
-	"lastPlatformUpdateOn":1782470942878,
-	"modifiedTime":1782470942878,
+	"lastPlatformUpdateOn":1782470961236,
+	"modifiedTime":1782470961236,
 	"ownerUserId":155341,
 	"properties":{
 		"standard":false,
@@ -21,10 +21,21 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":1,
+				"_pageCount":2,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
+		},
+		"publicPageIds":[
+			"testnewapp-22_login",
+			"testnewapp-22_mfa_verification"
+		],
+		"manifest":{
+			"type":"WEB"
+		},
+		"type":"application",
+		"locale":{
+			"defaultLocale":"en-US"
 		},
 		"navigation":{
 			"secondary":[],
@@ -184,25 +195,32 @@
 			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
-			"testnewapp-22_login":"login"
+			"testnewapp-22_login":"login",
+			"testnewapp-22_mfa_verification":"mfa-verification"
 		},
-		"publicPageIds":[
-			"testnewapp-22_login"
-		],
-		"manifest":{
-			"type":"WEB"
+		"paths":{
+			"f_root":{
+				"id":"f_root",
+				"segment":"",
+				"children":[
+					"testnewapp-22_login",
+					"testnewapp-22_mfa_verification"
+				],
+				"path":"/"
+			}
 		},
 		"name":"testnewapp22",
 		"theme":{
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
 		},
-		"type":"application",
-		"locale":{
-			"defaultLocale":"en-US"
-		},
 		"entityDetailsMap":{
 			"testnewapp-22_login":{
 				"slug":"login",
+				"isPublic":true,
+				"type":"PAGE"
+			},
+			"testnewapp-22_mfa_verification":{
+				"slug":"mfa-verification",
 				"isPublic":true,
 				"type":"PAGE"
 			}
@@ -212,5 +230,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":4
 }
