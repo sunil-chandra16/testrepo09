@@ -25,8 +25,8 @@
 	"id":"templateteststyle",
 	"lastModifiedBy":197188,
 	"lastPlatformUpdateBy":197188,
-	"lastPlatformUpdateOn":1782551871868,
-	"modifiedTime":1782551871868,
+	"lastPlatformUpdateOn":1782553144905,
+	"modifiedTime":1782553144905,
 	"ownerUserId":197188,
 	"properties":{
 		"standard":false,
@@ -314,5 +314,5 @@
 	"tags":[
 		
 	],
-	"version":743
+	"version":784
 }
