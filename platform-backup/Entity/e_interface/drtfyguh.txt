@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"33444"
@@ -23,7 +30,7 @@
 	},
 	"id":"drtfyguh",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798306627,
+	"modifiedTime":1782571685131,
 	"ownerUserId":33444,
 	"properties":{
 		"standard":false,
