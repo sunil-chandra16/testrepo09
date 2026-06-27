@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"190519"
@@ -22,8 +29,8 @@
 		]
 	},
 	"id":"dda-component-dda-loader",
-	"lastModifiedBy":21056,
-	"modifiedTime":1782219299050,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782571688493,
 	"ownerUserId":190519,
 	"properties":{
 		"standard":false,
