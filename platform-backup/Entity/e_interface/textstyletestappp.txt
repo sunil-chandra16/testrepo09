@@ -9,10 +9,10 @@
 	},
 	"entityType":"e_interface",
 	"id":"textstyletestappp",
-	"lastModifiedBy":19752,
-	"lastPlatformUpdateBy":19752,
-	"lastPlatformUpdateOn":1782546250244,
-	"modifiedTime":1782546250244,
+	"lastModifiedBy":199993,
+	"lastPlatformUpdateBy":199993,
+	"lastPlatformUpdateOn":1782551996735,
+	"modifiedTime":1782551996735,
 	"ownerUserId":197188,
 	"properties":{
 		"standard":false,
@@ -27,6 +27,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
+				"_dataSourceCounter":1,
 				"_pageCount":21,
 				"_moduleCount":1,
 				"_templateComponentCount":0
@@ -1002,5 +1003,5 @@
 		"tag1",
 		"hello"
 	],
-	"version":1657
+	"version":1661
 }
