@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"197528"
@@ -17,7 +24,7 @@
 	},
 	"id":"strobes-test",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781874336308,
+	"modifiedTime":1782571684151,
 	"ownerUserId":197528,
 	"projectId":2120,
 	"properties":{
