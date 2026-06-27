@@ -2,25 +2,48 @@
 	"createdTime":1747975072133,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782470330576,
+		"deployedAt":1782530622001,
 		"deployedBy":-1,
-		"entityVersion":1237,
-		"version":784
+		"entityVersion":1238,
+		"version":785
 	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalType":"GLOBAL"
+			},
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"6757db349b09ba5b01b6c44c"
+				],
+				"principalType":"USER_GROUPS"
 			}
 		]
 	},
 	"id":"ua-ai",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782470330577,
+	"modifiedTime":1782531440447,
 	"ownerUserId":33860,
 	"properties":{
 		"standard":true,
@@ -68,5 +91,5 @@
 		"customCode":{}
 	},
 	"standard":true,
-	"version":1237
+	"version":1238
 }
