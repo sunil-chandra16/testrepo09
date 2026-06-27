@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"33436"
@@ -23,7 +30,7 @@
 	},
 	"id":"cczzczx",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798305057,
+	"modifiedTime":1782571683879,
 	"ownerUserId":33436,
 	"properties":{
 		"standard":false,
