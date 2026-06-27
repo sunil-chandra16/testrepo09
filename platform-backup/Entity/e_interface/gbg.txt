@@ -29,10 +29,10 @@
 		]
 	},
 	"id":"gbg",
-	"lastModifiedBy":195848,
-	"lastPlatformUpdateBy":195848,
-	"lastPlatformUpdateOn":1782554605669,
-	"modifiedTime":1782554605669,
+	"lastModifiedBy":504,
+	"lastPlatformUpdateBy":504,
+	"lastPlatformUpdateOn":1782557854212,
+	"modifiedTime":1782557854212,
 	"ownerUserId":45512,
 	"properties":{
 		"standard":false,
@@ -272,7 +272,10 @@
 		"name":"bgb",
 		"type":"application",
 		"locale":{
-			"defaultLocale":"en-US"
+			"defaultLocale":"en-US",
+			"supportedLocales":[
+				"ar-AE"
+			]
 		},
 		"entityDetailsMap":{
 			"e_global_gbg":{
@@ -286,5 +289,5 @@
 	"tags":[
 		
 	],
-	"version":52
+	"version":57
 }
