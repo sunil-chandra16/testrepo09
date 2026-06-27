@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195381"
@@ -23,7 +30,7 @@
 	},
 	"id":"module-1-global-ygu",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798305673,
+	"modifiedTime":1782571684328,
 	"ownerUserId":195381,
 	"projectId":2119,
 	"properties":{
