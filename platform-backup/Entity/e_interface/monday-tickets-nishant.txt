@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"196518"
@@ -23,7 +30,7 @@
 	},
 	"id":"monday-tickets-nishant",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798305719,
+	"modifiedTime":1782571684426,
 	"ownerUserId":196518,
 	"properties":{
 		"standard":false,
