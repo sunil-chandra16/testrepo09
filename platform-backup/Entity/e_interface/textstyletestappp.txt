@@ -1,12 +1,18 @@
 {
 	"createdTime":1782473443651,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1782507446358,
+		"deployedBy":11492,
+		"entityVersion":1494,
+		"version":1
+	},
 	"entityType":"e_interface",
 	"id":"textstyletestappp",
-	"lastModifiedBy":43497,
-	"lastPlatformUpdateBy":43497,
-	"lastPlatformUpdateOn":1782496420422,
-	"modifiedTime":1782496420422,
+	"lastModifiedBy":19752,
+	"lastPlatformUpdateBy":19752,
+	"lastPlatformUpdateOn":1782546250244,
+	"modifiedTime":1782546250244,
 	"ownerUserId":197188,
 	"properties":{
 		"standard":false,
@@ -21,7 +27,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":20,
+				"_pageCount":21,
 				"_moduleCount":1,
 				"_templateComponentCount":0
 			}
@@ -114,6 +120,10 @@
 						},
 						{
 							"id":"nav_xY2Qa",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_fQIa0",
 							"hiddenInOverflow":false
 						}
 					],
@@ -232,6 +242,10 @@
 						},
 						{
 							"id":"nav_xY2Qa",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_fQIa0",
 							"hiddenInOverflow":false
 						}
 					],
@@ -357,11 +371,39 @@
 						{
 							"id":"nav_xY2Qa",
 							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_fQIa0",
+							"hiddenInOverflow":false
 						}
 					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
-						"labelVariant":"expandable"
+						"labelVariant":"expandable",
+						"background":{
+							"colors":{
+								"default":"transparent",
+								"hover":"#f7f7f7",
+								"active":"transparent"
+							}
+						},
+						"text":{
+							"colors":{
+								"default":"#424242",
+								"hover":"#3e1db1",
+								"active":"#4e26db"
+							},
+							"variant":"text-sm",
+							"weight":"semi-bold"
+						},
+						"icon":{
+							"colors":{
+								"default":"#737373",
+								"hover":"#525252",
+								"active":"#4e26db"
+							},
+							"size":"md"
+						}
 					},
 					"navigationBar":{
 						"overflowDetails":{
@@ -394,7 +436,13 @@
 							"y":"gap-y-lg"
 						}
 					},
-					"secondary":[]
+					"secondary":[],
+					"theme":"inherit",
+					"userReordered":{
+						"primary":false,
+						"secondary":false,
+						"userMenu":false
+					}
 				},
 				"MD":{
 					"primary":[
@@ -481,6 +529,10 @@
 						{
 							"id":"nav_xY2Qa",
 							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_fQIa0",
+							"hiddenInOverflow":false
 						}
 					],
 					"navigationItem":{
@@ -524,6 +576,7 @@
 			"primary":[
 				{
 					"activeIcon":"ZapSolid",
+					"hiddenInOverflow":false,
 					"name":"Homepage",
 					"icon":"Zap",
 					"id":"nav_86ygZ",
@@ -533,6 +586,7 @@
 				},
 				{
 					"activeIcon":"HeartFilled",
+					"hiddenInOverflow":false,
 					"name":"Page 2",
 					"icon":"Heart",
 					"id":"nav_QYJko",
@@ -542,6 +596,7 @@
 				},
 				{
 					"activeIcon":"AiAgentSolid",
+					"hiddenInOverflow":false,
 					"name":"form",
 					"icon":"SvgAiAgent",
 					"id":"nav_qJlYY",
@@ -551,6 +606,7 @@
 				},
 				{
 					"activeIcon":"ListSolid",
+					"hiddenInOverflow":false,
 					"name":"Page 4",
 					"icon":"List",
 					"id":"nav_MtIeX",
@@ -560,6 +616,7 @@
 				},
 				{
 					"activeIcon":"Stars02Filled",
+					"hiddenInOverflow":false,
 					"name":"image grid",
 					"icon":"Stars02",
 					"id":"nav_KRM1F",
@@ -569,6 +626,7 @@
 				},
 				{
 					"activeIcon":"ListSolid",
+					"hiddenInOverflow":false,
 					"name":"avatar",
 					"icon":"List",
 					"id":"nav_G1Vj1",
@@ -578,6 +636,7 @@
 				},
 				{
 					"activeIcon":"AgenticAiChatSolid",
+					"hiddenInOverflow":false,
 					"name":"statcard",
 					"icon":"AgenticAiChat",
 					"id":"nav_AUnqt",
@@ -587,6 +646,7 @@
 				},
 				{
 					"activeIcon":"AgenticAiChatSolid",
+					"hiddenInOverflow":false,
 					"name":"multi statcard",
 					"icon":"AgenticAiChat",
 					"id":"nav_So49F",
@@ -596,6 +656,7 @@
 				},
 				{
 					"activeIcon":"HeartFilled",
+					"hiddenInOverflow":false,
 					"name":"tabs",
 					"icon":"Heart",
 					"id":"nav_W187c",
@@ -605,6 +666,7 @@
 				},
 				{
 					"activeIcon":"HeartFilled",
+					"hiddenInOverflow":false,
 					"name":"tabs",
 					"icon":"Heart",
 					"id":"nav_W187c",
@@ -614,6 +676,7 @@
 				},
 				{
 					"activeIcon":"File05Filled",
+					"hiddenInOverflow":false,
 					"name":"keyvaluepair",
 					"icon":"File05",
 					"id":"nav_Bz7EI",
@@ -623,6 +686,7 @@
 				},
 				{
 					"activeIcon":"HeartFilled",
+					"hiddenInOverflow":false,
 					"name":"pin input",
 					"icon":"Heart",
 					"id":"nav_5Og5F",
@@ -632,6 +696,7 @@
 				},
 				{
 					"activeIcon":"MessageSmileSquareSolid",
+					"hiddenInOverflow":false,
 					"name":"data table",
 					"icon":"MessageSmileSquare",
 					"id":"nav_aZJYx",
@@ -641,6 +706,7 @@
 				},
 				{
 					"activeIcon":"AiAgentSolid",
+					"hiddenInOverflow":false,
 					"name":"text input",
 					"icon":"SvgAiAgent",
 					"id":"nav_zdoUz",
@@ -650,6 +716,7 @@
 				},
 				{
 					"activeIcon":"AiAgentSolid",
+					"hiddenInOverflow":false,
 					"name":"text input",
 					"icon":"SvgAiAgent",
 					"id":"nav_zdoUz",
@@ -659,6 +726,7 @@
 				},
 				{
 					"activeIcon":"CalendarSolid",
+					"hiddenInOverflow":false,
 					"name":"text input 2",
 					"icon":"Calendar",
 					"id":"nav_5cQAD",
@@ -668,6 +736,7 @@
 				},
 				{
 					"activeIcon":"ZapSolid",
+					"hiddenInOverflow":false,
 					"name":"rating",
 					"icon":"Zap",
 					"id":"nav_zydAA",
@@ -677,6 +746,7 @@
 				},
 				{
 					"activeIcon":"AgenticAiChatSolid",
+					"hiddenInOverflow":false,
 					"name":"radio button",
 					"icon":"AgenticAiChat",
 					"id":"nav_JrXRq",
@@ -686,6 +756,7 @@
 				},
 				{
 					"activeIcon":"Stars02Filled",
+					"hiddenInOverflow":false,
 					"name":"datepicker",
 					"icon":"Stars02",
 					"id":"nav_8IutC",
@@ -695,6 +766,7 @@
 				},
 				{
 					"activeIcon":"Stars02Filled",
+					"hiddenInOverflow":false,
 					"name":"datepicker",
 					"icon":"Stars02",
 					"id":"nav_8IutC",
@@ -704,18 +776,29 @@
 				},
 				{
 					"activeIcon":"Stars02Filled",
+					"hiddenInOverflow":false,
 					"name":"Page 20",
 					"icon":"Stars02",
 					"id":"nav_xY2Qa",
 					"type":"PAGE",
 					"pageId":"e_6a3e9e1cd5b547038299845d",
 					"slug":"page-20"
+				},
+				{
+					"activeIcon":"AgenticAiChatSolid",
+					"name":"text template",
+					"icon":"AgenticAiChat",
+					"id":"nav_fQIa0",
+					"type":"PAGE",
+					"pageId":"e_6a3f61c537783f4f46a2a10e",
+					"slug":"text-template"
 				}
 			]
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a3e9ab6d3455100147a1606":"datepicker",
 			"e_6a3e9a08d5b5470382998302":"radio-button",
+			"e_6a3f61c537783f4f46a2a10e":"text-template",
 			"e_6a3e70544a13b2784f5f0429":"page-2",
 			"e_6a3e779bae981338142fa912":"page-4",
 			"e_6a3e7b688f78ae69aa61edd7":"avatar",
@@ -765,13 +848,16 @@
 					"e_6a3e9a08d5b5470382998302",
 					"e_6a3e9ab6d3455100147a1606",
 					"e_6a3e9c45d5b54703829983d6",
-					"e_6a3e9e1cd5b547038299845d"
+					"e_6a3e9e1cd5b547038299845d",
+					"e_6a3f61c537783f4f46a2a10e"
 				],
 				"path":"/"
 			}
 		},
 		"name":"textstyletestappp",
 		"theme":{
+			"cssVars":{},
+			"output":"\n      .interface-theme,\n      .interface-theme [data-color-scheme='light'] {\n        \n      }\n    \n        .interface-theme[data-color-scheme='dark'],\n        .interface-theme [data-color-scheme='dark'] {\n          \n        }\n      ",
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
 		},
 		"type":"application",
@@ -786,6 +872,11 @@
 			},
 			"e_6a3e9a08d5b5470382998302":{
 				"slug":"radio-button",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a3f61c537783f4f46a2a10e":{
+				"slug":"text-template",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -908,7 +999,8 @@
 	},
 	"standard":false,
 	"tags":[
-		
+		"tag1",
+		"hello"
 	],
-	"version":1481
+	"version":1657
 }
