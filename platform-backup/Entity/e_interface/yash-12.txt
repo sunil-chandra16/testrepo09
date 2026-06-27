@@ -29,10 +29,10 @@
 		]
 	},
 	"id":"yash-12",
-	"lastModifiedBy":195848,
-	"lastPlatformUpdateBy":195848,
-	"lastPlatformUpdateOn":1782555513124,
-	"modifiedTime":1782555513124,
+	"lastModifiedBy":30181,
+	"lastPlatformUpdateBy":30181,
+	"lastPlatformUpdateOn":1782556764147,
+	"modifiedTime":1782556764147,
 	"ownerUserId":195848,
 	"properties":{
 		"standard":false,
@@ -48,7 +48,7 @@
 			"_counter":{
 				"_mqttTopicCounter":0,
 				"_dataSourceCounter":10,
-				"_pageCount":26,
+				"_pageCount":27,
 				"_moduleCount":1,
 				"_variableCounter":4,
 				"_templateComponentCount":0
@@ -330,6 +330,7 @@
 			"e_6a3f7cf08c7ea85a4755d757":"page-26",
 			"e_6a34efb2022e790fd80d6a39":"page-20",
 			"e_6a3ead40019dd53194ddce86":"page-23",
+			"e_6a3fa5ac0f60b0037dfb7050":"page-27",
 			"e_6a28189ac9eb282ae96cb816":"page-2",
 			"e_6a2ac15d64d2aa134b94ba74":"dnt-table",
 			"e_6a2e182ada9ec609c464cb9b":"page-14",
@@ -374,16 +375,20 @@
 					"e_6a3ead40019dd53194ddce86",
 					"e_6a3f728be37909563aae1a09",
 					"e_6a3f776a8c7ea85a4755d57c",
-					"e_6a3f7cf08c7ea85a4755d757"
+					"e_6a3f7cf08c7ea85a4755d757",
+					"e_6a3fa5ac0f60b0037dfb7050"
 				],
 				"path":"/"
 			}
 		},
 		"name":"yash-12",
 		"theme":{
-			"cssVars":{},
 			"output":"\n      .interface-theme,\n      .interface-theme [data-color-scheme='light'] {\n        \n      }\n    \n        .interface-theme[data-color-scheme='dark'],\n        .interface-theme [data-color-scheme='dark'] {\n          \n        }\n      ",
-			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
+			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME",
+			"cssVars":{},
+			"customColors":[
+				"#232350A6"
+			]
 		},
 		"entityDetailsMap":{
 			"e_6a280e759e6fdf31fe52d4da":{
@@ -438,6 +443,11 @@
 			},
 			"e_6a3ead40019dd53194ddce86":{
 				"slug":"page-23",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a3fa5ac0f60b0037dfb7050":{
+				"slug":"page-27",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -527,5 +537,5 @@
 	"tags":[
 		
 	],
-	"version":1028
+	"version":1078
 }
