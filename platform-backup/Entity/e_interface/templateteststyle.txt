@@ -25,8 +25,8 @@
 	"id":"templateteststyle",
 	"lastModifiedBy":197188,
 	"lastPlatformUpdateBy":197188,
-	"lastPlatformUpdateOn":1782553144905,
-	"modifiedTime":1782553144905,
+	"lastPlatformUpdateOn":1782554323645,
+	"modifiedTime":1782554323645,
 	"ownerUserId":197188,
 	"properties":{
 		"standard":false,
@@ -41,7 +41,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":2,
+				"_pageCount":3,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
@@ -58,6 +58,10 @@
 						},
 						{
 							"id":"nav_hcRVy",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_a7p3E",
 							"hiddenInOverflow":false
 						}
 					],
@@ -100,6 +104,10 @@
 						},
 						{
 							"id":"nav_hcRVy",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_a7p3E",
 							"hiddenInOverflow":false
 						}
 					],
@@ -149,6 +157,10 @@
 						{
 							"id":"nav_hcRVy",
 							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_a7p3E",
+							"hiddenInOverflow":false
 						}
 					],
 					"navigationItem":{
@@ -196,6 +208,10 @@
 						},
 						{
 							"id":"nav_hcRVy",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_a7p3E",
 							"hiddenInOverflow":false
 						}
 					],
@@ -255,11 +271,21 @@
 					"type":"PAGE",
 					"pageId":"e_6a3f89cd7f6cf34f5c78c3f5",
 					"slug":"page-2"
+				},
+				{
+					"activeIcon":"File05Filled",
+					"name":"text",
+					"icon":"File05",
+					"id":"nav_a7p3E",
+					"type":"PAGE",
+					"pageId":"e_6a3f9a6c533ba46a926fc676",
+					"slug":"text"
 				}
 			]
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a3f6ee7e85433122a0489b5":"homepage",
+			"e_6a3f9a6c533ba46a926fc676":"text",
 			"e_global_templateteststyle":"global-page-of-templateteststyle",
 			"e_6a3f89cd7f6cf34f5c78c3f5":"page-2"
 		},
@@ -272,7 +298,8 @@
 				"segment":"",
 				"children":[
 					"e_6a3f6ee7e85433122a0489b5",
-					"e_6a3f89cd7f6cf34f5c78c3f5"
+					"e_6a3f89cd7f6cf34f5c78c3f5",
+					"e_6a3f9a6c533ba46a926fc676"
 				],
 				"path":"/"
 			}
@@ -298,6 +325,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_6a3f9a6c533ba46a926fc676":{
+				"slug":"text",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_global_templateteststyle":{
 				"slug":"global-page-of-templateteststyle",
 				"isPublic":false,
@@ -314,5 +346,5 @@
 	"tags":[
 		
 	],
-	"version":784
+	"version":821
 }
