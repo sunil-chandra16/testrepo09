@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"6757db349b09ba5b01b6c44c"
@@ -21,7 +28,14 @@
 			},
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"27"
@@ -32,7 +46,9 @@
 	},
 	"id":"saumya",
 	"lastModifiedBy":27,
-	"modifiedTime":1782145469705,
+	"lastPlatformUpdateBy":27,
+	"lastPlatformUpdateOn":1782552202756,
+	"modifiedTime":1782552202756,
 	"ownerUserId":27,
 	"properties":{
 		"standard":false,
@@ -894,5 +910,5 @@
 	"tags":[
 		
 	],
-	"version":1665
+	"version":1671
 }
