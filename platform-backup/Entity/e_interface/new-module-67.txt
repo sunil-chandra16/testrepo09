@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195414"
@@ -23,7 +30,7 @@
 	},
 	"id":"new-module-67",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798306417,
+	"modifiedTime":1782571684951,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
