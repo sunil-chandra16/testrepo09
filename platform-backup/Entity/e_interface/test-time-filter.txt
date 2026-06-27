@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"33644"
@@ -23,7 +30,7 @@
 	},
 	"id":"test-time-filter",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798305045,
+	"modifiedTime":1782571683861,
 	"ownerUserId":33644,
 	"properties":{
 		"standard":false,
