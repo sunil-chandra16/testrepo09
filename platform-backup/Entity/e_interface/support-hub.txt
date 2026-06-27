@@ -25,8 +25,8 @@
 	"id":"support-hub",
 	"lastModifiedBy":195381,
 	"lastPlatformUpdateBy":195381,
-	"lastPlatformUpdateOn":1782560172233,
-	"modifiedTime":1782560172233,
+	"lastPlatformUpdateOn":1782561293085,
+	"modifiedTime":1782561293085,
 	"ownerUserId":195381,
 	"properties":{
 		"standard":false,
@@ -41,6 +41,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
+				"_dataSourceCounter":1,
 				"_pageCount":1,
 				"_moduleCount":0,
 				"_templateComponentCount":0
@@ -243,7 +244,7 @@
 	},
 	"standard":false,
 	"tags":[
-		
+		"Do Not Touch"
 	],
-	"version":2
+	"version":7
 }
