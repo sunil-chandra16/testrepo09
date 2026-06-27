@@ -2,9 +2,29 @@
 	"createdTime":1782360757412,
 	"deleted":false,
 	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"19752"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"efefefefef333333",
-	"lastModifiedBy":19752,
-	"modifiedTime":1782360759687,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782571684645,
 	"ownerUserId":19752,
 	"properties":{
 		"standard":false,
