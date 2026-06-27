@@ -23,10 +23,10 @@
 		]
 	},
 	"id":"templateteststyle",
-	"lastModifiedBy":197188,
-	"lastPlatformUpdateBy":197188,
-	"lastPlatformUpdateOn":1782555561126,
-	"modifiedTime":1782555561126,
+	"lastModifiedBy":199993,
+	"lastPlatformUpdateBy":199993,
+	"lastPlatformUpdateOn":1782556315162,
+	"modifiedTime":1782556315162,
 	"ownerUserId":197188,
 	"properties":{
 		"standard":false,
@@ -113,7 +113,31 @@
 					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
-						"labelVariant":"none"
+						"labelVariant":"none",
+						"background":{
+							"colors":{
+								"default":"transparent",
+								"hover":"#f7f7f7",
+								"active":"transparent"
+							}
+						},
+						"text":{
+							"colors":{
+								"default":"#424242",
+								"hover":"#3e1db1",
+								"active":"#4e26db"
+							},
+							"variant":"text-sm",
+							"weight":"semi-bold"
+						},
+						"icon":{
+							"colors":{
+								"default":"#737373",
+								"hover":"#525252",
+								"active":"#4e26db"
+							},
+							"size":"md"
+						}
 					},
 					"navigationBar":{
 						"overflowDetails":{
@@ -146,7 +170,13 @@
 							"y":"gap-y-lg"
 						}
 					},
-					"secondary":[]
+					"secondary":[],
+					"theme":"inherit",
+					"userReordered":{
+						"primary":false,
+						"secondary":false,
+						"userMenu":false
+					}
 				},
 				"XL":{
 					"primary":[
@@ -165,7 +195,31 @@
 					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
-						"labelVariant":"expandable"
+						"labelVariant":"expandable",
+						"background":{
+							"colors":{
+								"default":"transparent",
+								"hover":"#f7f7f7",
+								"active":"transparent"
+							}
+						},
+						"text":{
+							"colors":{
+								"default":"#424242",
+								"hover":"#3e1db1",
+								"active":"#4e26db"
+							},
+							"variant":"text-sm",
+							"weight":"semi-bold"
+						},
+						"icon":{
+							"colors":{
+								"default":"#737373",
+								"hover":"#525252",
+								"active":"#4e26db"
+							},
+							"size":"md"
+						}
 					},
 					"navigationBar":{
 						"overflowDetails":{
@@ -198,7 +252,13 @@
 							"y":"gap-y-lg"
 						}
 					},
-					"secondary":[]
+					"secondary":[],
+					"theme":"inherit",
+					"userReordered":{
+						"primary":false,
+						"secondary":false,
+						"userMenu":false
+					}
 				},
 				"MD":{
 					"primary":[
@@ -217,7 +277,31 @@
 					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
-						"labelVariant":"none"
+						"labelVariant":"none",
+						"background":{
+							"colors":{
+								"default":"transparent",
+								"hover":"#f7f7f7",
+								"active":"transparent"
+							}
+						},
+						"text":{
+							"colors":{
+								"default":"#424242",
+								"hover":"#3e1db1",
+								"active":"#4e26db"
+							},
+							"variant":"text-sm",
+							"weight":"semi-bold"
+						},
+						"icon":{
+							"colors":{
+								"default":"#737373",
+								"hover":"#525252",
+								"active":"#4e26db"
+							},
+							"size":"md"
+						}
 					},
 					"navigationBar":{
 						"overflowDetails":{
@@ -250,12 +334,19 @@
 							"y":"gap-y-lg"
 						}
 					},
-					"secondary":[]
+					"secondary":[],
+					"theme":"inherit",
+					"userReordered":{
+						"primary":false,
+						"secondary":false,
+						"userMenu":false
+					}
 				}
 			},
 			"primary":[
 				{
 					"activeIcon":"HeartFilled",
+					"hiddenInOverflow":false,
 					"name":"Homepage",
 					"icon":"Heart",
 					"id":"nav_ngsAe",
@@ -265,6 +356,7 @@
 				},
 				{
 					"activeIcon":"SvgFileCode01Solid",
+					"hiddenInOverflow":false,
 					"name":"Page 2",
 					"icon":"SvgFileCode01",
 					"id":"nav_hcRVy",
@@ -274,6 +366,7 @@
 				},
 				{
 					"activeIcon":"File05Filled",
+					"hiddenInOverflow":false,
 					"name":"text",
 					"icon":"File05",
 					"id":"nav_a7p3E",
@@ -306,6 +399,8 @@
 		},
 		"name":"templateteststyle",
 		"theme":{
+			"cssVars":{},
+			"output":"\n      .interface-theme,\n      .interface-theme [data-color-scheme='light'] {\n        \n      }\n    \n        .interface-theme[data-color-scheme='dark'],\n        .interface-theme [data-color-scheme='dark'] {\n          \n        }\n      ",
 			"defaultThemeId":{
 				"conditionalValueFilters":[
 					{
@@ -346,5 +441,5 @@
 	"tags":[
 		
 	],
-	"version":991
+	"version":1144
 }
