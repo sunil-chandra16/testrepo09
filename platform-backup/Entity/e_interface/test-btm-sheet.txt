@@ -2,11 +2,31 @@
 	"createdTime":1782475839484,
 	"deleted":false,
 	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"199860"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"test-btm-sheet",
-	"lastModifiedBy":199860,
+	"lastModifiedBy":-1,
 	"lastPlatformUpdateBy":199860,
 	"lastPlatformUpdateOn":1782475898758,
-	"modifiedTime":1782475898758,
+	"modifiedTime":1782571684659,
 	"ownerUserId":199860,
 	"properties":{
 		"standard":false,
