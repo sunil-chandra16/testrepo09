@@ -2,11 +2,31 @@
 	"createdTime":1782560157604,
 	"deleted":false,
 	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"195381"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"support-hub",
 	"lastModifiedBy":195381,
 	"lastPlatformUpdateBy":195381,
-	"lastPlatformUpdateOn":1782560157604,
-	"modifiedTime":1782560157604,
+	"lastPlatformUpdateOn":1782560161515,
+	"modifiedTime":1782560161515,
 	"ownerUserId":195381,
 	"properties":{
 		"standard":false,
@@ -21,14 +41,14 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":0,
+				"_pageCount":1,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
 		},
 		"navigation":{
 			"secondary":[],
-			"defaultPageId":"",
+			"defaultPageId":"e_6a3fb5a1e17f9a53900b8562",
 			"appearance":{
 				"SM":{
 					"primary":[],
@@ -60,7 +80,8 @@
 						"padding":{
 							"all":"p-0"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"LG":{
 					"primary":[],
@@ -98,7 +119,8 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"XL":{
 					"primary":[],
@@ -136,7 +158,8 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"MD":{
 					"primary":[],
@@ -174,13 +197,27 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				}
 			},
 			"primary":[]
 		},
+		"interfacePageIdVsSlugMap":{
+			"e_6a3fb5a1e17f9a53900b8562":"homepage"
+		},
 		"manifest":{
 			"type":"WEB"
+		},
+		"paths":{
+			"f_root":{
+				"id":"f_root",
+				"segment":"",
+				"children":[
+					"e_6a3fb5a1e17f9a53900b8562"
+				],
+				"path":"/"
+			}
 		},
 		"name":"Support Hub",
 		"theme":{
@@ -189,11 +226,18 @@
 		"type":"application",
 		"locale":{
 			"defaultLocale":"en-US"
+		},
+		"entityDetailsMap":{
+			"e_6a3fb5a1e17f9a53900b8562":{
+				"slug":"homepage",
+				"isPublic":false,
+				"type":"PAGE"
+			}
 		}
 	},
 	"standard":false,
 	"tags":[
 		
 	],
-	"version":0
+	"version":1
 }
