@@ -25,8 +25,8 @@
 	"id":"support-hub",
 	"lastModifiedBy":195381,
 	"lastPlatformUpdateBy":195381,
-	"lastPlatformUpdateOn":1782560161515,
-	"modifiedTime":1782560161515,
+	"lastPlatformUpdateOn":1782560172233,
+	"modifiedTime":1782560172233,
 	"ownerUserId":195381,
 	"properties":{
 		"standard":false,
@@ -204,7 +204,8 @@
 			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
-			"e_6a3fb5a1e17f9a53900b8562":"homepage"
+			"e_6a3fb5a1e17f9a53900b8562":"homepage",
+			"e_global_support-hub":"global-page-of-support-hub"
 		},
 		"manifest":{
 			"type":"WEB"
@@ -232,6 +233,11 @@
 				"slug":"homepage",
 				"isPublic":false,
 				"type":"PAGE"
+			},
+			"e_global_support-hub":{
+				"slug":"global-page-of-support-hub",
+				"isPublic":false,
+				"type":"PAGE"
 			}
 		}
 	},
@@ -239,5 +245,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":2
 }
