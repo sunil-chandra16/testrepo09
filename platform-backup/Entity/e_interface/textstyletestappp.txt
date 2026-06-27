@@ -2,17 +2,17 @@
 	"createdTime":1782473443651,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782507446358,
-		"deployedBy":11492,
-		"entityVersion":1494,
-		"version":1
+		"deployedAt":1782566667479,
+		"deployedBy":19752,
+		"entityVersion":1671,
+		"version":2
 	},
 	"entityType":"e_interface",
 	"id":"textstyletestappp",
 	"lastModifiedBy":19752,
 	"lastPlatformUpdateBy":19752,
-	"lastPlatformUpdateOn":1782564050114,
-	"modifiedTime":1782564050114,
+	"lastPlatformUpdateOn":1782566667481,
+	"modifiedTime":1782566667481,
 	"ownerUserId":197188,
 	"properties":{
 		"standard":false,
