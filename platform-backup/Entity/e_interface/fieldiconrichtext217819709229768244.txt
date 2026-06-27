@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"175325"
@@ -16,8 +23,8 @@
 		]
 	},
 	"id":"fieldiconrichtext217819709229768244",
-	"lastModifiedBy":175325,
-	"modifiedTime":1781971876723,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782571683902,
 	"ownerUserId":175325,
 	"properties":{
 		"standard":false,
