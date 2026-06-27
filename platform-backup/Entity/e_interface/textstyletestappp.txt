@@ -9,10 +9,10 @@
 	},
 	"entityType":"e_interface",
 	"id":"textstyletestappp",
-	"lastModifiedBy":45512,
-	"lastPlatformUpdateBy":45512,
-	"lastPlatformUpdateOn":1782558780846,
-	"modifiedTime":1782558780846,
+	"lastModifiedBy":19752,
+	"lastPlatformUpdateBy":19752,
+	"lastPlatformUpdateOn":1782564050114,
+	"modifiedTime":1782564050114,
 	"ownerUserId":197188,
 	"properties":{
 		"standard":false,
@@ -28,7 +28,7 @@
 			"_counter":{
 				"_mqttTopicCounter":0,
 				"_dataSourceCounter":1,
-				"_pageCount":22,
+				"_pageCount":23,
 				"_moduleCount":1,
 				"_templateComponentCount":0
 			}
@@ -627,7 +627,6 @@
 				},
 				{
 					"activeIcon":"ListSolid",
-					"path":"/avatar",
 					"hiddenInOverflow":false,
 					"name":"avatar",
 					"icon":"List",
@@ -815,6 +814,7 @@
 			"e_6a3e94ad2b666e54c4836cef":"text-input-2",
 			"e_6a3e88ec2b666e54c48366ba":"multi-statcard",
 			"e_6a3e9e1cd5b547038299845d":"page-20",
+			"e_6a3fc42762a2b43317bac9c6":"page-23",
 			"e_6a3e988ed5b5470382998200":"rating",
 			"e_6a3e79a2ae981338142fad90":"image-grid",
 			"e_6a3e8a79d5b5470382997af6":"tabs",
@@ -854,7 +854,8 @@
 					"e_6a3e9c45d5b54703829983d6",
 					"e_6a3e9e1cd5b547038299845d",
 					"e_6a3f61c537783f4f46a2a10e",
-					"e_6a3fa17a4c98dc79347fa983"
+					"e_6a3fa17a4c98dc79347fa983",
+					"e_6a3fc42762a2b43317bac9c6"
 				],
 				"path":"/"
 			}
@@ -950,6 +951,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_6a3fc42762a2b43317bac9c6":{
+				"slug":"page-23",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a3e988ed5b5470382998200":{
 				"slug":"rating",
 				"isPublic":false,
@@ -1012,5 +1018,5 @@
 		"tag1",
 		"hello"
 	],
-	"version":1668
+	"version":1671
 }
