@@ -9,10 +9,10 @@
 	},
 	"entityType":"e_interface",
 	"id":"textstyletestappp",
-	"lastModifiedBy":199993,
-	"lastPlatformUpdateBy":199993,
-	"lastPlatformUpdateOn":1782551996735,
-	"modifiedTime":1782551996735,
+	"lastModifiedBy":45512,
+	"lastPlatformUpdateBy":45512,
+	"lastPlatformUpdateOn":1782555017693,
+	"modifiedTime":1782555017693,
 	"ownerUserId":197188,
 	"properties":{
 		"standard":false,
@@ -28,7 +28,7 @@
 			"_counter":{
 				"_mqttTopicCounter":0,
 				"_dataSourceCounter":1,
-				"_pageCount":21,
+				"_pageCount":22,
 				"_moduleCount":1,
 				"_templateComponentCount":0
 			}
@@ -800,6 +800,7 @@
 			"e_6a3e9ab6d3455100147a1606":"datepicker",
 			"e_6a3e9a08d5b5470382998302":"radio-button",
 			"e_6a3f61c537783f4f46a2a10e":"text-template",
+			"e_6a3fa17a4c98dc79347fa983":"page-22",
 			"e_6a3e70544a13b2784f5f0429":"page-2",
 			"e_6a3e779bae981338142fa912":"page-4",
 			"e_6a3e7b688f78ae69aa61edd7":"avatar",
@@ -850,7 +851,8 @@
 					"e_6a3e9ab6d3455100147a1606",
 					"e_6a3e9c45d5b54703829983d6",
 					"e_6a3e9e1cd5b547038299845d",
-					"e_6a3f61c537783f4f46a2a10e"
+					"e_6a3f61c537783f4f46a2a10e",
+					"e_6a3fa17a4c98dc79347fa983"
 				],
 				"path":"/"
 			}
@@ -878,6 +880,11 @@
 			},
 			"e_6a3f61c537783f4f46a2a10e":{
 				"slug":"text-template",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a3fa17a4c98dc79347fa983":{
+				"slug":"page-22",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -1003,5 +1010,5 @@
 		"tag1",
 		"hello"
 	],
-	"version":1661
+	"version":1665
 }
