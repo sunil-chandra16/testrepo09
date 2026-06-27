@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"50891"
@@ -16,8 +23,8 @@
 		]
 	},
 	"id":"vilen",
-	"lastModifiedBy":50891,
-	"modifiedTime":1782213953852,
+	"lastModifiedBy":-1,
+	"modifiedTime":1782571688512,
 	"ownerUserId":50891,
 	"properties":{
 		"standard":false,
