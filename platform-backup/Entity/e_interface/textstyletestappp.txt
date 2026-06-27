@@ -9,10 +9,10 @@
 	},
 	"entityType":"e_interface",
 	"id":"textstyletestappp",
-	"lastModifiedBy":45512,
-	"lastPlatformUpdateBy":45512,
-	"lastPlatformUpdateOn":1782555017693,
-	"modifiedTime":1782555017693,
+	"lastModifiedBy":19752,
+	"lastPlatformUpdateBy":19752,
+	"lastPlatformUpdateOn":1782557364197,
+	"modifiedTime":1782557364197,
 	"ownerUserId":197188,
 	"properties":{
 		"standard":false,
@@ -627,9 +627,11 @@
 				},
 				{
 					"activeIcon":"ListSolid",
+					"path":"/avatar",
 					"hiddenInOverflow":false,
 					"name":"avatar",
 					"icon":"List",
+					"pageParams":[],
 					"id":"nav_G1Vj1",
 					"type":"PAGE",
 					"pageId":"e_6a3e7b688f78ae69aa61edd7",
@@ -1010,5 +1012,5 @@
 		"tag1",
 		"hello"
 	],
-	"version":1665
+	"version":1667
 }
