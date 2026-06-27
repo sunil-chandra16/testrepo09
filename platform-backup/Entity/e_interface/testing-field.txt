@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"161163"
@@ -17,7 +24,7 @@
 	},
 	"id":"testing-field",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781874335469,
+	"modifiedTime":1782571684846,
 	"ownerUserId":161163,
 	"properties":{
 		"standard":false,
