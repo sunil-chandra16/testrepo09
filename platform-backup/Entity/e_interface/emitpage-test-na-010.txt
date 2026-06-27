@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"196515"
@@ -23,7 +30,7 @@
 	},
 	"id":"emitpage-test-na-010",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798305482,
+	"modifiedTime":1782571683902,
 	"ownerUserId":196515,
 	"properties":{
 		"standard":false,
