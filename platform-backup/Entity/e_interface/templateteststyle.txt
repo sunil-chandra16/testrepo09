@@ -25,8 +25,8 @@
 	"id":"templateteststyle",
 	"lastModifiedBy":197188,
 	"lastPlatformUpdateBy":197188,
-	"lastPlatformUpdateOn":1782548052671,
-	"modifiedTime":1782548052671,
+	"lastPlatformUpdateOn":1782551871868,
+	"modifiedTime":1782551871868,
 	"ownerUserId":197188,
 	"properties":{
 		"standard":false,
@@ -41,7 +41,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":1,
+				"_pageCount":2,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
@@ -54,6 +54,10 @@
 					"primary":[
 						{
 							"id":"nav_ngsAe",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_hcRVy",
 							"hiddenInOverflow":false
 						}
 					],
@@ -92,6 +96,10 @@
 					"primary":[
 						{
 							"id":"nav_ngsAe",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_hcRVy",
 							"hiddenInOverflow":false
 						}
 					],
@@ -137,6 +145,10 @@
 						{
 							"id":"nav_ngsAe",
 							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_hcRVy",
+							"hiddenInOverflow":false
 						}
 					],
 					"navigationItem":{
@@ -180,6 +192,10 @@
 					"primary":[
 						{
 							"id":"nav_ngsAe",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_hcRVy",
 							"hiddenInOverflow":false
 						}
 					],
@@ -230,12 +246,22 @@
 					"type":"PAGE",
 					"pageId":"e_6a3f6ee7e85433122a0489b5",
 					"slug":"homepage"
+				},
+				{
+					"activeIcon":"SvgFileCode01Solid",
+					"name":"Page 2",
+					"icon":"SvgFileCode01",
+					"id":"nav_hcRVy",
+					"type":"PAGE",
+					"pageId":"e_6a3f89cd7f6cf34f5c78c3f5",
+					"slug":"page-2"
 				}
 			]
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a3f6ee7e85433122a0489b5":"homepage",
-			"e_global_templateteststyle":"global-page-of-templateteststyle"
+			"e_global_templateteststyle":"global-page-of-templateteststyle",
+			"e_6a3f89cd7f6cf34f5c78c3f5":"page-2"
 		},
 		"manifest":{
 			"type":"WEB"
@@ -245,7 +271,8 @@
 				"id":"f_root",
 				"segment":"",
 				"children":[
-					"e_6a3f6ee7e85433122a0489b5"
+					"e_6a3f6ee7e85433122a0489b5",
+					"e_6a3f89cd7f6cf34f5c78c3f5"
 				],
 				"path":"/"
 			}
@@ -255,10 +282,10 @@
 			"defaultThemeId":{
 				"conditionalValueFilters":[
 					{
-						"propertyValue":"UNIFYAPPS_DEFAULT_THEME"
+						"propertyValue":"e_6a3f83eac6defb4d2c386b62"
 					}
 				],
-				"defaultValue":"e_6a3f83eac6defb4d2c386b62"
+				"defaultValue":"UNIFYAPPS_DEFAULT_THEME"
 			}
 		},
 		"type":"application",
@@ -275,6 +302,11 @@
 				"slug":"global-page-of-templateteststyle",
 				"isPublic":false,
 				"type":"PAGE"
+			},
+			"e_6a3f89cd7f6cf34f5c78c3f5":{
+				"slug":"page-2",
+				"isPublic":false,
+				"type":"PAGE"
 			}
 		}
 	},
@@ -282,5 +314,5 @@
 	"tags":[
 		
 	],
-	"version":431
+	"version":743
 }
