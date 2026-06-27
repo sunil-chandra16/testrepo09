@@ -6,7 +6,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195833"
@@ -17,7 +24,7 @@
 	},
 	"id":"efefvrvrvr",
 	"lastModifiedBy":-1,
-	"modifiedTime":1781798306336,
+	"modifiedTime":1782571684880,
 	"ownerUserId":195833,
 	"properties":{
 		"standard":false,
