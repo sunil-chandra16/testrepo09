@@ -24,7 +24,7 @@
 	},
 	"id":"new-figma-app",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782395887172,
+	"modifiedTime":1782571688144,
 	"ownerUserId":148989,
 	"properties":{
 		"standard":false,
