@@ -2,10 +2,10 @@
 	"createdTime":1747830465600,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782400037157,
+		"deployedAt":1782530513397,
 		"deployedBy":-1,
-		"entityVersion":1337,
-		"version":446
+		"entityVersion":1341,
+		"version":448
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -43,9 +43,7 @@
 	},
 	"id":"ua-copilot-module-clone",
 	"lastModifiedBy":-1,
-	"lastPlatformUpdateBy":195456,
-	"lastPlatformUpdateOn":1782400683885,
-	"modifiedTime":1782400720449,
+	"modifiedTime":1782531091426,
 	"ownerUserId":325,
 	"properties":{
 		"standard":true,
@@ -181,5 +179,5 @@
 		}
 	},
 	"standard":true,
-	"version":1339
+	"version":1341
 }
