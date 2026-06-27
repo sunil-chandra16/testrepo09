@@ -2,10 +2,10 @@
 	"createdTime":1780311719414,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1780664520620,
-		"deployedBy":195414,
-		"entityVersion":1299,
-		"version":2
+		"deployedAt":1782570491717,
+		"deployedBy":195833,
+		"entityVersion":2623,
+		"version":5
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -29,10 +29,10 @@
 		]
 	},
 	"id":"sujal-707",
-	"lastModifiedBy":195414,
-	"lastPlatformUpdateBy":195414,
-	"lastPlatformUpdateOn":1782568336402,
-	"modifiedTime":1782568336402,
+	"lastModifiedBy":27,
+	"lastPlatformUpdateBy":27,
+	"lastPlatformUpdateOn":1782570673858,
+	"modifiedTime":1782570673858,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -393,5 +393,5 @@
 	"tags":[
 		
 	],
-	"version":2574
+	"version":2629
 }
