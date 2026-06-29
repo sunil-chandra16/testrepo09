@@ -29,10 +29,10 @@
 		]
 	},
 	"id":"formbug",
-	"lastModifiedBy":43497,
-	"lastPlatformUpdateBy":43497,
-	"lastPlatformUpdateOn":1782497134361,
-	"modifiedTime":1782497134361,
+	"lastModifiedBy":200377,
+	"lastPlatformUpdateBy":200377,
+	"lastPlatformUpdateOn":1782731857555,
+	"modifiedTime":1782731857555,
 	"ownerUserId":200377,
 	"properties":{
 		"standard":false,
@@ -49,7 +49,8 @@
 				"_mqttTopicCounter":0,
 				"_pageCount":5,
 				"_moduleCount":1,
-				"_functionCounter":3,
+				"_variableCounter":5,
+				"_functionCounter":4,
 				"_templateComponentCount":0
 			}
 		},
@@ -304,5 +305,5 @@
 	"tags":[
 		
 	],
-	"version":359
+	"version":432
 }
