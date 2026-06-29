@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"11492"
@@ -22,8 +29,10 @@
 		]
 	},
 	"id":"mapped-columns",
-	"lastModifiedBy":11492,
-	"modifiedTime":1781699662126,
+	"lastModifiedBy":199929,
+	"lastPlatformUpdateBy":199929,
+	"lastPlatformUpdateOn":1782731323573,
+	"modifiedTime":1782731323573,
 	"ownerUserId":11492,
 	"properties":{
 		"standard":false,
@@ -301,5 +310,5 @@
 	"tags":[
 		
 	],
-	"version":172
+	"version":173
 }
