@@ -31,8 +31,8 @@
 	"id":"pknative6",
 	"lastModifiedBy":409,
 	"lastPlatformUpdateBy":409,
-	"lastPlatformUpdateOn":1782463020792,
-	"modifiedTime":1782463020792,
+	"lastPlatformUpdateOn":1782731815599,
+	"modifiedTime":1782731815599,
 	"ownerUserId":409,
 	"properties":{
 		"standard":false,
@@ -64,7 +64,20 @@
 			"e_69905de9415d355adde986ae"
 		],
 		"manifest":{
-			"type":"MOBILE"
+			"type":"MOBILE",
+			"brandAssets":{
+				"ios":{
+					"darkModeLogo":"https://assets.unifyapps.com/images/platform/brand-assets/ios-dark.png",
+					"lightModeLogo":"https://assets.unifyapps.com/images/platform/brand-assets/ios-light.png",
+					"tintedLogo":"https://assets.unifyapps.com/images/platform/brand-assets/ios-tinted.png"
+				},
+				"android":{
+					"backgroundColor":"#FFFFFF",
+					"foregroundLogo":"https://assets.unifyapps.com/images/platform/brand-assets/android-foreground.png",
+					"monochromeLogo":"https://assets.unifyapps.com/images/platform/brand-assets/android-monochrome.png",
+					"backgroundType":"Color"
+				}
+			}
 		},
 		"pagePermissions":{
 			"e_68fdaada41a7ba25de9c14b6":{},
@@ -78,6 +91,12 @@
 				"ar-AE",
 				"de-DE"
 			]
+		},
+		"nativeDeveloperConfig":{
+			"clientConfig":"{\n  \"version\": \"119.0.0\",\n  \"bundleIdentifier\": \"com.ua.pknativhe61\",\n  \"associatedDomains\": [\n    \"applinks:qa.unifyapps.com\",\n    \"applinks:prod.unifyapps.com\",\n    \"applinks:prod-aps1.unifyapps.com\"\n  ],\n  \"intentFilters\": [\n    {\n      \"action\": \"VIEWd\",\n      \"category\": [\n        \"DEFAULT\",\n        \"BROWSABLE\"\n      ],\n      \"data\": {\n        \"scheme\": \"matrix\",\n        \"host\": \"open\"\n      }\n    },\n    {\n      \"action\": \"VIEW\",\n      \"autoVerify\": true,\n      \"category\": [\n        \"DEFAULT\",\n        \"BROWSABLE\"\n      ],\n      \"data\": [\n        {\n          \"scheme\": \"https\",\n          \"host\": \"qa.unifyapps.com\",\n          \"pathPrefix\": \"/\"\n        },\n        {\n          \"scheme\": \"https\",\n          \"host\": \"prod.unifyapps.com\",\n          \"pathPrefix\": \"/\"\n        },\n        {\n          \"scheme\": \"https\",\n          \"host\": \"prod-aps1.unifyapps.com\",\n          \"pathPrefix\": \"/\"\n        }\n      ]\n    }\n  ],\n  \"appVariant\":\"sk\",\n  \"defaultLocale\": \"en-US\",\n  \"supportsTablet\": false,\n  \"expoProject\": {\n    \"slug\": \"pknative6\",\n    \"scheme\": \"pknative6\",\n    \"projectId\": \"e_69905de9415d355adde986ae\"\n  },\n  \"expoPlugins\": [],\n  \"shouldShowDebugMenu\": false,\n  \"orientation\": \"default\",\n  \"userInterfaceStyle\": \"light\",\n  \"notification\": {\n    \"icon\": \"\",\n    \"color\": \"\",\n    \"username\": \"pknative6\",\n    \"experienceId\": \"@ua/pknative6\"\n  },\n  \"androidStatusBar\": {\n    \"barStyle\": \"light-content\"\n  },\n  \"androidNavigationBar\": {\n    \"barStyle\": \"dark-content\"\n  },\n  \"ios\": {\n    \"infoPlist\": {},\n    \"googleServicesFile\": \"./firebase/GoogleService-Info.plist\",\n    \"entitlements\": {}\n  },\n  \"android\": {\n    \"permissions\": [],\n    \"blockedPermissions\": [],\n    \"googleServicesFile\": \"./firebase/google-services.json\"\n  }\n}",
+			"firebaseConfig":{
+				"android":"g"
+			}
 		},
 		"customCode":{},
 		"navigation":{
@@ -708,5 +727,5 @@
 		}
 	},
 	"standard":false,
-	"version":590
+	"version":611
 }
