@@ -29,8 +29,10 @@
 		]
 	},
 	"id":"adp-live-chat",
-	"lastModifiedBy":-1,
-	"modifiedTime":1782583883486,
+	"lastModifiedBy":43497,
+	"lastPlatformUpdateBy":43497,
+	"lastPlatformUpdateOn":1782740113518,
+	"modifiedTime":1782740113518,
 	"ownerUserId":48071,
 	"properties":{
 		"standard":false,
@@ -44,20 +46,168 @@
 				"favicon":"/favicon.ico"
 			},
 			"_counter":{
-				"_pageCount":3,
-				"_moduleCount":0
+				"_moduleCount":0,
+				"_pageCount":3
 			}
 		},
+		"manifest":{
+			"type":"COPILOT",
+			"launcher":{
+				"gap":{
+					"custom":"16px"
+				},
+				"icon":{
+					"name":"MessageTextSquare02",
+					"width":{
+						"custom":"32px"
+					},
+					"color":"text-white",
+					"height":{
+						"custom":"32px"
+					}
+				},
+				"description":"Chatbot",
+				"styles":{
+					"padding":{
+						"custom":{
+							"t":"10px",
+							"b":"10px",
+							"l":"10px",
+							"r":"10px"
+						}
+					},
+					"backgroundColor":"bg-brand-strong",
+					"borderRadius":{
+						"all":"rounded-full"
+					},
+					"gap":{
+						"all":"gap-sm"
+					}
+				},
+				"position":{
+					"coordinates":{
+						"bottom":{
+							"custom":"20px"
+						},
+						"end":{
+							"custom":"20px"
+						}
+					},
+					"type":"BOTTOM_END"
+				},
+				"title":"Chatbot",
+				"message":"Hello there?",
+				"launcherType":"icon",
+				"enabled":{
+					"value":true
+				},
+				"customCSS":"[data-testid=\"launcher\"] {\n\n}"
+			}
+		},
+		"type":"application",
+		"locale":{
+			"defaultLocale":"en-US"
+		},
+		"customCode":{},
 		"navigation":{
 			"secondary":[
 				{
 					"name":"Profile",
-					"id":"userMenu",
-					"type":"USER_MENU"
+					"type":"USER_MENU",
+					"id":"userMenu"
 				}
 			],
 			"defaultPageId":"e_67e665c17f79bc1de1b80f64",
 			"appearance":{
+				"SM":{
+					"navigationBar":{
+						"position":"bottom",
+						"type":"fixed",
+						"overflowDetails":{
+							"icon":"Menu01",
+							"label":"More"
+						}
+					},
+					"secondary":[
+						{
+							"hiddenInOverflow":false,
+							"visible":true,
+							"id":"userMenu"
+						}
+					],
+					"navigationItem":{
+						"selectionVariant":"stroke",
+						"labelVariant":"upfront"
+					},
+					"primary":[
+						{
+							"hiddenInOverflow":false,
+							"visible":true,
+							"id":"nav_DfN8w"
+						},
+						{
+							"hiddenInOverflow":false,
+							"visible":true,
+							"id":"nav_9JWTw"
+						},
+						{
+							"hiddenInOverflow":false,
+							"visible":true,
+							"id":"nav_rctKW"
+						}
+					]
+				},
+				"LG":{
+					"navigationBar":{
+						"position":"start",
+						"type":"fixed",
+						"overflowDetails":{
+							"icon":"Menu01",
+							"label":"More"
+						}
+					},
+					"secondary":[
+						{
+							"hiddenInOverflow":false,
+							"visible":true,
+							"id":"userMenu"
+						}
+					],
+					"navigationItem":{
+						"selectionVariant":"stroke",
+						"labelVariant":"expandable"
+					},
+					"styles":{
+						"borderColor":"border-tertiary",
+						"borderRadius":{
+							"all":"rounded-none"
+						},
+						"borderWidth":{
+							"r":"border-e"
+						},
+						"width":{
+							"custom":"56px"
+						},
+						"height":"h-auto"
+					},
+					"primary":[
+						{
+							"hiddenInOverflow":false,
+							"visible":true,
+							"id":"nav_DfN8w"
+						},
+						{
+							"hiddenInOverflow":false,
+							"visible":true,
+							"id":"nav_9JWTw"
+						},
+						{
+							"hiddenInOverflow":false,
+							"visible":true,
+							"id":"nav_rctKW"
+						}
+					]
+				},
 				"XL":{
 					"navigationBar":{
 						"position":"start",
@@ -159,95 +309,6 @@
 							"id":"nav_rctKW"
 						}
 					]
-				},
-				"SM":{
-					"navigationBar":{
-						"position":"bottom",
-						"type":"fixed",
-						"overflowDetails":{
-							"icon":"Menu01",
-							"label":"More"
-						}
-					},
-					"secondary":[
-						{
-							"hiddenInOverflow":false,
-							"visible":true,
-							"id":"userMenu"
-						}
-					],
-					"navigationItem":{
-						"selectionVariant":"stroke",
-						"labelVariant":"upfront"
-					},
-					"primary":[
-						{
-							"hiddenInOverflow":false,
-							"visible":true,
-							"id":"nav_DfN8w"
-						},
-						{
-							"hiddenInOverflow":false,
-							"visible":true,
-							"id":"nav_9JWTw"
-						},
-						{
-							"hiddenInOverflow":false,
-							"visible":true,
-							"id":"nav_rctKW"
-						}
-					]
-				},
-				"LG":{
-					"navigationBar":{
-						"position":"start",
-						"type":"fixed",
-						"overflowDetails":{
-							"icon":"Menu01",
-							"label":"More"
-						}
-					},
-					"secondary":[
-						{
-							"hiddenInOverflow":false,
-							"visible":true,
-							"id":"userMenu"
-						}
-					],
-					"navigationItem":{
-						"selectionVariant":"stroke",
-						"labelVariant":"expandable"
-					},
-					"styles":{
-						"borderColor":"border-tertiary",
-						"borderRadius":{
-							"all":"rounded-none"
-						},
-						"borderWidth":{
-							"r":"border-e"
-						},
-						"width":{
-							"custom":"56px"
-						},
-						"height":"h-auto"
-					},
-					"primary":[
-						{
-							"hiddenInOverflow":false,
-							"visible":true,
-							"id":"nav_DfN8w"
-						},
-						{
-							"hiddenInOverflow":false,
-							"visible":true,
-							"id":"nav_9JWTw"
-						},
-						{
-							"hiddenInOverflow":false,
-							"visible":true,
-							"id":"nav_rctKW"
-						}
-					]
 				}
 			},
 			"primary":[
@@ -280,56 +341,55 @@
 		"interfacePageIdVsSlugMap":{
 			"e_67e665c17f79bc1de1b80f64":"homepage",
 			"e_67e691677f79bc1de1b84dfe":"page-2",
-			"e_67e691688b6ef022fb0577e0":"page-3"
+			"e_global_adp-live-chat":"global-page-of-adp-live-chat",
+			"e_67e691688b6ef022fb0577e0":"page-3",
+			"e_67e691688b6ef022fb0577e1":"page-3"
 		},
-		"manifest":{
-			"type":"COPILOT",
-			"launcher":{
-				"shape":"CIRCLE",
-				"size":{
-					"width":{
-						"custom":"52px"
-					},
-					"height":{
-						"custom":"52px"
-					}
-				},
-				"background":"bg-utility-brand-700",
-				"gap":{
-					"custom":"16px"
-				},
-				"iconColor":"#ffffff",
-				"description":"Chatbot",
-				"position":{
-					"coordinates":{
-						"bottom":{
-							"custom":"20px"
-						},
-						"end":{
-							"custom":"20px"
-						}
-					},
-					"type":"BOTTOM_END"
-				},
-				"title":"Chatbot",
-				"message":"Hello there?"
+		"paths":{
+			"f_root":{
+				"id":"f_root",
+				"segment":"",
+				"children":[
+					"e_67e691688b6ef022fb0577e1",
+					"e_67e691688b6ef022fb0577e0",
+					"e_67e691677f79bc1de1b84dfe",
+					"e_67e665c17f79bc1de1b80f64"
+				],
+				"path":"/"
 			}
 		},
 		"name":"ADP Live chat",
-		"type":"application",
-		"locale":{
-			"defaultLocale":"en-US"
-		},
 		"integrations":{
 			"copilotChat":{
 				"enabled":true
 			}
 		},
-		"customCode":{}
+		"entityDetailsMap":{
+			"e_67e691677f79bc1de1b84dfe":{
+				"slug":"page-2",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_67e665c17f79bc1de1b80f64":{
+				"slug":"homepage",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_67e691688b6ef022fb0577e0":{
+				"slug":"page-3",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_67e691688b6ef022fb0577e1":{
+				"slug":"page-3",
+				"isPublic":false,
+				"type":"PAGE"
+			}
+		}
 	},
 	"standard":false,
 	"tags":[
 		
 	],
-	"version":198
+	"version":206
 }
