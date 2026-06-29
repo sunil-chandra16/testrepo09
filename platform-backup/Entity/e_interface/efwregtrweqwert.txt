@@ -1,6 +1,12 @@
 {
 	"createdTime":1782741299359,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1782743297316,
+		"deployedBy":195833,
+		"entityVersion":6,
+		"version":1
+	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
@@ -25,8 +31,8 @@
 	"id":"efwregtrweqwert",
 	"lastModifiedBy":195833,
 	"lastPlatformUpdateBy":195833,
-	"lastPlatformUpdateOn":1782742714766,
-	"modifiedTime":1782742714766,
+	"lastPlatformUpdateOn":1782743297360,
+	"modifiedTime":1782743297360,
 	"ownerUserId":195833,
 	"properties":{
 		"standard":false,
@@ -250,5 +256,5 @@
 	"tags":[
 		
 	],
-	"version":5
+	"version":6
 }
