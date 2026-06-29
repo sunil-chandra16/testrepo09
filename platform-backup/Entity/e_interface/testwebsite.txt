@@ -23,10 +23,10 @@
 		]
 	},
 	"id":"testwebsite",
-	"lastModifiedBy":199929,
-	"lastPlatformUpdateBy":199929,
-	"lastPlatformUpdateOn":1782734171358,
-	"modifiedTime":1782734171358,
+	"lastModifiedBy":19752,
+	"lastPlatformUpdateBy":19752,
+	"lastPlatformUpdateOn":1782735452303,
+	"modifiedTime":1782735452303,
 	"ownerUserId":199929,
 	"properties":{
 		"standard":false,
@@ -47,8 +47,8 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_dataSourceCounter":1,
-				"_pageCount":3,
+				"_dataSourceCounter":2,
+				"_pageCount":4,
 				"_moduleCount":0,
 				"_functionCounter":1,
 				"_templateComponentCount":0
@@ -250,6 +250,7 @@
 			}
 		},
 		"interfacePageIdVsSlugMap":{
+			"e_6a425f31c1856d10d9890bbd":"page-4",
 			"e_6a2d2a66ca10b057d6538393":"homepage",
 			"e_global_testwebsite":"global-page-of-testwebsite",
 			"e_6a38f0e441a5bc352ec1b0c2":"page-2",
@@ -261,7 +262,8 @@
 				"segment":"",
 				"children":[
 					"e_6a2d2a66ca10b057d6538393",
-					"e_6a423cd419e67170cc4bfaa1"
+					"e_6a423cd419e67170cc4bfaa1",
+					"e_6a425f31c1856d10d9890bbd"
 				],
 				"path":"/"
 			}
@@ -273,6 +275,11 @@
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
 		},
 		"entityDetailsMap":{
+			"e_6a425f31c1856d10d9890bbd":{
+				"slug":"page-4",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a2d2a66ca10b057d6538393":{
 				"slug":"homepage",
 				"isPublic":false,
@@ -300,5 +307,5 @@
 		"tag1",
 		"you"
 	],
-	"version":520
+	"version":570
 }
