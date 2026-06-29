@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"308"
@@ -22,8 +29,10 @@
 		]
 	},
 	"id":"testn",
-	"lastModifiedBy":195823,
-	"modifiedTime":1782102038863,
+	"lastModifiedBy":199766,
+	"lastPlatformUpdateBy":199766,
+	"lastPlatformUpdateOn":1782760998420,
+	"modifiedTime":1782760998420,
 	"ownerUserId":308,
 	"properties":{
 		"standard":false,
@@ -38,7 +47,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_dataSourceCounter":2,
+				"_dataSourceCounter":4,
 				"_pageCount":2,
 				"_moduleCount":0
 			}
@@ -257,14 +266,24 @@
 		},
 		"interfacePageIdVsSlugMap":{
 			"testn_login":"login",
-			"e_69390d6cce87d90d84fceaf9":"homepage",
-			"e_global_testn":"global-page-of-testn"
+			"e_69390d6cce87d90d84fceaf9":"homepage"
 		},
 		"publicPageIds":[
 			"testn_login"
 		],
 		"manifest":{
 			"type":"WEB"
+		},
+		"paths":{
+			"f_root":{
+				"id":"f_root",
+				"segment":"",
+				"children":[
+					"e_69390d6cce87d90d84fceaf9",
+					"testn_login"
+				],
+				"path":"/"
+			}
 		},
 		"name":"[Sans_DNT] unzip | Excel",
 		"locale":{
@@ -281,11 +300,6 @@
 				"slug":"homepage",
 				"isPublic":false,
 				"type":"PAGE"
-			},
-			"e_global_testn":{
-				"slug":"global-page-of-testn",
-				"isPublic":false,
-				"type":"PAGE"
 			}
 		}
 	},
@@ -293,5 +307,5 @@
 	"tags":[
 		
 	],
-	"version":197
+	"version":204
 }
