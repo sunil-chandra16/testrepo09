@@ -85,8 +85,10 @@
 		]
 	},
 	"id":"ai-enterprise-search",
-	"lastModifiedBy":-1,
-	"modifiedTime":1782530473757,
+	"lastModifiedBy":46673,
+	"lastPlatformUpdateBy":46673,
+	"lastPlatformUpdateOn":1782756056819,
+	"modifiedTime":1782756056819,
 	"ownerUserId":325,
 	"properties":{
 		"standard":false,
@@ -693,5 +695,5 @@
 		}
 	},
 	"standard":true,
-	"version":3572
+	"version":3573
 }
