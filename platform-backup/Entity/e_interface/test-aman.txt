@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195291"
@@ -22,8 +29,10 @@
 		]
 	},
 	"id":"test-aman",
-	"lastModifiedBy":48862,
-	"modifiedTime":1782384919087,
+	"lastModifiedBy":199993,
+	"lastPlatformUpdateBy":199993,
+	"lastPlatformUpdateOn":1782581075781,
+	"modifiedTime":1782581075781,
 	"ownerUserId":195291,
 	"properties":{
 		"standard":false,
@@ -40,7 +49,7 @@
 				"_mqttTopicCounter":1,
 				"_dataSourceCounter":14,
 				"_pageCount":3,
-				"_moduleCount":0,
+				"_moduleCount":1,
 				"_variableCounter":4,
 				"_functionCounter":1
 			}
@@ -295,10 +304,9 @@
 			"type":"PUBLIC"
 		},
 		"interfacePageIdVsSlugMap":{
+			"e_6a393e5644207428d42a5cc0":"page-3",
 			"e_69f50b05528a3d16a028b6a7":"page-2",
-			"e_699d88bc7da5e32d64bce0f0":"homepage",
-			"e_global_test-aman":"global-page-of-test-aman",
-			"e_6a393e5644207428d42a5cc0":"page-3"
+			"e_699d88bc7da5e32d64bce0f0":"homepage"
 		},
 		"mqttTopics":[
 			{
@@ -317,6 +325,18 @@
 				}
 			}
 		],
+		"paths":{
+			"f_root":{
+				"id":"f_root",
+				"segment":"",
+				"children":[
+					"e_699d88bc7da5e32d64bce0f0",
+					"e_69f50b05528a3d16a028b6a7",
+					"e_6a393e5644207428d42a5cc0"
+				],
+				"path":"/"
+			}
+		},
 		"name":"test-aman",
 		"theme":{
 			"output":"\n      .interface-theme,\n      .interface-theme [data-color-scheme='light'] {\n        \n      }\n    \n        .interface-theme[data-color-scheme='dark'],\n        .interface-theme [data-color-scheme='dark'] {\n          \n        }\n      ",
@@ -330,6 +350,11 @@
 			]
 		},
 		"entityDetailsMap":{
+			"e_6a393e5644207428d42a5cc0":{
+				"slug":"page-3",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_69f50b05528a3d16a028b6a7":{
 				"slug":"page-2",
 				"isPublic":false,
@@ -337,16 +362,6 @@
 			},
 			"e_699d88bc7da5e32d64bce0f0":{
 				"slug":"homepage",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_global_test-aman":{
-				"slug":"global-page-of-test-aman",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_6a393e5644207428d42a5cc0":{
-				"slug":"page-3",
 				"isPublic":false,
 				"type":"PAGE"
 			}
@@ -359,5 +374,5 @@
 	"tags":[
 		
 	],
-	"version":272
+	"version":274
 }
