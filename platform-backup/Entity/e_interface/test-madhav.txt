@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195850"
@@ -23,7 +30,9 @@
 	},
 	"id":"test-madhav",
 	"lastModifiedBy":195850,
-	"modifiedTime":1782368535405,
+	"lastPlatformUpdateBy":195850,
+	"lastPlatformUpdateOn":1782577006671,
+	"modifiedTime":1782577006671,
 	"ownerUserId":195850,
 	"properties":{
 		"standard":false,
@@ -854,5 +863,5 @@
 	"tags":[
 		
 	],
-	"version":9466
+	"version":9486
 }
