@@ -2,11 +2,31 @@
 	"createdTime":1782455584884,
 	"deleted":false,
 	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"199888"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"delete-test",
 	"lastModifiedBy":199888,
 	"lastPlatformUpdateBy":199888,
-	"lastPlatformUpdateOn":1782556295164,
-	"modifiedTime":1782556295164,
+	"lastPlatformUpdateOn":1782751242983,
+	"modifiedTime":1782751242983,
 	"ownerUserId":199888,
 	"properties":{
 		"standard":false,
@@ -225,5 +245,5 @@
 	"tags":[
 		
 	],
-	"version":96
+	"version":249
 }
