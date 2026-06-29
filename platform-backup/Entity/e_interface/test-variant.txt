@@ -29,10 +29,10 @@
 		]
 	},
 	"id":"test-variant",
-	"lastModifiedBy":409,
-	"lastPlatformUpdateBy":409,
-	"lastPlatformUpdateOn":1782740497563,
-	"modifiedTime":1782740497563,
+	"lastModifiedBy":33436,
+	"lastPlatformUpdateBy":33436,
+	"lastPlatformUpdateOn":1782741762078,
+	"modifiedTime":1782741762078,
 	"ownerUserId":33436,
 	"properties":{
 		"standard":false,
@@ -454,7 +454,7 @@
 			"cspDetails":{
 				"enforceCSP":true
 			},
-			"type":"PUBLIC",
+			"type":"PRIVATE",
 			"native":{
 				"screenProtection":{
 					"overlayImage":"https://assets.unifyapps.com/images/platform/screenshot-not-allowed.png",
@@ -665,5 +665,5 @@
 		}
 	},
 	"standard":false,
-	"version":1668
+	"version":1673
 }
