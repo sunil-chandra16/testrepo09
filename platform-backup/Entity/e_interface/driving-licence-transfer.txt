@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"15080"
@@ -23,7 +30,9 @@
 	},
 	"id":"driving-licence-transfer",
 	"lastModifiedBy":195884,
-	"modifiedTime":1782284381582,
+	"lastPlatformUpdateBy":195884,
+	"lastPlatformUpdateOn":1782735536305,
+	"modifiedTime":1782735536305,
 	"ownerUserId":15080,
 	"properties":{
 		"standard":false,
@@ -340,5 +349,5 @@
 	"tags":[
 		
 	],
-	"version":2738
+	"version":2743
 }
