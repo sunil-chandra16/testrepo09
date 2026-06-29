@@ -2,17 +2,24 @@
 	"createdTime":1781780735436,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781892275473,
+		"deployedAt":1782731304233,
 		"deployedBy":200384,
-		"entityVersion":3,
-		"version":1
+		"entityVersion":12,
+		"version":5
 	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"200384"
@@ -23,7 +30,9 @@
 	},
 	"id":"rituraj12",
 	"lastModifiedBy":200384,
-	"modifiedTime":1782131005382,
+	"lastPlatformUpdateBy":200384,
+	"lastPlatformUpdateOn":1782731304236,
+	"modifiedTime":1782731304236,
 	"ownerUserId":200384,
 	"properties":{
 		"standard":false,
@@ -38,11 +47,18 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
+				"_customEventCounter":1,
 				"_pageCount":1,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
 		},
+		"customEvents":[
+			{
+				"id":"customEvent_nWXJM",
+				"eventName":"new-event-1"
+			}
+		],
 		"manifest":{
 			"type":"MOBILE",
 			"splashScreen":{
@@ -232,7 +248,7 @@
 			"primary":[]
 		},
 		"security":{
-			"type":"PUBLIC"
+			"type":"PRIVATE"
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a33d0ffd02fd63518918497":"homepage",
@@ -252,6 +268,11 @@
 		"theme":{
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
 		},
+		"integrations":{
+			"appAnalytics":{
+				"enabled":true
+			}
+		},
 		"entityDetailsMap":{
 			"e_6a33d0ffd02fd63518918497":{
 				"slug":"homepage",
@@ -269,5 +290,5 @@
 	"tags":[
 		
 	],
-	"version":5
+	"version":12
 }
