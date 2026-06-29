@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195437"
@@ -22,8 +29,10 @@
 		]
 	},
 	"id":"prakul-test-08",
-	"lastModifiedBy":27,
-	"modifiedTime":1781700285676,
+	"lastModifiedBy":195437,
+	"lastPlatformUpdateBy":195437,
+	"lastPlatformUpdateOn":1782747674494,
+	"modifiedTime":1782747674494,
 	"ownerUserId":195437,
 	"properties":{
 		"standard":false,
@@ -39,7 +48,7 @@
 			"_counter":{
 				"_moduleCount":2,
 				"_mqttTopicCounter":0,
-				"_pageCount":5
+				"_pageCount":6
 			}
 		},
 		"navigation":{
@@ -204,6 +213,7 @@
 			"e_6a14978311ec4d411f5da85a":"page-4",
 			"e_6a14959c11ec4d411f5d988b":"page-3",
 			"e_6a14b7906a7f517e79d76542":"page-5",
+			"e_6a4291e98161b0761b12389c":"page-6",
 			"e_6a1495607989ea5ba64da7b5":"homepage"
 		},
 		"manifest":{
@@ -218,7 +228,8 @@
 					"e_6a1495776683647076b62ccd",
 					"e_6a14959c11ec4d411f5d988b",
 					"e_6a14978311ec4d411f5da85a",
-					"f_fx2Kt"
+					"f_fx2Kt",
+					"e_6a4291e98161b0761b12389c"
 				],
 				"path":"/"
 			},
@@ -262,6 +273,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_6a4291e98161b0761b12389c":{
+				"slug":"page-6",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a1495607989ea5ba64da7b5":{
 				"slug":"homepage",
 				"isPublic":false,
@@ -273,5 +289,5 @@
 	"tags":[
 		
 	],
-	"version":125
+	"version":147
 }
