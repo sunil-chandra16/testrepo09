@@ -31,8 +31,8 @@
 	"id":"test-native-app",
 	"lastModifiedBy":196379,
 	"lastPlatformUpdateBy":196379,
-	"lastPlatformUpdateOn":1782735194279,
-	"modifiedTime":1782735194279,
+	"lastPlatformUpdateOn":1782758460781,
+	"modifiedTime":1782758460781,
 	"ownerUserId":196379,
 	"properties":{
 		"standard":false,
@@ -111,7 +111,7 @@
 			]
 		},
 		"navigation":{
-			"defaultPageId":"e_6a294b1a152bd65560b66a0c",
+			"defaultPageId":"e_6a2f9b498d7a4a344c43369e",
 			"secondary":[],
 			"appearance":{
 				"SM":{
@@ -471,5 +471,5 @@
 	"tags":[
 		"DO NOT TOUCH"
 	],
-	"version":1870
+	"version":1875
 }
