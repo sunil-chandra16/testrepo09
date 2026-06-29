@@ -31,8 +31,8 @@
 	"id":"test-variant",
 	"lastModifiedBy":33436,
 	"lastPlatformUpdateBy":33436,
-	"lastPlatformUpdateOn":1782744504994,
-	"modifiedTime":1782744504994,
+	"lastPlatformUpdateOn":1782745614906,
+	"modifiedTime":1782745614906,
 	"ownerUserId":33436,
 	"properties":{
 		"standard":false,
@@ -665,5 +665,5 @@
 		}
 	},
 	"standard":false,
-	"version":1678
+	"version":1682
 }
