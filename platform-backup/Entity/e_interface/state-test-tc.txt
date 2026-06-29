@@ -2,10 +2,10 @@
 	"createdTime":1781767377345,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782485460609,
-		"deployedBy":34802,
-		"entityVersion":18,
-		"version":6
+		"deployedAt":1782739056798,
+		"deployedBy":195414,
+		"entityVersion":40,
+		"version":7
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -29,10 +29,10 @@
 		]
 	},
 	"id":"state-test-tc",
-	"lastModifiedBy":34802,
-	"lastPlatformUpdateBy":34802,
-	"lastPlatformUpdateOn":1782485460611,
-	"modifiedTime":1782485460611,
+	"lastModifiedBy":195414,
+	"lastPlatformUpdateBy":195414,
+	"lastPlatformUpdateOn":1782739056801,
+	"modifiedTime":1782739056801,
 	"ownerUserId":34802,
 	"properties":{
 		"standard":false,
@@ -259,5 +259,5 @@
 	"tags":[
 		
 	],
-	"version":18
+	"version":40
 }
