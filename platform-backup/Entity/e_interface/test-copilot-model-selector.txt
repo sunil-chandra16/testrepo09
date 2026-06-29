@@ -25,8 +25,8 @@
 	"id":"test-copilot-model-selector",
 	"lastModifiedBy":195456,
 	"lastPlatformUpdateBy":195456,
-	"lastPlatformUpdateOn":1782718607681,
-	"modifiedTime":1782718607681,
+	"lastPlatformUpdateOn":1782718867988,
+	"modifiedTime":1782718867988,
 	"ownerUserId":195456,
 	"properties":{
 		"standard":false,
@@ -214,6 +214,7 @@
 			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
+			"e_global_test-copilot-model-selector":"global-page-of-test-copilot-model-selector",
 			"e_6a42208fc11f214e4986e806":"homepage"
 		},
 		"paths":{
@@ -231,6 +232,11 @@
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
 		},
 		"entityDetailsMap":{
+			"e_global_test-copilot-model-selector":{
+				"slug":"global-page-of-test-copilot-model-selector",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a42208fc11f214e4986e806":{
 				"slug":"homepage",
 				"isPublic":true,
@@ -242,5 +248,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":15
 }
