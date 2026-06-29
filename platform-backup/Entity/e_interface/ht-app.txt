@@ -2,10 +2,10 @@
 	"createdTime":1774592582798,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782489724173,
+		"deployedAt":1782546441210,
 		"deployedBy":43487,
-		"entityVersion":1598,
-		"version":67
+		"entityVersion":1609,
+		"version":69
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -31,8 +31,8 @@
 	"id":"ht-app",
 	"lastModifiedBy":43487,
 	"lastPlatformUpdateBy":43487,
-	"lastPlatformUpdateOn":1782489724178,
-	"modifiedTime":1782489724178,
+	"lastPlatformUpdateOn":1782731817551,
+	"modifiedTime":1782731817551,
 	"ownerUserId":43487,
 	"properties":{
 		"standard":false,
@@ -72,7 +72,10 @@
 		},
 		"type":"application",
 		"locale":{
-			"defaultLocale":"en-US"
+			"defaultLocale":"en-US",
+			"supportedLocales":[
+				"ar-AE"
+			]
 		},
 		"navigation":{
 			"defaultPageId":"e_69c622475b87b8611241f97b",
@@ -83,33 +86,24 @@
 						{
 							"id":"nav_hVQRS",
 							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_x7bPT",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_THmQZ",
+							"hiddenInOverflow":false
 						}
 					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"upfront",
-						"background":{
-							"colors":{
-								"default":"transparent",
-								"hover":"#f7f7f7",
-								"active":"transparent"
-							}
-						},
 						"text":{
-							"colors":{
-								"default":"#424242",
-								"hover":"#3e1db1",
-								"active":"#4e26db"
-							},
 							"variant":"text-sm",
 							"weight":"semi-bold"
 						},
 						"icon":{
-							"colors":{
-								"default":"#737373",
-								"hover":"#525252",
-								"active":"#4e26db"
-							},
 							"size":"md"
 						}
 					},
@@ -150,6 +144,14 @@
 					"primary":[
 						{
 							"id":"nav_hVQRS",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_x7bPT",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_THmQZ",
 							"hiddenInOverflow":false
 						}
 					],
@@ -195,6 +197,14 @@
 						{
 							"id":"nav_hVQRS",
 							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_x7bPT",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_THmQZ",
+							"hiddenInOverflow":false
 						}
 					],
 					"navigationItem":{
@@ -238,6 +248,14 @@
 					"primary":[
 						{
 							"id":"nav_hVQRS",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_x7bPT",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_THmQZ",
 							"hiddenInOverflow":false
 						}
 					],
@@ -291,8 +309,37 @@
 					"pageId":"e_69c622475b87b8611241f97b",
 					"url":"",
 					"slug":"homepage"
+				},
+				{
+					"activeIcon":"AgenticAiChatSolid",
+					"path":"/page-10",
+					"hiddenInOverflow":false,
+					"name":"Nav Item 2",
+					"icon":"AgenticAiChat",
+					"pageParams":[],
+					"id":"nav_x7bPT",
+					"type":"PAGE",
+					"pageId":"e_6a217881b8f8aa323cb1c656",
+					"url":"",
+					"slug":"page-10"
+				},
+				{
+					"activeIcon":"Stars02Filled",
+					"path":"/page-11",
+					"hiddenInOverflow":false,
+					"name":"Nav Item 3",
+					"icon":"Stars02",
+					"pageParams":[],
+					"id":"nav_THmQZ",
+					"type":"PAGE",
+					"pageId":"e_6a294eaa152bd65560b66be7",
+					"url":"",
+					"slug":"page-11"
 				}
 			]
+		},
+		"security":{
+			"type":"PUBLIC"
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a294eaa152bd65560b66be7":"page-11",
@@ -314,8 +361,40 @@
 		},
 		"name":"ht-app",
 		"theme":{
-			"output":"\n      .interface-theme,\n      .interface-theme [data-color-scheme='light'] {\n        --navbar-main-default-bg: var(--navbar-main-default-bg-stroke); --navbar-main-default-bg_hover: var(--navbar-main-default-bg_hover-stroke); --navbar-main-selected-bg: var(--navbar-main-selected-bg-stroke); --navbar-main-selected-bg_hover: var(--navbar-main-selected-bg_hover-stroke); --navbar-main-default-text: var(--navbar-main-default-text-stroke); --navbar-main-selected-text_hover: var(--navbar-main-selected-text_hover-stroke); --navbar-main-selected-text: var(--navbar-main-selected-text-stroke); --navbar-main-default-icon: var(--navbar-main-default-icon-stroke); --navbar-main-default-icon_hover: var(--navbar-main-default-icon_hover-stroke); --navbar-main-selected-icon: var(--navbar-main-selected-icon-stroke); --navbar-main-selected-icon_hover: var(--navbar-main-selected-icon_hover-stroke); --navbar-main-iconbutton-selected-bg: var(--navbar-main-iconbutton-selected-bg-stroke); --navbar-main-selected-border: var(--navbar-main-selected-border-stroke); --navbar-main-selected-border_hover: var(--navbar-main-selected-border_hover-stroke); --navbar-nested-default-bg_hover: var(--navbar-nested-default-bg_hover-stroke); --navbar-nested-selected-bg: var(--navbar-nested-selected-bg-stroke); --navbar-nested-selected-bg_hover: var(--navbar-nested-selected-bg_hover-stroke); --navbar-nested-default-text: var(--navbar-nested-default-text-stroke); --navbar-nested-default-text_hover: var(--navbar-nested-default-text_hover-stroke); --navbar-nested-selected-text: var(--navbar-nested-selected-text-stroke); --navbar-nested-selected-text_hover: var(--navbar-nested-selected-text_hover-stroke);\n      }\n    \n        .interface-theme[data-color-scheme='dark'],\n        .interface-theme [data-color-scheme='dark'] {\n          --navbar-main-default-bg: var(--navbar-main-default-bg-stroke); --navbar-main-default-bg_hover: var(--navbar-main-default-bg_hover-stroke); --navbar-main-selected-bg: var(--navbar-main-selected-bg-stroke); --navbar-main-selected-bg_hover: var(--navbar-main-selected-bg_hover-stroke); --navbar-main-default-text: var(--navbar-main-default-text-stroke); --navbar-main-selected-text_hover: var(--navbar-main-selected-text_hover-stroke); --navbar-main-selected-text: var(--navbar-main-selected-text-stroke); --navbar-main-default-icon: var(--navbar-main-default-icon-stroke); --navbar-main-default-icon_hover: var(--navbar-main-default-icon_hover-stroke); --navbar-main-selected-icon: var(--navbar-main-selected-icon-stroke); --navbar-main-selected-icon_hover: var(--navbar-main-selected-icon_hover-stroke); --navbar-main-iconbutton-selected-bg: var(--navbar-main-iconbutton-selected-bg-stroke); --navbar-main-selected-border: var(--navbar-main-selected-border-stroke); --navbar-main-selected-border_hover: var(--navbar-main-selected-border_hover-stroke); --navbar-nested-default-bg_hover: var(--navbar-nested-default-bg_hover-stroke); --navbar-nested-selected-bg: var(--navbar-nested-selected-bg-stroke); --navbar-nested-selected-bg_hover: var(--navbar-nested-selected-bg_hover-stroke); --navbar-nested-default-text: var(--navbar-nested-default-text-stroke); --navbar-nested-default-text_hover: var(--navbar-nested-default-text_hover-stroke); --navbar-nested-selected-text: var(--navbar-nested-selected-text-stroke); --navbar-nested-selected-text_hover: var(--navbar-nested-selected-text_hover-stroke);\n        }\n      ",
+			"output":"\n      .interface-theme,\n      .interface-theme [data-color-scheme='light'] {\n        --navbar-main-default-bg: var(--navbar-main-default-bg-stroke); --navbar-main-default-bg_hover: var(--navbar-main-default-bg_hover-stroke); --navbar-main-selected-bg: var(--navbar-main-selected-bg-stroke); --navbar-main-selected-bg_hover: var(--navbar-main-selected-bg_hover-stroke); --navbar-main-default-text: var(--navbar-main-default-text-stroke); --navbar-main-selected-text_hover: var(--navbar-main-selected-text_hover-stroke); --navbar-main-selected-text: var(--navbar-main-selected-text-stroke); --navbar-main-default-icon: var(--navbar-main-default-icon-stroke); --navbar-main-default-icon_hover: var(--navbar-main-default-icon_hover-stroke); --navbar-main-selected-icon: var(--navbar-main-selected-icon-stroke); --navbar-main-selected-icon_hover: var(--navbar-main-selected-icon_hover-stroke); --navbar-main-iconbutton-selected-bg: var(--navbar-main-iconbutton-selected-bg-stroke); --navbar-main-selected-border: var(--navbar-main-selected-border-stroke); --navbar-main-selected-border_hover: var(--navbar-main-selected-border_hover-stroke); --navbar-nested-default-bg_hover: var(--navbar-nested-default-bg_hover-stroke); --navbar-nested-selected-bg: var(--navbar-nested-selected-bg-stroke); --navbar-nested-selected-bg_hover: var(--navbar-nested-selected-bg_hover-stroke); --navbar-nested-default-text: var(--navbar-nested-default-text-stroke); --navbar-nested-default-text_hover: var(--navbar-nested-default-text_hover-stroke); --navbar-nested-selected-text: var(--navbar-nested-selected-text-stroke); --navbar-nested-selected-text_hover: var(--navbar-nested-selected-text_hover-stroke); --navbar-main-selected-text-stroke: #ECCC1F; --navbar-main-selected-text_hover-stroke: #ECCC1F; --navbar-nested-selected-text-stroke: #ECCC1F; --navbar-nested-selected-text_hover-stroke: #ECCC1F; --navbar-main-selected-icon-stroke: #13DB69; --navbar-main-selected-icon_hover-stroke: #13DB69; --navbar-main-selected-border-stroke: #13DB69; --navbar-main-selected-border_hover-stroke: #13DB69;\n      }\n    \n        .interface-theme[data-color-scheme='dark'],\n        .interface-theme [data-color-scheme='dark'] {\n          --navbar-main-default-bg: var(--navbar-main-default-bg-stroke); --navbar-main-default-bg_hover: var(--navbar-main-default-bg_hover-stroke); --navbar-main-selected-bg: var(--navbar-main-selected-bg-stroke); --navbar-main-selected-bg_hover: var(--navbar-main-selected-bg_hover-stroke); --navbar-main-default-text: var(--navbar-main-default-text-stroke); --navbar-main-selected-text_hover: var(--navbar-main-selected-text_hover-stroke); --navbar-main-selected-text: var(--navbar-main-selected-text-stroke); --navbar-main-default-icon: var(--navbar-main-default-icon-stroke); --navbar-main-default-icon_hover: var(--navbar-main-default-icon_hover-stroke); --navbar-main-selected-icon: var(--navbar-main-selected-icon-stroke); --navbar-main-selected-icon_hover: var(--navbar-main-selected-icon_hover-stroke); --navbar-main-iconbutton-selected-bg: var(--navbar-main-iconbutton-selected-bg-stroke); --navbar-main-selected-border: var(--navbar-main-selected-border-stroke); --navbar-main-selected-border_hover: var(--navbar-main-selected-border_hover-stroke); --navbar-nested-default-bg_hover: var(--navbar-nested-default-bg_hover-stroke); --navbar-nested-selected-bg: var(--navbar-nested-selected-bg-stroke); --navbar-nested-selected-bg_hover: var(--navbar-nested-selected-bg_hover-stroke); --navbar-nested-default-text: var(--navbar-nested-default-text-stroke); --navbar-nested-default-text_hover: var(--navbar-nested-default-text_hover-stroke); --navbar-nested-selected-text: var(--navbar-nested-selected-text-stroke); --navbar-nested-selected-text_hover: var(--navbar-nested-selected-text_hover-stroke);\n        }\n      ",
 			"defaultThemeId":"e_6966190f3d99d61567a86ad3",
+			"components":{
+				"navigation":{
+					"navigationItem":{
+						"stroke":{
+							"light":{
+								"text":{
+									"active":"#ECCC1F",
+									"activeHover":"#ECCC1F"
+								},
+								"icon":{
+									"active":"#13DB69",
+									"activeHover":"#13DB69"
+								},
+								"border":{
+									"active":"#13DB69",
+									"activeHover":"#13DB69"
+								}
+							}
+						}
+					},
+					"navigationSubItem":{
+						"stroke":{
+							"light":{
+								"text":{
+									"active":"#ECCC1F",
+									"activeHover":"#ECCC1F"
+								}
+							}
+						}
+					}
+				}
+			},
 			"cssVars":{
 				"--navbar-main-default-bg":"var(--navbar-main-default-bg-stroke)",
 				"--navbar-main-default-bg_hover":"var(--navbar-main-default-bg_hover-stroke)",
@@ -360,7 +439,15 @@
 					"--navbar-nested-default-text_hover":"var(--navbar-nested-default-text_hover-stroke)",
 					"--navbar-nested-selected-text":"var(--navbar-nested-selected-text-stroke)",
 					"--navbar-nested-selected-text_hover":"var(--navbar-nested-selected-text_hover-stroke)"
-				}
+				},
+				"--navbar-main-selected-text-stroke":"#ECCC1F",
+				"--navbar-main-selected-text_hover-stroke":"#ECCC1F",
+				"--navbar-nested-selected-text-stroke":"#ECCC1F",
+				"--navbar-nested-selected-text_hover-stroke":"#ECCC1F",
+				"--navbar-main-selected-icon-stroke":"#13DB69",
+				"--navbar-main-selected-icon_hover-stroke":"#13DB69",
+				"--navbar-main-selected-border-stroke":"#13DB69",
+				"--navbar-main-selected-border_hover-stroke":"#13DB69"
 			},
 			"customColors":[
 				"#CE1CB3FF",
@@ -421,5 +508,5 @@
 	"tags":[
 		
 	],
-	"version":1598
+	"version":1624
 }
