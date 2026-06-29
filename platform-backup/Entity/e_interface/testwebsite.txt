@@ -23,10 +23,10 @@
 		]
 	},
 	"id":"testwebsite",
-	"lastModifiedBy":175325,
-	"lastPlatformUpdateBy":175325,
-	"lastPlatformUpdateOn":1782475728308,
-	"modifiedTime":1782475728308,
+	"lastModifiedBy":199929,
+	"lastPlatformUpdateBy":199929,
+	"lastPlatformUpdateOn":1782731207812,
+	"modifiedTime":1782731207812,
 	"ownerUserId":199929,
 	"properties":{
 		"standard":false,
@@ -39,10 +39,16 @@
 				"large":"https://assets.unifyapps.com/interface/brand-logo/brand-logo-lg.svg",
 				"favicon":"/favicon.png"
 			},
+			"advanced":{
+				"location":{
+					"enable":false,
+					"liveTrackingMode":"manual"
+				}
+			},
 			"_counter":{
 				"_mqttTopicCounter":0,
 				"_dataSourceCounter":1,
-				"_pageCount":2,
+				"_pageCount":3,
 				"_moduleCount":0,
 				"_functionCounter":1,
 				"_templateComponentCount":0
@@ -244,16 +250,18 @@
 			}
 		},
 		"interfacePageIdVsSlugMap":{
-			"e_6a38f0e441a5bc352ec1b0c2":"page-2",
 			"e_6a2d2a66ca10b057d6538393":"homepage",
-			"e_global_testwebsite":"global-page-of-testwebsite"
+			"e_global_testwebsite":"global-page-of-testwebsite",
+			"e_6a38f0e441a5bc352ec1b0c2":"page-2",
+			"e_6a423cd419e67170cc4bfaa1":"page-3"
 		},
 		"paths":{
 			"f_root":{
 				"id":"f_root",
 				"segment":"",
 				"children":[
-					"e_6a2d2a66ca10b057d6538393"
+					"e_6a2d2a66ca10b057d6538393",
+					"e_6a423cd419e67170cc4bfaa1"
 				],
 				"path":"/"
 			}
@@ -265,11 +273,6 @@
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
 		},
 		"entityDetailsMap":{
-			"e_6a38f0e441a5bc352ec1b0c2":{
-				"slug":"page-2",
-				"isPublic":false,
-				"type":"PAGE"
-			},
 			"e_6a2d2a66ca10b057d6538393":{
 				"slug":"homepage",
 				"isPublic":false,
@@ -277,6 +280,16 @@
 			},
 			"e_global_testwebsite":{
 				"slug":"global-page-of-testwebsite",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a38f0e441a5bc352ec1b0c2":{
+				"slug":"page-2",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a423cd419e67170cc4bfaa1":{
+				"slug":"page-3",
 				"isPublic":false,
 				"type":"PAGE"
 			}
@@ -287,5 +300,5 @@
 		"tag1",
 		"you"
 	],
-	"version":470
+	"version":514
 }
