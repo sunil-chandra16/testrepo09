@@ -23,10 +23,10 @@
 		]
 	},
 	"id":"test-btm-sheet",
-	"lastModifiedBy":-1,
+	"lastModifiedBy":199860,
 	"lastPlatformUpdateBy":199860,
-	"lastPlatformUpdateOn":1782475898758,
-	"modifiedTime":1782571684659,
+	"lastPlatformUpdateOn":1782718956484,
+	"modifiedTime":1782718956484,
 	"ownerUserId":199860,
 	"properties":{
 		"standard":false,
@@ -204,6 +204,7 @@
 			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
+			"e_global_test-btm-sheet":"global-page-of-test-btm-sheet",
 			"e_6a3e6c7a303eee62f8dbc2fc":"homepage"
 		},
 		"manifest":{
@@ -252,6 +253,11 @@
 			"defaultLocale":"en-US"
 		},
 		"entityDetailsMap":{
+			"e_global_test-btm-sheet":{
+				"slug":"global-page-of-test-btm-sheet",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a3e6c7a303eee62f8dbc2fc":{
 				"slug":"homepage",
 				"isPublic":false,
@@ -263,5 +269,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":2
 }
