@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"196379"
@@ -23,7 +30,9 @@
 	},
 	"id":"test-native-app",
 	"lastModifiedBy":196379,
-	"modifiedTime":1782382758204,
+	"lastPlatformUpdateBy":196379,
+	"lastPlatformUpdateOn":1782734097353,
+	"modifiedTime":1782734097353,
 	"ownerUserId":196379,
 	"properties":{
 		"standard":false,
@@ -462,5 +471,5 @@
 	"tags":[
 		"DO NOT TOUCH"
 	],
-	"version":1762
+	"version":1791
 }
