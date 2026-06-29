@@ -8,11 +8,31 @@
 		"version":2
 	},
 	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"197188"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"textstyletestappp",
 	"lastModifiedBy":19752,
 	"lastPlatformUpdateBy":19752,
-	"lastPlatformUpdateOn":1782569168076,
-	"modifiedTime":1782569168076,
+	"lastPlatformUpdateOn":1782577902186,
+	"modifiedTime":1782577902186,
 	"ownerUserId":197188,
 	"properties":{
 		"standard":false,
@@ -24,6 +44,12 @@
 				"small":"https://assets.unifyapps.com/interface/brand-logo/unify-logo-sm-2.svg",
 				"large":"https://assets.unifyapps.com/interface/brand-logo/unify-logo-lg-2.svg",
 				"favicon":"https://assets.unifyapps.com/interface/brand-logo/unify-logo-sm-2.svg"
+			},
+			"advanced":{
+				"location":{
+					"enable":false,
+					"liveTrackingMode":"manual"
+				}
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
@@ -1018,5 +1044,5 @@
 		"tag1",
 		"hello"
 	],
-	"version":1672
+	"version":1679
 }
