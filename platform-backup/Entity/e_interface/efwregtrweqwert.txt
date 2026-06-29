@@ -23,10 +23,10 @@
 		]
 	},
 	"id":"efwregtrweqwert",
-	"lastModifiedBy":-1,
+	"lastModifiedBy":195833,
 	"lastPlatformUpdateBy":195833,
-	"lastPlatformUpdateOn":1782741299359,
-	"modifiedTime":1782741299400,
+	"lastPlatformUpdateOn":1782742714766,
+	"modifiedTime":1782742714766,
 	"ownerUserId":195833,
 	"properties":{
 		"standard":false,
@@ -41,14 +41,25 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":0,
+				"_pageCount":2,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
 		},
+		"publicPageIds":[
+			"efwregtrweqwert_login",
+			"efwregtrweqwert_ua_governance_forgot_password"
+		],
+		"manifest":{
+			"type":"WEB"
+		},
+		"type":"application",
+		"locale":{
+			"defaultLocale":"en-US"
+		},
 		"navigation":{
 			"secondary":[],
-			"defaultPageId":"",
+			"defaultPageId":"efwregtrweqwert_login",
 			"appearance":{
 				"SM":{
 					"primary":[],
@@ -80,7 +91,8 @@
 						"padding":{
 							"all":"p-0"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"LG":{
 					"primary":[],
@@ -118,7 +130,8 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"XL":{
 					"primary":[],
@@ -156,7 +169,8 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"MD":{
 					"primary":[],
@@ -194,26 +208,47 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				}
 			},
 			"primary":[]
 		},
-		"manifest":{
-			"type":"WEB"
+		"interfacePageIdVsSlugMap":{
+			"efwregtrweqwert_login":"login",
+			"efwregtrweqwert_ua_governance_forgot_password":"forgot-password"
+		},
+		"paths":{
+			"f_root":{
+				"id":"f_root",
+				"segment":"",
+				"children":[
+					"efwregtrweqwert_login",
+					"efwregtrweqwert_ua_governance_forgot_password"
+				],
+				"path":"/"
+			}
 		},
 		"name":"efwregtrweqwert",
 		"theme":{
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
 		},
-		"type":"application",
-		"locale":{
-			"defaultLocale":"en-US"
+		"entityDetailsMap":{
+			"efwregtrweqwert_login":{
+				"slug":"login",
+				"isPublic":true,
+				"type":"PAGE"
+			},
+			"efwregtrweqwert_ua_governance_forgot_password":{
+				"slug":"forgot-password",
+				"isPublic":true,
+				"type":"PAGE"
+			}
 		}
 	},
 	"standard":false,
 	"tags":[
 		
 	],
-	"version":0
+	"version":5
 }
