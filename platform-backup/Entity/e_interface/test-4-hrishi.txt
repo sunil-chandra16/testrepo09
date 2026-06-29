@@ -2,10 +2,10 @@
 	"createdTime":1782737781529,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782738080178,
+		"deployedAt":1782738385040,
 		"deployedBy":200385,
-		"entityVersion":6,
-		"version":2
+		"entityVersion":7,
+		"version":4
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -31,8 +31,8 @@
 	"id":"test-4-hrishi",
 	"lastModifiedBy":200385,
 	"lastPlatformUpdateBy":200385,
-	"lastPlatformUpdateOn":1782738080180,
-	"modifiedTime":1782738080180,
+	"lastPlatformUpdateOn":1782738385512,
+	"modifiedTime":1782738385512,
 	"ownerUserId":200385,
 	"properties":{
 		"standard":false,
@@ -268,5 +268,5 @@
 	"tags":[
 		
 	],
-	"version":6
+	"version":8
 }
