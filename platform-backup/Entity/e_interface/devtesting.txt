@@ -1,6 +1,12 @@
 {
 	"createdTime":1782744058808,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1782745039874,
+		"deployedBy":195833,
+		"entityVersion":16,
+		"version":1
+	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
@@ -25,8 +31,8 @@
 	"id":"devtesting",
 	"lastModifiedBy":195833,
 	"lastPlatformUpdateBy":195833,
-	"lastPlatformUpdateOn":1782744084971,
-	"modifiedTime":1782744084971,
+	"lastPlatformUpdateOn":1782745104904,
+	"modifiedTime":1782745104904,
 	"ownerUserId":195833,
 	"properties":{
 		"standard":false,
@@ -41,14 +47,15 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":2,
+				"_pageCount":3,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
 		},
 		"publicPageIds":[
 			"devtesting_login",
-			"devtesting_ua_governance_forgot_password"
+			"devtesting_ua_governance_forgot_password",
+			"devtesting_mfa_verification"
 		],
 		"manifest":{
 			"type":"WEB"
@@ -216,6 +223,7 @@
 		},
 		"interfacePageIdVsSlugMap":{
 			"devtesting_ua_governance_forgot_password":"forgot-password",
+			"devtesting_mfa_verification":"mfa-verification",
 			"devtesting_login":"login"
 		},
 		"paths":{
@@ -224,18 +232,24 @@
 				"segment":"",
 				"children":[
 					"devtesting_login",
-					"devtesting_ua_governance_forgot_password"
+					"devtesting_ua_governance_forgot_password",
+					"devtesting_mfa_verification"
 				],
 				"path":"/"
 			}
 		},
 		"name":"devtesting",
 		"theme":{
-			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
+			"defaultThemeId":"e_6a4287b609a39c7fbb6e5bc8"
 		},
 		"entityDetailsMap":{
 			"devtesting_ua_governance_forgot_password":{
 				"slug":"forgot-password",
+				"isPublic":true,
+				"type":"PAGE"
+			},
+			"devtesting_mfa_verification":{
+				"slug":"mfa-verification",
 				"isPublic":true,
 				"type":"PAGE"
 			},
@@ -250,5 +264,5 @@
 	"tags":[
 		
 	],
-	"version":4
+	"version":18
 }
