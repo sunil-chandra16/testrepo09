@@ -31,8 +31,8 @@
 	"id":"check-box",
 	"lastModifiedBy":199614,
 	"lastPlatformUpdateBy":199614,
-	"lastPlatformUpdateOn":1782720890939,
-	"modifiedTime":1782720890939,
+	"lastPlatformUpdateOn":1782733333191,
+	"modifiedTime":1782733333191,
 	"ownerUserId":132131,
 	"properties":{
 		"standard":false,
@@ -47,7 +47,7 @@
 			},
 			"_counter":{
 				"_dataSourceCounter":8,
-				"_pageCount":12,
+				"_pageCount":13,
 				"_moduleCount":2,
 				"_variableCounter":2
 			}
@@ -274,18 +274,19 @@
 			]
 		},
 		"interfacePageIdVsSlugMap":{
-			"e_6a155d40c6ce38216fa8978b":"page-4",
 			"e_6a23e7a12ab7e059316e90b4":"page-8",
-			"e_683880f2ab73e649c458f252":"homepage",
-			"e_6a1ea6c7a097fe021fcc15e4":"page-5",
-			"e_6a2a815fabaac76a3a5618f6":"page-11",
-			"e_6a211c0a75b4bb5881c09ec5":"page-6",
+			"e_6a422a0b950e6f4de37c5bd2":"page-13",
 			"e_6a2a846eabaac76a3a561bbb":"page-12",
 			"e_6a23cb0d081d102949fbd933":"page-7",
 			"e_6a145a33fd8fd51eaa0f74ee":"page-3",
 			"e_6a2966123a03e73d8ab4a713":"page-9",
 			"e_6a145860c750aa174a63959c":"page-2",
-			"e_6a2a808eaf2b9b61253df244":"page-10"
+			"e_6a2a808eaf2b9b61253df244":"page-10",
+			"e_6a155d40c6ce38216fa8978b":"page-4",
+			"e_683880f2ab73e649c458f252":"homepage",
+			"e_6a1ea6c7a097fe021fcc15e4":"page-5",
+			"e_6a2a815fabaac76a3a5618f6":"page-11",
+			"e_6a211c0a75b4bb5881c09ec5":"page-6"
 		},
 		"paths":{
 			"f_root":{
@@ -303,40 +304,21 @@
 					"e_6a2966123a03e73d8ab4a713",
 					"e_6a2a808eaf2b9b61253df244",
 					"e_6a2a815fabaac76a3a5618f6",
-					"e_6a2a846eabaac76a3a561bbb"
+					"e_6a2a846eabaac76a3a561bbb",
+					"e_6a422a0b950e6f4de37c5bd2"
 				],
 				"path":"/"
 			}
 		},
 		"name":"CheckBox ",
 		"entityDetailsMap":{
-			"e_6a155d40c6ce38216fa8978b":{
-				"slug":"page-4",
-				"isPublic":false,
-				"type":"PAGE"
-			},
 			"e_6a23e7a12ab7e059316e90b4":{
 				"slug":"page-8",
 				"isPublic":false,
 				"type":"PAGE"
 			},
-			"e_683880f2ab73e649c458f252":{
-				"slug":"homepage",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_6a1ea6c7a097fe021fcc15e4":{
-				"slug":"page-5",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_6a2a815fabaac76a3a5618f6":{
-				"slug":"page-11",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_6a211c0a75b4bb5881c09ec5":{
-				"slug":"page-6",
+			"e_6a422a0b950e6f4de37c5bd2":{
+				"slug":"page-13",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -369,6 +351,31 @@
 				"slug":"page-10",
 				"isPublic":false,
 				"type":"PAGE"
+			},
+			"e_6a155d40c6ce38216fa8978b":{
+				"slug":"page-4",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_683880f2ab73e649c458f252":{
+				"slug":"homepage",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a1ea6c7a097fe021fcc15e4":{
+				"slug":"page-5",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a2a815fabaac76a3a5618f6":{
+				"slug":"page-11",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a211c0a75b4bb5881c09ec5":{
+				"slug":"page-6",
+				"isPublic":false,
+				"type":"PAGE"
 			}
 		}
 	},
@@ -377,5 +384,5 @@
 		"32kkww",
 		"you"
 	],
-	"version":2090
+	"version":2099
 }
