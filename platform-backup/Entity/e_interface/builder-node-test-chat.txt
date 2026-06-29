@@ -2,10 +2,10 @@
 	"createdTime":1775030600574,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782400062259,
+		"deployedAt":1782733032717,
 		"deployedBy":-1,
-		"entityVersion":29,
-		"version":26
+		"entityVersion":34,
+		"version":31
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -28,14 +28,7 @@
 			},
 			{
 				"permissions":[
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"E",
-					"V",
-					"M_L"
+					"V"
 				],
 				"principalType":"GLOBAL"
 			}
@@ -43,7 +36,7 @@
 	},
 	"id":"builder-node-test-chat",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782400780432,
+	"modifiedTime":1782733033387,
 	"ownerUserId":67744,
 	"properties":{
 		"standard":false,
@@ -59,7 +52,7 @@
 			"_counter":{
 				"_moduleCount":0,
 				"_mqttTopicCounter":0,
-				"_pageCount":1
+				"_pageCount":2
 			}
 		},
 		"navigation":{
@@ -221,7 +214,8 @@
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_global_builder-node-test-chat":"global-page-of-builder-node-test-chat",
-			"e_69ccd148835c20050bcefd40":"homepage"
+			"e_69ccd148835c20050bcefd40":"homepage",
+			"e_69f9cfa188e6702cde5d2b6b":"page-2"
 		},
 		"manifest":{
 			"type":"WEB"
@@ -244,10 +238,15 @@
 				"slug":"homepage",
 				"isPublic":false,
 				"type":"PAGE"
+			},
+			"e_69f9cfa188e6702cde5d2b6b":{
+				"slug":"page-2",
+				"isPublic":false,
+				"type":"PAGE"
 			}
 		},
 		"customCode":{}
 	},
 	"standard":true,
-	"version":29
+	"version":34
 }
