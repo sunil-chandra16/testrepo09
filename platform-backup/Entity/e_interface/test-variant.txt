@@ -2,10 +2,10 @@
 	"createdTime":1765897177700,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782480521869,
+		"deployedAt":1782756590784,
 		"deployedBy":33436,
-		"entityVersion":1666,
-		"version":119
+		"entityVersion":1684,
+		"version":120
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -31,8 +31,8 @@
 	"id":"test-variant",
 	"lastModifiedBy":33436,
 	"lastPlatformUpdateBy":33436,
-	"lastPlatformUpdateOn":1782745614906,
-	"modifiedTime":1782745614906,
+	"lastPlatformUpdateOn":1782756590797,
+	"modifiedTime":1782756590797,
 	"ownerUserId":33436,
 	"properties":{
 		"standard":false,
@@ -573,9 +573,7 @@
 				"--navbar-main-selected-text":"var(--navbar-main-selected-text-stroke)",
 				"--navbar-nested-default-bg_hover":"var(--navbar-nested-default-bg_hover-stroke)"
 			},
-			"defaultThemeId":{
-				"defaultValue":""
-			}
+			"defaultThemeId":"e_6a3f83eac6defb4d2c386b62"
 		},
 		"integrations":{
 			"appAnalytics":{
@@ -665,5 +663,5 @@
 		}
 	},
 	"standard":false,
-	"version":1682
+	"version":1684
 }
