@@ -39,10 +39,10 @@
 		]
 	},
 	"id":"sdffdsfsfsdsdsf",
-	"lastModifiedBy":11492,
-	"lastPlatformUpdateBy":11492,
-	"lastPlatformUpdateOn":1782480077520,
-	"modifiedTime":1782480077520,
+	"lastModifiedBy":195854,
+	"lastPlatformUpdateBy":195854,
+	"lastPlatformUpdateOn":1782718703946,
+	"modifiedTime":1782718703946,
 	"ownerUserId":44108,
 	"properties":{
 		"standard":false,
@@ -57,9 +57,9 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":10,
+				"_pageCount":11,
 				"_moduleCount":0,
-				"_variableCounter":16,
+				"_variableCounter":17,
 				"_functionCounter":1
 			}
 		},
@@ -319,6 +319,10 @@
 					{
 						"key":"https://*.tiles.mapbox.com",
 						"value":""
+					},
+					{
+						"key":"http://localhost:5001",
+						"value":""
 					}
 				],
 				"frameAncestors":[
@@ -334,6 +338,7 @@
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_694c190c46b3d74434ce19ab":"homepage-_p3ggK",
+			"e_6a4217a447b1f4677c2ad6e9":"page-11",
 			"e_694bd123ab27e72af247bc26":"page-2",
 			"e_69dc94f44f675101039f8c96":"page-10",
 			"e_694bad974871785ff325b901":"homepage",
@@ -342,10 +347,33 @@
 			"e_694cebfb0947242c1e4a1b3d":"page-7",
 			"e_69da24d8ae80aa2f0964d94f":"page-7-_rHIVj"
 		},
+		"paths":{
+			"f_root":{
+				"id":"f_root",
+				"segment":"",
+				"children":[
+					"e_694bad904871785ff325b8ff",
+					"e_694bad974871785ff325b901",
+					"e_694bd123ab27e72af247bc26",
+					"e_694c190c46b3d74434ce19ab",
+					"e_694cebfb0947242c1e4a1b3d",
+					"e_69d13d1f8cbf9634b68ed4e6",
+					"e_69da24d8ae80aa2f0964d94f",
+					"e_69dc94f44f675101039f8c96",
+					"e_6a4217a447b1f4677c2ad6e9"
+				],
+				"path":"/"
+			}
+		},
 		"name":"Interactive Regions Map | DO NOT EDIT",
 		"entityDetailsMap":{
 			"e_694c190c46b3d74434ce19ab":{
 				"slug":"homepage-_p3ggK",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a4217a447b1f4677c2ad6e9":{
+				"slug":"page-11",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -390,5 +418,5 @@
 	"tags":[
 		
 	],
-	"version":542
+	"version":555
 }
