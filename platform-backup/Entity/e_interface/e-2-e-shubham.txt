@@ -31,8 +31,8 @@
 	"id":"e-2-e-shubham",
 	"lastModifiedBy":195802,
 	"lastPlatformUpdateBy":195802,
-	"lastPlatformUpdateOn":1782472527379,
-	"modifiedTime":1782472527379,
+	"lastPlatformUpdateOn":1782719922120,
+	"modifiedTime":1782719922120,
 	"ownerUserId":195802,
 	"properties":{
 		"standard":false,
@@ -46,10 +46,10 @@
 				"favicon":"/favicon.png"
 			},
 			"_counter":{
-				"_pageCount":22,
+				"_pageCount":23,
 				"_mqttTopicCounter":0,
 				"_dataSourceCounter":7,
-				"_moduleCount":1,
+				"_moduleCount":2,
 				"_variableCounter":1,
 				"_functionCounter":2,
 				"_templateComponentCount":0
@@ -265,6 +265,7 @@
 		"interfacePageIdVsSlugMap":{
 			"e-2-e-shubham_mfa_verification":"mfa-verification",
 			"e_6a266c18ef707b03b862d71b":"page-16",
+			"e_6a3f80498c7ea85a4755d9c8":"page-23",
 			"e-2-e-shubham_ua_governance_forgot_password":"forgot-password",
 			"e_6a172e7e4a308d6aad1f48ea":"page-9",
 			"e_6a1d695e66ec6f5ffbd7d168":"page-11",
@@ -312,7 +313,8 @@
 					"e_6a29cf1a8828ab4e591485d1",
 					"e_6a2e7be30d2d054fdd05cd3e",
 					"e_6a2fb924c97c4c4ba97d3dfe",
-					"e_6a3006282e0840734ae6e4b6"
+					"e_6a3006282e0840734ae6e4b6",
+					"e_6a3f80498c7ea85a4755d9c8"
 				],
 				"path":"/"
 			}
@@ -329,6 +331,11 @@
 			},
 			"e_6a266c18ef707b03b862d71b":{
 				"slug":"page-16",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a3f80498c7ea85a4755d9c8":{
+				"slug":"page-23",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -438,5 +445,5 @@
 	"tags":[
 		
 	],
-	"version":1419
+	"version":1460
 }
