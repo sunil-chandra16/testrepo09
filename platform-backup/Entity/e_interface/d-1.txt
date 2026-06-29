@@ -29,10 +29,10 @@
 		]
 	},
 	"id":"d-1",
-	"lastModifiedBy":43497,
-	"lastPlatformUpdateBy":43497,
-	"lastPlatformUpdateOn":1782740593566,
-	"modifiedTime":1782740593566,
+	"lastModifiedBy":106,
+	"lastPlatformUpdateBy":106,
+	"lastPlatformUpdateOn":1782741336036,
+	"modifiedTime":1782741336036,
 	"ownerUserId":195449,
 	"properties":{
 		"standard":false,
@@ -48,14 +48,16 @@
 			"_counter":{
 				"_mqttTopicCounter":0,
 				"_dataSourceCounter":3,
-				"_pageCount":3,
+				"_pageCount":5,
 				"_moduleCount":1,
 				"_variableCounter":1,
 				"_templateComponentCount":0
 			}
 		},
 		"publicPageIds":[
-			"e_6a318a6f9394352b0f6c55ab"
+			"e_6a318a6f9394352b0f6c55ab",
+			"d-1_login",
+			"d-1_ua_governance_forgot_password"
 		],
 		"manifest":{
 			"type":"WEB"
@@ -263,7 +265,9 @@
 		"interfacePageIdVsSlugMap":{
 			"e_6a318a1a9394352b0f6c5569":"homepage",
 			"e_6a42339be04acc479765823d":"page-3",
+			"d-1_login":"login",
 			"e_6a318a6f9394352b0f6c55ab":"public",
+			"d-1_ua_governance_forgot_password":"forgot-password",
 			"e_6a3e84743cb7f53f5fd1e218":""
 		},
 		"skipAutoSyncOnModification":true,
@@ -274,7 +278,9 @@
 				"children":[
 					"e_6a318a1a9394352b0f6c5569",
 					"e_6a318a6f9394352b0f6c55ab",
-					"e_6a42339be04acc479765823d"
+					"e_6a42339be04acc479765823d",
+					"d-1_login",
+					"d-1_ua_governance_forgot_password"
 				],
 				"path":"/"
 			}
@@ -296,8 +302,18 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"d-1_login":{
+				"slug":"login",
+				"isPublic":true,
+				"type":"PAGE"
+			},
 			"e_6a318a6f9394352b0f6c55ab":{
 				"slug":"public",
+				"isPublic":true,
+				"type":"PAGE"
+			},
+			"d-1_ua_governance_forgot_password":{
+				"slug":"forgot-password",
 				"isPublic":true,
 				"type":"PAGE"
 			},
@@ -312,5 +328,5 @@
 	"tags":[
 		
 	],
-	"version":117
+	"version":170
 }
