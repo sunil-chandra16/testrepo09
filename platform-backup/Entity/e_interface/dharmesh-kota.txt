@@ -59,8 +59,8 @@
 	"id":"dharmesh-kota",
 	"lastModifiedBy":195956,
 	"lastPlatformUpdateBy":195956,
-	"lastPlatformUpdateOn":1782746034276,
-	"modifiedTime":1782746034276,
+	"lastPlatformUpdateOn":1782748770554,
+	"modifiedTime":1782748770554,
 	"ownerUserId":195956,
 	"properties":{
 		"standard":false,
@@ -82,9 +82,9 @@
 			"_counter":{
 				"_mqttTopicCounter":0,
 				"_dataSourceCounter":1,
-				"_pageCount":5,
+				"_pageCount":6,
 				"_moduleCount":0,
-				"_variableCounter":5,
+				"_variableCounter":6,
 				"_templateComponentCount":0
 			}
 		},
@@ -142,6 +142,10 @@
 						{
 							"id":"nav_xExkv",
 							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_b0lky",
+							"hiddenInOverflow":false
 						}
 					],
 					"navigationItem":{
@@ -198,6 +202,10 @@
 						},
 						{
 							"id":"nav_xExkv",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_b0lky",
 							"hiddenInOverflow":false
 						}
 					],
@@ -262,6 +270,10 @@
 						{
 							"id":"nav_xExkv",
 							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_b0lky",
+							"hiddenInOverflow":false
 						}
 					],
 					"navigationItem":{
@@ -324,6 +336,10 @@
 						},
 						{
 							"id":"nav_xExkv",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_b0lky",
 							"hiddenInOverflow":false
 						}
 					],
@@ -398,6 +414,15 @@
 					"type":"PAGE",
 					"pageId":"e_6a3fe5d7696858493b46aaf9",
 					"slug":"ticks"
+				},
+				{
+					"activeIcon":"ChevronUp",
+					"name":"MOD",
+					"icon":"ChevronDown",
+					"id":"nav_b0lky",
+					"type":"PAGE",
+					"pageId":"e_6a429118ad48001bd696808e",
+					"slug":"mod"
 				}
 			]
 		},
@@ -406,6 +431,7 @@
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a0d5516d1bfa825ec433848":"page-4",
+			"e_6a429118ad48001bd696808e":"mod",
 			"e_6a0829a65729927c3cb6acef":"copilot-in-builder",
 			"e_69f8cc3da58dcc1d2e4049dd":"kota",
 			"e_6a17493367445b2a74fc5ca9":"page-5",
@@ -421,7 +447,8 @@
 					"e_6a0829a65729927c3cb6acef",
 					"e_6a0d5516d1bfa825ec433848",
 					"e_6a17493367445b2a74fc5ca9",
-					"e_6a3fe5d7696858493b46aaf9"
+					"e_6a3fe5d7696858493b46aaf9",
+					"e_6a429118ad48001bd696808e"
 				],
 				"path":"/"
 			}
@@ -437,6 +464,11 @@
 		"entityDetailsMap":{
 			"e_6a0d5516d1bfa825ec433848":{
 				"slug":"page-4",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a429118ad48001bd696808e":{
+				"slug":"mod",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -470,5 +502,5 @@
 		"tag1",
 		"tag2"
 	],
-	"version":2364
+	"version":2422
 }
