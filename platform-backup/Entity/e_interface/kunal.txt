@@ -2,17 +2,24 @@
 	"createdTime":1764230507494,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781525282625,
-		"deployedBy":409,
-		"entityVersion":515,
-		"version":112
+		"deployedAt":1782737893023,
+		"deployedBy":192721,
+		"entityVersion":550,
+		"version":119
 	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"192377"
@@ -22,8 +29,10 @@
 		]
 	},
 	"id":"kunal",
-	"lastModifiedBy":-1,
-	"modifiedTime":1781798306810,
+	"lastModifiedBy":192721,
+	"lastPlatformUpdateBy":192721,
+	"lastPlatformUpdateOn":1782737893025,
+	"modifiedTime":1782737893025,
 	"ownerUserId":192377,
 	"properties":{
 		"standard":false,
@@ -424,5 +433,5 @@
 	"tags":[
 		
 	],
-	"version":515
+	"version":550
 }
