@@ -2,10 +2,10 @@
 	"createdTime":1781083254948,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782800093926,
+		"deployedAt":1782803744398,
 		"deployedBy":199634,
-		"entityVersion":75,
-		"version":19
+		"entityVersion":83,
+		"version":22
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -31,8 +31,8 @@
 	"id":"ayush1",
 	"lastModifiedBy":199634,
 	"lastPlatformUpdateBy":199634,
-	"lastPlatformUpdateOn":1782800123535,
-	"modifiedTime":1782800123535,
+	"lastPlatformUpdateOn":1782803744400,
+	"modifiedTime":1782803744400,
 	"ownerUserId":199634,
 	"properties":{
 		"standard":false,
@@ -655,5 +655,5 @@
 		}
 	},
 	"standard":false,
-	"version":76
+	"version":83
 }
