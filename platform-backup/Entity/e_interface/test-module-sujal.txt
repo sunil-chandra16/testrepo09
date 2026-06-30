@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"195414"
@@ -23,7 +30,9 @@
 	},
 	"id":"test-module-sujal",
 	"lastModifiedBy":195414,
-	"modifiedTime":1782284559598,
+	"lastPlatformUpdateBy":195414,
+	"lastPlatformUpdateOn":1782802023921,
+	"modifiedTime":1782802023921,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -223,5 +232,5 @@
 	"tags":[
 		
 	],
-	"version":84
+	"version":90
 }
