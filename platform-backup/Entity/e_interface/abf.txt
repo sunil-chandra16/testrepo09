@@ -2,10 +2,10 @@
 	"createdTime":1782802799914,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782802999577,
+		"deployedAt":1782805090432,
 		"deployedBy":200386,
-		"entityVersion":3,
-		"version":1
+		"entityVersion":13,
+		"version":3
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -31,8 +31,8 @@
 	"id":"abf",
 	"lastModifiedBy":200386,
 	"lastPlatformUpdateBy":200386,
-	"lastPlatformUpdateOn":1782803207796,
-	"modifiedTime":1782803207796,
+	"lastPlatformUpdateOn":1782805090436,
+	"modifiedTime":1782805090436,
 	"ownerUserId":200386,
 	"properties":{
 		"standard":false,
@@ -47,11 +47,14 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":1,
+				"_pageCount":3,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
 		},
+		"publicPageIds":[
+			"abf_login"
+		],
 		"manifest":{
 			"type":"MOBILE",
 			"splashScreen":{
@@ -244,6 +247,8 @@
 			"type":"PRIVATE"
 		},
 		"interfacePageIdVsSlugMap":{
+			"abf_login":"login",
+			"abf_update_password":"update-password",
 			"e_global_abf":"global-page-of-abf",
 			"e_6a436970ca0ea7316c7f78a5":"homepage"
 		},
@@ -252,7 +257,9 @@
 				"id":"f_root",
 				"segment":"",
 				"children":[
-					"e_6a436970ca0ea7316c7f78a5"
+					"e_6a436970ca0ea7316c7f78a5",
+					"abf_update_password",
+					"abf_login"
 				],
 				"path":"/"
 			}
@@ -262,6 +269,16 @@
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
 		},
 		"entityDetailsMap":{
+			"abf_login":{
+				"slug":"login",
+				"isPublic":true,
+				"type":"PAGE"
+			},
+			"abf_update_password":{
+				"slug":"update-password",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_global_abf":{
 				"slug":"global-page-of-abf",
 				"isPublic":false,
@@ -278,5 +295,5 @@
 	"tags":[
 		
 	],
-	"version":6
+	"version":13
 }
