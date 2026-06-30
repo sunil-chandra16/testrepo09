@@ -2,17 +2,24 @@
 	"createdTime":1781604475838,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782295206298,
+		"deployedAt":1782812295613,
 		"deployedBy":-1,
-		"entityVersion":33,
-		"version":3
+		"entityVersion":34,
+		"version":4
 	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"-1"
@@ -21,7 +28,7 @@
 			},
 			{
 				"permissions":[
-					"A"
+					"V"
 				],
 				"principalType":"GLOBAL"
 			}
@@ -29,7 +36,7 @@
 	},
 	"id":"ua-agent-builder-chat",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782295216454,
+	"modifiedTime":1782812522281,
 	"ownerUserId":-1,
 	"properties":{
 		"standard":false,
@@ -915,5 +922,5 @@
 	"tags":[
 		"text-to-agent"
 	],
-	"version":33
+	"version":34
 }
