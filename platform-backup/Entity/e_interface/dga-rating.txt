@@ -25,8 +25,8 @@
 	"id":"dga-rating",
 	"lastModifiedBy":191574,
 	"lastPlatformUpdateBy":191574,
-	"lastPlatformUpdateOn":1782805626184,
-	"modifiedTime":1782805626184,
+	"lastPlatformUpdateOn":1782805812197,
+	"modifiedTime":1782805812197,
 	"ownerUserId":191574,
 	"properties":{
 		"standard":false,
@@ -212,5 +212,5 @@
 	"tags":[
 		
 	],
-	"version":9
+	"version":36
 }
