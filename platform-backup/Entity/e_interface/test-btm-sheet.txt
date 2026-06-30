@@ -25,8 +25,8 @@
 	"id":"test-btm-sheet",
 	"lastModifiedBy":199860,
 	"lastPlatformUpdateBy":199860,
-	"lastPlatformUpdateOn":1782808210608,
-	"modifiedTime":1782808210608,
+	"lastPlatformUpdateOn":1782818418393,
+	"modifiedTime":1782818418393,
 	"ownerUserId":199860,
 	"properties":{
 		"standard":false,
@@ -233,7 +233,6 @@
 					"backgroundColor":"#182230"
 				},
 				"imageWidth":256.0,
-				"image":"https://assets.unifyapps.com/images/platform/brand-assets/splash-icon-dark.png",
 				"backgroundColor":"#FFFFFF",
 				"imageFit":"fill",
 				"imageHeight":256.0
@@ -289,5 +288,5 @@
 	"tags":[
 		
 	],
-	"version":13
+	"version":14
 }
