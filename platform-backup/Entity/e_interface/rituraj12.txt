@@ -2,10 +2,10 @@
 	"createdTime":1781780735436,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782804386699,
+		"deployedAt":1782805394579,
 		"deployedBy":200384,
-		"entityVersion":38,
-		"version":22
+		"entityVersion":48,
+		"version":23
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -31,8 +31,8 @@
 	"id":"rituraj12",
 	"lastModifiedBy":200384,
 	"lastPlatformUpdateBy":200384,
-	"lastPlatformUpdateOn":1782804386701,
-	"modifiedTime":1782804386701,
+	"lastPlatformUpdateOn":1782805394581,
+	"modifiedTime":1782805394581,
 	"ownerUserId":200384,
 	"properties":{
 		"standard":false,
@@ -44,6 +44,12 @@
 				"small":"https://assets.unifyapps.com/interface/brand-logo/brand-logo-sm.svg",
 				"large":"https://assets.unifyapps.com/interface/brand-logo/brand-logo-lg.svg",
 				"favicon":"/favicon.png"
+			},
+			"advanced":{
+				"location":{
+					"enable":false,
+					"liveTrackingMode":"manual"
+				}
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
@@ -289,11 +295,14 @@
 				"isPublic":false,
 				"type":"PAGE"
 			}
+		},
+		"realtimeEvents":{
+			"enabled":false
 		}
 	},
 	"standard":false,
 	"tags":[
 		
 	],
-	"version":38
+	"version":48
 }
