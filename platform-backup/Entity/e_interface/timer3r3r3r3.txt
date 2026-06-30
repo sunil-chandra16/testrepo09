@@ -25,8 +25,8 @@
 	"id":"timer3r3r3r3",
 	"lastModifiedBy":19752,
 	"lastPlatformUpdateBy":19752,
-	"lastPlatformUpdateOn":1782808240610,
-	"modifiedTime":1782808240610,
+	"lastPlatformUpdateOn":1782808663732,
+	"modifiedTime":1782808663732,
 	"ownerUserId":19752,
 	"properties":{
 		"standard":false,
@@ -46,6 +46,17 @@
 				"_functionCounter":1,
 				"_templateComponentCount":0
 			}
+		},
+		"publicPageIds":[],
+		"manifest":{
+			"type":"WEB"
+		},
+		"pagePermissions":{
+			"e_6a437ceb61c32d3fca32eebe":{}
+		},
+		"type":"application",
+		"locale":{
+			"defaultLocale":"en-US"
 		},
 		"navigation":{
 			"secondary":[],
@@ -208,9 +219,6 @@
 			"e_global_timer3r3r3r3":"global-page-of-timer3r3r3r3",
 			"e_6a437ceb61c32d3fca32eebe":"homepage"
 		},
-		"manifest":{
-			"type":"WEB"
-		},
 		"paths":{
 			"f_root":{
 				"id":"f_root",
@@ -224,10 +232,6 @@
 		"name":"timer",
 		"theme":{
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
-		},
-		"type":"application",
-		"locale":{
-			"defaultLocale":"en-US"
 		},
 		"entityDetailsMap":{
 			"e_global_timer3r3r3r3":{
@@ -246,5 +250,5 @@
 	"tags":[
 		
 	],
-	"version":8
+	"version":21
 }
