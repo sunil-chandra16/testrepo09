@@ -2,17 +2,24 @@
 	"createdTime":1781676945828,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1781691407365,
+		"deployedAt":1782807420263,
 		"deployedBy":30181,
-		"entityVersion":51,
-		"version":3
+		"entityVersion":56,
+		"version":4
 	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"30181"
@@ -23,7 +30,9 @@
 	},
 	"id":"dda-issues",
 	"lastModifiedBy":30181,
-	"modifiedTime":1781770233360,
+	"lastPlatformUpdateBy":30181,
+	"lastPlatformUpdateOn":1782807420265,
+	"modifiedTime":1782807420265,
 	"ownerUserId":30181,
 	"properties":{
 		"standard":false,
@@ -53,6 +62,9 @@
 			"supportedLocales":[
 				"ar-AE"
 			]
+		},
+		"customCode":{
+			"header":""
 		},
 		"navigation":{
 			"secondary":[],
@@ -209,6 +221,7 @@
 					"secondary":[]
 				}
 			},
+			"basePath":"/a/dda-issues",
 			"primary":[]
 		},
 		"security":{
@@ -257,5 +270,5 @@
 	"tags":[
 		
 	],
-	"version":52
+	"version":56
 }
