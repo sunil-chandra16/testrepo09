@@ -2,10 +2,10 @@
 	"createdTime":1781780735436,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782761803892,
+		"deployedAt":1782801711418,
 		"deployedBy":200384,
-		"entityVersion":22,
-		"version":13
+		"entityVersion":25,
+		"version":15
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -31,8 +31,8 @@
 	"id":"rituraj12",
 	"lastModifiedBy":200384,
 	"lastPlatformUpdateBy":200384,
-	"lastPlatformUpdateOn":1782761803894,
-	"modifiedTime":1782761803894,
+	"lastPlatformUpdateOn":1782801711420,
+	"modifiedTime":1782801711420,
 	"ownerUserId":200384,
 	"properties":{
 		"standard":false,
@@ -271,6 +271,11 @@
 		"integrations":{
 			"appAnalytics":{
 				"enabled":true
+			},
+			"uaePass":{
+				"env":"staging",
+				"enabled":true,
+				"clientId":""
 			}
 		},
 		"entityDetailsMap":{
@@ -290,5 +295,5 @@
 	"tags":[
 		
 	],
-	"version":22
+	"version":25
 }
