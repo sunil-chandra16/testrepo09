@@ -25,8 +25,8 @@
 	"id":"chart-dual-axes",
 	"lastModifiedBy":196524,
 	"lastPlatformUpdateBy":196524,
-	"lastPlatformUpdateOn":1782785428793,
-	"modifiedTime":1782785428793,
+	"lastPlatformUpdateOn":1782786457082,
+	"modifiedTime":1782786457082,
 	"ownerUserId":196524,
 	"properties":{
 		"standard":false,
@@ -245,5 +245,5 @@
 	"tags":[
 		
 	],
-	"version":40
+	"version":127
 }
