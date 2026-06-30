@@ -31,8 +31,8 @@
 	"id":"test-module-sujal",
 	"lastModifiedBy":195414,
 	"lastPlatformUpdateBy":195414,
-	"lastPlatformUpdateOn":1782802023921,
-	"modifiedTime":1782802023921,
+	"lastPlatformUpdateOn":1782802353947,
+	"modifiedTime":1782802353947,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -232,5 +232,5 @@
 	"tags":[
 		
 	],
-	"version":90
+	"version":95
 }
