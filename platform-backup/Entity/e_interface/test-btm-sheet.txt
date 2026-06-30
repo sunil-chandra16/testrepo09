@@ -25,8 +25,8 @@
 	"id":"test-btm-sheet",
 	"lastModifiedBy":199860,
 	"lastPlatformUpdateBy":199860,
-	"lastPlatformUpdateOn":1782807152105,
-	"modifiedTime":1782807152105,
+	"lastPlatformUpdateOn":1782808210608,
+	"modifiedTime":1782808210608,
 	"ownerUserId":199860,
 	"properties":{
 		"standard":false,
@@ -54,7 +54,19 @@
 					"primary":[],
 					"navigationItem":{
 						"selectionVariant":"stroke",
-						"labelVariant":"none"
+						"labelVariant":"none",
+						"text":{
+							"variant":"text-sm",
+							"weight":"semi-bold",
+							"colors":{}
+						},
+						"icon":{
+							"size":"md",
+							"colors":{}
+						},
+						"background":{
+							"colors":{}
+						}
 					},
 					"navigationBar":{
 						"overflowDetails":{
@@ -81,7 +93,13 @@
 							"all":"p-0"
 						}
 					},
-					"secondary":[]
+					"secondary":[],
+					"theme":"inherit",
+					"userReordered":{
+						"primary":false,
+						"secondary":false,
+						"userMenu":false
+					}
 				},
 				"LG":{
 					"primary":[],
@@ -246,6 +264,8 @@
 		},
 		"name":"test-btm-sheet",
 		"theme":{
+			"cssVars":{},
+			"output":"\n      .interface-theme,\n      .interface-theme [data-color-scheme='light'] {\n        \n      }\n    \n        .interface-theme[data-color-scheme='dark'],\n        .interface-theme [data-color-scheme='dark'] {\n          \n        }\n      ",
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
 		},
 		"type":"application",
@@ -269,5 +289,5 @@
 	"tags":[
 		
 	],
-	"version":12
+	"version":13
 }
