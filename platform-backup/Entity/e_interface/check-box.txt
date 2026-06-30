@@ -2,10 +2,10 @@
 	"createdTime":1748533488118,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1748580191661,
-		"deployedBy":132131,
-		"entityVersion":14,
-		"version":2
+		"deployedAt":1782810863856,
+		"deployedBy":504,
+		"entityVersion":2111,
+		"version":3
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -31,8 +31,8 @@
 	"id":"check-box",
 	"lastModifiedBy":199614,
 	"lastPlatformUpdateBy":199614,
-	"lastPlatformUpdateOn":1782810608124,
-	"modifiedTime":1782810608124,
+	"lastPlatformUpdateOn":1782811580525,
+	"modifiedTime":1782811580525,
 	"ownerUserId":132131,
 	"properties":{
 		"standard":false,
@@ -384,5 +384,5 @@
 		"32kkww",
 		"you"
 	],
-	"version":2111
+	"version":2132
 }
