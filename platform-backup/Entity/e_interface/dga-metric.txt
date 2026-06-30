@@ -25,8 +25,8 @@
 	"id":"dga-metric",
 	"lastModifiedBy":191574,
 	"lastPlatformUpdateBy":191574,
-	"lastPlatformUpdateOn":1782806612278,
-	"modifiedTime":1782806612278,
+	"lastPlatformUpdateOn":1782807731762,
+	"modifiedTime":1782807731762,
 	"ownerUserId":191574,
 	"properties":{
 		"standard":false,
@@ -212,5 +212,5 @@
 	"tags":[
 		
 	],
-	"version":47
+	"version":78
 }
