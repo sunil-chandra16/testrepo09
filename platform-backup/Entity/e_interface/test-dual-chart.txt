@@ -23,10 +23,10 @@
 		]
 	},
 	"id":"test-dual-chart",
-	"lastModifiedBy":196524,
-	"lastPlatformUpdateBy":196524,
-	"lastPlatformUpdateOn":1782799347486,
-	"modifiedTime":1782799347486,
+	"lastModifiedBy":48862,
+	"lastPlatformUpdateBy":48862,
+	"lastPlatformUpdateOn":1782802281936,
+	"modifiedTime":1782802281936,
 	"ownerUserId":196524,
 	"properties":{
 		"standard":false,
@@ -245,5 +245,5 @@
 	"tags":[
 		
 	],
-	"version":101
+	"version":105
 }
