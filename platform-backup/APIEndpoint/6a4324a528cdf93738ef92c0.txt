@@ -4,7 +4,7 @@
 	"collectionId":"6a4324a5cdf97b5b84ad1d87",
 	"createdTime":1782785189839,
 	"customizeTimeout":false,
-	"deleted":false,
+	"deleted":true,
 	"enableCanaryDeployment":false,
 	"enableNodeLevelLogging":true,
 	"enableRunLogging":true,
@@ -15,9 +15,9 @@
 	"id":"6a4324a528cdf93738ef92c0",
 	"lastModifiedBy":175325,
 	"lastPlatformUpdateBy":175325,
-	"lastPlatformUpdateOn":1782785189957,
+	"lastPlatformUpdateOn":1782791603544,
 	"lcName":"changesetqa2sersl",
-	"modifiedTime":1782785189957,
+	"modifiedTime":1782791603544,
 	"name":"changeSetQA2sersl",
 	"ownerUserId":175325,
 	"path":"automation/endpoint1",
@@ -29,5 +29,5 @@
 	"supportedHttpMethods":[
 		"POST"
 	],
-	"version":1
+	"version":2
 }
