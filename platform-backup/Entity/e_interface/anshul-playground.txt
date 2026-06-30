@@ -12,7 +12,14 @@
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"30179"
@@ -23,7 +30,9 @@
 	},
 	"id":"anshul-playground",
 	"lastModifiedBy":195822,
-	"modifiedTime":1782230571089,
+	"lastPlatformUpdateBy":195822,
+	"lastPlatformUpdateOn":1782806528262,
+	"modifiedTime":1782806528262,
 	"ownerUserId":30179,
 	"properties":{
 		"standard":false,
@@ -316,5 +325,5 @@
 	"tags":[
 		
 	],
-	"version":371
+	"version":372
 }
