@@ -2,10 +2,10 @@
 	"createdTime":1782802917913,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782802942806,
+		"deployedAt":1782805317623,
 		"deployedBy":195904,
-		"entityVersion":3,
-		"version":1
+		"entityVersion":5,
+		"version":2
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -31,8 +31,8 @@
 	"id":"test-comp-2",
 	"lastModifiedBy":195904,
 	"lastPlatformUpdateBy":195904,
-	"lastPlatformUpdateOn":1782802942808,
-	"modifiedTime":1782802942808,
+	"lastPlatformUpdateOn":1782805317625,
+	"modifiedTime":1782805317625,
 	"ownerUserId":195904,
 	"properties":{
 		"standard":false,
@@ -47,10 +47,20 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":1,
+				"_pageCount":2,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
+		},
+		"publicPageIds":[
+			"test-comp-2_ua_governance_forgot_password"
+		],
+		"manifest":{
+			"type":"WEB"
+		},
+		"type":"application",
+		"locale":{
+			"defaultLocale":"en-US"
 		},
 		"navigation":{
 			"secondary":[],
@@ -211,17 +221,16 @@
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a4369e9a0fa5556a808da9e":"homepage",
-			"e_global_test-comp-2":"global-page-of-test-comp-2"
-		},
-		"manifest":{
-			"type":"WEB"
+			"e_global_test-comp-2":"global-page-of-test-comp-2",
+			"test-comp-2_ua_governance_forgot_password":"forgot-password"
 		},
 		"paths":{
 			"f_root":{
 				"id":"f_root",
 				"segment":"",
 				"children":[
-					"e_6a4369e9a0fa5556a808da9e"
+					"e_6a4369e9a0fa5556a808da9e",
+					"test-comp-2_ua_governance_forgot_password"
 				],
 				"path":"/"
 			}
@@ -229,10 +238,6 @@
 		"name":"test_comp_2",
 		"theme":{
 			"defaultThemeId":"UNIFYAPPS_DEFAULT_THEME"
-		},
-		"type":"application",
-		"locale":{
-			"defaultLocale":"en-US"
 		},
 		"entityDetailsMap":{
 			"e_6a4369e9a0fa5556a808da9e":{
@@ -244,6 +249,11 @@
 				"slug":"global-page-of-test-comp-2",
 				"isPublic":false,
 				"type":"PAGE"
+			},
+			"test-comp-2_ua_governance_forgot_password":{
+				"slug":"forgot-password",
+				"isPublic":true,
+				"type":"PAGE"
 			}
 		}
 	},
@@ -251,5 +261,5 @@
 	"tags":[
 		
 	],
-	"version":3
+	"version":5
 }
