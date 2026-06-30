@@ -2,11 +2,31 @@
 	"createdTime":1782794721713,
 	"deleted":false,
 	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"47811"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"newsso",
 	"lastModifiedBy":47811,
 	"lastPlatformUpdateBy":47811,
-	"lastPlatformUpdateOn":1782794721713,
-	"modifiedTime":1782794721713,
+	"lastPlatformUpdateOn":1782794731814,
+	"modifiedTime":1782794731814,
 	"ownerUserId":47811,
 	"properties":{
 		"standard":false,
@@ -21,14 +41,14 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":0,
+				"_pageCount":1,
 				"_moduleCount":0,
 				"_templateComponentCount":0
 			}
 		},
 		"navigation":{
 			"secondary":[],
-			"defaultPageId":"",
+			"defaultPageId":"e_6a4349eb540aa22a790d1be4",
 			"appearance":{
 				"SM":{
 					"primary":[],
@@ -60,7 +80,8 @@
 						"padding":{
 							"all":"p-0"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"LG":{
 					"primary":[],
@@ -98,7 +119,8 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"XL":{
 					"primary":[],
@@ -136,7 +158,8 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"MD":{
 					"primary":[],
@@ -174,13 +197,27 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				}
 			},
 			"primary":[]
 		},
+		"interfacePageIdVsSlugMap":{
+			"e_6a4349eb540aa22a790d1be4":"homepage"
+		},
 		"manifest":{
 			"type":"WEB"
+		},
+		"paths":{
+			"f_root":{
+				"id":"f_root",
+				"segment":"",
+				"children":[
+					"e_6a4349eb540aa22a790d1be4"
+				],
+				"path":"/"
+			}
 		},
 		"name":"newsso",
 		"theme":{
@@ -189,11 +226,18 @@
 		"type":"application",
 		"locale":{
 			"defaultLocale":"en-US"
+		},
+		"entityDetailsMap":{
+			"e_6a4349eb540aa22a790d1be4":{
+				"slug":"homepage",
+				"isPublic":false,
+				"type":"PAGE"
+			}
 		}
 	},
 	"standard":false,
 	"tags":[
 		
 	],
-	"version":0
+	"version":1
 }
