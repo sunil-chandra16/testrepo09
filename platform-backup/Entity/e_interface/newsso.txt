@@ -25,8 +25,8 @@
 	"id":"newsso",
 	"lastModifiedBy":47811,
 	"lastPlatformUpdateBy":47811,
-	"lastPlatformUpdateOn":1782794731814,
-	"modifiedTime":1782794731814,
+	"lastPlatformUpdateOn":1782794733119,
+	"modifiedTime":1782794733119,
 	"ownerUserId":47811,
 	"properties":{
 		"standard":false,
@@ -204,6 +204,7 @@
 			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
+			"e_global_newsso":"global-page-of-newsso",
 			"e_6a4349eb540aa22a790d1be4":"homepage"
 		},
 		"manifest":{
@@ -228,6 +229,11 @@
 			"defaultLocale":"en-US"
 		},
 		"entityDetailsMap":{
+			"e_global_newsso":{
+				"slug":"global-page-of-newsso",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_6a4349eb540aa22a790d1be4":{
 				"slug":"homepage",
 				"isPublic":false,
@@ -239,5 +245,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":2
 }
