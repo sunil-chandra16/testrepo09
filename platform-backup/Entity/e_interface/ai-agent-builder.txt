@@ -2,17 +2,24 @@
 	"createdTime":1782214061200,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782295207986,
+		"deployedAt":1782812293848,
 		"deployedBy":-1,
-		"entityVersion":38,
-		"version":2
+		"entityVersion":39,
+		"version":3
 	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
 			{
 				"permissions":[
-					"A"
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
 				],
 				"principalIds":[
 					"-1"
@@ -21,7 +28,7 @@
 			},
 			{
 				"permissions":[
-					"A"
+					"V"
 				],
 				"principalType":"GLOBAL"
 			}
@@ -29,7 +36,7 @@
 	},
 	"id":"ai-agent-builder",
 	"lastModifiedBy":-1,
-	"modifiedTime":1782295216454,
+	"modifiedTime":1782812522207,
 	"ownerUserId":-1,
 	"properties":{
 		"standard":false,
@@ -334,5 +341,5 @@
 	"tags":[
 		"text-to-agent"
 	],
-	"version":38
+	"version":39
 }
