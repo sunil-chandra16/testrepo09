@@ -2,10 +2,10 @@
 	"createdTime":1781780735436,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782805394579,
+		"deployedAt":1782806709045,
 		"deployedBy":200384,
-		"entityVersion":48,
-		"version":23
+		"entityVersion":49,
+		"version":25
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -31,8 +31,8 @@
 	"id":"rituraj12",
 	"lastModifiedBy":200384,
 	"lastPlatformUpdateBy":200384,
-	"lastPlatformUpdateOn":1782805394581,
-	"modifiedTime":1782805394581,
+	"lastPlatformUpdateOn":1782806782288,
+	"modifiedTime":1782806782288,
 	"ownerUserId":200384,
 	"properties":{
 		"standard":false,
@@ -304,5 +304,5 @@
 	"tags":[
 		
 	],
-	"version":48
+	"version":50
 }
