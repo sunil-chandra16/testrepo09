@@ -29,10 +29,10 @@
 		]
 	},
 	"id":"e-2-e-shubham",
-	"lastModifiedBy":195802,
-	"lastPlatformUpdateBy":195802,
-	"lastPlatformUpdateOn":1782736756444,
-	"modifiedTime":1782736756444,
+	"lastModifiedBy":195854,
+	"lastPlatformUpdateBy":195854,
+	"lastPlatformUpdateOn":1782818376392,
+	"modifiedTime":1782818376392,
 	"ownerUserId":195802,
 	"properties":{
 		"standard":false,
@@ -46,7 +46,7 @@
 				"favicon":"/favicon.png"
 			},
 			"_counter":{
-				"_pageCount":24,
+				"_pageCount":25,
 				"_mqttTopicCounter":0,
 				"_dataSourceCounter":7,
 				"_moduleCount":2,
@@ -263,29 +263,30 @@
 			"type":"PUBLIC"
 		},
 		"interfacePageIdVsSlugMap":{
-			"e-2-e-shubham_mfa_verification":"mfa-verification",
-			"e_6a266c18ef707b03b862d71b":"page-16",
 			"e_6a3f80498c7ea85a4755d9c8":"page-23",
-			"e-2-e-shubham_ua_governance_forgot_password":"forgot-password",
 			"e_6a172e7e4a308d6aad1f48ea":"page-9",
 			"e_6a426356c1856d10d9890f5a":"button",
 			"e_6a1d695e66ec6f5ffbd7d168":"page-11",
 			"e_6a1d68f092472c08ae5af5d5":"page-10",
 			"e_6a2fb924c97c4c4ba97d3dfe":"page-21",
-			"e_6a1d6ad494a3f0138d2fded9":"page-13",
-			"e_6a2906e331b3ce1642353680":"page-18",
-			"e_6a29cf1a8828ab4e591485d1":"page-19",
 			"e_6a212dff849556570b099154":"page-15",
-			"e_6a0d6535d7f13131aab41860":"page-3",
 			"e_6a16e329ad855a6e6dbba744":"temp-1",
 			"e_6a3006282e0840734ae6e4b6":"stepper-nav",
 			"e_6a13fde8a7b64a11ed0d5927":"page-5",
-			"e_6a21256585ecbc0b97de5cac":"page-14",
-			"e_6a2e7be30d2d054fdd05cd3e":"page-20",
 			"e_6a1d6a9c04c8592637a876ec":"page-12",
-			"e_6a16e9bbc9fc717ff32031ae":"page-8",
 			"e_6a2683d0361dd3160823c249":"page-17",
 			"e_6a117637ec79531dd3032869":"page-4",
+			"e-2-e-shubham_mfa_verification":"mfa-verification",
+			"e_6a266c18ef707b03b862d71b":"page-16",
+			"e-2-e-shubham_ua_governance_forgot_password":"forgot-password",
+			"e_6a1d6ad494a3f0138d2fded9":"page-13",
+			"e_6a2906e331b3ce1642353680":"page-18",
+			"e_6a29cf1a8828ab4e591485d1":"page-19",
+			"e_6a0d6535d7f13131aab41860":"page-3",
+			"e_6a21256585ecbc0b97de5cac":"page-14",
+			"e_6a2e7be30d2d054fdd05cd3e":"page-20",
+			"e_6a43a4427d7a065cae55adf2":"page-25",
+			"e_6a16e9bbc9fc717ff32031ae":"page-8",
 			"e_6a16bb38dd0c031486371d92":"page-6"
 		},
 		"paths":{
@@ -316,7 +317,8 @@
 					"e_6a2fb924c97c4c4ba97d3dfe",
 					"e_6a3006282e0840734ae6e4b6",
 					"e_6a3f80498c7ea85a4755d9c8",
-					"e_6a426356c1856d10d9890f5a"
+					"e_6a426356c1856d10d9890f5a",
+					"e_6a43a4427d7a065cae55adf2"
 				],
 				"path":"/"
 			}
@@ -326,24 +328,9 @@
 			"defaultThemeId":"e_6966190f3d99d61567a86ad3"
 		},
 		"entityDetailsMap":{
-			"e-2-e-shubham_mfa_verification":{
-				"slug":"mfa-verification",
-				"isPublic":true,
-				"type":"PAGE"
-			},
-			"e_6a266c18ef707b03b862d71b":{
-				"slug":"page-16",
-				"isPublic":false,
-				"type":"PAGE"
-			},
 			"e_6a3f80498c7ea85a4755d9c8":{
 				"slug":"page-23",
 				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e-2-e-shubham_ua_governance_forgot_password":{
-				"slug":"forgot-password",
-				"isPublic":true,
 				"type":"PAGE"
 			},
 			"e_6a172e7e4a308d6aad1f48ea":{
@@ -371,29 +358,9 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
-			"e_6a1d6ad494a3f0138d2fded9":{
-				"slug":"page-13",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_6a2906e331b3ce1642353680":{
-				"slug":"page-18",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_6a29cf1a8828ab4e591485d1":{
-				"slug":"page-19",
-				"isPublic":false,
-				"type":"PAGE"
-			},
 			"e_6a212dff849556570b099154":{
 				"slug":"page-15",
 				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_6a0d6535d7f13131aab41860":{
-				"slug":"page-3",
-				"isPublic":true,
 				"type":"PAGE"
 			},
 			"e_6a16e329ad855a6e6dbba744":{
@@ -411,23 +378,8 @@
 				"isPublic":true,
 				"type":"PAGE"
 			},
-			"e_6a21256585ecbc0b97de5cac":{
-				"slug":"page-14",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_6a2e7be30d2d054fdd05cd3e":{
-				"slug":"page-20",
-				"isPublic":false,
-				"type":"PAGE"
-			},
 			"e_6a1d6a9c04c8592637a876ec":{
 				"slug":"page-12",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_6a16e9bbc9fc717ff32031ae":{
-				"slug":"page-8",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -438,6 +390,61 @@
 			},
 			"e_6a117637ec79531dd3032869":{
 				"slug":"page-4",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e-2-e-shubham_mfa_verification":{
+				"slug":"mfa-verification",
+				"isPublic":true,
+				"type":"PAGE"
+			},
+			"e_6a266c18ef707b03b862d71b":{
+				"slug":"page-16",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e-2-e-shubham_ua_governance_forgot_password":{
+				"slug":"forgot-password",
+				"isPublic":true,
+				"type":"PAGE"
+			},
+			"e_6a1d6ad494a3f0138d2fded9":{
+				"slug":"page-13",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a2906e331b3ce1642353680":{
+				"slug":"page-18",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a29cf1a8828ab4e591485d1":{
+				"slug":"page-19",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a0d6535d7f13131aab41860":{
+				"slug":"page-3",
+				"isPublic":true,
+				"type":"PAGE"
+			},
+			"e_6a21256585ecbc0b97de5cac":{
+				"slug":"page-14",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a2e7be30d2d054fdd05cd3e":{
+				"slug":"page-20",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a43a4427d7a065cae55adf2":{
+				"slug":"page-25",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6a16e9bbc9fc717ff32031ae":{
+				"slug":"page-8",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -452,5 +459,5 @@
 	"tags":[
 		
 	],
-	"version":1503
+	"version":1527
 }
