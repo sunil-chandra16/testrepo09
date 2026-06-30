@@ -2,10 +2,10 @@
 	"createdTime":1781780735436,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782806709045,
+		"deployedAt":1782807702804,
 		"deployedBy":200384,
-		"entityVersion":49,
-		"version":25
+		"entityVersion":53,
+		"version":27
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -31,8 +31,8 @@
 	"id":"rituraj12",
 	"lastModifiedBy":200384,
 	"lastPlatformUpdateBy":200384,
-	"lastPlatformUpdateOn":1782806782288,
-	"modifiedTime":1782806782288,
+	"lastPlatformUpdateOn":1782807702806,
+	"modifiedTime":1782807702806,
 	"ownerUserId":200384,
 	"properties":{
 		"standard":false,
@@ -254,7 +254,17 @@
 			"primary":[]
 		},
 		"security":{
-			"type":"PRIVATE"
+			"native":{
+				"screenProtection":{
+					"overlayImage":"https://assets.unifyapps.com/images/platform/screenshot-not-allowed.png",
+					"backgroundColor":"#FFFFFF",
+					"enabled":true,
+					"dimensions":{
+						"width":342,
+						"height":124
+					}
+				}
+			}
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_6a33d0ffd02fd63518918497":"homepage",
@@ -304,5 +314,5 @@
 	"tags":[
 		
 	],
-	"version":50
+	"version":53
 }
