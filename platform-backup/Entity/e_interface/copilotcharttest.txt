@@ -31,8 +31,8 @@
 	"id":"copilotcharttest",
 	"lastModifiedBy":48862,
 	"lastPlatformUpdateBy":48862,
-	"lastPlatformUpdateOn":1782471217251,
-	"modifiedTime":1782471217251,
+	"lastPlatformUpdateOn":1782819046427,
+	"modifiedTime":1782819046427,
 	"ownerUserId":48862,
 	"properties":{
 		"standard":false,
@@ -236,7 +236,7 @@
 		},
 		"name":"copilotcharttest",
 		"theme":{
-			"output":".interface-theme,\n      .interface-theme [data-color-scheme='dark'] {\n        --chart-azure-600: #0070B9;\n        --chart-emerald-600: #00B034;\n        --chart-yellow-600: #FF9F00;\n      }\n      .interface-theme [data-color-scheme='light'] {\n        --chart-azure-600: #0070B9;\n        --chart-emerald-600: #00B034;\n        --chart-yellow-600: #FF9F00;\n      }\n\n        .interface-theme[data-color-scheme='dark'],\n        .interface-theme [data-color-scheme='dark'] {\n\n        }",
+			"output":".interface-theme,\n      .interface-theme [data-color-scheme='dark'] {\n        --chart-azure-600: #0070B9;\n        --chart-emerald-600: #00B034;\n      }\n      .interface-theme [data-color-scheme='light'] {\n        --chart-azure-600: #0070B9;\n        --chart-emerald-600: #00B034;\n      }\n\n        .interface-theme[data-color-scheme='dark'],\n        .interface-theme [data-color-scheme='dark'] {\n\n        }",
 			"defaultThemeId":"e_6966190f3d99d61567a86ad3"
 		},
 		"entityDetailsMap":{
@@ -256,5 +256,5 @@
 	"tags":[
 		
 	],
-	"version":39
+	"version":43
 }
