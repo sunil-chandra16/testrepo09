@@ -2,10 +2,10 @@
 	"createdTime":1782802799914,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1782806071200,
+		"deployedAt":1782807208777,
 		"deployedBy":200386,
-		"entityVersion":14,
-		"version":4
+		"entityVersion":16,
+		"version":5
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -31,8 +31,8 @@
 	"id":"abf",
 	"lastModifiedBy":200386,
 	"lastPlatformUpdateBy":200386,
-	"lastPlatformUpdateOn":1782806071202,
-	"modifiedTime":1782806071202,
+	"lastPlatformUpdateOn":1782807446138,
+	"modifiedTime":1782807446138,
 	"ownerUserId":200386,
 	"properties":{
 		"standard":false,
@@ -49,6 +49,7 @@
 				"_mqttTopicCounter":0,
 				"_pageCount":3,
 				"_moduleCount":0,
+				"_variableCounter":1,
 				"_templateComponentCount":0
 			}
 		},
@@ -295,5 +296,5 @@
 	"tags":[
 		
 	],
-	"version":14
+	"version":19
 }
